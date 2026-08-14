@@ -25,10 +25,10 @@
       "body": "<p>TxtClean Textbereinigung 支持将多个任务合并执行，适合需要重复操作的场景。建议先在小批量上验证效果，再扩展到全量，避免一次性处理大量数据导致等待过久。</p><p>相关工具：<a href=\"https://txtclean.72tool.com/?site=tools/txtclean\">TxtClean Textbereinigung</a></p>",
       "tags": [
         "TxtClean Textbereinigung",
-        "教程",
-        "问答"
+        "Anleitung",
+        "FAQ"
       ],
-      "category": "Utilities",
+      "category": "Werkzeuge",
       "keywords": "TxtClean Textbereinigung,教程,问答",
       "relatedTools": [
         "TxtClean Textbereinigung"
@@ -42,10 +42,10 @@
       "body": "<p>具体支持的格式以 Sitemap-Generator 官方页面为准。多数在线工具兼容常见的文本与表格格式；上传前请确认格式符合要求，避免解析失败。</p><p>相关工具：<a href=\"https://sitemapgen.72tool.com/?site=tools/sitemapgen\">Sitemap-Generator</a></p>",
       "tags": [
         "Sitemap-Generator",
-        "教程",
-        "问答"
+        "Anleitung",
+        "FAQ"
       ],
-      "category": "Utilities",
+      "category": "Werkzeuge",
       "keywords": "Sitemap-Generator,教程,问答",
       "relatedTools": [
         "Sitemap-Generator"
@@ -59,10 +59,10 @@
       "body": "<p>Ollama (lokale KI) 通常提供免费额度或试用，高级功能可能需要订阅。使用前可在官网查看最新的套餐说明，按需选择。</p><p>相关工具：<a href=\"https://ollama.com\">Ollama (lokale KI)</a></p>",
       "tags": [
         "Ollama (lokale KI)",
-        "教程",
-        "问答"
+        "Anleitung",
+        "FAQ"
       ],
-      "category": "Utilities",
+      "category": "Werkzeuge",
       "keywords": "Ollama (lokale KI),教程,问答",
       "relatedTools": [
         "Ollama (lokale KI)"
@@ -76,10 +76,10 @@
       "body": "<p>处理完成后，anthropics/skills 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://github.com/anthropics/skills\">anthropics/skills</a></p>",
       "tags": [
         "anthropics/skills",
-        "教程",
-        "问答"
+        "Anleitung",
+        "FAQ"
       ],
-      "category": "Utilities",
+      "category": "Werkzeuge",
       "keywords": "anthropics/skills,教程,问答",
       "relatedTools": [
         "anthropics/skills"
@@ -93,10 +93,10 @@
       "body": "<p>用 megadose/holehe 做批量处理时，先把任务清单整理成结构化文件（CSV/JSON），通过其批量导入或队列功能一次性提交。处理前用 2–3 条样本验证输出格式与速度，确认无误再扩展到全量，避免大批量出错后难以回滚；若支持并发，可逐步上调并发数观察稳定性。</p><p>相关工具：<a href=\"https://github.com/megadose/holehe\">megadose/holehe</a></p>",
       "tags": [
         "megadose/holehe",
-        "教程",
-        "问答"
+        "Anleitung",
+        "FAQ"
       ],
-      "category": "Utilities",
+      "category": "Werkzeuge",
       "keywords": "megadose/holehe,教程,问答",
       "relatedTools": [
         "megadose/holehe"
@@ -110,10 +110,10 @@
       "body": "<p>msitarzewski/agency-agents 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Markdown 及主流图片/表格格式。上传前请确认编码为 UTF-8、单文件不超过站点限制，避免解析失败；批量场景建议统一格式后再一次性导入。</p><p>相关工具：<a href=\"https://github.com/msitarzewski/agency-agents\">msitarzewski/agency-agents</a></p>",
       "tags": [
         "msitarzewski/agency-agents",
-        "教程",
-        "问答"
+        "Anleitung",
+        "FAQ"
       ],
-      "category": "Utilities",
+      "category": "Werkzeuge",
       "keywords": "msitarzewski/agency-agents,教程,问答",
       "relatedTools": [
         "msitarzewski/agency-agents"
@@ -127,10 +127,10 @@
       "body": "<p>macro-inc/macro 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小、并发数或导出格式。使用前在官网「定价」页核对当前套餐明细，按实际体量选择，避免生产环境触达上限中断。</p><p>相关工具：<a href=\"https://github.com/macro-inc/macro\">macro-inc/macro</a></p>",
       "tags": [
         "macro-inc/macro",
-        "教程",
-        "问答"
+        "Anleitung",
+        "FAQ"
       ],
-      "category": "Utilities",
+      "category": "Werkzeuge",
       "keywords": "macro-inc/macro,教程,问答",
       "relatedTools": [
         "macro-inc/macro"
@@ -144,10 +144,10 @@
       "body": "<p>处理完成后，3b1b/manim 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://github.com/3b1b/manim\">3b1b/manim</a></p>",
       "tags": [
         "3b1b/manim",
-        "教程",
-        "问答"
+        "Anleitung",
+        "FAQ"
       ],
-      "category": "Utilities",
+      "category": "Werkzeuge",
       "keywords": "3b1b/manim,教程,问答",
       "relatedTools": [
         "3b1b/manim"

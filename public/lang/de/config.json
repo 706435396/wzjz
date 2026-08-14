@@ -10,10 +10,10 @@
   "article": {
     "enabled": true,
     "categories": [
-      "部署教程",
-      "使用技巧",
-      "选型对比",
-      "避坑指南"
+      "Anleitung",
+      "Tipps",
+      "Vergleich",
+      "Fallstricke"
     ]
   },
   "ads": {
@@ -30,15 +30,15 @@
     "brand": "#db2777",
     "layout": "masonry",
     "navOrder": [
-      "首页",
-      "教程资讯",
-      "Agent 集群",
-      "工具集群"
+      { "key": "home", "label": "Startseite" },
+      { "key": "article", "label": "Anleitungen" },
+      { "key": "agents", "label": "Agent-Cluster" },
+      { "key": "tools", "label": "Werkzeug-Cluster" }
     ]
   },
   "community": {
     "enabled": true,
-    "title": "开发者社群",
+    "title": "Entwickler-Community",
     "url": "/community"
   },
   "top": true,

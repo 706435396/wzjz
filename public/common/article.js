@@ -74,9 +74,16 @@
 
   /* ---------- 渲染：导航 / Hero / 分类 / 卡片 ---------- */
   function renderNav(cfg) {
+    var lk = String(cfg.lang || 'zh-CN').split('-')[0];
+    var labels = {
+      zh: { tool: '工具', article: '教程资讯' },
+      de: { tool: 'Werkzeuge', article: 'Anleitungen' },
+      es: { tool: 'Herramientas', article: 'Tutoriales' }
+    };
+    var lab = labels[lk] || labels.zh;
     var links = [
-      { t: '工具', h: '/' },
-      { t: '教程资讯', h: '/article', active: true }
+      { t: lab.tool, h: '/' },
+      { t: lab.article, h: '/article', active: true }
     ];
     document.getElementById('topnav').innerHTML = links.map(function (l) {
       return '<a href="' + esc(l.h) + '"' + (l.active ? ' class="active"' : '') + '>' + esc(l.t) + '</a>';
@@ -136,17 +143,23 @@
   function setFooter(cfg, gconf, countLabel) {
     var f = document.getElementById('footer');
     if (!f) return;
+    var lk = String(cfg.lang || 'zh-CN').split('-')[0];
+    var i18n = {
+      zh: { privacy: '隐私政策' },
+      de: { privacy: 'Datenschutz' },
+      es: { privacy: 'Privacidad' }
+    };
+    var t = i18n[lk] || i18n.zh;
     var disc = '';
     var dl = (gconf && gconf.compliance && gconf.compliance.disclaimer) || {};
     if (dl.enabled !== false) {
-      var lk = String(cfg.lang || 'zh-CN').split('-')[0];
       var txt = dl.byLang && dl.byLang[lk];
       if (txt) disc = '<span class="footer-disclaimer">' + esc(txt) + '</span>';
     }
     f.innerHTML =
       '<span>© ' + new Date().getFullYear() + ' ' + esc(cfg.domain || '72tool') + '</span>' +
       '<span>' + esc(countLabel || '') + '</span>' +
-      '<span class="footer-links"><a href="/privacy" rel="nofollow noopener">隐私政策</a></span>' + disc;
+      '<span class="footer-links"><a href="/privacy" rel="nofollow noopener">' + esc(t.privacy) + '</a></span>' + disc;
   }
 
   async function renderDetail(cfg, data, slug, gconf) {

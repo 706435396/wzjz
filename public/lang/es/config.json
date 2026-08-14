@@ -10,10 +10,10 @@
   "article": {
     "enabled": true,
     "categories": [
-      "部署教程",
-      "使用技巧",
-      "选型对比",
-      "避坑指南"
+      "Tutorial",
+      "Consejos",
+      "Comparativa",
+      "Errores comunes"
     ]
   },
   "ads": {
@@ -30,15 +30,15 @@
     "brand": "#4f46e5",
     "layout": "masonry",
     "navOrder": [
-      "首页",
-      "教程资讯",
-      "Agent 集群",
-      "工具集群"
+      { "key": "home", "label": "Inicio" },
+      { "key": "article", "label": "Tutoriales" },
+      { "key": "agents", "label": "Agentes" },
+      { "key": "tools", "label": "Herramientas" }
     ]
   },
   "community": {
     "enabled": true,
-    "title": "开发者社群",
+    "title": "Comunidad de desarrolladores",
     "url": "/community"
   },
   "top": true,

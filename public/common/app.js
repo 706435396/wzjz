@@ -73,16 +73,29 @@
     if (canonical) canonical.setAttribute('href', location.origin + '/');
   }
   function renderNav(cfg) {
-    // 教程资讯入口：hostname 感知的 /article，全子域名共用一份 article.html
-    // 导航顺序支持 config.theme.navOrder 差异化（降站群模板特征）
-    var order = (cfg.theme && cfg.theme.navOrder) || ['首页', '教程资讯', 'Agent 集群', '工具集群'];
-    var map = {
-      '首页': '/', '教程资讯': '/article',
-      'Agent 集群': 'https://browseragent.72tool.com/?site=agent/browser',
-      '工具集群': 'https://txtclean.72tool.com/?site=tools/txtclean',
-      '商家合作': '/cooperation', '开发者社群': '/community'
+    // 多语言导航：config.theme.navOrder 支持字符串（中文站向后兼容）或对象 {key, label}
+    var lk = String(cfg.lang || 'zh-CN').split('-')[0];
+    var navMap = {
+      home: { href: '/', labels: { zh: '首页', de: 'Startseite', es: 'Inicio' } },
+      article: { href: '/article', labels: { zh: '教程资讯', de: 'Anleitungen', es: 'Tutoriales' } },
+      agents: { href: 'https://browseragent.72tool.com/?site=agent/browser', labels: { zh: 'Agent 集群', de: 'Agent-Cluster', es: 'Agentes' } },
+      tools: { href: 'https://txtclean.72tool.com/?site=tools/txtclean', labels: { zh: '工具集群', de: 'Werkzeug-Cluster', es: 'Herramientas' } },
+      cooperation: { href: '/cooperation', labels: { zh: '商家合作', de: 'Kooperation', es: 'Cooperación' } },
+      community: { href: '/community', labels: { zh: '开发者社群', de: 'Entwickler-Community', es: 'Comunidad' } }
     };
-    var links = order.map(function (t) { return { t: t, h: map[t] || '/' }; });
+    var order = (cfg.theme && cfg.theme.navOrder) || ['首页', '教程资讯', 'Agent 集群', '工具集群'];
+    var links = order.map(function (item) {
+      var key, label;
+      if (typeof item === 'string') {
+        label = item;
+        key = item;
+        for (var k in navMap) { if (navMap[k].labels.zh === item) { key = k; break; } }
+      } else { key = item.key || ''; label = item.label || ''; }
+      var m = navMap[key];
+      var href = m ? m.href : '/';
+      var display = label || (m && m.labels[lk]) || (m && m.labels.zh) || key;
+      return { t: display, h: href };
+    });
     document.getElementById('topnav').innerHTML = links.map(function (l) {
       return '<a href="' + esc(l.h) + '">' + esc(l.t) + '</a>';
     }).join('');
@@ -198,17 +211,23 @@
 
   function renderFooter(cfg, data, gconf) {
     // §7.4 多语种本地化免责：按子站 lang 渲染对应地区合规声明（FTC/GDPR 等），地区合规、零备案
+    var lk = String(cfg.lang || 'zh-CN').split('-')[0];
+    var i18n = {
+      zh: { toolsCount: function (n) { return '共 ' + n + ' 个工具 · 更新于 '; }, privacy: '隐私政策' },
+      de: { toolsCount: function (n) { return n + ' Werkzeuge · Aktualisiert am '; }, privacy: 'Datenschutz' },
+      es: { toolsCount: function (n) { return n + ' herramientas · Actualizado el '; }, privacy: 'Privacidad' }
+    };
+    var t = i18n[lk] || i18n.zh;
     var disc = '';
     var dl = (gconf && gconf.compliance && gconf.compliance.disclaimer) || {};
     if (dl.enabled !== false) {
-      var lk = String(cfg.lang || 'zh-CN').split('-')[0];
       var txt = dl.byLang && dl.byLang[lk];
       if (txt) disc = '<span class="footer-disclaimer">' + esc(txt) + '</span>';
     }
     document.getElementById('footer').innerHTML =
       '<span>© ' + new Date().getFullYear() + ' ' + esc(cfg.domain || '72tool') + '</span>' +
-      '<span>共 ' + (data.tools || []).length + ' 个工具 · 更新于 ' + esc(data.updated || '-') + '</span>' +
-      '<span class="footer-links"><a href="/privacy" rel="nofollow noopener">隐私政策</a></span>' + disc;
+      '<span>' + t.toolsCount((data.tools || []).length) + esc(data.updated || '-') + '</span>' +
+      '<span class="footer-links"><a href="/privacy" rel="nofollow noopener">' + esc(t.privacy) + '</a></span>' + disc;
     // 私域导流统一入口（config.community 开关控制）
     var ce = document.getElementById('communityEntry');
     if (ce) {
