@@ -144,35 +144,103 @@ a { color: inherit; text-decoration: none; }
 .detail-mode #catFilter { display: none; }
 
 /* ---------- 工具详情视图（/tool=<slug>） ---------- */
-.tool-detail { padding: 8px 0 48px; }
+.tool-detail { padding: 8px 0 56px; max-width: 860px; margin: 0 auto; }
+.breadcrumb { font-size: 13px; color: var(--muted); margin-bottom: 10px; line-height: 1.6; }
+.breadcrumb a { color: var(--muted); }
+.breadcrumb a:hover { color: var(--brand); }
+.breadcrumb .sep { margin: 0 6px; opacity: .6; }
+.breadcrumb .cur { color: var(--text); font-weight: 600; }
 .back-link {
-  display: inline-block; margin-bottom: 16px; color: var(--muted);
+  display: inline-block; margin-bottom: 14px; color: var(--muted);
   text-decoration: none; font-size: 14px;
 }
 .back-link:hover { color: var(--brand); }
 .detail-card {
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-  padding: 28px; box-shadow: var(--shadow); max-width: 820px;
+  padding: 30px; box-shadow: var(--shadow);
 }
 .detail-head { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px; }
-.detail-name { margin: 0; font-size: 28px; line-height: 1.2; }
+.detail-name { margin: 0; font-size: 30px; line-height: 1.2; }
 .detail-cat {
   font-size: 13px; color: var(--tag-text); background: var(--tag-bg);
   padding: 3px 10px; border-radius: 6px;
 }
-.detail-desc { margin: 0 0 16px; color: var(--text); font-size: 16px; line-height: 1.7; }
-.detail-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+.detail-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+.detail-desc { margin: 0 0 18px; color: var(--text); font-size: 16px; line-height: 1.8; }
+
+/* 基础信息卡 */
+.info-card { margin: 4px 0 22px; }
+.info-card dl { margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.info-row {
+  display: flex; gap: 8px; align-items: baseline; background: var(--brand-soft);
+  border-radius: 10px; padding: 10px 12px; font-size: 14px;
+}
+.info-row dt { color: var(--muted); flex: 0 0 auto; }
+.info-row dd { margin: 0; font-weight: 600; color: var(--text); }
+
+/* 优点 / 注意事项 */
+.pc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 4px 0 22px; }
+.pc-box {
+  border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; background: var(--surface);
+}
+.pc-box.pros { border-left: 4px solid #16a34a; }
+.pc-box.cons { border-left: 4px solid #d97706; }
+.pc-title { margin: 0 0 8px; font-size: 15px; }
+.pc-box ul { margin: 0; padding-left: 18px; }
+.pc-box li { font-size: 14px; line-height: 1.7; margin-bottom: 4px; }
+
+.detail-h2 { font-size: 20px; margin: 26px 0 12px; padding-left: 12px; border-left: 4px solid var(--brand); }
 .usage-list { margin: 0 0 22px; padding-left: 22px; color: var(--text); line-height: 1.9; }
-.usage-list li { margin-bottom: 6px; }
+.usage-list li { margin-bottom: 8px; }
+
+/* CTA + 复制推广链接 */
+.detail-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 8px 0 4px; }
 .visit-btn {
   display: inline-block; background: var(--brand); color: #fff; text-decoration: none;
-  font-weight: 700; font-size: 15px; padding: 12px 26px; border-radius: 10px;
+  font-weight: 700; font-size: 15px; padding: 12px 28px; border-radius: 10px;
   transition: filter .15s ease;
 }
-.visit-btn:hover { filter: brightness(1.08); }
+.visit-btn:hover { filter: brightness(1.08); box-shadow: 0 6px 18px var(--brand-soft); }
+
+/* 相似相关工具 */
+.rel-tools { margin-top: 6px; }
+.rel-tool .card-title a { color: var(--brand); }
+
+/* 教程卡片阅读时长 + hover 上浮 */
+.read-time { display: inline-block; font-size: 12px; color: var(--muted); margin-top: 6px; }
+.tut-card { transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease; }
+.tut-card:hover { transform: translateY(-3px); border-color: var(--brand); box-shadow: var(--shadow); }
+
+/* 返回顶部 */
+.to-top {
+  position: fixed; right: 20px; bottom: 80px; z-index: 42;
+  width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--border);
+  background: var(--surface); color: var(--brand); font-size: 20px; cursor: pointer;
+  box-shadow: var(--shadow); opacity: 0; visibility: hidden; transition: opacity .2s, visibility .2s, transform .15s;
+}
+.to-top.show { opacity: 1; visibility: visible; }
+.to-top:hover { transform: translateY(-3px); border-color: var(--brand); }
+
+/* §3.1 模板随机变体（anti-detection，细节微调不破坏布局） */
+.tool-detail .detail-card.tpl-v2 { border-radius: 12px; }
+.tool-detail .detail-card.tpl-v2 .detail-desc { line-height: 1.9; }
+.tool-detail .detail-card.tpl-v2 .info-row { padding: 9px 12px; }
+.tool-detail .detail-card.tpl-v3 { padding: 26px; }
+.tool-detail .detail-card.tpl-v3 .detail-h2 { margin: 22px 0 10px; }
+.tool-detail .detail-card.tpl-v3 .pc-grid { gap: 12px; }
+
 @media (max-width: 600px) {
   .detail-card { padding: 18px; }
-  .detail-name { font-size: 22px; }
+  .detail-name { font-size: 23px; }
+  .info-card dl { grid-template-columns: 1fr; }
+  .pc-grid { grid-template-columns: 1fr; }
+  /* 移动端大红按钮铺满、更易点击 */
+  .visit-btn { width: 100%; text-align: center; }
+  .detail-cta { width: 100%; }
+  /* 教程卡片单列 */
+  .tut-grid { grid-template-columns: 1fr; }
+  /* 侧边广告在移动端直接隐藏，不挤压内容 */
+  .ad-sidebar { display: none !important; }
 }
 
 .empty { color: var(--muted); text-align: center; padding: 40px 0; }

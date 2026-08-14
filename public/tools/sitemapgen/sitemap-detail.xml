@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sitemapgen.72tool.com/?tool=sitemapgen-%E5%9C%A8%E7%BA%BF%E7%94%9F%E6%88%90</loc>
+    <loc>https://sitemapgen.72tool.com/?tool=%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE%E7%94%9F%E6%88%90%E5%99%A8-sitemapgen</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -14,7 +14,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://sitemapgen.72tool.com/?tool=xml-sitemap-%E7%94%9F%E6%88%90%E5%BA%93</loc>
+    <loc>https://sitemapgen.72tool.com/?tool=sitemap-%E7%94%9F%E6%88%90%E5%BA%93-xml-sitemap</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

@@ -149,8 +149,8 @@
         '<p class="card-desc" itemprop="description">' + esc(t.desc) + '</p>' +
         '<div class="card-tags">' + tags + '</div>' +
         ltMeta +
-        // 直接外链入口（默认 nofollow，分销时 sponsored），与站内详情页并存
-        '<a class="card-visit" href="' + esc(AFF.href(t)) + '" target="_blank" rel="' + esc(AFF.rel(t)) + '">访问官网 ↗</a>' +
+        // 列表卡片不再直接外跳：统一进入站内详情页（带「访问官网」外链 CTA），漏斗更顺、跳出更低
+        '<a class="card-visit" href="?tool=' + encodeURIComponent(slug) + '">查看详情 →</a>' +
         '<meta itemprop="name" content="' + esc(t.name) + '">' +
         '<meta itemprop="applicationCategory" content="' + esc(t.category || '') + '">' +
         '<meta itemprop="operatingSystem" content="Web">' +
@@ -307,16 +307,94 @@
   }
 
   /* ---------- 4.2 工具详情视图：/tool=<slug> 展示站内详情，避免一点就跳外链 ---------- */
-  // 无 usage 字段时，本地模板派生「使用步骤」（后续 AI 采集可填充 t.usage 覆盖）
-  function detailUsageHTML(t) {
-    var steps = [
-      '打开下方「访问官网」进入 ' + (t.name || '') + ' 主页，完成注册或登录。',
-      '在「' + (t.category || '工具') + '」分类下选择所需功能模块。',
-      (t.tags && t.tags.length) ? ('参考标签【' + t.tags.join('、') + '】快速定位适用场景。') : '',
-      '若遇到操作问题，可查看本页下方的「相关教程」。'
-    ].filter(Boolean);
-    return '<h2 class="section-title">使用步骤</h2><ol class="usage-list">' +
-      steps.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ol>';
+  // 工具别名集合（含中文名 / 原始英文名 / slug），用于匹配相关教程与相似工具
+  function toolAliases(t) {
+    var s = [t.name, t.originName, t.slug, t.category];
+    (t.tags || []).forEach(function (x) { s.push(x); });
+    return s.filter(Boolean).map(function (x) { return String(x).toLowerCase(); });
+  }
+  function matchToolAlias(t, token) {
+    token = String(token || '').toLowerCase().trim();
+    if (!token) return false;
+    return toolAliases(t).some(function (a) { return a === token || a.indexOf(token) >= 0; });
+  }
+
+  // 阅读时长预估（中文按 350 字/分钟，英文按 200 词/分钟）
+  function readingTime(a) {
+    var txt = String(a.body || '').replace(/<[^>]+>/g, '');
+    var cjk = (txt.match(/[一-龥]/g) || []).length;
+    var en = (txt.replace(/[一-龥]/g, ' ').match(/[a-zA-Z]+/g) || []).length;
+    return Math.max(1, Math.round(cjk / 350 + en / 200));
+  }
+
+  // 轻量字符串 hash（用于模板随机变体，规避广告联盟判批量雷同）
+  function hashStr(s) {
+    var h = 0; for (var i = 0; i < s.length; i++) { h = (h << 5) - h + s.charCodeAt(i); h |= 0; }
+    return Math.abs(h);
+  }
+
+  /* —— 详情页各区块渲染 —— */
+  function infoCardHTML(t) {
+    var m = t.meta || {};
+    var rows = [];
+    if (m.openSource === true) rows.push(['开源 / 闭源', '开源']);
+    else if (m.openSource === false) rows.push(['开源 / 闭源', '闭源']);
+    var pLabel = { free: '免费', freemium: '免费 + 付费版', paid: '付费' }[m.pricing];
+    if (pLabel) rows.push(['价格', pLabel]);
+    if (m.platforms && m.platforms.length) rows.push(['支持平台', m.platforms.join('、')]);
+    if (m.license) rows.push(['许可证', m.license]);
+    if (m.updated || t.updated) rows.push(['更新时间', m.updated || t.updated]);
+    if (!rows.length) return '';
+    return '<h2 class="detail-h2">基础信息</h2>' +
+      '<div class="info-card"><dl>' + rows.map(function (r) {
+        return '<div class="info-row"><dt>' + esc(r[0]) + '</dt><dd>' + esc(r[1]) + '</dd></div>';
+      }).join('') + '</dl></div>';
+  }
+  function pcHTML(t) {
+    var pros = t.pros || [], cons = t.cons || [];
+    if (!pros.length && !cons.length) return '';
+    var h = '<div class="pc-grid">';
+    if (pros.length) h += '<section class="pc-box pros"><h2 class="pc-title">✅ 优点</h2><ul>' +
+      pros.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></section>';
+    if (cons.length) h += '<section class="pc-box cons"><h2 class="pc-title">⚠️ 注意事项</h2><ul>' +
+      cons.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></section>';
+    return h + '</div>';
+  }
+  function usageHTML(t) {
+    var steps = (t.usage && t.usage.length) ? t.usage : ['打开下方「访问官网」进入主页。', '选择所需功能模块开始使用。', '遇到问题可查看本页相关教程。'];
+    return steps.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('');
+  }
+  function breadcrumbHTML(tool, cfg) {
+    var parts = '<a href="/">首页</a>';
+    if (/^\/agent\//.test(base)) parts += '<span class="sep">›</span><a href="https://browseragent.72tool.com/">Agent 集群</a>';
+    else if (/^\/tools\//.test(base)) parts += '<span class="sep">›</span><a href="https://txtclean.72tool.com/">工具集群</a>';
+    parts += '<span class="sep">›</span><span class="cur">' + esc(tool.name) + '</span>';
+    return '<nav class="breadcrumb" aria-label="面包屑">' + parts + '</nav>';
+  }
+  // 详情页教程卡片：站内跳转（不新开外部），带阅读时长
+  function tutCardDetailHTML(a) {
+    var tags = (a.tags || []).map(function (x) { return '<span class="tag">' + esc(x) + '</span>'; }).join('');
+    return '' +
+      '<article class="card tut-card" itemscope itemtype="https://schema.org/Article">' +
+        '<h3 class="card-title"><a itemprop="url" href="/article/' + esc(a.slug) + '">' + esc(a.title) + '</a></h3>' +
+        '<p class="card-desc" itemprop="description">' + esc(a.summary || '') + '</p>' +
+        '<div class="card-tags">' + tags + '</div>' +
+        '<span class="read-time">⏱ 阅读 ' + readingTime(a) + ' 分钟</span>' +
+      '</article>';
+  }
+  // 相似相关工具卡片：站内互链（?tool=slug），提升收录与停留
+  function relToolCardHTML(t) {
+    var slug = t.slug || slugify(t.name);
+    var img = t.img
+      ? '<img class="card-img" src="' + esc(t.img) + '" alt="' + esc(t.alt || t.name) + '" loading="lazy" decoding="async">'
+      : '';
+    var tags = (t.tags || []).slice(0, 3).map(function (x) { return '<span class="tag">' + esc(x) + '</span>'; }).join('');
+    return '<article class="card rel-tool" itemscope itemtype="https://schema.org/SoftwareApplication">' +
+      img +
+      '<h3 class="card-title"><a itemprop="url" href="?tool=' + encodeURIComponent(slug) + '">' + esc(t.name) + '</a></h3>' +
+      '<p class="card-desc" itemprop="description">' + esc(String(t.desc || '').slice(0, 72)) + '</p>' +
+      '<div class="card-tags">' + tags + '</div>' +
+      '</article>';
   }
 
   function hideListUI(hide) {
@@ -326,48 +404,107 @@
     });
   }
 
+  /* 返回顶部按钮（长页面体验） */
+  var _toTopBound = false;
+  function ensureToTop() {
+    var btn = document.getElementById('toTop');
+    if (!btn) {
+      btn = document.createElement('button');
+      btn.id = 'toTop'; btn.type = 'button'; btn.className = 'to-top';
+      btn.setAttribute('aria-label', '返回顶部'); btn.textContent = '↑';
+      document.body.appendChild(btn);
+      btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    }
+    btn.classList.remove('show');
+    if (!_toTopBound) {
+      _toTopBound = true;
+      window.addEventListener('scroll', function () {
+        var b = document.getElementById('toTop');
+        if (b) b.classList.toggle('show', window.scrollY > 400);
+      }, { passive: true });
+    }
+  }
+
   function renderDetail(tool, articles, cfg) {
     if (!tool) return;
-    var slug = slugify(tool.name);
-    // 视图切换：隐藏列表，显示详情（加 body class 避免列表闪现）
+    var slug = tool.slug || slugify(tool.name);
     document.body.classList.add('detail-mode');
     hideListUI(true);
-    document.getElementById('detailName').textContent = tool.name;
-    document.getElementById('detailCat').textContent = tool.category || '';
-    document.getElementById('detailBadge').innerHTML = AFF.badge(tool);
-    document.getElementById('detailDesc').textContent = tool.desc || '';
-    document.getElementById('detailTags').innerHTML =
-      (tool.tags || []).map(function (x) { return '<span class="tag">' + esc(x) + '</span>'; }).join('');
-    document.getElementById('detailUsage').innerHTML = detailUsageHTML(tool);
-    var v = document.getElementById('detailVisit');
-    v.href = AFF.href(tool);
-    v.rel = AFF.rel(tool);
-    // Schema.org 结构化数据（详情级）
+    // 详情页只保留「内文中段 + 侧边」两个广告位（控制密度，避免被广告联盟判广告堆砌）
+    var top = document.querySelector('[data-ad="top"]');
+    if (top) top.remove();
+
+    var tags = (tool.tags || []).map(function (x) { return '<span class="tag">' + esc(x) + '</span>'; }).join('');
+    var variant = (hashStr(slug) % 3) + 1; // 模板随机变体（anti-detection）
+
+    var html = breadcrumbHTML(tool, cfg);
+    html += '<a class="back-link" href="/">← 返回工具列表</a>';
+    html += '<article class="detail-card tpl-v' + variant + '" itemscope itemtype="https://schema.org/SoftwareApplication">';
+    html += '<div class="detail-head">' +
+      '<h1 class="detail-name" itemprop="name">' + esc(tool.name) + '</h1>' +
+      (tool.category ? '<span class="detail-cat">' + esc(tool.category) + '</span>' : '') +
+      AFF.badge(tool) + '</div>';
+    html += '<div class="detail-tags">' + tags + '</div>';
+    html += '<p class="detail-desc" itemprop="description">' + esc(tool.desc || '') + '</p>';
+    html += infoCardHTML(tool);
+    html += pcHTML(tool);
+    html += '<h2 class="detail-h2">使用步骤</h2><ol class="usage-list">' + usageHTML(tool) + '</ol>';
+    html += '<div class="detail-cta">' +
+      '<a class="visit-btn" id="detailVisit" target="_blank" rel="' + esc(AFF.rel(tool)) + '">访问官网 ↗</a>' +
+      AFF.copyHTML(tool) + '</div>';
+    html += '</article>';
+
+    // 内文中段广告：真人访客可见，爬虫/被 adblock 拦截时不渲染（ads.js 控制）
+    html += '<div class="ad-inline" data-ad="article" aria-label="广告位"></div>';
+
+    // 相关教程（站内跳转 + 阅读时长）
+    var rel = (articles || []).filter(function (a) {
+      return (a.relatedTools && a.relatedTools.some(function (rt) { return matchToolAlias(tool, rt); })) ||
+        (a.tags || []).some(function (tg) { return matchToolAlias(tool, tg); }) ||
+        (a.tags || []).some(function (tg) { return (tool.tags || []).indexOf(tg) >= 0; });
+    }).slice(0, 4);
+    if (rel.length) {
+      html += '<section class="rel-articles" aria-label="相关教程">' +
+        '<h2 class="section-title">相关教程</h2>' +
+        '<div class="grid tut-grid">' + rel.map(tutCardDetailHTML).join('') + '</div></section>';
+    }
+
+    // 相似相关工具（同站同分类，站内互链）
+    var relTools = ((window.__data && window.__data.tools) || [])
+      .filter(function (t) { return t !== tool && (t.category === tool.category || (t.tags || []).filter(function (x) { return (tool.tags || []).indexOf(x) >= 0; }).length); })
+      .slice(0, 4);
+    if (relTools.length) {
+      html += '<section class="rel-tools" aria-label="相似相关工具">' +
+        '<h2 class="section-title">相似相关工具推荐</h2>' +
+        '<div class="grid">' + relTools.map(relToolCardHTML).join('') + '</div></section>';
+    }
+
+    var d = document.getElementById('toolDetail');
+    d.innerHTML = html;
+    d.hidden = false;
+    document.getElementById('detailVisit').href = AFF.href(tool);
+
+    // Schema.org 详情级
     var ld = {
-      '@context': 'https://schema.org',
-      '@type': 'SoftwareApplication',
+      '@context': 'https://schema.org', '@type': 'SoftwareApplication',
       name: tool.name, description: tool.desc,
       applicationCategory: tool.category, operatingSystem: 'Web',
-      url: location.origin + '/?tool=' + encodeURIComponent(slug),
-      inLanguage: cfg.lang || 'zh-CN'
+      url: location.origin + '/?tool=' + encodeURIComponent(slug), inLanguage: cfg.lang || 'zh-CN'
     };
     if (tool.url) ld.sameAs = tool.url;
     document.getElementById('jsonld').textContent = JSON.stringify(ld);
-    // 相关教程：按 relatedTools / tags 双向匹配（与 renderRelatedArticles 同源逻辑）
-    var relBox = document.getElementById('detailRel'), relList = document.getElementById('detailRelList');
-    var rel = (articles || []).filter(function (a) {
-      return (a.relatedTools && a.relatedTools.indexOf(tool.name) >= 0) ||
-        (a.tags || []).some(function (tg) { return tool.name.toLowerCase().indexOf(tg.toLowerCase()) >= 0; }) ||
-        (a.tags || []).some(function (tg) { return (tool.tags || []).indexOf(tg) >= 0; });
-    }).slice(0, 3);
-    if (rel.length) { relBox.hidden = false; relList.innerHTML = rel.map(tutCardHTML).join(''); }
-    else { relBox.hidden = true; }
-    // TDK：标题与 canonical 指向详情 URL
-    document.title = tool.name + ' - ' + (cfg.name || '72tool');
+
+    // TDK：标题 / canonical / meta description 指向详情
+    document.title = tool.name + '｜' + (tool.category || '') + (cfg.name ? ' | ' + cfg.name : '');
     var cano = document.getElementById('canonical');
     if (cano) cano.setAttribute('href', location.origin + '/?tool=' + encodeURIComponent(slug));
-    var d = document.getElementById('toolDetail');
-    d.hidden = false;
+    var md = document.querySelector('meta[name=description]');
+    if (md) {
+      var plat = (tool.meta && tool.meta.platforms) ? ('支持' + tool.meta.platforms.join('/') + '。') : '';
+      md.setAttribute('content', (tool.desc || '') + plat + '查看基础信息、使用步骤、优缺点与相关教程。');
+    }
+
+    ensureToTop();
     window.scrollTo(0, 0);
   }
 

@@ -33,27 +33,8 @@
     <!-- 分类筛选 chips -->
     <section class="cat-filter" id="catFilter" aria-label="分类筛选"></section>
 
-    <!-- ★ 工具详情视图：点击卡片进入此站内详情页（不再直接跳外链），底部「访问官网」才外跳 -->
-    <section class="tool-detail" id="toolDetail" hidden aria-label="工具详情">
-      <a class="back-link" href="/">← 返回工具列表</a>
-      <article class="detail-card" itemscope itemtype="https://schema.org/SoftwareApplication">
-        <div class="detail-head">
-          <h1 class="detail-name" itemprop="name" id="detailName"></h1>
-          <span class="detail-cat" id="detailCat"></span>
-          <span id="detailBadge"></span>
-        </div>
-        <p class="detail-desc" itemprop="description" id="detailDesc"></p>
-        <div class="detail-tags" id="detailTags"></div>
-        <div class="detail-usage" id="detailUsage"></div>
-        <div class="detail-cta">
-          <a class="visit-btn" id="detailVisit" target="_blank" rel="nofollow noopener">访问官网 ↗</a>
-        </div>
-      </article>
-      <section class="rel-articles" id="detailRel" hidden aria-label="相关教程">
-        <h2 class="section-title">相关教程</h2>
-        <div class="grid tut-grid" id="detailRelList"></div>
-      </section>
-    </section>
+    <!-- ★ 工具详情视图：由 app.js 按 ?tool=<slug> 动态渲染（站内详情页，外跳仅保留在「访问官网」按钮） -->
+    <section class="tool-detail" id="toolDetail" hidden aria-label="工具详情"></section>
 
     <!-- ★ 付费置顶区块：data.top=true 的工具在此独立展示（见 app.js renderTop） -->
     <section class="top-block" id="topBlock" hidden aria-label="精选推荐">
@@ -104,12 +85,12 @@
   <!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"YOUR_CF_BEACON_TOKEN"}'></script> -->
 
   <!-- 公共渲染逻辑：域名识别 -> 加载 config/list -> 渲染 + 暗色 + Schema + 懒加载 + 广告 + 分销 -->
-  <script src="/common/ads.js?v=2"></script>
-  <script src="/common/affiliate.js?v=2"></script>
-  <script src="/common/mobile.js?v=2"></script>
+  <script src="/common/ads.js?v=3"></script>
+  <script src="/common/affiliate.js?v=3"></script>
+  <script src="/common/mobile.js?v=3"></script>
   <!-- 站点探测（HOST_MAP 单一来源）+ Cookie 告知（过审合规，非弹窗底部条） -->
-  <script src="/common/site.js?v=2"></script>
-  <script src="/common/cookie.js?v=2"></script>
-  <script src="/common/app.js?v=2"></script>
+  <script src="/common/site.js?v=3"></script>
+  <script src="/common/cookie.js?v=3"></script>
+  <script src="/common/app.js?v=3"></script>
 </body>
 </html>

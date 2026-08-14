@@ -2,7 +2,7 @@
   "updated": "2026-08-14",
   "tools": [
     {
-      "name": "Browser Use",
+      "name": "浏览器使用 (Browser Use)",
       "url": "https://github.com/browser-use/browser-use",
       "desc": "开源的浏览器使用 AI 智能体，用自然语言驱动网页操作，支持表单填写、信息提取与多步任务编排。",
       "tags": [
@@ -11,10 +11,40 @@
         "网页操作"
       ],
       "category": "通用浏览器 Agent",
-      "updated": "2026-08-14"
+      "updated": "2026-08-14",
+      "originName": "Browser Use",
+      "slug": "browser-use",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Python 包",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "Python 生态完善，便于二次开发与集成",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Playwright",
+      "name": "跨浏览器自动化框架 (Playwright)",
       "url": "https://playwright.dev",
       "desc": "微软出品的跨浏览器自动化框架，支持 Chromium/Firefox/WebKit，适合稳定可靠的网页抓取与端到端测试。",
       "tags": [
@@ -23,10 +53,36 @@
         "测试"
       ],
       "category": "自动化框架",
-      "updated": "2026-08-10"
+      "updated": "2026-08-10",
+      "originName": "Playwright",
+      "slug": "playwright",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": "2026-08-10"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "Puppeteer",
+      "name": "浏览器控制库 (Puppeteer)",
       "url": "https://pptr.dev",
       "desc": "基于 Chrome DevTools 协议的 Node 自动化库，轻量易用，常用于爬虫、截图与页面渲染监控。",
       "tags": [
@@ -35,10 +91,36 @@
         "截图"
       ],
       "category": "自动化框架",
-      "updated": "2026-08-08"
+      "updated": "2026-08-08",
+      "originName": "Puppeteer",
+      "slug": "puppeteer",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": "2026-08-08"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "AgentQL",
+      "name": "语义化数据提取 (AgentQL)",
       "url": "https://agentql.com",
       "desc": "用类自然语言语义选择器定位页面元素，告别脆弱的 XPath，让数据提取更稳定。",
       "tags": [
@@ -46,10 +128,36 @@
         "数据提取"
       ],
       "category": "数据提取",
-      "updated": "2026-08-12"
+      "updated": "2026-08-12",
+      "originName": "AgentQL",
+      "slug": "agentql",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": "2026-08-12"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "Skyvern",
+      "name": "视觉网页智能体 (Skyvern)",
       "url": "https://github.com/Skyvern-AI/skyvern",
       "desc": "结合 LLM 与计算机视觉的网页自动化智能体，能自适应页面结构变化完成复杂工作流。",
       "tags": [
@@ -58,10 +166,38 @@
         "工作流"
       ],
       "category": "通用浏览器 Agent",
-      "updated": "2026-08-13"
+      "updated": "2026-08-13",
+      "originName": "Skyvern",
+      "slug": "skyvern",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-13"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Spiderfoot",
+      "name": "开源情报收集 (Spiderfoot)",
       "url": "https://github.com/smicallef/spiderfoot",
       "desc": "Spiderfoot 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -71,10 +207,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Spiderfoot",
+      "slug": "spiderfoot",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "LTX 2",
+      "name": "AI 视频生成模型 (LTX 2)",
       "url": "https://github.com/Lightricks/LTX-2",
       "desc": "LTX 2 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -84,10 +248,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "LTX 2",
+      "slug": "ltx-2",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Holehe",
+      "name": "邮箱账号探测 (Holehe)",
       "url": "https://github.com/megadose/holehe",
       "desc": "Holehe 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -97,10 +289,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Holehe",
+      "slug": "holehe",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Agency Agents",
+      "name": "代理智能体框架 (Agency Agents)",
       "url": "https://github.com/msitarzewski/agency-agents",
       "desc": "Agency Agents 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -110,10 +330,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Agency Agents",
+      "slug": "agency-agents",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Loopx",
+      "name": "浏览器自动化 (Loopx)",
       "url": "https://github.com/huangruiteng/loopx",
       "desc": "Loopx 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -123,10 +371,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Loopx",
+      "slug": "loopx",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Book To Skill",
+      "name": "技能学习转换器 (Book To Skill)",
       "url": "https://github.com/virgiliojr94/book-to-skill",
       "desc": "Book To Skill 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -136,10 +412,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Book To Skill",
+      "slug": "book-to-skill",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Obsidian Skills",
+      "name": "Obsidian 技能插件 (Obsidian Skills)",
       "url": "https://github.com/kepano/obsidian-skills",
       "desc": "Obsidian Skills 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -149,10 +453,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Obsidian Skills",
+      "slug": "obsidian-skills",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Code Graph Rag",
+      "name": "代码图谱 RAG (Code Graph Rag)",
       "url": "https://github.com/vitali87/code-graph-rag",
       "desc": "Code Graph Rag 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -162,7 +494,35 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Code Graph Rag",
+      "slug": "code-graph-rag",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     }
   ]
 }

@@ -2,7 +2,7 @@
   "updated": "2026-08-14",
   "tools": [
     {
-      "name": "CapCut 跨境版",
+      "name": "剪映国际版 (CapCut)",
       "url": "https://www.capcut.com",
       "desc": "字节旗下剪辑工具，内置多语言字幕、智能抠像与爆款模板，适合批量产出 TikTok 短视频。",
       "tags": [
@@ -11,10 +11,35 @@
         "模板"
       ],
       "category": "视频剪辑",
-      "updated": "2026-08-14"
+      "updated": "2026-08-14",
+      "slug": "剪映国际版-capcut",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "Opus Clip",
+      "name": "AI 短视频切片 (Opus Clip)",
       "url": "https://www.opus.pro",
       "desc": "AI 长转短工具，自动识别高光片段并生成竖屏短视频，支持多语种标题与标签。",
       "tags": [
@@ -23,10 +48,36 @@
         "竖屏"
       ],
       "category": "AI 剪辑",
-      "updated": "2026-08-11"
+      "updated": "2026-08-11",
+      "originName": "Opus Clip",
+      "slug": "opus-clip",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": "2026-08-11"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "Exolyt",
+      "name": "TikTok 数据分析 (Exolyt)",
       "url": "https://exolyt.com",
       "desc": "TikTok 数据分析与爆款挖掘平台，追踪热门话题、音乐与创作者，辅助内容选题。",
       "tags": [
@@ -35,10 +86,36 @@
         "趋势"
       ],
       "category": "数据分析",
-      "updated": "2026-08-09"
+      "updated": "2026-08-09",
+      "originName": "Exolyt",
+      "slug": "exolyt",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": "2026-08-09"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "Predis.ai",
+      "name": "AI 内容生成 (Predis.ai)",
       "url": "https://predis.ai",
       "desc": "输入产品描述即可生成带字幕的短视频与帖子文案，覆盖 TikTok/Reels/Shorts 多平台。",
       "tags": [
@@ -47,10 +124,36 @@
         "生成"
       ],
       "category": "内容生成",
-      "updated": "2026-08-12"
+      "updated": "2026-08-12",
+      "originName": "Predis.ai",
+      "slug": "predis-ai",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": "2026-08-12"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "Combo Creator",
+      "name": "矩阵发布脚本 (Combo Creator)",
       "url": "https://github.com/",
       "desc": "开源的 TikTok 账号矩阵运营脚本，支持多账号定时发布与素材池管理（示例条目）。",
       "tags": [
@@ -59,10 +162,36 @@
         "开源"
       ],
       "category": "账号运营",
-      "updated": "2026-08-13"
+      "updated": "2026-08-13",
+      "originName": "Combo Creator",
+      "slug": "combo-creator",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-13"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Holaos",
+      "name": "短视频自动化 (Holaos)",
       "url": "https://github.com/holaboss-ai/holaOS",
       "desc": "Holaos 是一款 跨境短视频工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -72,10 +201,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Holaos",
+      "slug": "holaos",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Diagram Design",
+      "name": "图表设计 (Diagram Design)",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "desc": "Diagram Design 是一款 跨境短视频工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -85,10 +242,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Diagram Design",
+      "slug": "diagram-design",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Spiderfoot",
+      "name": "开源情报收集 (Spiderfoot)",
       "url": "https://github.com/smicallef/spiderfoot",
       "desc": "Spiderfoot 是一款 跨境短视频工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -98,10 +283,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Spiderfoot",
+      "slug": "spiderfoot",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "LTX 2",
+      "name": "AI 视频生成模型 (LTX 2)",
       "url": "https://github.com/Lightricks/LTX-2",
       "desc": "LTX 2 是一款 跨境短视频工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -111,10 +324,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "LTX 2",
+      "slug": "ltx-2",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Agent Skills",
+      "name": "智能体技能库 (Agent Skills)",
       "url": "https://github.com/addyosmani/agent-skills",
       "desc": "Agent Skills 是一款 跨境短视频工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -124,10 +365,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Agent Skills",
+      "slug": "agent-skills",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Skills",
+      "name": "智能体技能库 (Skills)",
       "url": "https://github.com/anthropics/skills",
       "desc": "Skills 是一款 跨境短视频工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -137,10 +406,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Skills",
+      "slug": "skills",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Manim",
+      "name": "数学动画引擎 (Manim)",
       "url": "https://github.com/3b1b/manim",
       "desc": "Manim 是一款 跨境短视频工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -150,10 +447,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Manim",
+      "slug": "manim",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Loopx",
+      "name": "浏览器自动化 (Loopx)",
       "url": "https://github.com/huangruiteng/loopx",
       "desc": "Loopx 是一款 跨境短视频工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -163,7 +488,35 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Loopx",
+      "slug": "loopx",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     }
   ]
 }

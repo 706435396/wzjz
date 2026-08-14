@@ -2,7 +2,7 @@
   "updated": "2026-08-14",
   "tools": [
     {
-      "name": "Ollama",
+      "name": "本地大模型运行 (Ollama)",
       "url": "https://ollama.com",
       "desc": "一行命令在本地跑大模型（Llama、Qwen、Gemma 等），支持 GPU 加速，数据完全离线。",
       "tags": [
@@ -11,10 +11,36 @@
         "GPU"
       ],
       "category": "本地大模型",
-      "updated": "2026-08-14"
+      "updated": "2026-08-14",
+      "originName": "Ollama",
+      "slug": "ollama",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "Stable Diffusion WebUI",
+      "name": "Stable Diffusion 出图界面 (Stable Diffusion WebUI)",
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
       "desc": "最流行的本地出图界面，支持插件生态与显卡优化，免费生成 AI 图像。",
       "tags": [
@@ -23,10 +49,38 @@
         "插件"
       ],
       "category": "图像生成",
-      "updated": "2026-08-10"
+      "updated": "2026-08-10",
+      "originName": "Stable Diffusion WebUI",
+      "slug": "stable-diffusion-webui",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-10"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "LM Studio",
+      "name": "大模型桌面客户端 (LM Studio)",
       "url": "https://lmstudio.ai",
       "desc": "图形化本地推理客户端，免命令行加载 GGUF 模型，内置聊天与 OpenAI 兼容接口。",
       "tags": [
@@ -35,10 +89,36 @@
         "兼容API"
       ],
       "category": "本地大模型",
-      "updated": "2026-08-12"
+      "updated": "2026-08-12",
+      "originName": "LM Studio",
+      "slug": "lm-studio",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "API 接口"
+        ],
+        "license": null,
+        "updated": "2026-08-12"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级",
+        "提供 API，便于接入自动化工作流"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "PrivateGPT",
+      "name": "私有知识库问答 (PrivateGPT)",
       "url": "https://github.com/Mintplex-Labs/anything-llm",
       "desc": "基于本地向量库的私有知识库问答，文档不出本机，适合企业内网部署。",
       "tags": [
@@ -47,10 +127,37 @@
         "私有"
       ],
       "category": "私有知识库",
-      "updated": "2026-08-13"
+      "updated": "2026-08-13",
+      "originName": "PrivateGPT",
+      "slug": "privategpt",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-13"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "务必关注许可证对商业用途的约束"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Unsloth",
+      "name": "大模型高效微调 (Unsloth)",
       "url": "https://github.com/unslothai/unsloth",
       "desc": "Unsloth 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -60,10 +167,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Unsloth",
+      "slug": "unsloth",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Switchyard",
+      "name": "模型路由编排 (Switchyard)",
       "url": "https://github.com/NVIDIA-NeMo/Switchyard",
       "desc": "Switchyard 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -73,10 +208,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Switchyard",
+      "slug": "switchyard",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Modly",
+      "name": "模块化 AI 工具 (Modly)",
       "url": "https://github.com/lightningpixel/modly",
       "desc": "Modly 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -86,10 +249,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Modly",
+      "slug": "modly",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Fluidvoice",
+      "name": "语音交互框架 (Fluidvoice)",
       "url": "https://github.com/altic-dev/FluidVoice",
       "desc": "Fluidvoice 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -99,10 +290,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Fluidvoice",
+      "slug": "fluidvoice",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Tencentdb Agent Memory",
+      "name": "腾讯数据库智能体 (TencentDB Agent Memory)",
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "desc": "Tencentdb Agent Memory 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -112,10 +331,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Tencentdb Agent Memory",
+      "slug": "tencentdb-agent-memory",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Comfyui",
+      "name": "ComfyUI 工作流出图 (ComfyUI)",
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "desc": "Comfyui 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -125,10 +372,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Comfyui",
+      "slug": "comfyui",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Needle",
+      "name": "数据索引框架 (Needle)",
       "url": "https://github.com/cactus-compute/needle",
       "desc": "Needle 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -138,10 +413,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Needle",
+      "slug": "needle",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Agency Agents",
+      "name": "代理智能体框架 (Agency Agents)",
       "url": "https://github.com/msitarzewski/agency-agents",
       "desc": "Agency Agents 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -151,10 +454,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Agency Agents",
+      "slug": "agency-agents",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Agent Skills",
+      "name": "智能体技能库 (Agent Skills)",
       "url": "https://github.com/addyosmani/agent-skills",
       "desc": "Agent Skills 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -164,7 +495,35 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Agent Skills",
+      "slug": "agent-skills",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     }
   ]
 }

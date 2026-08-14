@@ -189,7 +189,7 @@ function main() {
     const detailUrls = [];
     for (const t of tools) {
       if (!t || !t.url) continue;
-      const slug = slugify(t.name);
+      const slug = t.slug || slugify(t.name);
       detailUrls.push({
         loc: 'https://' + domain + '/?tool=' + encodeURIComponent(slug),
         lastmod: (t.updated || baseDate).slice(0, 10),
@@ -256,7 +256,7 @@ function main() {
     // ★ (e) 图片 sitemap（§8.3）：工具/资讯预览图绝对 URL；无图站点不生成、不进索引
     const imgItems = [];
     for (const t of tools) {
-      if (t && t.img && t.name) imgItems.push({ loc: 'https://' + domain + '/?tool=' + encodeURIComponent(slugify(t.name)), img: absUrl(t.img, domain), title: t.name });
+      if (t && t.img && t.name) imgItems.push({ loc: 'https://' + domain + '/?tool=' + encodeURIComponent(t.slug || slugify(t.name)), img: absUrl(t.img, domain), title: t.name });
     }
     const artPath = path.join(siteDir, 'article', 'list.json');
     if (fs.existsSync(artPath)) {

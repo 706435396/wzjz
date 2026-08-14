@@ -2,7 +2,7 @@
   "updated": "2026-08-14",
   "tools": [
     {
-      "name": "TxtClean 古籍清洗",
+      "name": "古籍文本清洗 (TxtClean)",
       "url": "https://txtclean.72tool.com",
       "desc": "本站核心工具：粘贴 OCR 识别后的古籍文本，一键去除乱码、多余空格与空行，并自动断句标点。",
       "tags": [
@@ -11,10 +11,35 @@
         "标点"
       ],
       "category": "文本清洗",
-      "updated": "2026-08-14"
+      "updated": "2026-08-14",
+      "slug": "古籍文本清洗-txtclean",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "OpenCC 开源繁简转换",
+      "name": "开源繁简转换 (OpenCC)",
       "url": "https://github.com/BYVoid/OpenCC",
       "desc": "高质量的中文繁简/港澳繁体互转库，命令行与 API 双形态，适合批量文献转换。",
       "tags": [
@@ -23,10 +48,37 @@
         "开源"
       ],
       "category": "繁简转换",
-      "updated": "2026-08-08"
+      "updated": "2026-08-08",
+      "slug": "开源繁简转换-opencc",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "API 接口"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-08"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本",
+        "提供 API，便于接入自动化工作流"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Punctuator 自动标点",
+      "name": "自动标点模型 (Punctuator)",
       "url": "https://github.com/ottokart/punctuator2",
       "desc": "基于神经网络的自动标点恢复模型，对无标点转录文本补全省略号、逗号与句号。",
       "tags": [
@@ -35,10 +87,35 @@
         "NLP"
       ],
       "category": "自动标点",
-      "updated": "2026-08-09"
+      "updated": "2026-08-09",
+      "slug": "自动标点模型-punctuator",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-09"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "在线去重空行工具",
+      "name": "在线去重空行工具 (TextClean)",
       "url": "https://txtclean.72tool.com",
       "desc": "合并连续空行、去除首尾空白、按行去重，专为整理扫描文献的脏文本设计（示例条目）。",
       "tags": [
@@ -47,10 +124,35 @@
         "整理"
       ],
       "category": "文本清洗",
-      "updated": "2026-08-13"
+      "updated": "2026-08-13",
+      "slug": "在线去重空行工具-textclean",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": "2026-08-13"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "Semantica",
+      "name": "语义化知识管理 (Semantica)",
       "url": "https://github.com/semantica-agi/semantica",
       "desc": "Semantica 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -60,10 +162,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Semantica",
+      "slug": "semantica",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Ragflow",
+      "name": "RAGFlow 知识库 (Ragflow)",
       "url": "https://github.com/infiniflow/ragflow",
       "desc": "Ragflow 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -73,10 +203,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Ragflow",
+      "slug": "ragflow",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Pdf Inspector",
+      "name": "PDF 结构检查 (PDF Inspector)",
       "url": "https://github.com/firecrawl/pdf-inspector",
       "desc": "Pdf Inspector 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -86,10 +244,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Pdf Inspector",
+      "slug": "pdf-inspector",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Chinatextbook",
+      "name": "中文教材资源库 (ChinaTextbook)",
       "url": "https://github.com/TapXWorld/ChinaTextbook",
       "desc": "精选 TapXWorld/ChinaTextbook：所有小初高、大学PDF教材。，适用于文本清洗场景，开箱即用。",
       "tags": [
@@ -99,10 +285,36 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Chinatextbook",
+      "slug": "chinatextbook",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Prime Agent",
+      "name": "自主 AI 智能体 (Prime Agent)",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "desc": "Prime Agent 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -112,10 +324,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Prime Agent",
+      "slug": "prime-agent",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Drawdb",
+      "name": "数据库关系图 (DrawDB)",
       "url": "https://github.com/drawdb-io/drawdb",
       "desc": "Drawdb 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -125,10 +365,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Drawdb",
+      "slug": "drawdb",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Macro",
+      "name": "法律文档自动化 (Macro)",
       "url": "https://github.com/macro-inc/macro",
       "desc": "Macro 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -138,10 +406,39 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Macro",
+      "slug": "macro",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "macOS",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "LTX 2",
+      "name": "AI 视频生成模型 (LTX 2)",
       "url": "https://github.com/Lightricks/LTX-2",
       "desc": "LTX 2 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -151,10 +448,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "LTX 2",
+      "slug": "ltx-2",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Ladybird",
+      "name": "Ladybird 浏览器 (Ladybird)",
       "url": "https://github.com/LadybirdBrowser/ladybird",
       "desc": "Ladybird 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -164,7 +489,35 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Ladybird",
+      "slug": "ladybird",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     }
   ]
 }

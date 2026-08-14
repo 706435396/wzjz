@@ -2,7 +2,7 @@
   "updated": "2026-08-14",
   "tools": [
     {
-      "name": "SitemapGen 在线生成",
+      "name": "站点地图生成器 (SitemapGen)",
       "url": "https://sitemapgen.72tool.com",
       "desc": "本站核心工具：输入根网址自动爬取整站，生成标准 sitemap.xml，支持分页与多子站索引聚合。",
       "tags": [
@@ -11,10 +11,35 @@
         "SEO"
       ],
       "category": "站点地图",
-      "updated": "2026-08-14"
+      "updated": "2026-08-14",
+      "slug": "站点地图生成器-sitemapgen",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "Screaming Frog SEO Spider",
+      "name": "尖叫青蛙 SEO 爬虫 (Screaming Frog)",
       "url": "https://www.screamingfrog.co.uk/seo-spider/",
       "desc": "桌面端站点爬取神器，免费版可抓取 500 个 URL，导出完整 sitemap 与 SEO 问题报告。",
       "tags": [
@@ -23,10 +48,35 @@
         "桌面"
       ],
       "category": "站点地图",
-      "updated": "2026-08-10"
+      "updated": "2026-08-10",
+      "originName": "Screaming Frog SEO Spider",
+      "slug": "screaming-frog-seo-spider",
+      "meta": {
+        "openSource": false,
+        "pricing": "free",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": "2026-08-10"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "xml-sitemap 生成库",
+      "name": "Sitemap 生成库 (xml-sitemap)",
       "url": "https://github.com/ekalinin/sitemap.js",
       "desc": "Node 端 sitemap 生成库，支持超大站点流式写入与图片/新闻扩展协议。",
       "tags": [
@@ -35,10 +85,35 @@
         "流式"
       ],
       "category": "开发库",
-      "updated": "2026-08-11"
+      "updated": "2026-08-11",
+      "slug": "sitemap-生成库-xml-sitemap",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-11"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Google Search Console",
+      "name": "谷歌搜索控制台 (Google Search Console)",
       "url": "https://search.google.com/search-console",
       "desc": "提交 sitemap、查看收录与索引覆盖率，诊断站点的官方入口。",
       "tags": [
@@ -47,10 +122,36 @@
         "诊断"
       ],
       "category": "提交平台",
-      "updated": "2026-08-12"
+      "updated": "2026-08-12",
+      "originName": "Google Search Console",
+      "slug": "google-search-console",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": "2026-08-12"
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "点击「访问官网」进入产品主页，完成注册并登录账号。",
+        "选择适合的套餐或免费试用，进入控制台。",
+        "在控制台挑选所需功能模块，按引导开始使用。",
+        "遇到疑问可参考本页「相关教程」与官方文档。"
+      ]
     },
     {
-      "name": "Needle",
+      "name": "数据索引框架 (Needle)",
       "url": "https://github.com/cactus-compute/needle",
       "desc": "Needle 是一款 SEO工具工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -60,10 +161,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Needle",
+      "slug": "needle",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Obsidian Skills",
+      "name": "Obsidian 技能插件 (Obsidian Skills)",
       "url": "https://github.com/kepano/obsidian-skills",
       "desc": "Obsidian Skills 是一款 SEO工具工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -73,10 +202,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Obsidian Skills",
+      "slug": "obsidian-skills",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Skills",
+      "name": "智能体技能库 (Skills)",
       "url": "https://github.com/anthropics/skills",
       "desc": "Skills 是一款 SEO工具工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -86,10 +243,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Skills",
+      "slug": "skills",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Holaos",
+      "name": "短视频自动化 (Holaos)",
       "url": "https://github.com/holaboss-ai/holaOS",
       "desc": "Holaos 是一款 SEO工具工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -99,10 +284,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Holaos",
+      "slug": "holaos",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Skills",
+      "name": "智能体技能库 (Skills)",
       "url": "https://github.com/google/skills",
       "desc": "Skills 是一款 SEO工具工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -112,10 +325,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Skills",
+      "slug": "skills",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Ladybird",
+      "name": "Ladybird 浏览器 (Ladybird)",
       "url": "https://github.com/LadybirdBrowser/ladybird",
       "desc": "Ladybird 是一款 SEO工具工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -125,10 +366,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Ladybird",
+      "slug": "ladybird",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Holehe",
+      "name": "邮箱账号探测 (Holehe)",
       "url": "https://github.com/megadose/holehe",
       "desc": "Holehe 是一款 SEO工具工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -138,10 +407,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Holehe",
+      "slug": "holehe",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Prime Agent",
+      "name": "自主 AI 智能体 (Prime Agent)",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "desc": "Prime Agent 是一款 SEO工具工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -151,10 +448,38 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Prime Agent",
+      "slug": "prime-agent",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     },
     {
-      "name": "Deepseek Reasonix",
+      "name": "DeepSeek 推理模型 (Deepseek Reasonix)",
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "desc": "Deepseek Reasonix 是一款 SEO工具工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
@@ -164,7 +489,35 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "originName": "Deepseek Reasonix",
+      "slug": "deepseek-reasonix",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": "2026-08-14"
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "在 GitHub 克隆仓库，或通过包管理器安装（如 pip install / npm i）。",
+        "按 README 配置运行环境与依赖（如需 API Key 在此填入）。",
+        "启动本地服务或命令行，构造你的第一个任务并试运行。",
+        "结合本页下方「相关教程」查看具体部署示例与避坑要点。"
+      ]
     }
   ]
 }
