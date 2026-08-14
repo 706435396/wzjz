@@ -360,9 +360,32 @@
       cons.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></section>';
     return h + '</div>';
   }
+  // 把 usage 步骤字符串解析为带标题/代码/提示/验证的小白友好结构
   function usageHTML(t) {
     var steps = (t.usage && t.usage.length) ? t.usage : ['打开下方「访问官网」进入主页。', '选择所需功能模块开始使用。', '遇到问题可查看本页相关教程。'];
-    return steps.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('');
+    return steps.map(function (raw, idx) {
+      var s = String(raw);
+      var title = '';
+      s = s.replace(/^Step:\s*(.+?)(?:\r?\n|$)/, function (_, m) { title = m.trim(); return ''; });
+      var parts = { text: '', code: '', tip: '', check: '' };
+      var current = 'text';
+      s.split(/\r?\n/).forEach(function (line) {
+        if (/^Code:\s*$/.test(line)) { current = 'code'; return; }
+        if (/^Tip:\s*$/.test(line)) { current = 'tip'; return; }
+        if (/^Check:\s*$/.test(line)) { current = 'check'; return; }
+        parts[current] += (parts[current] ? '\n' : '') + line;
+      });
+      var html = '';
+      if (title) html += '<div class="usage-title"><span class="usage-num">' + (idx + 1) + '</span>' + esc(title) + '</div>';
+      if (parts.text.trim()) html += '<p class="usage-text">' + esc(parts.text.trim()).replace(/`([^`]+)`/g, '<code>$1</code>') + '</p>';
+      if (parts.code.trim()) {
+        var codeId = 'uc-' + idx + '-' + Math.random().toString(36).slice(2, 8);
+        html += '<div class="code-block"><button type="button" class="code-copy" data-copy="' + codeId + '" aria-label="复制">复制</button><pre id="' + codeId + '">' + esc(parts.code.trim()) + '</pre></div>';
+      }
+      if (parts.tip.trim()) html += '<div class="usage-tip"><b>💡 小白提示：</b>' + esc(parts.tip.trim()) + '</div>';
+      if (parts.check.trim()) html += '<div class="usage-check"><b>✅ 验证是否成功：</b>' + esc(parts.check.trim()) + '</div>';
+      return '<li class="usage-step" data-step="' + (idx + 1) + '">' + html + '</li>';
+    }).join('');
   }
   function breadcrumbHTML(tool, cfg) {
     var parts = '<a href="/">首页</a>';
@@ -577,6 +600,29 @@
       location.href = '?tool=' + encodeURIComponent(card.id.slice(5));
     }
   });
+
+  // 详情页代码块「复制」按钮（事件委托，按钮动态生成）
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.code-copy');
+    if (!btn) return;
+    var pre = document.getElementById(btn.getAttribute('data-copy'));
+    if (!pre) return;
+    var text = pre.textContent;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () {
+        btn.textContent = '已复制'; setTimeout(function () { btn.textContent = '复制'; }, 1500);
+      }, function () { fallbackCopy(text, btn); });
+    } else { fallbackCopy(text, btn); }
+  });
+  function fallbackCopy(text, btn) {
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.left = '-9999px';
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); btn.textContent = '已复制'; }
+    catch (err) { btn.textContent = '复制失败'; }
+    document.body.removeChild(ta);
+    setTimeout(function () { btn.textContent = '复制'; }, 1500);
+  }
 
   init();
 })();
