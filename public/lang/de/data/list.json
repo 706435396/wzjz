@@ -38,10 +38,12 @@
       "updated": "2026-08-13"
     },
     {
-      "name": "anthropics/skills",
+      "name": "Skills",
       "url": "https://github.com/anthropics/skills",
-      "desc": "Public repository for Agent Skills",
-      "tags": [],
+      "desc": "Skills ist ein Werkzeug der Kategorie «Utilities». Bei 72tool findest du Beschreibung, häufige Fragen und den offiziellen Link.",
+      "tags": [
+        "Utilities"
+      ],
       "category": "Utilities",
       "updated": "2026-08-14",
       "aff": "",
@@ -49,10 +51,12 @@
       "affCommission": 0
     },
     {
-      "name": "megadose/holehe",
+      "name": "Holehe",
       "url": "https://github.com/megadose/holehe",
-      "desc": "holehe allows you to check if the mail is used on different ",
-      "tags": [],
+      "desc": "Holehe ist ein Werkzeug der Kategorie «Utilities». Bei 72tool findest du Beschreibung, häufige Fragen und den offiziellen Link.",
+      "tags": [
+        "Utilities"
+      ],
       "category": "Utilities",
       "updated": "2026-08-14",
       "aff": "",
@@ -60,10 +64,12 @@
       "affCommission": 0
     },
     {
-      "name": "msitarzewski/agency-agents",
+      "name": "Agency Agents",
       "url": "https://github.com/msitarzewski/agency-agents",
-      "desc": "A complete AI agency at your fingertips - From frontend wiza",
-      "tags": [],
+      "desc": "Agency Agents ist ein Werkzeug der Kategorie «Utilities». Bei 72tool findest du Beschreibung, häufige Fragen und den offiziellen Link.",
+      "tags": [
+        "Utilities"
+      ],
       "category": "Utilities",
       "updated": "2026-08-14",
       "aff": "",
@@ -71,10 +77,12 @@
       "affCommission": 0
     },
     {
-      "name": "macro-inc/macro",
+      "name": "Macro",
       "url": "https://github.com/macro-inc/macro",
-      "desc": "Macro is a unified workspace for teams: email, chat, docs, t",
-      "tags": [],
+      "desc": "Macro ist ein Werkzeug der Kategorie «Utilities». Bei 72tool findest du Beschreibung, häufige Fragen und den offiziellen Link.",
+      "tags": [
+        "Utilities"
+      ],
       "category": "Utilities",
       "updated": "2026-08-14",
       "aff": "",
@@ -82,10 +90,12 @@
       "affCommission": 0
     },
     {
-      "name": "3b1b/manim",
+      "name": "Manim",
       "url": "https://github.com/3b1b/manim",
-      "desc": "Animation engine for explanatory math videos",
-      "tags": [],
+      "desc": "Manim ist ein Werkzeug der Kategorie «Utilities». Bei 72tool findest du Beschreibung, häufige Fragen und den offiziellen Link.",
+      "tags": [
+        "Utilities"
+      ],
       "category": "Utilities",
       "updated": "2026-08-14",
       "aff": "",
@@ -93,10 +103,12 @@
       "affCommission": 0
     },
     {
-      "name": "vitali87/code-graph-rag",
+      "name": "Code Graph Rag",
       "url": "https://github.com/vitali87/code-graph-rag",
-      "desc": "The ultimate RAG for your monorepo. Query, understand, and e",
-      "tags": [],
+      "desc": "Code Graph Rag ist ein Werkzeug der Kategorie «Utilities». Bei 72tool findest du Beschreibung, häufige Fragen und den offiziellen Link.",
+      "tags": [
+        "Utilities"
+      ],
       "category": "Utilities",
       "updated": "2026-08-14",
       "aff": "",
@@ -104,10 +116,12 @@
       "affCommission": 0
     },
     {
-      "name": "zhaoxuya520/reverse-skill",
+      "name": "Reverse Skill",
       "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "desc": "Reverse Engineering / Authorized Penetration Testing / Secur",
-      "tags": [],
+      "desc": "Reverse Skill ist ein Werkzeug der Kategorie «Utilities». Bei 72tool findest du Beschreibung, häufige Fragen und den offiziellen Link.",
+      "tags": [
+        "Utilities"
+      ],
       "category": "Utilities",
       "updated": "2026-08-14",
       "aff": "",
@@ -115,10 +129,12 @@
       "affCommission": 0
     },
     {
-      "name": "holaboss-ai/holaOS",
+      "name": "Holaos",
       "url": "https://github.com/holaboss-ai/holaOS",
-      "desc": "Open-source All in One AI agent workspace. Run any agent — C",
-      "tags": [],
+      "desc": "Holaos ist ein Werkzeug der Kategorie «Utilities». Bei 72tool findest du Beschreibung, häufige Fragen und den offiziellen Link.",
+      "tags": [
+        "Utilities"
+      ],
       "category": "Utilities",
       "updated": "2026-08-14",
       "aff": "",
@@ -126,10 +142,12 @@
       "affCommission": 0
     },
     {
-      "name": "cloudflare/computer",
+      "name": "Computer",
       "url": "https://github.com/cloudflare/computer",
-      "desc": "Give your agent a computer 👾",
-      "tags": [],
+      "desc": "Computer ist ein Werkzeug der Kategorie «Utilities». Bei 72tool findest du Beschreibung, häufige Fragen und den offiziellen Link.",
+      "tags": [
+        "Utilities"
+      ],
       "category": "Utilities",
       "updated": "2026-08-14",
       "aff": "",
@@ -137,10 +155,12 @@
       "affCommission": 0
     },
     {
-      "name": "virgiliojr94/book-to-skill",
+      "name": "Book To Skill",
       "url": "https://github.com/virgiliojr94/book-to-skill",
-      "desc": "Turn any technical book PDF into a Claude Code skill — ready",
-      "tags": [],
+      "desc": "Book To Skill ist ein Werkzeug der Kategorie «Utilities». Bei 72tool findest du Beschreibung, häufige Fragen und den offiziellen Link.",
+      "tags": [
+        "Utilities"
+      ],
       "category": "Utilities",
       "updated": "2026-08-14",
       "aff": "",

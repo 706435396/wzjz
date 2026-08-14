@@ -141,16 +141,16 @@
     },
     {
       "slug": "smicallef-spiderfoot-支持哪些文件格式",
-      "title": "smicallef/spiderfoot 支持哪些文件格式？",
-      "summary": "smicallef/spiderfoot 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、",
-      "body": "<p>smicallef/spiderfoot 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Markdown 及主流图片/表格格式。上传前请确认编码为 UTF-8、单文件不超过站点限制，避免解析失败；批量场景建议统一格式后再一次性导入。</p><p>相关工具：<a href=\"https://github.com/smicallef/spiderfoot\">smicallef/spiderfoot</a></p>",
+      "title": "Spiderfoot 支持哪些文件格式？",
+      "summary": "Spiderfoot 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、",
+      "body": "<p>Spiderfoot 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Markdown 及主流图片/表格格式。上传前请确认编码为 UTF-8、单文件不超过站点限制，避免解析失败；批量场景建议统一格式后再一次性导入。</p><p>相关工具：<a href=\"https://github.com/smicallef/spiderfoot\">Spiderfoot</a></p>",
       "tags": [
         "smicallef/spiderfoot",
         "教程",
         "问答"
       ],
       "category": "浏览器自动化",
-      "keywords": "smicallef/spiderfoot,教程,问答",
+      "keywords": "Spiderfoot,教程,问答",
       "relatedTools": [
         "smicallef/spiderfoot"
       ],
@@ -158,16 +158,16 @@
     },
     {
       "slug": "lightricks-ltx-2-免费版有哪些限制",
-      "title": "Lightricks/LTX-2 免费版有哪些限制？",
-      "summary": "Lightricks/LTX-2 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小、",
-      "body": "<p>Lightricks/LTX-2 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小、并发数或导出格式。使用前在官网「定价」页核对当前套餐明细，按实际体量选择，避免生产环境触达上限中断。</p><p>相关工具：<a href=\"https://github.com/Lightricks/LTX-2\">Lightricks/LTX-2</a></p>",
+      "title": "LTX 2 免费版有哪些限制？",
+      "summary": "LTX 2 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小、",
+      "body": "<p>LTX 2 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小、并发数或导出格式。使用前在官网「定价」页核对当前套餐明细，按实际体量选择，避免生产环境触达上限中断。</p><p>相关工具：<a href=\"https://github.com/Lightricks/LTX-2\">LTX 2</a></p>",
       "tags": [
         "Lightricks/LTX-2",
         "教程",
         "问答"
       ],
       "category": "浏览器自动化",
-      "keywords": "Lightricks/LTX-2,教程,问答",
+      "keywords": "LTX 2,教程,问答",
       "relatedTools": [
         "Lightricks/LTX-2"
       ],
@@ -175,16 +175,16 @@
     },
     {
       "slug": "如何在-megadose-holehe-中导出结果",
-      "title": "如何在 megadose/holehe 中导出结果？",
-      "summary": "处理完成后，megadose/holehe 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或",
-      "body": "<p>处理完成后，megadose/holehe 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://github.com/megadose/holehe\">megadose/holehe</a></p>",
+      "title": "如何在 Holehe 中导出结果？",
+      "summary": "处理完成后，Holehe 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或",
+      "body": "<p>处理完成后，Holehe 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://github.com/megadose/holehe\">Holehe</a></p>",
       "tags": [
         "megadose/holehe",
         "教程",
         "问答"
       ],
       "category": "浏览器自动化",
-      "keywords": "megadose/holehe,教程,问答",
+      "keywords": "Holehe,教程,问答",
       "relatedTools": [
         "megadose/holehe"
       ],

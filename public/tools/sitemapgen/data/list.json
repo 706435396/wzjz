@@ -50,10 +50,12 @@
       "updated": "2026-08-12"
     },
     {
-      "name": "cactus-compute/needle",
+      "name": "Needle",
       "url": "https://github.com/cactus-compute/needle",
-      "desc": "14MB foundation model for tiny devices; phones, wearables, s",
-      "tags": [],
+      "desc": "Needle 是一款面向「SEO工具」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "SEO工具"
+      ],
       "category": "SEO工具",
       "updated": "2026-08-14",
       "aff": "",
@@ -61,10 +63,12 @@
       "affCommission": 0
     },
     {
-      "name": "kepano/obsidian-skills",
+      "name": "Obsidian Skills",
       "url": "https://github.com/kepano/obsidian-skills",
-      "desc": "Agent skills for Obsidian. Teach your agent to use Obsidian ",
-      "tags": [],
+      "desc": "Obsidian Skills 是一款面向「SEO工具」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "SEO工具"
+      ],
       "category": "SEO工具",
       "updated": "2026-08-14",
       "aff": "",
@@ -72,10 +76,12 @@
       "affCommission": 0
     },
     {
-      "name": "anthropics/skills",
+      "name": "Skills",
       "url": "https://github.com/anthropics/skills",
-      "desc": "Public repository for Agent Skills",
-      "tags": [],
+      "desc": "Skills 是一款面向「SEO工具」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "SEO工具"
+      ],
       "category": "SEO工具",
       "updated": "2026-08-14",
       "aff": "",
@@ -83,10 +89,12 @@
       "affCommission": 0
     },
     {
-      "name": "holaboss-ai/holaOS",
+      "name": "Holaos",
       "url": "https://github.com/holaboss-ai/holaOS",
-      "desc": "Open-source All in One AI agent workspace. Run any agent — C",
-      "tags": [],
+      "desc": "Holaos 是一款面向「SEO工具」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "SEO工具"
+      ],
       "category": "SEO工具",
       "updated": "2026-08-14",
       "aff": "",
@@ -94,10 +102,12 @@
       "affCommission": 0
     },
     {
-      "name": "google/skills",
+      "name": "Skills",
       "url": "https://github.com/google/skills",
-      "desc": "Agent Skills for Google products and technologies",
-      "tags": [],
+      "desc": "Skills 是一款面向「SEO工具」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "SEO工具"
+      ],
       "category": "SEO工具",
       "updated": "2026-08-14",
       "aff": "",
@@ -105,10 +115,12 @@
       "affCommission": 0
     },
     {
-      "name": "LadybirdBrowser/ladybird",
+      "name": "Ladybird",
       "url": "https://github.com/LadybirdBrowser/ladybird",
-      "desc": "Truly independent web browser",
-      "tags": [],
+      "desc": "Ladybird 是一款面向「SEO工具」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "SEO工具"
+      ],
       "category": "SEO工具",
       "updated": "2026-08-14",
       "aff": "",
@@ -116,10 +128,12 @@
       "affCommission": 0
     },
     {
-      "name": "megadose/holehe",
+      "name": "Holehe",
       "url": "https://github.com/megadose/holehe",
-      "desc": "holehe allows you to check if the mail is used on different ",
-      "tags": [],
+      "desc": "Holehe 是一款面向「SEO工具」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "SEO工具"
+      ],
       "category": "SEO工具",
       "updated": "2026-08-14",
       "aff": "",
@@ -127,10 +141,12 @@
       "affCommission": 0
     },
     {
-      "name": "PrimeIntellect-ai/prime-agent",
+      "name": "Prime Agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "desc": "A self-improving RLM agent for coding workflows and long-run",
-      "tags": [],
+      "desc": "Prime Agent 是一款面向「SEO工具」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "SEO工具"
+      ],
       "category": "SEO工具",
       "updated": "2026-08-14",
       "aff": "",
@@ -138,10 +154,12 @@
       "affCommission": 0
     },
     {
-      "name": "esengine/DeepSeek-Reasonix",
+      "name": "Deepseek Reasonix",
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "desc": "DeepSeek-native AI coding agent for your terminal. Engineere",
-      "tags": [],
+      "desc": "Deepseek Reasonix 是一款面向「SEO工具」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "SEO工具"
+      ],
       "category": "SEO工具",
       "updated": "2026-08-14",
       "aff": "",

@@ -38,10 +38,12 @@
       "updated": "2026-08-13"
     },
     {
-      "name": "cathrynlavery/diagram-design",
+      "name": "Diagram Design",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "desc": "29 editorial diagram types for Claude Code. Self-contained H",
-      "tags": [],
+      "desc": "Diagram Design es una herramienta de la categoría «Utilidades». En 72tool encontrarás su descripción, preguntas frecuentes y el enlace oficial.",
+      "tags": [
+        "Utilidades"
+      ],
       "category": "Utilidades",
       "updated": "2026-08-14",
       "aff": "",
@@ -49,10 +51,12 @@
       "affCommission": 0
     },
     {
-      "name": "macro-inc/macro",
+      "name": "Macro",
       "url": "https://github.com/macro-inc/macro",
-      "desc": "Macro is a unified workspace for teams: email, chat, docs, t",
-      "tags": [],
+      "desc": "Macro es una herramienta de la categoría «Utilidades». En 72tool encontrarás su descripción, preguntas frecuentes y el enlace oficial.",
+      "tags": [
+        "Utilidades"
+      ],
       "category": "Utilidades",
       "updated": "2026-08-14",
       "aff": "",
@@ -60,10 +64,12 @@
       "affCommission": 0
     },
     {
-      "name": "3b1b/manim",
+      "name": "Manim",
       "url": "https://github.com/3b1b/manim",
-      "desc": "Animation engine for explanatory math videos",
-      "tags": [],
+      "desc": "Manim es una herramienta de la categoría «Utilidades». En 72tool encontrarás su descripción, preguntas frecuentes y el enlace oficial.",
+      "tags": [
+        "Utilidades"
+      ],
       "category": "Utilidades",
       "updated": "2026-08-14",
       "aff": "",
@@ -71,10 +77,12 @@
       "affCommission": 0
     },
     {
-      "name": "cactus-compute/needle",
+      "name": "Needle",
       "url": "https://github.com/cactus-compute/needle",
-      "desc": "14MB foundation model for tiny devices; phones, wearables, s",
-      "tags": [],
+      "desc": "Needle es una herramienta de la categoría «Utilidades». En 72tool encontrarás su descripción, preguntas frecuentes y el enlace oficial.",
+      "tags": [
+        "Utilidades"
+      ],
       "category": "Utilidades",
       "updated": "2026-08-14",
       "aff": "",
@@ -82,10 +90,12 @@
       "affCommission": 0
     },
     {
-      "name": "kepano/obsidian-skills",
+      "name": "Obsidian Skills",
       "url": "https://github.com/kepano/obsidian-skills",
-      "desc": "Agent skills for Obsidian. Teach your agent to use Obsidian ",
-      "tags": [],
+      "desc": "Obsidian Skills es una herramienta de la categoría «Utilidades». En 72tool encontrarás su descripción, preguntas frecuentes y el enlace oficial.",
+      "tags": [
+        "Utilidades"
+      ],
       "category": "Utilidades",
       "updated": "2026-08-14",
       "aff": "",
@@ -93,10 +103,12 @@
       "affCommission": 0
     },
     {
-      "name": "cloudflare/computer",
+      "name": "Computer",
       "url": "https://github.com/cloudflare/computer",
-      "desc": "Give your agent a computer 👾",
-      "tags": [],
+      "desc": "Computer es una herramienta de la categoría «Utilidades». En 72tool encontrarás su descripción, preguntas frecuentes y el enlace oficial.",
+      "tags": [
+        "Utilidades"
+      ],
       "category": "Utilidades",
       "updated": "2026-08-14",
       "aff": "",
@@ -104,10 +116,12 @@
       "affCommission": 0
     },
     {
-      "name": "esengine/DeepSeek-Reasonix",
+      "name": "Deepseek Reasonix",
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "desc": "DeepSeek-native AI coding agent for your terminal. Engineere",
-      "tags": [],
+      "desc": "Deepseek Reasonix es una herramienta de la categoría «Utilidades». En 72tool encontrarás su descripción, preguntas frecuentes y el enlace oficial.",
+      "tags": [
+        "Utilidades"
+      ],
       "category": "Utilidades",
       "updated": "2026-08-14",
       "aff": "",
@@ -115,10 +129,12 @@
       "affCommission": 0
     },
     {
-      "name": "smicallef/spiderfoot",
+      "name": "Spiderfoot",
       "url": "https://github.com/smicallef/spiderfoot",
-      "desc": "SpiderFoot automates OSINT for threat intelligence and mappi",
-      "tags": [],
+      "desc": "Spiderfoot es una herramienta de la categoría «Utilidades». En 72tool encontrarás su descripción, preguntas frecuentes y el enlace oficial.",
+      "tags": [
+        "Utilidades"
+      ],
       "category": "Utilidades",
       "updated": "2026-08-14",
       "aff": "",
@@ -126,10 +142,12 @@
       "affCommission": 0
     },
     {
-      "name": "google/skills",
+      "name": "Skills",
       "url": "https://github.com/google/skills",
-      "desc": "Agent Skills for Google products and technologies",
-      "tags": [],
+      "desc": "Skills es una herramienta de la categoría «Utilidades». En 72tool encontrarás su descripción, preguntas frecuentes y el enlace oficial.",
+      "tags": [
+        "Utilidades"
+      ],
       "category": "Utilidades",
       "updated": "2026-08-14",
       "aff": "",
@@ -137,10 +155,12 @@
       "affCommission": 0
     },
     {
-      "name": "zhaoxuya520/reverse-skill",
+      "name": "Reverse Skill",
       "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "desc": "Reverse Engineering / Authorized Penetration Testing / Secur",
-      "tags": [],
+      "desc": "Reverse Skill es una herramienta de la categoría «Utilidades». En 72tool encontrarás su descripción, preguntas frecuentes y el enlace oficial.",
+      "tags": [
+        "Utilidades"
+      ],
       "category": "Utilidades",
       "updated": "2026-08-14",
       "aff": "",

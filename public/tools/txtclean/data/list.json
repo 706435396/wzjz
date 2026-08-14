@@ -50,7 +50,7 @@
       "updated": "2026-08-13"
     },
     {
-      "name": "semantica-agi/semantica",
+      "name": "Semantica",
       "url": "https://github.com/semantica-agi/semantica",
       "desc": "精选 semantica-agi/semantica：Graph-Native Infrastructure for C",
       "tags": [
@@ -63,7 +63,7 @@
       "affCommission": 0
     },
     {
-      "name": "infiniflow/ragflow",
+      "name": "Ragflow",
       "url": "https://github.com/infiniflow/ragflow",
       "desc": "精选 infiniflow/ragflow：RAGFlow is a leading open-source Ret，适",
       "tags": [
@@ -76,7 +76,7 @@
       "affCommission": 0
     },
     {
-      "name": "firecrawl/pdf-inspector",
+      "name": "Pdf Inspector",
       "url": "https://github.com/firecrawl/pdf-inspector",
       "desc": "精选 firecrawl/pdf-inspector：Fast Rust library for PDF inspect",
       "tags": [
@@ -89,7 +89,7 @@
       "affCommission": 0
     },
     {
-      "name": "TapXWorld/ChinaTextbook",
+      "name": "Chinatextbook",
       "url": "https://github.com/TapXWorld/ChinaTextbook",
       "desc": "精选 TapXWorld/ChinaTextbook：所有小初高、大学PDF教材。，适用于文本清洗场景，开箱即用。",
       "tags": [
@@ -102,10 +102,12 @@
       "affCommission": 0
     },
     {
-      "name": "PrimeIntellect-ai/prime-agent",
+      "name": "Prime Agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "desc": "A self-improving RLM agent for coding workflows and long-run",
-      "tags": [],
+      "desc": "Prime Agent 是一款面向「文本清洗」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "文本清洗"
+      ],
       "category": "文本清洗",
       "updated": "2026-08-14",
       "aff": "",
@@ -113,10 +115,12 @@
       "affCommission": 0
     },
     {
-      "name": "drawdb-io/drawdb",
+      "name": "Drawdb",
       "url": "https://github.com/drawdb-io/drawdb",
-      "desc": "Free, simple, and intuitive online database diagram editor a",
-      "tags": [],
+      "desc": "Drawdb 是一款面向「文本清洗」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "文本清洗"
+      ],
       "category": "文本清洗",
       "updated": "2026-08-14",
       "aff": "",
@@ -124,10 +128,12 @@
       "affCommission": 0
     },
     {
-      "name": "macro-inc/macro",
+      "name": "Macro",
       "url": "https://github.com/macro-inc/macro",
-      "desc": "Macro is a unified workspace for teams: email, chat, docs, t",
-      "tags": [],
+      "desc": "Macro 是一款面向「文本清洗」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "文本清洗"
+      ],
       "category": "文本清洗",
       "updated": "2026-08-14",
       "aff": "",
@@ -135,10 +141,12 @@
       "affCommission": 0
     },
     {
-      "name": "Lightricks/LTX-2",
+      "name": "LTX 2",
       "url": "https://github.com/Lightricks/LTX-2",
-      "desc": "Official Python inference and LoRA trainer package for the L",
-      "tags": [],
+      "desc": "LTX 2 是一款面向「文本清洗」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "文本清洗"
+      ],
       "category": "文本清洗",
       "updated": "2026-08-14",
       "aff": "",
@@ -146,10 +154,12 @@
       "affCommission": 0
     },
     {
-      "name": "LadybirdBrowser/ladybird",
+      "name": "Ladybird",
       "url": "https://github.com/LadybirdBrowser/ladybird",
-      "desc": "Truly independent web browser",
-      "tags": [],
+      "desc": "Ladybird 是一款面向「文本清洗」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "文本清洗"
+      ],
       "category": "文本清洗",
       "updated": "2026-08-14",
       "aff": "",

@@ -50,7 +50,7 @@
       "updated": "2026-08-13"
     },
     {
-      "name": "unslothai/unsloth",
+      "name": "Unsloth",
       "url": "https://github.com/unslothai/unsloth",
       "desc": "精选 unslothai/unsloth：Local UI to run and train LLMs and d，适用",
       "tags": [
@@ -63,7 +63,7 @@
       "affCommission": 0
     },
     {
-      "name": "NVIDIA-NeMo/Switchyard",
+      "name": "Switchyard",
       "url": "https://github.com/NVIDIA-NeMo/Switchyard",
       "desc": "精选 NVIDIA-NeMo/Switchyard：Switchyard lets LLM applications r",
       "tags": [
@@ -76,7 +76,7 @@
       "affCommission": 0
     },
     {
-      "name": "lightningpixel/modly",
+      "name": "Modly",
       "url": "https://github.com/lightningpixel/modly",
       "desc": "精选 lightningpixel/modly：Desktop app to generate 3D models fr",
       "tags": [
@@ -89,10 +89,12 @@
       "affCommission": 0
     },
     {
-      "name": "altic-dev/FluidVoice",
+      "name": "Fluidvoice",
       "url": "https://github.com/altic-dev/FluidVoice",
-      "desc": "Fastest and only macOS Dictation app with on-device STT and ",
-      "tags": [],
+      "desc": "Fluidvoice 是一款面向「本地显卡」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "本地显卡"
+      ],
       "category": "本地显卡",
       "updated": "2026-08-14",
       "aff": "",
@@ -100,7 +102,7 @@
       "affCommission": 0
     },
     {
-      "name": "TencentCloud/TencentDB-Agent-Memory",
+      "name": "Tencentdb Agent Memory",
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "desc": "精选 TencentCloud/TencentDB-Agent-Memory：TencentDB Agent Memor",
       "tags": [
@@ -113,7 +115,7 @@
       "affCommission": 0
     },
     {
-      "name": "Comfy-Org/ComfyUI",
+      "name": "Comfyui",
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "desc": "精选 Comfy-Org/ComfyUI：The most powerful and modular diffus，适用",
       "tags": [
@@ -126,10 +128,12 @@
       "affCommission": 0
     },
     {
-      "name": "cactus-compute/needle",
+      "name": "Needle",
       "url": "https://github.com/cactus-compute/needle",
-      "desc": "14MB foundation model for tiny devices; phones, wearables, s",
-      "tags": [],
+      "desc": "Needle 是一款面向「本地显卡」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "本地显卡"
+      ],
       "category": "本地显卡",
       "updated": "2026-08-14",
       "aff": "",
@@ -137,10 +141,12 @@
       "affCommission": 0
     },
     {
-      "name": "msitarzewski/agency-agents",
+      "name": "Agency Agents",
       "url": "https://github.com/msitarzewski/agency-agents",
-      "desc": "A complete AI agency at your fingertips - From frontend wiza",
-      "tags": [],
+      "desc": "Agency Agents 是一款面向「本地显卡」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "本地显卡"
+      ],
       "category": "本地显卡",
       "updated": "2026-08-14",
       "aff": "",
@@ -148,10 +154,12 @@
       "affCommission": 0
     },
     {
-      "name": "addyosmani/agent-skills",
+      "name": "Agent Skills",
       "url": "https://github.com/addyosmani/agent-skills",
-      "desc": "Production-grade engineering skills for AI coding agents.",
-      "tags": [],
+      "desc": "Agent Skills 是一款面向「本地显卡」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "tags": [
+        "本地显卡"
+      ],
       "category": "本地显卡",
       "updated": "2026-08-14",
       "aff": "",

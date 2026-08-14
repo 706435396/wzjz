@@ -124,16 +124,16 @@
     },
     {
       "slug": "holaboss-ai-holaos-支持哪些文件格式",
-      "title": "holaboss-ai/holaOS 支持哪些文件格式？",
-      "summary": "holaboss-ai/holaOS 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Ma",
-      "body": "<p>holaboss-ai/holaOS 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Markdown 及主流图片/表格格式。上传前请确认编码为 UTF-8、单文件不超过站点限制，避免解析失败；批量场景建议统一格式后再一次性导入。</p><p>相关工具：<a href=\"https://github.com/holaboss-ai/holaOS\">holaboss-ai/holaOS</a></p>",
+      "title": "Holaos 支持哪些文件格式？",
+      "summary": "Holaos 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Ma",
+      "body": "<p>Holaos 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Markdown 及主流图片/表格格式。上传前请确认编码为 UTF-8、单文件不超过站点限制，避免解析失败；批量场景建议统一格式后再一次性导入。</p><p>相关工具：<a href=\"https://github.com/holaboss-ai/holaOS\">Holaos</a></p>",
       "tags": [
         "holaboss-ai/holaOS",
         "教程",
         "问答"
       ],
       "category": "跨境短视频",
-      "keywords": "holaboss-ai/holaOS,教程,问答",
+      "keywords": "Holaos,教程,问答",
       "relatedTools": [
         "holaboss-ai/holaOS"
       ],
@@ -141,16 +141,16 @@
     },
     {
       "slug": "cathrynlavery-diagram-design-免费版有哪些限制",
-      "title": "cathrynlavery/diagram-design 免费版有哪些限制？",
-      "summary": "cathrynlavery/diagram-design 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制",
-      "body": "<p>cathrynlavery/diagram-design 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小、并发数或导出格式。使用前在官网「定价」页核对当前套餐明细，按实际体量选择，避免生产环境触达上限中断。</p><p>相关工具：<a href=\"https://github.com/cathrynlavery/diagram-design\">cathrynlavery/diagram-design</a></p>",
+      "title": "Diagram Design 免费版有哪些限制？",
+      "summary": "Diagram Design 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制",
+      "body": "<p>Diagram Design 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小、并发数或导出格式。使用前在官网「定价」页核对当前套餐明细，按实际体量选择，避免生产环境触达上限中断。</p><p>相关工具：<a href=\"https://github.com/cathrynlavery/diagram-design\">Diagram Design</a></p>",
       "tags": [
         "cathrynlavery/diagram-design",
         "教程",
         "问答"
       ],
       "category": "跨境短视频",
-      "keywords": "cathrynlavery/diagram-design,教程,问答",
+      "keywords": "Diagram Design,教程,问答",
       "relatedTools": [
         "cathrynlavery/diagram-design"
       ],
@@ -158,16 +158,16 @@
     },
     {
       "slug": "如何在-smicallef-spiderfoot-中导出结果",
-      "title": "如何在 smicallef/spiderfoot 中导出结果？",
-      "summary": "处理完成后，smicallef/spiderfoot 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、J",
-      "body": "<p>处理完成后，smicallef/spiderfoot 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://github.com/smicallef/spiderfoot\">smicallef/spiderfoot</a></p>",
+      "title": "如何在 Spiderfoot 中导出结果？",
+      "summary": "处理完成后，Spiderfoot 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、J",
+      "body": "<p>处理完成后，Spiderfoot 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://github.com/smicallef/spiderfoot\">Spiderfoot</a></p>",
       "tags": [
         "smicallef/spiderfoot",
         "教程",
         "问答"
       ],
       "category": "跨境短视频",
-      "keywords": "smicallef/spiderfoot,教程,问答",
+      "keywords": "Spiderfoot,教程,问答",
       "relatedTools": [
         "smicallef/spiderfoot"
       ],
