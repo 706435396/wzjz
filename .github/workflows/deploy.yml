@@ -1,0 +1,67 @@
+# ============================================================
+# deploy.yml  ——  推送到 main 自动部署 Cloudflare Pages
+# ------------------------------------------------------------
+# 改造点（对应清单「二.2 / 二.4 构建失败自动重试」）：
+#   1) 开启 npm 缓存，缩短依赖安装；
+#   2) 部署前运行 compress-static.js 压缩静态资源，降低 CDN 流量；
+#   3) 部署失败自动重试 2 次（共 3 次尝试），避免偶发失败导致站点不更新；
+#   4) 构建命令留空，输出目录 public（纯静态，秒级，几乎不占额度）。
+# 仅在 push 到 main 触发（merge.yml 每周合并一次 -> 每周 1 次构建）。
+# ============================================================
+name: deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出
+        uses: actions/checkout@v4
+
+      - name: 安装 Node（开启 npm 缓存，缩短依赖安装）
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 安装依赖（脚本零运行时依赖，仅 playwright 可选）
+        run: npm ci || npm install
+
+      - name: 静态资源压缩（CSS/HTML/可选 WebP，降 CDN 流量）
+        run: node scripts/compress-static.js
+
+      - name: 质量门禁（广告过审自检 §9.1）
+        # 分类告警：代码错误（本步之外非零退出）与「站点质量不达标」分开处理。
+        # ads-audit --strict 在存在未达标站点时退出 1 —— 此处仅推送质量类整改告警，
+        # 默认不阻断部署（上线前样例内容薄属预期）；生产环境若要硬拦截，把末尾 `true` 改为 `exit 1`。
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        run: |
+          node scripts/ads-audit.js --strict && echo "✓ 全部子站达广告过审门槛" || {
+            echo "⚠ 有子站未达广告过审门槛（质量类告警，不阻断部署）"
+            if [ -n "$WEBHOOK_URL" ]; then
+              curl -s -X POST "$WEBHOOK_URL" -H 'Content-Type: application/json' \
+                -d "{\"msgtype\":\"text\",\"text\":{\"content\":\"[toolnav 质量告警] 有子站未达广告过审门槛，需补内容：node scripts/lowquality-fix.js\"}}"
+            fi
+            true
+          }
+
+      - name: 部署 Cloudflare Pages（失败自动重试 2 次）
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+        run: |
+          for i in 1 2 3; do
+            echo "部署尝试 $i/3 ..."
+            npx --yes wrangler pages deploy public --project-name=toolnav --commit-dirty=true && { echo "✓ 部署成功"; exit 0; }
+            echo "部署失败，休眠 15s 后重试"
+            sleep 15
+          done
+          echo "✕ 部署重试耗尽"; exit 1

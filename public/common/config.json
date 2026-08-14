@@ -1,0 +1,256 @@
+{
+  "_readme": [
+    "全站统一变现配置（200 个子域名共用这一份，改这里即全站生效）。",
+    "本站无 ICP 备案 → 只接海外广告联盟 + CPS 分销，不接百度联盟/百青藤/穿山甲/优量汇等需备案平台。",
+    "语种路由：中文站 = Adsterra（无备案要求，中文站易过审）；小语种站 = Google AdSense（美金单价高）。",
+    "重要：AdSense 是 Google 脚本，仅在 langProvider 指定的小语种站加载；中文站保持零 Google 依赖。",
+    "所有 ID 留空时 → 前端只渲染占位、不发任何网络请求，可安全先部署再补 ID。"
+  ],
+  "version": 1,
+
+  "quality": {
+    "_note": "广告过审风控门槛（scripts/ads-audit.js 按此判定；不达标的站点自动屏蔽广告，避免联盟判低质站群拒审/封号）",
+    "enforce": true,
+    "minTools": 8,
+    "minArticles": 3,
+    "minArticleChars": 600,
+    "blockGray": true
+  },
+
+  "langProvider": {
+    "_note": "语种 -> 广告商路由。站点 config.json 里写 ads.provider 可单站覆盖。",
+    "zh-CN": "adsterra",
+    "zh": "adsterra",
+    "es": "adsense",
+    "de": "adsense",
+    "vi": "adsense",
+    "en": "adsense",
+    "default": "adsterra"
+  },
+
+  "providers": {
+    "adsterra": {
+      "_note": [
+        "Adsterra 后台 → Websites 添加 *.72tool.com 各子域名 → Create Ad Unit 取代码。",
+        "native（原生横幅）代码形如：<script async data-cfasync=\"false\" src=\"//pl00000.profitablecpmgate.com/xxxxxxxx/invoke.js\"></script><div id=\"container-xxxxxxxx\"></div>",
+        "→ 把 src 填到 invoke，把 container- 后面那串填到 key。",
+        "banner（iframe 横幅）代码里有 atOptions.key → 填 key，invoke 填 //www.highperformanceformat.com，并填 width/height。",
+        "type 可选：native | banner | off"
+      ],
+      "enabled": false,
+      "slots": {
+        "sidebar": { "type": "native", "key": "", "invoke": "" },
+        "article": { "type": "native", "key": "", "invoke": "" },
+        "mobile": { "type": "banner", "key": "", "invoke": "//www.highperformanceformat.com", "width": 320, "height": 50 },
+        "top": { "type": "off" }
+      }
+    },
+
+    "adsense": {
+      "_note": [
+        "AdSense 不要求 ICP 备案，但要求：自有顶级子域名（不能用 pages.dev）、内容合规、有足量原创教程。",
+        "client 填 ca-pub-xxxxxxxxxxxxxxxx；各 slot 填广告单元的 data-ad-slot 数字 ID。",
+        "多账号隔离（§1.4）：用 accounts 数组按 lang/站点分组不同 client，单账号违规不牵连全站群；",
+        "向后兼容：未配置 accounts 时仍可用顶层单 client（旧写法）。站点可加 ads.adsenseAccount:\"B\" 强制指定。"
+      ],
+      "enabled": false,
+      "client": "",
+      "slots": { "sidebar": "", "article": "", "mobile": "", "top": "" },
+      "accounts": [
+        { "id": "A", "client": "", "slots": { "sidebar": "", "article": "", "mobile": "", "top": "" }, "sites": ["es", "de"] },
+        { "id": "B", "client": "", "slots": { "sidebar": "", "article": "", "mobile": "", "top": "" }, "sites": ["en", "vi"] }
+      ]
+    },
+
+    "fallback": {
+      "_note": "填充兜底（PopAds / RevenueHits）：主广告 delayMs 毫秒内未撑起高度才注入，仅补空量，不作主力；fill=false 可关闭。",
+      "enabled": false,
+      "network": "revenuehits",
+      "src": "",
+      "delayMs": 4000,
+      "fill": true
+    }
+  },
+
+  "analytics": {
+    "_note": "Cloudflare Web Analytics：免备案、无 Cookie、零 Google。CF 面板 → Web Analytics → 取 token 填入即可。",
+    "cfBeaconToken": ""
+  },
+
+  "template": {
+    "_note": "§3.1 模板随机渲染：按 子域名+当天 稳定哈希分到不同变体，跨站不同、同日同站一致（SEO 友好不闪动），规避广告 AI 判批量站群。仅改排版细节，不破坏布局。",
+    "variants": ["v1", "v2", "v3"]
+  },
+
+  "adDensity": {
+    "_note": "§3.2 广告密度控制：资讯内文最多 maxPerArticle 处、全页最多 maxPerPage 处，超出自动移除多余位，防联盟判广告堆砌低质站。",
+    "enabled": true,
+    "maxPerArticle": 2,
+    "maxPerPage": 4
+  },
+
+  "mobileAd": {
+    "_note": "§4.2 移动端广告限流：窄屏（≤768px）只保留底部横幅，移除侧边/内文位，降跳出。桌面端不受影响。",
+    "limitToBottom": true
+  },
+
+  "ipRisk": {
+    "_note": "§3.5 边缘 IP 风控：前端拉 /api/ads-guard（读 Cloudflare threat_score）；命中高威胁分/已知坏 UA 则本页不展示广告，防恶意点击封号。边缘层优先，前端仅弱兜底。",
+    "enabled": true,
+    "maxThreatScore": 20,
+    "blocklist": ["semrushbot", "ahrefsbot", "mj12bot", "dotbot"],
+      "proxyDetect": true
+    },
+
+    "crawlerIsolation": {
+      "_note": "§3.3 爬虫与真人访问广告隔离：命中常见爬虫 UA（Googlebot/Bingbot/百度/Yandex 等）则不注入任何广告脚本，仅真人访客展示，减少无效曝光、提升 eCPM。弱防 spoof，配合 §3.5 边缘层更佳。",
+      "enabled": true,
+      "bots": ["googlebot", "bingbot", "baiduspider", "yandex", "yandexbot", "duckduckbot", "sogou", "360spider", "bytespider", "applebot"]
+    },
+
+    "schedule": {
+      "_note": "§1.2 分时广告开关：命中关闭时段（本地时区比对）直接不展示广告、不发起请求，避免凌晨低流量无效曝光拉低 eCPM。按 region 覆盖时区。",
+      "enabled": false,
+      "timezone": "Asia/Shanghai",
+      "offHours": [{ "start": "00:00", "end": "07:00" }],
+      "regionOverrides": { "global": { "offHours": [{ "start": "00:00", "end": "06:00" }] } }
+    },
+
+    "adblock": {
+      "_note": "§1.3 广告防屏蔽兼容：用户装 AdBlock 时主广告被拦，轻量探针命中则在同容器渲染合规工具推荐（复用 affiliate.boxHTML，sponsored nofollow），不弹窗、不强制。",
+      "enabled": false,
+      "fallbackText": "为你精选好用的工具"
+    },
+
+    "skeleton": {
+      "_note": "§4.3 广告骨架屏占位：渲染广告前先注入同尺寸占位（防 CLS 布局抖动），填充后替换、移除时淡出。",
+      "enabled": true,
+      "heights": { "sidebar": 280, "article": 120, "mobile": 50, "top": 90 }
+    },
+
+    "adClose": {
+      "_note": "§4.5 广告一键关闭：每个广告位加 ✕ 关闭按钮，localStorage 记 rememberDays 后恢复；关闭仅隐藏本类广告，不影响其他位，降低举报率。",
+      "enabled": true,
+      "rememberDays": 1
+    },
+
+    "report": {
+    "_note": "§1.5/§2.5/§5.1 报表与告警：ad-report.js / aff-dashboard.js / monit-audit.js 共用。wecomWebhook 填企业微信机器人地址后自动推送（免备案、不依赖 Gmail）；archiveDir 为收益归档目录（已加 .gitignore）。",
+    "wecomWebhook": "",
+    "schedule": "daily",
+    "archiveDir": "data/reports",
+    "monthlyDoc": true
+  },
+
+  "affiliate": {
+    "_note": [
+      "CPS 工具分销：工具卡片外链自动替换为专属追踪链接，用户注册/付费即得佣金。无需广告资质、不用备案。",
+      "填好各联盟 pid 后运行：node scripts/affiliate-links.js  → 批量回填到各站 data/list.json 的 aff 字段。",
+      "subIdParam：自动附加当前子域名做归因，200 个站共用一条链接也能分清是哪个站带来的转化。",
+      "合规：分销链接一律 rel=\"sponsored nofollow noopener\" 并在卡片标注「分销合作」，符合搜索引擎付费链接披露要求。"
+    ],
+    "enabled": true,
+    "subIdParam": "subId1",
+    "label": "分销合作",
+    "sortByCommission": true,
+    "networks": {
+      "cj": {
+        "_note": "CJ Affiliate → Links → Create Deep Link 取形如 https://www.anrdoezrs.net/links/<PID>/type/dlg/<目标URL> 的模板；pid 填你的 Website ID。",
+        "pid": "",
+        "deeplink": "https://www.anrdoezrs.net/links/{PID}/type/dlg/{URL}"
+      },
+      "impact": {
+        "_note": "Impact / PartnerStack 系：domain 填你账户的短域名（如 imp.i123456.net），cid/mid 在 affiliate-map.json 里按商家单独配置。",
+        "pid": "",
+        "domain": "",
+        "deeplink": "https://{DOMAIN}/c/{PID}/{CID}/{MID}?u={URL}"
+      },
+      "partnerstack": {
+        "_note": "PartnerStack 多数商家给的是固定推广链接，模板里 {URL} 会被替换为商家着陆页。",
+        "pid": "",
+        "deeplink": "{URL}?utm_source=partnerstack&utm_medium=affiliate&ps_partner_key={PID}"
+      },
+      "avangate": {
+        "_note": "Avangate/2Checkout 桌面软件一次性高佣，pid 填 Affiliate ID。",
+        "pid": "",
+        "deeplink": "{URL}?avad={PID}"
+      },
+      "generic": {
+        "_note": "商家自建分销（?ref= / ?via= 形式）兜底模板。",
+        "pid": "",
+        "deeplink": "{URL}?ref={PID}"
+      }
+    },
+    "articleBox": {
+      "_note": "资讯详情页的分销推荐位（收益最高的位置）。",
+      "enabled": true,
+      "count": 2,
+      "title": "本文相关工具"
+    },
+    "trial": {
+      "_note": "§4.1 免费试用引导浮层：高佣且 t.promo.type==='trial' 的工具点击弹出极简试用引导（非广告、不触发联盟违规），含一键复制试用链接。需 affiliate-map.json 规则带 promo 字段，默认关。",
+      "enabled": false,
+      "popupCooldownHours": 24
+    },
+    "copyButton": {
+      "_note": "§4.4 一键复制分销短链：卡片加「复制推广链接」按钮（navigator.clipboard 复制 affShort 或 AFF.href），站外社群推广用。默认关。",
+      "enabled": false
+    }
+  },
+
+  "compliance": {
+    "_note": "站群合规（过审前置，P0）：多语种隐私政策页 + Cookie 告知。Adsterra/AdSense 强制要求；无 ICP 备案时中文隐私声明对海外网络无法律效力，必须多语种真实页面。",
+    "privacy": {
+      "enabled": true,
+      "_note": "隐私页模板 public/privacy.html（按子站 config.lang 渲染 zh/en/es/de，默认英文）。footer 默认全站挂链接。",
+      "langs": ["zh", "en", "es", "de"],
+      "path": "/privacy"
+    },
+    "cookie": {
+      "enabled": true,
+      "_note": "regions 为空数组 [] → 全站显示；['global'] → 仅小语种(region=global)站点显示，中文站(region=cn)不显示。非弹窗底部条，一键同意/拒绝，localStorage 记忆。",
+      "regions": ["global"],
+      "rememberDays": 180
+    },
+    "disclaimer": {
+      "enabled": true,
+      "_note": "按语种在 footer/分销位展示地区合规免责（FTC/GDPR 等）。",
+      "byLang": {
+        "en": "This site contains affiliate links; as an affiliate we may earn a commission from qualifying purchases at no extra cost to you.",
+        "es": "Este sitio contiene enlaces de afiliado; podemos recibir una comisión sin coste adicional para ti.",
+        "de": "Diese Website enthält Affiliate-Links; wir erhalten ggf. eine Provision ohne Mehrkosten für dich.",
+        "zh": "本站含分销合作链接，通过链接注册或购买可能产生佣金（不影响你的价格）。"
+      }
+    }
+  },
+
+  "promo": {
+    "_note": "§7.3 站外引流推广页：public/promo.html 按赛道聚合工具合集 + 分销短链，纯 CPS 不引广告位，适合小红书/知乎/海外社媒 bio 引流。默认关。",
+    "enabled": false,
+    "tracks": []
+  },
+
+  "topic": {
+    "_note": "§8.2 站内专题聚合页：public/topic.html（/topic/<slug>）按用途聚合工具合集（含广告位+分销推荐），build-sitemap 自动收录。默认关。",
+    "enabled": false,
+    "defs": []
+  },
+
+  "crawl": {
+    "_note": "§8.1 资讯 AI 问答长尾：main-crawl.js 按 qaRatio 比例生成问答式文章（覆盖百度/谷歌问答长尾）。无 Key 降级启发式。",
+    "qaEnabled": true,
+    "qaRatio": 0.6
+  },
+
+  "finance": {
+    "_note": "§6 财务税务配套：零备案、纯脚本。currency 为目标对账币种；fx 为各源币种→目标币种近似汇率（运营按月校准，勿硬编码依赖）；payoneer 按中/小语种站拆收款渠道，降低单账号结汇风控；withdrawalWebhook 提现提醒。",
+    "currency": "CNY",
+    "archiveDir": "data/reports",
+    "fx": { "USD": 7.2, "EUR": 7.8, "GBP": 9.0 },
+    "payoneer": [
+      { "label": "cn", "networks": ["adsterra"], "_note": "中文站广告收益走此收款账号" },
+      { "label": "global", "networks": ["adsense", "cj", "impact", "partnerstack", "avangate", "generic"], "_note": "小语种站（AdSense + 各分销联盟）走此收款账号" }
+    ],
+    "withdrawalWebhook": ""
+  }
+}

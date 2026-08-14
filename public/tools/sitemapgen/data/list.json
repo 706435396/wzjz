@@ -1,0 +1,152 @@
+{
+  "updated": "2026-08-14",
+  "tools": [
+    {
+      "name": "SitemapGen 在线生成",
+      "url": "https://sitemapgen.72tool.com",
+      "desc": "本站核心工具：输入根网址自动爬取整站，生成标准 sitemap.xml，支持分页与多子站索引聚合。",
+      "tags": [
+        "sitemap",
+        "生成",
+        "SEO"
+      ],
+      "category": "站点地图",
+      "updated": "2026-08-14"
+    },
+    {
+      "name": "Screaming Frog SEO Spider",
+      "url": "https://www.screamingfrog.co.uk/seo-spider/",
+      "desc": "桌面端站点爬取神器，免费版可抓取 500 个 URL，导出完整 sitemap 与 SEO 问题报告。",
+      "tags": [
+        "爬取",
+        "SEO",
+        "桌面"
+      ],
+      "category": "站点地图",
+      "updated": "2026-08-10"
+    },
+    {
+      "name": "xml-sitemap 生成库",
+      "url": "https://github.com/ekalinin/sitemap.js",
+      "desc": "Node 端 sitemap 生成库，支持超大站点流式写入与图片/新闻扩展协议。",
+      "tags": [
+        "Node",
+        "库",
+        "流式"
+      ],
+      "category": "开发库",
+      "updated": "2026-08-11"
+    },
+    {
+      "name": "Google Search Console",
+      "url": "https://search.google.com/search-console",
+      "desc": "提交 sitemap、查看收录与索引覆盖率，诊断站点的官方入口。",
+      "tags": [
+        "提交",
+        "收录",
+        "诊断"
+      ],
+      "category": "提交平台",
+      "updated": "2026-08-12"
+    },
+    {
+      "name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "desc": "14MB foundation model for tiny devices; phones, wearables, s",
+      "tags": [],
+      "category": "SEO工具",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "desc": "Agent skills for Obsidian. Teach your agent to use Obsidian ",
+      "tags": [],
+      "category": "SEO工具",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "desc": "Public repository for Agent Skills",
+      "tags": [],
+      "category": "SEO工具",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "holaboss-ai/holaOS",
+      "url": "https://github.com/holaboss-ai/holaOS",
+      "desc": "Open-source All in One AI agent workspace. Run any agent — C",
+      "tags": [],
+      "category": "SEO工具",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "desc": "Agent Skills for Google products and technologies",
+      "tags": [],
+      "category": "SEO工具",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "LadybirdBrowser/ladybird",
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "desc": "Truly independent web browser",
+      "tags": [],
+      "category": "SEO工具",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "megadose/holehe",
+      "url": "https://github.com/megadose/holehe",
+      "desc": "holehe allows you to check if the mail is used on different ",
+      "tags": [],
+      "category": "SEO工具",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "desc": "A self-improving RLM agent for coding workflows and long-run",
+      "tags": [],
+      "category": "SEO工具",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "desc": "DeepSeek-native AI coding agent for your terminal. Engineere",
+      "tags": [],
+      "category": "SEO工具",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    }
+  ]
+}

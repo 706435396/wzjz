@@ -1,0 +1,151 @@
+{
+  "updated": "2026-08-14",
+  "tools": [
+    {
+      "name": "Limpiador de texto TxtClean",
+      "url": "https://txtclean.72tool.com/?site=tools/txtclean",
+      "desc": "Herramienta gratuita para limpiar texto antiguo: elimina caracteres extraños, espacios y líneas vacías, y añade puntuación.",
+      "tags": [
+        "texto",
+        "limpieza",
+        "puntuación"
+      ],
+      "category": "Limpieza de texto",
+      "updated": "2026-08-14"
+    },
+    {
+      "name": "Generador de sitemap",
+      "url": "https://sitemapgen.72tool.com/?site=tools/sitemapgen",
+      "desc": "Genera un sitemap.xml estándar para tu sitio web y mejora el SEO en buscadores.",
+      "tags": [
+        "sitemap",
+        "SEO",
+        "xml"
+      ],
+      "category": "SEO",
+      "updated": "2026-08-14"
+    },
+    {
+      "name": "Ollama (IA local)",
+      "url": "https://ollama.com",
+      "desc": "Ejecuta modelos de lenguaje en tu propia computadora, sin enviar datos a la nube.",
+      "tags": [
+        "ia",
+        "local",
+        "privado"
+      ],
+      "category": "Inteligencia artificial",
+      "updated": "2026-08-13"
+    },
+    {
+      "name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "desc": "29 editorial diagram types for Claude Code. Self-contained H",
+      "tags": [],
+      "category": "Utilidades",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "desc": "Macro is a unified workspace for teams: email, chat, docs, t",
+      "tags": [],
+      "category": "Utilidades",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "3b1b/manim",
+      "url": "https://github.com/3b1b/manim",
+      "desc": "Animation engine for explanatory math videos",
+      "tags": [],
+      "category": "Utilidades",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "desc": "14MB foundation model for tiny devices; phones, wearables, s",
+      "tags": [],
+      "category": "Utilidades",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "kepano/obsidian-skills",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "desc": "Agent skills for Obsidian. Teach your agent to use Obsidian ",
+      "tags": [],
+      "category": "Utilidades",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "cloudflare/computer",
+      "url": "https://github.com/cloudflare/computer",
+      "desc": "Give your agent a computer 👾",
+      "tags": [],
+      "category": "Utilidades",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "desc": "DeepSeek-native AI coding agent for your terminal. Engineere",
+      "tags": [],
+      "category": "Utilidades",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "smicallef/spiderfoot",
+      "url": "https://github.com/smicallef/spiderfoot",
+      "desc": "SpiderFoot automates OSINT for threat intelligence and mappi",
+      "tags": [],
+      "category": "Utilidades",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "desc": "Agent Skills for Google products and technologies",
+      "tags": [],
+      "category": "Utilidades",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "desc": "Reverse Engineering / Authorized Penetration Testing / Secur",
+      "tags": [],
+      "category": "Utilidades",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    }
+  ]
+}

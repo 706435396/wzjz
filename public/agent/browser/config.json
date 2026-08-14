@@ -1,0 +1,46 @@
+{
+  "domain": "browseragent.72tool.com",
+  "name": "Browser Agent 浏览器自动化智能体导航",
+  "title": "Browser Agent 导航 | 浏览器自动化 AI 智能体精选 - 72tool",
+  "description": "汇总最优质的浏览器自动化 Agent 工具，涵盖网页抓取、表单自动填写、RPA 流程编排，让重复操作一键完成，效率倍增。",
+  "keywords": "浏览器自动化, Browser Agent, RPA, 网页抓取, AI智能体, Playwright, Puppeteer",
+  "category": "AI Agent",
+  "lang": "zh-CN",
+  "base": "/agent/browser",
+  "article": {
+    "enabled": true,
+    "categories": [
+      "部署教程",
+      "使用技巧",
+      "选型对比",
+      "避坑指南"
+    ]
+  },
+  "ads": {
+    "enabled": true,
+    "region": "cn",
+    "provider": "adsterra",
+    "slots": {
+      "top": "",
+      "sidebar": "",
+      "article": ""
+    }
+  },
+  "theme": {
+    "brand": "#dc2626",
+    "layout": "grid",
+    "navOrder": [
+      "首页",
+      "教程资讯",
+      "Agent 集群",
+      "工具集群"
+    ]
+  },
+  "community": {
+    "enabled": true,
+    "title": "开发者社群",
+    "url": "/community"
+  },
+  "top": true,
+  "imageSitemap": true
+}

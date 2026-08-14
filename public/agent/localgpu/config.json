@@ -1,0 +1,46 @@
+{
+  "domain": "gpuagent.72tool.com",
+  "name": "GPU Agent 本地离线显卡智能体导航",
+  "title": "GPU Agent 导航 | 本地离线显卡 AI 智能体精选 - 72tool",
+  "description": "本地离线运行的显卡 AI 智能体导航：私有部署大模型、Stable Diffusion 出图、本地向量库，数据不出本机，安全又免费。",
+  "keywords": "本地AI, GPU Agent, 离线大模型, Stable Diffusion, 私有部署, Ollama, 显卡推理",
+  "category": "AI Agent",
+  "lang": "zh-CN",
+  "base": "/agent/localgpu",
+  "article": {
+    "enabled": true,
+    "categories": [
+      "部署教程",
+      "使用技巧",
+      "选型对比",
+      "避坑指南"
+    ]
+  },
+  "ads": {
+    "enabled": true,
+    "region": "cn",
+    "provider": "adsterra",
+    "slots": {
+      "top": "",
+      "sidebar": "",
+      "article": ""
+    }
+  },
+  "theme": {
+    "brand": "#059669",
+    "layout": "list",
+    "navOrder": [
+      "首页",
+      "教程资讯",
+      "Agent 集群",
+      "工具集群"
+    ]
+  },
+  "community": {
+    "enabled": true,
+    "title": "开发者社群",
+    "url": "/community"
+  },
+  "top": true,
+  "imageSitemap": true
+}

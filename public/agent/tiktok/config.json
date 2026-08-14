@@ -1,0 +1,46 @@
+{
+  "domain": "tiktokagent.72tool.com",
+  "name": "TikTok Agent 跨境短视频智能体导航",
+  "title": "TikTok Agent 导航 | 跨境电商短视频 AI 智能体精选 - 72tool",
+  "description": "面向跨境出海的 TikTok 短视频智能体导航：脚本生成、自动剪辑、账号矩阵运营、爆款数据挖掘，一站式提升内容产能。",
+  "keywords": "TikTok Agent, 跨境电商, 短视频, AI剪辑, 账号矩阵, 爆款挖掘",
+  "category": "AI Agent",
+  "lang": "zh-CN",
+  "base": "/agent/tiktok",
+  "article": {
+    "enabled": true,
+    "categories": [
+      "部署教程",
+      "使用技巧",
+      "选型对比",
+      "避坑指南"
+    ]
+  },
+  "ads": {
+    "enabled": true,
+    "region": "cn",
+    "provider": "adsterra",
+    "slots": {
+      "top": "",
+      "sidebar": "",
+      "article": ""
+    }
+  },
+  "theme": {
+    "brand": "#d97706",
+    "layout": "masonry",
+    "navOrder": [
+      "首页",
+      "教程资讯",
+      "Agent 集群",
+      "工具集群"
+    ]
+  },
+  "community": {
+    "enabled": true,
+    "title": "开发者社群",
+    "url": "/community"
+  },
+  "top": true,
+  "imageSitemap": true
+}

@@ -1,0 +1,91 @@
+# ============================================================
+# monit.yml  ——  变现监控与报表流水线（OPTIMIZATION-PLUS §1.5 / §2.5 / §5.x / §9）
+# ------------------------------------------------------------
+# 分段调度（避免一次性跑满，且分类清晰）：
+#   * 每日 北京03:00（UTC 19:00）：广告收益日报 ad-report.js        → 推送企业微信
+#   * 每周一 北京04:00（UTC 20:00）：aff-check 巡检 + lowquality 整改清单
+#                                    + aff-dashboard 分销看板      → 推送
+#   * 每月1日 北京05:00（UTC 21:00）：ad-report + aff-dashboard + revenue-archive
+#                                    + finance-recon 对账 + monthly-doc 汇总文档 → 提交 docs/
+# workflow_dispatch 手动触发时跑全量（便于调试）。
+# 依赖 Secrets：WEBHOOK_URL（企业微信机器人，报表/告警推送）。无密钥则仅生成归档、不推送。
+# ============================================================
+name: monit
+
+on:
+  schedule:
+    - cron: '0 19 * * *'      # 每日 广告日报
+    - cron: '0 20 * * 1'      # 每周一 分销巡检+看板
+    - cron: '0 21 1 * *'      # 每月1日 财务对账+月度文档
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  monit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+    steps:
+      - name: 检出
+        uses: actions/checkout@v4
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 安装依赖
+        run: npm ci || npm install
+
+      # —— 每日：广告收益日报 ——
+      - name: ① 广告收益日报（每日）
+        if: ${{ github.event.schedule == '0 19 * * *' || github.event_name == 'workflow_dispatch' }}
+        run: node scripts/ad-report.js
+
+      # —— 每周一：分销巡检 + 整改清单 + 看板 ——
+      - name: ② 分销链接巡检（每周）
+        if: ${{ github.event.schedule == '0 20 * * 1' || github.event_name == 'workflow_dispatch' }}
+        run: node scripts/aff-check.js --dry
+
+      - name: ③ 低质站点整改清单（每周）
+        if: ${{ github.event.schedule == '0 20 * * 1' || github.event_name == 'workflow_dispatch' }}
+        run: node scripts/lowquality-fix.js
+
+      - name: ④ 站群分销看板（每周）
+        if: ${{ github.event.schedule == '0 20 * * 1' || github.event_name == 'workflow_dispatch' }}
+        run: node scripts/aff-dashboard.js
+
+      # —— 每月1日：全量对账 + 月度文档 ——
+      - name: ⑤ 月度全量（广告+分销+归档）
+        if: ${{ github.event.schedule == '0 21 1 * *' || github.event_name == 'workflow_dispatch' }}
+        run: |
+          node scripts/ad-report.js
+          node scripts/aff-dashboard.js
+          node scripts/revenue-archive.js
+          node scripts/finance-recon.js || echo "（未提供 fx-input，跳过对账）"
+
+      - name: ⑥ 生成月度汇总文档（每月，提交 docs/）
+        if: ${{ github.event.schedule == '0 21 1 * *' || github.event_name == 'workflow_dispatch' }}
+        run: |
+          node scripts/monthly-doc.js
+          git config user.name "toolnav-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/revenue-*.md
+          git commit -m "docs(revenue): 月度变现汇总 $(date +%F)" || echo "无变化"
+
+      - name: ⑦ 推送（有变更才 push）
+        if: ${{ github.event.schedule == '0 21 1 * *' || github.event_name == 'workflow_dispatch' }}
+        run: git push origin HEAD
+
+      # —— 统一告警（失败兜底）——
+      - name: ⑧ 失败告警
+        if: failure()
+        run: |
+          if [ -n "$WEBHOOK_URL" ]; then
+            curl -s -X POST "$WEBHOOK_URL" -H 'Content-Type: application/json' \
+              -d "{\"msgtype\":\"text\",\"text\":{\"content\":\"[toolnav monit] 变现流水线失败，请检查日志\"}}"
+          fi

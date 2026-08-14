@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>隐私政策 - 72tool</title>
+  <meta name="description" content="72tool 工具导航站群隐私政策：统计、广告与分销链接的数据处理方式" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" id="canonical" href="" />
+  <link rel="stylesheet" href="/common/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" id="brand" href="/">72tool</a>
+      <nav class="topnav" id="topnav" aria-label="站点导航">
+        <a href="/">首页</a><a href="/article">教程资讯</a><a href="/community">社群</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换深色 / 浅色模式">🌓</button>
+    </div>
+  </header>
+
+  <main class="wrap privacy" id="main">
+    <!-- 隐私政策正文由 public/common/privacy.js 按当前子站语种渲染 -->
+    <div id="privacyContent" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap" id="footer">
+      <a href="/privacy">隐私政策</a>
+      <a href="/community">社群</a>
+      <a href="/cooperation">合作</a>
+    </div>
+  </footer>
+
+  <!-- 主题切换（轻量内联，不依赖 app.js，避免隐私页缺 DOM 报错） -->
+  <script>
+    (function () {
+      var saved = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (saved === 'dark' || (!saved && prefersDark)) document.documentElement.classList.add('dark');
+      document.getElementById('themeToggle').addEventListener('click', function () {
+        var isDark = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      });
+    })();
+  </script>
+
+  <!-- 站点探测（HOST_MAP 单一来源） + 隐私政策渲染 + Cookie 告知 -->
+  <script src="/common/site.js"></script>
+  <script src="/common/privacy.js"></script>
+  <!-- Cookie 提示也在此页显示，便于用户在隐私页直接给出同意 -->
+  <script src="/common/cookie.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+{
+  "updated": "2026-08-14",
+  "articles": [
+    {
+      "slug": "limpiar-texto-antiguo-gratis",
+      "title": "Cómo limpiar texto antiguo de forma gratuita (guía 2026)",
+      "summary": "Guía paso a paso para eliminar caracteres extraños, espacios y líneas vacías de textos antiguos con TxtClean.",
+      "body": "<p>Los textos escaneados suelen tener caracteres extraños y saltos de línea rotos. Esta guía usa la herramienta TxtClean para limpiarlos en minutos.</p><h2>Paso 1: Pegar el texto</h2><p>Pega el texto OCR en el cuadro y pulsa limpiar.</p><h2>Paso 2: Puntuación</h2><p>Activa la puntuación automática para mejorar la lectura.</p>",
+      "tags": [
+        "texto",
+        "limpieza",
+        "gratis"
+      ],
+      "category": "Tutorial",
+      "keywords": "limpiar texto antiguo gratis, herramienta limpiar texto español, OCR limpiar caracteres",
+      "relatedTools": [
+        "Limpiador de texto TxtClean"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何使用-limpiador-de-texto-txtclean-进行批量处理",
+      "title": "如何使用 Limpiador de texto TxtClean 进行批量处理？",
+      "summary": "Limpiador de texto TxtClean 支持将多个任务合并执行，适合需要重复操作的场景。建议先在小批量上",
+      "body": "<p>Limpiador de texto TxtClean 支持将多个任务合并执行，适合需要重复操作的场景。建议先在小批量上验证效果，再扩展到全量，避免一次性处理大量数据导致等待过久。</p><p>相关工具：<a href=\"https://txtclean.72tool.com/?site=tools/txtclean\">Limpiador de texto TxtClean</a></p>",
+      "tags": [
+        "Limpiador de texto TxtClean",
+        "教程",
+        "问答"
+      ],
+      "category": "Utilidades",
+      "keywords": "Limpiador de texto TxtClean,教程,问答",
+      "relatedTools": [
+        "Limpiador de texto TxtClean"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "generador-de-sitemap-支持哪些文件格式",
+      "title": "Generador de sitemap 支持哪些文件格式？",
+      "summary": "具体支持的格式以 Generador de sitemap 官方页面为准。多数在线工具兼容常见的文本与表格格式；上传前请",
+      "body": "<p>具体支持的格式以 Generador de sitemap 官方页面为准。多数在线工具兼容常见的文本与表格格式；上传前请确认格式符合要求，避免解析失败。</p><p>相关工具：<a href=\"https://sitemapgen.72tool.com/?site=tools/sitemapgen\">Generador de sitemap</a></p>",
+      "tags": [
+        "Generador de sitemap",
+        "教程",
+        "问答"
+      ],
+      "category": "Utilidades",
+      "keywords": "Generador de sitemap,教程,问答",
+      "relatedTools": [
+        "Generador de sitemap"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "ollama-ia-local-免费版有哪些限制",
+      "title": "Ollama (IA local) 免费版有哪些限制？",
+      "summary": "Ollama (IA local) 通常提供免费额度或试用，高级功能可能需要订阅。使用前可在官网查看最新的套餐说明，按需",
+      "body": "<p>Ollama (IA local) 通常提供免费额度或试用，高级功能可能需要订阅。使用前可在官网查看最新的套餐说明，按需选择。</p><p>相关工具：<a href=\"https://ollama.com\">Ollama (IA local)</a></p>",
+      "tags": [
+        "Ollama (IA local)",
+        "教程",
+        "问答"
+      ],
+      "category": "Utilidades",
+      "keywords": "Ollama (IA local),教程,问答",
+      "relatedTools": [
+        "Ollama (IA local)"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何在-cathrynlavery-diagram-design-中导出结果",
+      "title": "如何在 cathrynlavery/diagram-design 中导出结果？",
+      "summary": "处理完成后，cathrynlavery/diagram-design 一般在结果区右上角提供「导出 / 下载」按钮，可保",
+      "body": "<p>处理完成后，cathrynlavery/diagram-design 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://github.com/cathrynlavery/diagram-design\">cathrynlavery/diagram-design</a></p>",
+      "tags": [
+        "cathrynlavery/diagram-design",
+        "教程",
+        "问答"
+      ],
+      "category": "Utilidades",
+      "keywords": "cathrynlavery/diagram-design,教程,问答",
+      "relatedTools": [
+        "cathrynlavery/diagram-design"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何使用-macro-inc-macro-进行批量处理",
+      "title": "如何使用 macro-inc/macro 进行批量处理？",
+      "summary": "用 macro-inc/macro 做批量处理时，先把任务清单整理成结构化文件（CSV/JSON），通过其批量导入或队列",
+      "body": "<p>用 macro-inc/macro 做批量处理时，先把任务清单整理成结构化文件（CSV/JSON），通过其批量导入或队列功能一次性提交。处理前用 2–3 条样本验证输出格式与速度，确认无误再扩展到全量，避免大批量出错后难以回滚；若支持并发，可逐步上调并发数观察稳定性。</p><p>相关工具：<a href=\"https://github.com/macro-inc/macro\">macro-inc/macro</a></p>",
+      "tags": [
+        "macro-inc/macro",
+        "教程",
+        "问答"
+      ],
+      "category": "Utilidades",
+      "keywords": "macro-inc/macro,教程,问答",
+      "relatedTools": [
+        "macro-inc/macro"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "3b1b-manim-支持哪些文件格式",
+      "title": "3b1b/manim 支持哪些文件格式？",
+      "summary": "3b1b/manim 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Markdown 及",
+      "body": "<p>3b1b/manim 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Markdown 及主流图片/表格格式。上传前请确认编码为 UTF-8、单文件不超过站点限制，避免解析失败；批量场景建议统一格式后再一次性导入。</p><p>相关工具：<a href=\"https://github.com/3b1b/manim\">3b1b/manim</a></p>",
+      "tags": [
+        "3b1b/manim",
+        "教程",
+        "问答"
+      ],
+      "category": "Utilidades",
+      "keywords": "3b1b/manim,教程,问答",
+      "relatedTools": [
+        "3b1b/manim"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "cactus-compute-needle-免费版有哪些限制",
+      "title": "cactus-compute/needle 免费版有哪些限制？",
+      "summary": "cactus-compute/needle 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、",
+      "body": "<p>cactus-compute/needle 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小、并发数或导出格式。使用前在官网「定价」页核对当前套餐明细，按实际体量选择，避免生产环境触达上限中断。</p><p>相关工具：<a href=\"https://github.com/cactus-compute/needle\">cactus-compute/needle</a></p>",
+      "tags": [
+        "cactus-compute/needle",
+        "教程",
+        "问答"
+      ],
+      "category": "Utilidades",
+      "keywords": "cactus-compute/needle,教程,问答",
+      "relatedTools": [
+        "cactus-compute/needle"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何在-kepano-obsidian-skills-中导出结果",
+      "title": "如何在 kepano/obsidian-skills 中导出结果？",
+      "summary": "处理完成后，kepano/obsidian-skills 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV",
+      "body": "<p>处理完成后，kepano/obsidian-skills 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://github.com/kepano/obsidian-skills\">kepano/obsidian-skills</a></p>",
+      "tags": [
+        "kepano/obsidian-skills",
+        "教程",
+        "问答"
+      ],
+      "category": "Utilidades",
+      "keywords": "kepano/obsidian-skills,教程,问答",
+      "relatedTools": [
+        "kepano/obsidian-skills"
+      ],
+      "updated": "2026-08-14"
+    }
+  ]
+}

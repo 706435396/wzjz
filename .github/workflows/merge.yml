@@ -1,0 +1,51 @@
+# ============================================================
+# merge.yml  ——  每周合并采集分支 + 自动备份（灾备）
+# ------------------------------------------------------------
+# 设计（对应清单「二.1.2 拆分构建分支 / 四.3 自动备份增强」）：
+#   crawl.yml 每天把数据提交到 temp-crawl（不部署）；
+#   本工作流每周一合并进 main 触发一次部署（全站每周仅 1 次构建）；
+#   合并后自动打包全站 data + article 为 backups/YYYYMMDD.tar.gz（可另传免费对象存储，
+#   非 Google Drive），并运行 cold-sitemap.js 标记冷站，完善灾备与恢复方案。
+#   手动在 Actions 页点 Run workflow 也可立即合并部署。
+# ============================================================
+name: merge-crawl
+
+on:
+  schedule:
+    - cron: '17 19 * * 1'       # 每周一 UTC 19:17（北京 03:17）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出（完整历史）
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 合并 temp-crawl -> main
+        run: |
+          git config user.name "toolnav-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git fetch origin temp-crawl
+          git checkout main
+          git merge origin/temp-crawl --no-ff -m "weekly: merge crawl data" || echo "无可合并内容"
+          git push origin main
+
+      - name: 打包全站数据备份（灾备，非 Google Drive）
+        run: |
+          mkdir -p backups
+          tar -czf "backups/$(date +%Y%m%d).tar.gz" $(find public -type d \( -name data -o -name article \))
+          ln -sf "$(date +%Y%m%d).tar.gz" backups/latest.tar.gz
+          git config user.name "toolnav-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -m "backup: $(date +%F) 全站数据快照" || echo "无变化"
+          git push origin main
+
+      - name: 冷站标记（省 Function 请求）
+        run: node scripts/cold-sitemap.js

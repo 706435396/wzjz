@@ -1,0 +1,209 @@
+{
+  "updated": "2026-08-14",
+  "articles": [
+    {
+      "slug": "ocr-ancient-text-clean-pipeline",
+      "title": "OCR 古籍文本清洗全流程：从乱码到规范标点",
+      "summary": "用 TxtClean 与 OpenCC 搭建古籍 OCR 后处理流水线，去除乱码空行、繁简统一并自动断句标点。",
+      "body": "<p>古籍经 OCR 后常带乱码与断行错误。本流水线分三步处理：先去乱码空行，再繁简统一，最后自动标点。</p><h2>一、去噪</h2><p>用本站清洗工具合并空行、去除首尾空白。</p><h2>二、繁简统一</h2><p>OpenCC 把港澳繁体转为简体，统一语料。</p>",
+      "tags": [
+        "古籍",
+        "OCR",
+        "清洗"
+      ],
+      "category": "部署教程",
+      "keywords": "OCR 古籍文本清洗教程, 古籍断句标点工具, 繁简转换文献整理",
+      "relatedTools": [
+        "TxtClean 古籍清洗",
+        "OpenCC 开源繁简转换"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "auto-punctuation-compare",
+      "title": "自动标点工具怎么选？Punctuator 与规则方案对比",
+      "summary": "对比神经网络自动标点与正则规则方案在转录文本上的效果与成本，给出古籍整理选型建议。",
+      "body": "<p>无标点转录文本补标点有两种路线：神经网络模型更准但需算力；规则方案快但灵活性低。</p><h2>选型建议</h2><p>大批量古籍选神经网络模型；少量现代文本用规则即可。</p>",
+      "tags": [
+        "标点",
+        "NLP",
+        "选型对比"
+      ],
+      "category": "选型对比",
+      "keywords": "自动标点工具对比, 转录文本补标点, 古籍整理NLP方案",
+      "relatedTools": [
+        "Punctuator 自动标点"
+      ],
+      "updated": "2026-08-11"
+    },
+    {
+      "slug": "如何使用-txtclean-古籍清洗-进行批量处理",
+      "title": "如何使用 TxtClean 古籍清洗 进行批量处理？",
+      "summary": "TxtClean 古籍清洗 支持将多个任务合并执行，适合需要重复操作的场景。建议先在小批量上验证效果，再扩展到全量，避免",
+      "body": "<p>TxtClean 古籍清洗 支持将多个任务合并执行，适合需要重复操作的场景。建议先在小批量上验证效果，再扩展到全量，避免一次性处理大量数据导致等待过久。</p><p>相关工具：<a href=\"https://txtclean.72tool.com\">TxtClean 古籍清洗</a></p>",
+      "tags": [
+        "TxtClean 古籍清洗",
+        "教程",
+        "问答"
+      ],
+      "category": "文本清洗",
+      "keywords": "TxtClean 古籍清洗,教程,问答",
+      "relatedTools": [
+        "TxtClean 古籍清洗"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "semantica",
+      "title": "semantica",
+      "summary": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "body": "<p>Graph-Native Infrastructure for Context and Accountable AI Systems</p>",
+      "tags": [],
+      "category": "文本清洗",
+      "keywords": "",
+      "relatedTools": [],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "pdf-inspector",
+      "title": "pdf-inspector",
+      "summary": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "body": "<p>Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.</p>",
+      "tags": [],
+      "category": "文本清洗",
+      "keywords": "",
+      "relatedTools": [],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "chinatextbook",
+      "title": "ChinaTextbook",
+      "summary": "所有小初高、大学PDF教材。",
+      "body": "<p>所有小初高、大学PDF教材。</p>",
+      "tags": [],
+      "category": "文本清洗",
+      "keywords": "",
+      "relatedTools": [],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "opencc-开源繁简转换-支持哪些文件格式",
+      "title": "OpenCC 开源繁简转换 支持哪些文件格式？",
+      "summary": "具体支持的格式以 OpenCC 开源繁简转换 官方页面为准。多数在线工具兼容常见的文本与表格格式；上传前请确认格式符合要",
+      "body": "<p>具体支持的格式以 OpenCC 开源繁简转换 官方页面为准。多数在线工具兼容常见的文本与表格格式；上传前请确认格式符合要求，避免解析失败。</p><p>相关工具：<a href=\"https://github.com/BYVoid/OpenCC\">OpenCC 开源繁简转换</a></p>",
+      "tags": [
+        "OpenCC 开源繁简转换",
+        "教程",
+        "问答"
+      ],
+      "category": "文本清洗",
+      "keywords": "OpenCC 开源繁简转换,教程,问答",
+      "relatedTools": [
+        "OpenCC 开源繁简转换"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "punctuator-自动标点-免费版有哪些限制",
+      "title": "Punctuator 自动标点 免费版有哪些限制？",
+      "summary": "Punctuator 自动标点 通常提供免费额度或试用，高级功能可能需要订阅。使用前可在官网查看最新的套餐说明，按需选择",
+      "body": "<p>Punctuator 自动标点 通常提供免费额度或试用，高级功能可能需要订阅。使用前可在官网查看最新的套餐说明，按需选择。</p><p>相关工具：<a href=\"https://github.com/ottokart/punctuator2\">Punctuator 自动标点</a></p>",
+      "tags": [
+        "Punctuator 自动标点",
+        "教程",
+        "问答"
+      ],
+      "category": "文本清洗",
+      "keywords": "Punctuator 自动标点,教程,问答",
+      "relatedTools": [
+        "Punctuator 自动标点"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何在-在线去重空行工具-中导出结果",
+      "title": "如何在 在线去重空行工具 中导出结果？",
+      "summary": "处理完成后，在线去重空行工具 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。",
+      "body": "<p>处理完成后，在线去重空行工具 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://txtclean.72tool.com\">在线去重空行工具</a></p>",
+      "tags": [
+        "在线去重空行工具",
+        "教程",
+        "问答"
+      ],
+      "category": "文本清洗",
+      "keywords": "在线去重空行工具,教程,问答",
+      "relatedTools": [
+        "在线去重空行工具"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何使用-semantica-agi-semantica-进行批量处理",
+      "title": "如何使用 semantica-agi/semantica 进行批量处理？",
+      "summary": "用 semantica-agi/semantica 做批量处理时，先把任务清单整理成结构化文件（CSV/JSON），通过",
+      "body": "<p>用 semantica-agi/semantica 做批量处理时，先把任务清单整理成结构化文件（CSV/JSON），通过其批量导入或队列功能一次性提交。处理前用 2–3 条样本验证输出格式与速度，确认无误再扩展到全量，避免大批量出错后难以回滚；若支持并发，可逐步上调并发数观察稳定性。</p><p>相关工具：<a href=\"https://github.com/semantica-agi/semantica\">semantica-agi/semantica</a></p>",
+      "tags": [
+        "semantica-agi/semantica",
+        "教程",
+        "问答"
+      ],
+      "category": "文本清洗",
+      "keywords": "semantica-agi/semantica,教程,问答",
+      "relatedTools": [
+        "semantica-agi/semantica"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "infiniflow-ragflow-支持哪些文件格式",
+      "title": "infiniflow/ragflow 支持哪些文件格式？",
+      "summary": "infiniflow/ragflow 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Ma",
+      "body": "<p>infiniflow/ragflow 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Markdown 及主流图片/表格格式。上传前请确认编码为 UTF-8、单文件不超过站点限制，避免解析失败；批量场景建议统一格式后再一次性导入。</p><p>相关工具：<a href=\"https://github.com/infiniflow/ragflow\">infiniflow/ragflow</a></p>",
+      "tags": [
+        "infiniflow/ragflow",
+        "教程",
+        "问答"
+      ],
+      "category": "文本清洗",
+      "keywords": "infiniflow/ragflow,教程,问答",
+      "relatedTools": [
+        "infiniflow/ragflow"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "firecrawl-pdf-inspector-免费版有哪些限制",
+      "title": "firecrawl/pdf-inspector 免费版有哪些限制？",
+      "summary": "firecrawl/pdf-inspector 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数",
+      "body": "<p>firecrawl/pdf-inspector 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小、并发数或导出格式。使用前在官网「定价」页核对当前套餐明细，按实际体量选择，避免生产环境触达上限中断。</p><p>相关工具：<a href=\"https://github.com/firecrawl/pdf-inspector\">firecrawl/pdf-inspector</a></p>",
+      "tags": [
+        "firecrawl/pdf-inspector",
+        "教程",
+        "问答"
+      ],
+      "category": "文本清洗",
+      "keywords": "firecrawl/pdf-inspector,教程,问答",
+      "relatedTools": [
+        "firecrawl/pdf-inspector"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何在-tapxworld-chinatextbook-中导出结果",
+      "title": "如何在 TapXWorld/ChinaTextbook 中导出结果？",
+      "summary": "处理完成后，TapXWorld/ChinaTextbook 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CS",
+      "body": "<p>处理完成后，TapXWorld/ChinaTextbook 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://github.com/TapXWorld/ChinaTextbook\">TapXWorld/ChinaTextbook</a></p>",
+      "tags": [
+        "TapXWorld/ChinaTextbook",
+        "教程",
+        "问答"
+      ],
+      "category": "文本清洗",
+      "keywords": "TapXWorld/ChinaTextbook,教程,问答",
+      "relatedTools": [
+        "TapXWorld/ChinaTextbook"
+      ],
+      "updated": "2026-08-14"
+    }
+  ]
+}

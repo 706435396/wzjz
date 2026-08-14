@@ -1,0 +1,46 @@
+# ============================================================
+# Cloudflare Pages _headers（静态资源缓存策略）
+# ------------------------------------------------------------
+# 目的（对应优化清单「二.2 静态资源强制走 CDN 缓存」）：
+#   - 公共组件 / 样式 / 脚本长期缓存，避免重复回源与 Function 重复解析；
+#   - 数据 JSON 内容会变，给较短缓存（Functions 的 sitemap 另有独立缓存头）。
+# 注意：Cloudflare Pages 会自动对文本资源开启 Brotli/Gzip，无需手动配置。
+# ============================================================
+
+# 公共组件与样式脚本：1 天强缓存（内容极少变动）
+/common/*
+  Cache-Control: public, max-age=86400, must-revalidate
+
+/*.css
+  Cache-Control: public, max-age=86400, must-revalidate
+
+/*.js
+  Cache-Control: public, max-age=86400, must-revalidate
+
+# 图片：30 天
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/*.svg
+  Cache-Control: public, max-age=2592000, immutable
+
+# 数据 JSON（工具列表 / 站点地图映射）：1 小时（内容会更新）
+/data/*
+  Cache-Control: public, max-age=3600
+
+/*.json
+  Cache-Control: public, max-age=3600
+
+# ============================================================
+# 全局安全 / 隐私响应头（对应清单「六」风控加固，规避站群标记）
+# ============================================================
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# 图片 sitemap（富媒体 SEO，配合 functions/image-sitemap.xml.js）
+/image-sitemap.xml
+  Cache-Control: public, max-age=7200

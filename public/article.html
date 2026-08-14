@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 标题/描述由 article.js 按当前域名 + 当前文章动态注入 -->
+  <title>教程资讯 - 72tool</title>
+  <meta name="description" content="垂直工具赛道教程、选型对比与避坑指南" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" id="canonical" href="" />
+  <link rel="stylesheet" href="/common/style.css" />
+</head>
+<body>
+  <!-- 顶部导航：与工具站共用，仅“教程资讯”高亮 -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" id="brand" href="/">72tool</a>
+      <nav class="topnav" id="topnav" aria-label="站点导航"></nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换深色 / 浅色模式">🌓</button>
+    </div>
+  </header>
+
+  <main class="wrap" id="main">
+    <!-- 列表态 Hero -->
+    <section class="hero" id="listHero">
+      <h1 id="siteTitle">教程资讯</h1>
+      <p id="siteDesc" class="sub">垂直赛道教程、选型对比与避坑指南</p>
+    </section>
+
+    <!-- 详情态 Head（默认隐藏，打开文章时显示） -->
+    <article class="article" id="detail" hidden>
+      <a class="back" href="/article" id="backLink">← 返回资讯列表</a>
+      <h1 id="artTitle"></h1>
+      <div class="article-meta" id="artMeta"></div>
+      <div class="article-body" id="artBody"></div>
+      <section class="related-tools" id="relTools" hidden>
+        <h2>相关工具</h2>
+        <div class="grid" id="relGrid"></div>
+      </section>
+      <!-- 评论模块（静态预制，无后端，见 comments.js） -->
+      <section class="comments" id="comments" hidden aria-label="网友讨论"></section>
+
+      <!-- CPS 分销推荐位：本文相关工具（由 article.js 调用 affiliate.js boxHTML 注入，见 affiliate.js） -->
+      <div id="affBox" aria-label="相关工具推荐"></div>
+      <!-- 广告位：正文底部（article.js 还会在正文中段自动插一处 article 广告） -->
+      <div data-ad="article" aria-label="广告位"></div>
+    </article>
+
+    <!-- 列表态：分类筛选 + 资讯卡片网格 -->
+    <section class="cat-filter" id="catFilter" aria-label="资讯分类筛选"></section>
+    <!-- 广告位：资讯列表页（config.ads 控制，异步加载） -->
+    <div data-ad="article" aria-label="广告位"></div>
+    <section class="grid tut-grid" id="grid" aria-live="polite"></section>
+    <div id="sentinel" aria-hidden="true"></div>
+    <p class="empty" id="empty" hidden>暂无匹配的资讯，换个分类试试。</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap" id="footer"></div>
+  </footer>
+
+  <!-- SEO 结构化数据：Article / WebSite，由 article.js 注入 -->
+  <script type="application/ld+json" id="jsonld"></script>
+
+  <!-- 站点统计：无 ICP 备案 → 用 Cloudflare Web Analytics（免备案、无 Cookie、零 Google）。
+       在 /common/config.json 的 analytics.cfBeaconToken 填入 Beacon Token 后由 ads.js 自动注入。
+       已弃用 51.la / 百度统计（需备案）。 -->
+  <!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"YOUR_CF_BEACON_TOKEN"}'></script> -->
+
+  <!-- 资讯栏目渲染逻辑：hostname 识别 -> 加载 article/list.json -> 列表/详情渲染 + 广告 + 分销 -->
+  <script src="/common/ads.js"></script>
+  <script src="/common/affiliate.js"></script>
+  <script src="/common/mobile.js"></script>
+  <script src="/common/comments.js"></script>
+  <!-- 站点探测（HOST_MAP 单一来源）+ Cookie 告知（过审合规，非弹窗底部条） -->
+  <script src="/common/site.js"></script>
+  <script src="/common/cookie.js"></script>
+  <script src="/common/article.js"></script>
+</body>
+</html>

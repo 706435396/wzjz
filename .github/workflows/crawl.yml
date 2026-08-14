@@ -1,0 +1,104 @@
+# ============================================================
+# crawl.yml  ——  每日定时自动采集流水线（分段执行 + 限流容错）
+# ------------------------------------------------------------
+# 改造点（对应清单「八.1 分段执行 / 八.2 限流容错 / 一.1 防同质化）：
+#   * 采集结果提交到 temp-crawl 分支（不触发部署），每周由 merge.yml 合并到 main；
+#   * 仅当本次新增 >= 1 条才提交（无变化不提交、不消耗构建次数）；
+#   * 分段日志：抓取 -> 分类 -> 写入 -> sitemap -> 长尾词 -> 去重 -> 推送；
+#   * 智谱 429 限流自动退避重试（见 scripts/_llm.js），额度不足触发告警并暂停；
+#   * 采集后可选运行 longtail-keywords（长尾词）+ article-duplicate-check --rewrite（防同质化）
+#     + push-index-monthly（月度收录推送），均带 --if-api-key 门控。
+# 定时：北京 02:00 = UTC 18:00。
+# ============================================================
+name: crawl
+
+on:
+  schedule:
+    - cron: '0 18 * * *'        # 每日 UTC 18:00（北京时间 02:00）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: 检出（完整历史）
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 安装 Node（npm 缓存）
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 安装依赖
+        run: npm ci || npm install
+
+      # ① 抓取 + 分类 + 增量写入（分段日志已在脚本内输出）
+      - name: ① 采集（智谱 AI 分类 + 增量写入）
+        env:
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          USE_PW: '0'
+        run: node scripts/main-crawl.js
+
+      # ② 重建全部 sitemap（幂等）
+      - name: ② 生成站点地图
+        run: node scripts/build-sitemap.js
+
+      # ③ 长尾词生成（有 API Key 才跑，省额度）
+      - name: ③ 长尾问答词（可选）
+        if: ${{ secrets.ZHIPU_API_KEY != '' }}
+        env:
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+        run: node scripts/longtail-keywords.js
+
+      # ④ 全文相似度去重改写（有 API Key 才跑）
+      - name: ④ 防同质化改写（可选）
+        if: ${{ secrets.ZHIPU_API_KEY != '' }}
+        env:
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+        run: node scripts/article-duplicate-check.js --rewrite
+
+      # ⑤ 读取新增数
+      - name: ⑤ 读取本次新增数
+        id: stat
+        run: echo "added=$(node -e "try{console.log((require('./scripts/.last-run.json').added||0)+(require('./scripts/.last-run.json').articleAdded||0))}catch(e){console.log(0)}")" >> "$GITHUB_OUTPUT"
+
+      # ⑥ 提交到 temp-crawl（不部署，省构建额度）
+      - name: ⑥ 提交到 temp-crawl 分支
+        if: steps.stat.outputs.added != '0'
+        run: |
+          git config user.name "toolnav-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git stash push -u -m "crawl-$(date +%s)" || true
+          git fetch origin main
+          git checkout -B temp-crawl origin/main
+          git stash pop || true
+          git add -A
+          git commit -m "chore(crawl): $(date +%F) 新增 ${{ steps.stat.outputs.added }} 条" || echo "无变化"
+          git push --force origin temp-crawl
+
+      # ⑦ 月度收录推送（百度 + 可选 Google）
+      - name: ⑦ 收录推送
+        if: steps.stat.outputs.added != '0'
+        env:
+          BAIDU_TOKEN: ${{ secrets.BAIDU_TOKEN }}
+          GOOGLE_INDEXING_SA_JSON: ${{ secrets.GOOGLE_INDEXING_SA_JSON }}
+        run: node scripts/push-index-monthly.js
+
+      # ⑧ 告警（失败 / 零新增 / 额度不足）
+      - name: ⑧ 告警通知（webhook，非 Gmail）
+        if: failure() || steps.stat.outputs.added == '0'
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        run: |
+          if [ -n "$WEBHOOK_URL" ]; then
+            curl -s -X POST "$WEBHOOK_URL" \
+              -H 'Content-Type: application/json' \
+              -d "{\"msg\":\"[toolnav] crawl 完成 added=${{ steps.stat.outputs.added }}\"}"
+          fi

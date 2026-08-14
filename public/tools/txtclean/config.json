@@ -1,0 +1,46 @@
+{
+  "domain": "txtclean.72tool.com",
+  "name": "TxtClean 古籍文本清洗工具",
+  "title": "TxtClean | 古籍文本清洗与标点整理在线工具 - 72tool",
+  "description": "免费在线的古籍文本清洗工具：去除乱码、繁简转换、自动断句标点、去重空行，专为 OCR 识别后的古籍与文献整理打造。",
+  "keywords": "古籍清洗, 文本清洗, 繁简转换, 自动标点, OCR整理, 文献工具",
+  "category": "文本工具",
+  "lang": "zh-CN",
+  "base": "/tools/txtclean",
+  "article": {
+    "enabled": true,
+    "categories": [
+      "部署教程",
+      "使用技巧",
+      "选型对比",
+      "避坑指南"
+    ]
+  },
+  "ads": {
+    "enabled": true,
+    "region": "cn",
+    "provider": "adsterra",
+    "slots": {
+      "top": "",
+      "sidebar": "",
+      "article": ""
+    }
+  },
+  "theme": {
+    "brand": "#0891b2",
+    "layout": "grid",
+    "navOrder": [
+      "首页",
+      "教程资讯",
+      "Agent 集群",
+      "工具集群"
+    ]
+  },
+  "community": {
+    "enabled": true,
+    "title": "开发者社群",
+    "url": "/community"
+  },
+  "top": true,
+  "imageSitemap": true
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 标题/描述由前端按当前域名动态注入，这里给兜底默认值 -->
+  <title>72tool 工具导航</title>
+  <meta name="description" content="精选在线工具与 AI 智能体导航站群" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" id="canonical" href="" />
+  <link rel="stylesheet" href="/common/style.css" />
+</head>
+<body>
+  <!-- 顶部导航：品牌 + 分类快捷 + 深色切换（均由 app.js 按域名渲染） -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" id="brand" href="/">72tool</a>
+      <nav class="topnav" id="topnav" aria-label="站点导航"></nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换深色 / 浅色模式">🌓</button>
+    </div>
+  </header>
+
+  <main class="wrap" id="main">
+    <!-- Hero 区：站点名称 + 简介 + 站内搜索 -->
+    <section class="hero">
+      <h1 id="siteTitle">工具导航</h1>
+      <p id="siteDesc" class="sub"></p>
+      <div class="search">
+        <input id="searchInput" type="search" placeholder="搜索本站点工具…" aria-label="搜索工具" />
+      </div>
+    </section>
+
+    <!-- 分类筛选 chips -->
+    <section class="cat-filter" id="catFilter" aria-label="分类筛选"></section>
+
+    <!-- ★ 付费置顶区块：data.top=true 的工具在此独立展示（见 app.js renderTop） -->
+    <section class="top-block" id="topBlock" hidden aria-label="精选推荐">
+      <h2 class="section-title">精选推荐</h2>
+      <div class="grid" id="topGrid"></div>
+    </section>
+
+    <!-- 广告位：顶部（config.ads 控制，异步加载不阻塞首屏） -->
+    <div data-ad="top" aria-label="广告位"></div>
+
+    <!-- 工具卡片网格（首屏 12 个，滚动懒加载追加，见 app.js） -->
+    <section class="grid" id="grid" aria-live="polite"></section>
+
+    <!-- 懒加载哨兵：进入视口即渲染下一批 -->
+    <div id="sentinel" aria-hidden="true"></div>
+
+    <p class="empty" id="empty" hidden>没有匹配的工具，换个关键词试试。</p>
+
+    <!-- 最新教程：资讯模块双向内链（工具页推荐本站教程，提升停留与收录深度） -->
+    <section class="tut-strip" id="tutorials" aria-label="最新教程">
+      <h2 class="section-title">最新教程</h2>
+      <div class="grid tut-grid" id="tutList"></div>
+    </section>
+
+    <!-- 相关教程：打开 ?tool= 深链时，按工具名匹配配套资讯 -->
+    <section class="rel-articles" id="relArticles" hidden aria-label="相关教程">
+      <h2 class="section-title">相关教程</h2>
+      <div class="grid tut-grid" id="relList"></div>
+    </section>
+  </main>
+
+  <!-- 广告位：宽屏侧边固定（≥1280px 才显示，避免移动端挤压内容）。
+       海外联盟自动切换：中文站 Adsterra / 小语种站 AdSense（由 common/config.json langProvider 路由） -->
+  <aside class="ad-sidebar" data-ad="sidebar" aria-label="广告位"></aside>
+
+  <footer class="site-footer">
+    <div class="wrap" id="footer"></div>
+    <!-- 私域导流统一入口（由 config.community 开关控制，见 app.js renderFooter） -->
+    <div class="wrap" id="communityEntry"></div>
+  </footer>
+
+  <!-- SEO 结构化数据：WebSite + 各卡片 SoftwareApplication，由 app.js 注入 -->
+  <script type="application/ld+json" id="jsonld"></script>
+
+  <!-- 站点统计：无 ICP 备案 → 用 Cloudflare Web Analytics（免备案、无 Cookie、零 Google）。
+       在 /common/config.json 的 analytics.cfBeaconToken 填入你的 Beacon Token 后由 ads.js 自动注入。
+       已弃用 51.la / 百度统计（需备案，且规避 Google 风控）。 -->
+  <!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"YOUR_CF_BEACON_TOKEN"}'></script> -->
+
+  <!-- 公共渲染逻辑：域名识别 -> 加载 config/list -> 渲染 + 暗色 + Schema + 懒加载 + 广告 + 分销 -->
+  <script src="/common/ads.js"></script>
+  <script src="/common/affiliate.js"></script>
+  <script src="/common/mobile.js"></script>
+  <!-- 站点探测（HOST_MAP 单一来源）+ Cookie 告知（过审合规，非弹窗底部条） -->
+  <script src="/common/site.js"></script>
+  <script src="/common/cookie.js"></script>
+  <script src="/common/app.js"></script>
+</body>
+</html>

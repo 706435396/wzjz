@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>商家入驻与置顶合作 - 72tool</title>
+  <meta name="description" content="工具/资讯站点付费置顶与商家合作入驻说明" />
+  <meta name="robots" content="index,follow" />
+  <link rel="stylesheet" href="/common/style.css" />
+</head>
+<body>
+  <header class="site-header"><div class="wrap header-inner">
+    <a class="brand" href="/">72tool</a>
+    <nav class="topnav"><a href="/">首页</a><a href="/article">教程资讯</a><a href="/community">开发者社群</a></nav>
+  </div></header>
+  <main class="wrap" id="main">
+    <section class="hero">
+      <h1>商家入驻 · 付费置顶合作</h1>
+      <p class="sub">让你的工具/产品出现在对应赛道站点首页顶部「精选推荐」区块，精准触达目标用户。</p>
+    </section>
+
+    <section class="coop">
+      <h2 class="section-title">置顶收费标准</h2>
+      <table class="price">
+        <thead><tr><th>档位</th><th>位置</th><th>周期</th><th>说明</th></tr></thead>
+        <tbody>
+          <tr><td>标准置顶</td><td>站点首页顶部区块</td><td>30 天</td><td>单站点单工具，异步加载不阻塞首屏</td></tr>
+          <tr><td>赛道包月</td><td>同赛道全部子站首页</td><td>30 天</td><td>适合垂直品类统一曝光</td></tr>
+          <tr><td>年度合作</td><td>首页 + 资讯内文推荐</td><td>365 天</td><td>专属合作标识，优先收录推送</td></tr>
+        </tbody>
+      </table>
+
+      <h2 class="section-title">如何上架</h2>
+      <ol class="steps">
+        <li>在工具数据中把该工具标记为 <code>"top": true</code> 并设 <code>"topRank"</code>（由运营/合作方配置）；</li>
+        <li>首页顶部「精选推荐」区块自动展示（见 app.js 的 renderTop）；</li>
+        <li>联系合作邮箱（见页脚）开通对应档位，按月计费、可随时下架。</li>
+      </ol>
+
+      <p class="note">说明：本页为静态展示模板，实际计费与合同由运营侧管理；前端仅负责「置顶区块」渲染，不处理支付。</p>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="wrap" id="footer">© 72tool · 合作邮箱：business@72tool.com</div></footer>
+</body>
+</html>

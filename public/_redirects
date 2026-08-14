@@ -1,0 +1,71 @@
+# ============================================================
+# Cloudflare Pages _redirects（项目根目录读取 public/_redirects）
+# ------------------------------------------------------------
+# 重要说明（务必读完，避免部署后疑惑）：
+# Cloudflare Pages 的“多子域名 = 多个独立站点”是通过【给同一个 Pages 项目
+# 添加多个自定义域名】实现的。所有自定义域名共用同一份构建产物，由前端
+# public/common/app.js 通过 window.location.hostname 识别当前站点并加载
+# 对应子目录的 config.json / data/list.json，从而实现“独立站点”的 SEO 效果。
+# _redirects 只能做「路径级」重写/跳转，无法做「主机级（按域名）」路由，
+# 因此下方仅放通用的 URL 规范化规则，真正的子域名隔离交给「自定义域名 + 前端识别」。
+# ============================================================
+
+# 1) 根域名 www 规范化（按需取消注释，改为你的主域名）
+# https://72tool.com/* https://www.72tool.com/:splat 301
+
+# 2) 单页应用兜底：未匹配到静态文件时回退到 index.html（纯静态站一般可不启用）
+# 注意：启用 catch-all 会覆盖 assets，需确认资源都有真实文件；本静态站无需开启。
+# /* /index.html 200
+
+# 3) 强制 HTTPS（Cloudflare Pages 默认已全站 HTTPS，此条可选）
+# http://*/* https://:2/:splat 301
+
+# ============================================================
+# ★ 站点映射注册表（build-sitemap.js 会自动解析本区块）★
+# ------------------------------------------------------------
+# 新增一个子站点，只需要：
+#   (1) 在 public/ 下建立子目录（放 config.json + data/list.json + 复制 index.html）
+#   (2) 在本区块追加一行  # SITE <子域名> <子目录>
+#   (3) Cloudflare Pages 控制台给项目加一个自定义域名
+# 无需改任何脚本代码 —— build-sitemap.js 会扫描本区块自动生成
+#   public/common/domain-map.json，functions/sitemap.xml.js 等直接消费它。
+#
+# 格式（每行一条，必须用空格分隔，目录相对 public/）：
+#   # SITE <对外域名> <public 下子目录>
+#   # ROOT <根域名>            （可选，根域名访问 /sitemap.xml 时返回总索引）
+#   # SITE-DISABLED <域名> <目录>   （下线站点：被 build-sitemap 与 Functions 忽略）
+# ============================================================
+# SITE browseragent.72tool.com agent/browser
+# SITE tiktokagent.72tool.com agent/tiktok
+# SITE gpuagent.72tool.com agent/localgpu
+# SITE txtclean.72tool.com tools/txtclean
+# SITE sitemapgen.72tool.com tools/sitemapgen
+# SITE es.72tool.com lang/es
+# SITE de.72tool.com lang/de
+# ROOT 72tool.com
+# ROOT www.72tool.com
+
+# ============================================================
+# ★ 资讯栏目统一路由（工具站 + 资讯站共用同一份架构，零额外维护）
+# ------------------------------------------------------------
+# 设计：所有子域名共用根目录 public/article.html（hostname 感知，自动加载对应子站
+#   article/list.json）。下方用「路径级」200 重写把所有子域名的 /article 请求导向
+#   同一份模板——新增 200 个站点无需复制任何前端文件。
+#   · 列表：    https://xxx.72tool.com/article        -> /article.html
+#   · 单篇：    https://xxx.72tool.com/article/<slug>  -> /article.html?slug=<slug>
+#   · 资讯地图：https://xxx.72tool.com/article/sitemap.xml -> functions/article/sitemap.xml.js
+# 说明：_redirects 只做路径级重写；子域名隔离仍由「自定义域名 + 前端 hostname 识别」实现。
+# ============================================================
+/article /article.html 200
+/article/* /article.html?slug=:splat 200
+
+# 合作 / 社群静态页路由（变现与私域导流模块）
+/cooperation /cooperation.html 200
+/community /community.html 200
+
+# 隐私政策页（过审合规必备，Adsterra/AdSense 强制要求；按子站语种渲染）
+/privacy /privacy.html 200
+
+# 站外推广页（§7.3，纯 CPS 引流，适合社媒 bio）+ 站内专题聚合页（§8.2）
+/promo /promo.html 200
+/topic/* /topic.html?slug=:splat 200

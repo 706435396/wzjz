@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>精选工具合集 - 72tool</title>
+  <meta name="description" content="按赛道精选的在线工具与 AI 智能体合集，含分销合作链接。" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" id="canonical" href="" />
+  <link rel="stylesheet" href="/common/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" id="brand" href="/">72tool</a>
+      <nav class="topnav" id="topnav" aria-label="站点导航">
+        <a href="/">首页</a><a href="/article">教程资讯</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换深色 / 浅色模式">🌓</button>
+    </div>
+  </header>
+
+  <main class="wrap" id="main">
+    <section class="hero">
+      <h1 id="siteTitle">精选工具合集</h1>
+      <p id="siteDesc" class="sub">按赛道整理的实用工具与 AI 智能体，点击直达官方页面（部分含分销合作链接）。</p>
+    </section>
+
+    <!-- 推广位：按 config.promo.tracks 聚合，纯 CPS、不引广告位 -->
+    <section id="promoContent" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap" id="footer">
+      <a href="/privacy" rel="nofollow noopener">隐私政策</a>
+    </div>
+  </footer>
+
+  <!-- 主题切换（轻量内联，不依赖 app.js） -->
+  <script>
+    (function () {
+      var saved = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (saved === 'dark' || (!saved && prefersDark)) document.documentElement.classList.add('dark');
+      var btn = document.getElementById('themeToggle');
+      if (btn) btn.addEventListener('click', function () {
+        var now = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('theme', now ? 'dark' : 'light');
+      });
+    })();
+  </script>
+
+  <!-- 站点探测（HOST_MAP 单一来源）+ Cookie 告知 + 分销组件 -->
+  <script src="/common/site.js"></script>
+  <script src="/common/cookie.js"></script>
+  <script src="/common/affiliate.js"></script>
+  <script>
+  (function () {
+    'use strict';
+    function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+    var base = (window.Site && window.Site.base) || '/';
+    var host = (window.Site && window.Site.host) || location.hostname;
+
+    function loadJSON(u) { return fetch(u, { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
+    function disclaimerHTML(gconf, cfg) {
+      var dl = (gconf && gconf.compliance && gconf.compliance.disclaimer) || {};
+      if (dl.enabled === false) return '';
+      var lk = String((cfg && cfg.lang) || 'zh-CN').split('-')[0];
+      var txt = dl.byLang && dl.byLang[lk];
+      return txt ? '<span class="footer-disclaimer">' + esc(txt) + '</span>' : '';
+    }
+    function matchTools(tools, track) {
+      var m = (track && track.match) || '';
+      if (!m) return tools;
+      return tools.filter(function (t) {
+        if (t.category === m) return true;
+        var hay = (t.name + ' ' + (t.desc || '') + ' ' + (t.tags || []).join(' ')).toLowerCase();
+        return hay.indexOf(m.toLowerCase()) >= 0;
+      });
+    }
+    function cardHTML(t) {
+      var AFF = window.AFF || {};
+      var href = (AFF.href && AFF.href(t)) || (t.url || '#');
+      var rel = (AFF.rel && AFF.rel(t)) || 'nofollow noopener';
+      var badge = (AFF.badge && AFF.badge(t)) || '';
+      var copy = (AFF.copyHTML && AFF.copyHTML(t)) || '';
+      return '<div class="aff-item">' +
+        '<a class="aff-link" href="' + esc(href) + '" target="_blank" rel="' + esc(rel) + '">' +
+          '<span class="aff-name">' + esc(t.name) + badge + '</span>' +
+          '<span class="aff-desc">' + esc((t.desc || '').slice(0, 80)) + '</span>' +
+        '</a>' + copy +
+      '</div>';
+    }
+
+    Promise.all([
+      (window.Site && window.Site.globalConfig ? window.Site.globalConfig() : Promise.resolve({})),
+      (window.Site && window.Site.meta ? window.Site.meta() : Promise.resolve({})),
+      loadJSON(base + '/data/list.json'),
+      (window.AFF ? window.AFF.load() : Promise.resolve())
+    ]).then(function (r) {
+      var gconf = r[0] || {}, scfg = r[1] || {}, td = r[2] || { tools: [] };
+      var tools = td.tools || [];
+      var promo = (gconf.promo) || {};
+      var tracks = promo.tracks || [];
+
+      document.title = (scfg.name || '72tool') + ' · 精选工具合集';
+      document.getElementById('canonical').setAttribute('href', location.origin + '/promo');
+      document.getElementById('siteTitle').textContent = (scfg.name || '72tool') + ' · 精选工具合集';
+
+      var box = document.getElementById('promoContent');
+      if (!promo.enabled || !tracks.length) {
+        box.innerHTML = '<p class="empty">本站暂未配置推广合集。</p>';
+      } else {
+        box.innerHTML = tracks.map(function (tr) {
+          var list = matchTools(tools, tr).slice(0, 12);
+          if (!list.length) return '';
+          return '<section class="aff-box"><h2 class="section-title">' + esc(tr.title || tr.match) + '</h2>' +
+            '<div class="aff-list">' + list.map(cardHTML).join('') + '</div></section>';
+        }).join('') || '<p class="empty">暂无匹配工具。</p>';
+      }
+      document.getElementById('footer').innerHTML =
+        '<a href="/privacy" rel="nofollow noopener">隐私政策</a>' + disclaimerHTML(gconf, scfg);
+    }).catch(function (e) {
+      console.warn('[promo] 渲染失败:', e);
+    });
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>页面未找到 - 72tool</title>
+  <meta name="robots" content="noindex, follow" />
+  <link rel="stylesheet" href="/common/style.css" />
+</head>
+<body>
+  <!-- 差异化 404：按当前子域名加载同赛道热门工具与资讯，内链回流降低跳出 -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" id="brand" href="/">72tool</a>
+      <nav class="topnav" id="topnav"></nav>
+    </div>
+  </header>
+  <main class="wrap" id="main">
+    <section class="hero">
+      <h1>页面走丢了 (404)</h1>
+      <p class="sub">你访问的页面不存在或已迁移。下面为你推荐同站热门内容：</p>
+    </section>
+    <section class="cat-filter" id="catFilter"></section>
+    <section class="grid" id="grid"></section>
+    <section class="rel-articles" id="relArticles">
+      <h2 class="section-title">相关教程</h2>
+      <div class="grid tut-grid" id="relList"></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="wrap" id="footer"></div></footer>
+
+  <script>
+  /* 404 页面：复用公共逻辑按 hostname 识别同站内容（零后端） */
+  (function () {
+    var HOST_MAP = {
+      'browseragent.72tool.com': '/agent/browser', 'tiktokagent.72tool.com': '/agent/tiktok',
+      'gpuagent.72tool.com': '/agent/localgpu', 'txtclean.72tool.com': '/tools/txtclean',
+      'sitemapgen.72tool.com': '/tools/sitemapgen', 'es.72tool.com': '/lang/es', 'de.72tool.com': '/lang/de'
+    };
+    var base = HOST_MAP[location.hostname] || '/';
+    function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+    function load(p){return fetch(p,{cache:'no-cache'}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});}
+    Promise.all([load(base+'/config.json'), load(base+'/data/list.json'), load(base+'/article/list.json')]).then(function(r){
+      var cfg=r[0]||{}, data=r[1]||{tools:[]}, art=r[2]||{articles:[]};
+      document.getElementById('brand').textContent=(cfg.domain||'72tool').split('.')[0];
+      document.getElementById('topnav').innerHTML='<a href="/">首页</a><a href="/article">教程资讯</a>';
+      var tools=(data.tools||[]).slice(0,9);
+      document.getElementById('grid').innerHTML=tools.map(function(t){
+        return '<article class="card"><h3 class="card-title"><a href="'+esc(t.url)+'" target="_blank" rel="noopener">'+esc(t.name)+'</a></h3><p class="card-desc">'+esc(t.desc||'')+'</p></article>';
+      }).join('');
+      var arts=(art.articles||[]).slice(0,3);
+      document.getElementById('relList').innerHTML=arts.map(function(a){
+        return '<article class="card tut-card"><h3 class="card-title"><a href="/article/'+esc(a.slug)+'">'+esc(a.title)+'</a></h3><p class="card-desc">'+esc(a.summary||'')+'</p></article>';
+      }).join('');
+      document.getElementById('footer').innerHTML='© '+(cfg.domain||'72tool')+' ・ <a href="/">返回首页</a>';
+    });
+  })();
+  </script>
+</body>
+</html>

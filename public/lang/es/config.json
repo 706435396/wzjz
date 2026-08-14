@@ -1,0 +1,46 @@
+{
+  "domain": "es.72tool.com",
+  "name": "72tool Herramientas en línea",
+  "title": "Herramientas en línea gratuitas | Directorio 72tool en Español",
+  "description": "Directorio de herramientas en línea gratuitas: limpieza de texto, generación de sitemaps, utilidades de IA y más, en español.",
+  "keywords": "herramientas, utilidades, texto, sitemap, inteligencia artificial",
+  "category": "Utilidades",
+  "lang": "es",
+  "base": "/lang/es",
+  "article": {
+    "enabled": true,
+    "categories": [
+      "部署教程",
+      "使用技巧",
+      "选型对比",
+      "避坑指南"
+    ]
+  },
+  "ads": {
+    "enabled": true,
+    "region": "global",
+    "provider": "adsense",
+    "slots": {
+      "top": "",
+      "sidebar": "",
+      "article": ""
+    }
+  },
+  "theme": {
+    "brand": "#4f46e5",
+    "layout": "masonry",
+    "navOrder": [
+      "首页",
+      "教程资讯",
+      "Agent 集群",
+      "工具集群"
+    ]
+  },
+  "community": {
+    "enabled": true,
+    "title": "开发者社群",
+    "url": "/community"
+  },
+  "top": true,
+  "imageSitemap": true
+}

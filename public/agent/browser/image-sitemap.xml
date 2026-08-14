@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://browseragent.72tool.com/?tool=browser-use</loc>
+    <image:image>
+      <image:loc>https://img.72tool.com/browser-use-cover.png</image:loc>
+      <image:title>Browser Use</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://browseragent.72tool.com/?tool=playwright</loc>
+    <image:image>
+      <image:loc>https://browseragent.72tool.com/assets/agent-flow.jpg</image:loc>
+      <image:title>Playwright</image:title>
+    </image:image>
+  </url>
+</urlset>

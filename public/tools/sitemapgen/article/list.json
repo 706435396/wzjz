@@ -1,0 +1,159 @@
+{
+  "updated": "2026-08-14",
+  "articles": [
+    {
+      "slug": "submit-sitemap-google-baidu",
+      "title": "网站地图提交全攻略：Google Search Console 与百度站长平台",
+      "summary": "详解用 SitemapGen 生成 sitemap 后，如何向 Google 与百度提交，并监控收录覆盖率与索引异常。",
+      "body": "<p>生成 sitemap 只是第一步，提交到站长平台才能加速收录。本文以本站工具生成的标准 sitemap.xml 为例。</p><h2>一、生成标准地图</h2><p>用 SitemapGen 在线生成，确保遵循 sitemaps.org 协议。</p><h2>二、提交与监控</h2><p>在 Google Search Console 与百度站长平台分别提交，定期查看索引覆盖率。</p>",
+      "tags": [
+        "sitemap",
+        "提交",
+        "收录"
+      ],
+      "category": "使用技巧",
+      "keywords": "sitemap 提交教程, 百度站长平台 sitemap, Google Search Console 收录",
+      "relatedTools": [
+        "SitemapGen 在线生成",
+        "Google Search Console"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何使用-sitemapgen-在线生成-进行批量处理",
+      "title": "如何使用 SitemapGen 在线生成 进行批量处理？",
+      "summary": "SitemapGen 在线生成 支持将多个任务合并执行，适合需要重复操作的场景。建议先在小批量上验证效果，再扩展到全量，",
+      "body": "<p>SitemapGen 在线生成 支持将多个任务合并执行，适合需要重复操作的场景。建议先在小批量上验证效果，再扩展到全量，避免一次性处理大量数据导致等待过久。</p><p>相关工具：<a href=\"https://sitemapgen.72tool.com\">SitemapGen 在线生成</a></p>",
+      "tags": [
+        "SitemapGen 在线生成",
+        "教程",
+        "问答"
+      ],
+      "category": "SEO工具",
+      "keywords": "SitemapGen 在线生成,教程,问答",
+      "relatedTools": [
+        "SitemapGen 在线生成"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "screaming-frog-seo-spider-支持哪些文件格式",
+      "title": "Screaming Frog SEO Spider 支持哪些文件格式？",
+      "summary": "具体支持的格式以 Screaming Frog SEO Spider 官方页面为准。多数在线工具兼容常见的文本与表格格式",
+      "body": "<p>具体支持的格式以 Screaming Frog SEO Spider 官方页面为准。多数在线工具兼容常见的文本与表格格式；上传前请确认格式符合要求，避免解析失败。</p><p>相关工具：<a href=\"https://www.screamingfrog.co.uk/seo-spider/\">Screaming Frog SEO Spider</a></p>",
+      "tags": [
+        "Screaming Frog SEO Spider",
+        "教程",
+        "问答"
+      ],
+      "category": "SEO工具",
+      "keywords": "Screaming Frog SEO Spider,教程,问答",
+      "relatedTools": [
+        "Screaming Frog SEO Spider"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "xml-sitemap-生成库-免费版有哪些限制",
+      "title": "xml-sitemap 生成库 免费版有哪些限制？",
+      "summary": "xml-sitemap 生成库 通常提供免费额度或试用，高级功能可能需要订阅。使用前可在官网查看最新的套餐说明，按需选择",
+      "body": "<p>xml-sitemap 生成库 通常提供免费额度或试用，高级功能可能需要订阅。使用前可在官网查看最新的套餐说明，按需选择。</p><p>相关工具：<a href=\"https://github.com/ekalinin/sitemap.js\">xml-sitemap 生成库</a></p>",
+      "tags": [
+        "xml-sitemap 生成库",
+        "教程",
+        "问答"
+      ],
+      "category": "SEO工具",
+      "keywords": "xml-sitemap 生成库,教程,问答",
+      "relatedTools": [
+        "xml-sitemap 生成库"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何在-google-search-console-中导出结果",
+      "title": "如何在 Google Search Console 中导出结果？",
+      "summary": "处理完成后，Google Search Console 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、",
+      "body": "<p>处理完成后，Google Search Console 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://search.google.com/search-console\">Google Search Console</a></p>",
+      "tags": [
+        "Google Search Console",
+        "教程",
+        "问答"
+      ],
+      "category": "SEO工具",
+      "keywords": "Google Search Console,教程,问答",
+      "relatedTools": [
+        "Google Search Console"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何使用-cactus-compute-needle-进行批量处理",
+      "title": "如何使用 cactus-compute/needle 进行批量处理？",
+      "summary": "用 cactus-compute/needle 做批量处理时，先把任务清单整理成结构化文件（CSV/JSON），通过其批",
+      "body": "<p>用 cactus-compute/needle 做批量处理时，先把任务清单整理成结构化文件（CSV/JSON），通过其批量导入或队列功能一次性提交。处理前用 2–3 条样本验证输出格式与速度，确认无误再扩展到全量，避免大批量出错后难以回滚；若支持并发，可逐步上调并发数观察稳定性。</p><p>相关工具：<a href=\"https://github.com/cactus-compute/needle\">cactus-compute/needle</a></p>",
+      "tags": [
+        "cactus-compute/needle",
+        "教程",
+        "问答"
+      ],
+      "category": "SEO工具",
+      "keywords": "cactus-compute/needle,教程,问答",
+      "relatedTools": [
+        "cactus-compute/needle"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "kepano-obsidian-skills-支持哪些文件格式",
+      "title": "kepano/obsidian-skills 支持哪些文件格式？",
+      "summary": "kepano/obsidian-skills 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSO",
+      "body": "<p>kepano/obsidian-skills 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Markdown 及主流图片/表格格式。上传前请确认编码为 UTF-8、单文件不超过站点限制，避免解析失败；批量场景建议统一格式后再一次性导入。</p><p>相关工具：<a href=\"https://github.com/kepano/obsidian-skills\">kepano/obsidian-skills</a></p>",
+      "tags": [
+        "kepano/obsidian-skills",
+        "教程",
+        "问答"
+      ],
+      "category": "SEO工具",
+      "keywords": "kepano/obsidian-skills,教程,问答",
+      "relatedTools": [
+        "kepano/obsidian-skills"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "anthropics-skills-免费版有哪些限制",
+      "title": "anthropics/skills 免费版有哪些限制？",
+      "summary": "anthropics/skills 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小",
+      "body": "<p>anthropics/skills 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小、并发数或导出格式。使用前在官网「定价」页核对当前套餐明细，按实际体量选择，避免生产环境触达上限中断。</p><p>相关工具：<a href=\"https://github.com/anthropics/skills\">anthropics/skills</a></p>",
+      "tags": [
+        "anthropics/skills",
+        "教程",
+        "问答"
+      ],
+      "category": "SEO工具",
+      "keywords": "anthropics/skills,教程,问答",
+      "relatedTools": [
+        "anthropics/skills"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何在-holaboss-ai-holaos-中导出结果",
+      "title": "如何在 holaboss-ai/holaOS 中导出结果？",
+      "summary": "处理完成后，holaboss-ai/holaOS 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSO",
+      "body": "<p>处理完成后，holaboss-ai/holaOS 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://github.com/holaboss-ai/holaOS\">holaboss-ai/holaOS</a></p>",
+      "tags": [
+        "holaboss-ai/holaOS",
+        "教程",
+        "问答"
+      ],
+      "category": "SEO工具",
+      "keywords": "holaboss-ai/holaOS,教程,问答",
+      "relatedTools": [
+        "holaboss-ai/holaOS"
+      ],
+      "updated": "2026-08-14"
+    }
+  ]
+}

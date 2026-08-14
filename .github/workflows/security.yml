@@ -1,0 +1,29 @@
+# ============================================================
+# security.yml  ——  每周违规内容扫描 + 告警（对应清单「六.1」）
+# ------------------------------------------------------------
+# 每周日运行 security-scan.js：遍历所有子站工具/资讯数据，检测违规关键词与外链风险，
+# 生成违规清单并推送企业微信；命中严重时可手动 `node scripts/security-scan.js --offline-all` 下线。
+# 告警走 WEBHOOK_URL（企业微信/飞书，非 Gmail）。
+# ============================================================
+name: security-scan
+
+on:
+  schedule:
+    - cron: '30 20 * * 0'       # 每周日 UTC 20:30（北京 04:30）
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: 违规扫描 + 推送告警
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        run: node scripts/security-scan.js

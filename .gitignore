@@ -1,0 +1,28 @@
+# 依赖（GitHub Actions 自动 npm install，无需提交）
+node_modules/
+
+# 运行缓存 / 日志 / 临时素材（不影响页面，提交会触发无意义构建）
+.cache/
+*.log
+scripts/.last-run.json
+scripts/.dup-report.json
+scripts/.security-report.json
+scripts/.crawl-raw/
+fntest/
+._fntest/
+_fntest/
+
+# 本地验证残留（不应提交：含完整 public 副本与 Function 测试桩）
+.verify/
+_sf.mjs
+_sf_runner.mjs
+
+# 备份（merge.yml 打包，仅保留 latest 软链/最新包，历史 tar.gz 不提交）
+backups/*.tar.gz
+
+# 变现/财务归档（CI 生成，含聚合数；不提交以免污染源码，敏感 token 不入库）
+data/reports/
+
+# 系统文件
+.DS_Store
+Thumbs.db

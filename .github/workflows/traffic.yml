@@ -1,0 +1,31 @@
+# ============================================================
+# traffic.yml  ——  每日流量监控报表（对应清单「四.2」）
+# ------------------------------------------------------------
+# 每日运行 traffic-report.js：对接 Cloudflare GraphQL 拉取各子域名访问量，
+# 生成报表并推送企业微信，快速识别冷热站点，便于流量负载均衡（双账号分别跑）。
+# 需 CF_API_TOKEN + CF_ACCOUNT_ID + WEBHOOK_URL。
+# ============================================================
+name: traffic-report
+
+on:
+  schedule:
+    - cron: '0 17 * * *'        # 每日 UTC 17:00（北京 01:00）
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: 拉取流量报表 + 推送
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        run: node scripts/traffic-report.js

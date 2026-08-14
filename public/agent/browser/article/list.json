@@ -1,0 +1,194 @@
+{
+  "updated": "2026-08-14",
+  "articles": [
+    {
+      "slug": "browser-use-deploy-tutorial",
+      "title": "Browser Use 本地部署教程：5 分钟跑通浏览器自动化 AI 智能体",
+      "summary": "从环境安装到第一个自然语言任务，手把手教你本地部署 Browser Use，让 AI 自动操作网页完成表单填写与数据抓取。",
+      "body": "<p>Browser Use 是目前最易上手的浏览器自动化 Agent，用自然语言即可驱动网页。本教程覆盖 Python 环境准备、API Key 配置与第一个多步任务。</p><h2>一、环境准备</h2><p>建议使用 Python 3.11+，新建虚拟环境后执行 <code>pip install browser-use</code>。</p><h2>二、跑通第一个任务</h2><p>用十余行代码让智能体打开搜索页、输入关键词并提取结果，适合刚接触自动化Agent的新手。</p><h2>三、常见问题</h2><p>遇到反爬时可切换为本地模型或加入人工确认步骤，详见本站相关工具。</p>",
+      "tags": [
+        "Browser Use",
+        "本地部署",
+        "新手教程"
+      ],
+      "category": "部署教程",
+      "keywords": "Browser Use 部署教程, 浏览器自动化Agent本地搭建, 自然语言网页操作入门",
+      "relatedTools": [
+        "Browser Use"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "playwright-vs-puppeteer-2026",
+      "title": "Playwright 还是 Puppeteer？2026 浏览器自动化框架选型对比",
+      "summary": "从多浏览器支持、稳定性、学习曲线到生态，全面对比 Playwright 与 Puppeteer，帮你按场景选对自动化框架。",
+      "body": "<p>两者都是主流的浏览器自动化框架。Playwright 原生支持 Chromium/Firefox/WebKit，适合跨浏览器测试；Puppeteer 更轻量、与 Chrome 绑定更紧。</p><h2>核心差异</h2><p>多浏览器、自动等待、Trace 调试是 Playwright 的优势；Puppeteer 在上手速度与社区资料上更友好。</p><h2>怎么选</h2><p>需要稳定端到端测试选 Playwright；做轻量爬虫与截图选 Puppeteer。</p>",
+      "tags": [
+        "Playwright",
+        "Puppeteer",
+        "选型对比"
+      ],
+      "category": "选型对比",
+      "keywords": "Playwright 和 Puppeteer 哪个好, 浏览器自动化框架对比, 2026 爬虫框架选型",
+      "relatedTools": [
+        "Playwright",
+        "Puppeteer"
+      ],
+      "updated": "2026-08-13"
+    },
+    {
+      "slug": "browser-agent-captcha-avoid",
+      "title": "浏览器 Agent 遇到验证码怎么办？5 个合规避坑技巧",
+      "summary": "分享浏览器自动化 Agent 在登录、下单场景遇到验证码时的稳妥处理方案，守住合规底线、降低封号风险。",
+      "body": "<p>验证码是自动化 Agent 最常见的拦路虎。本文列举人工确认、语义选择器降脆弱度等合规做法。</p><h2>一、优先人工确认</h2><p>对涉及账号安全的步骤加入人工确认，避免触发风控。</p><h2>二、用语义选择器降低脆弱度</h2><p>使用 AgentQL 这类语义定位方案，减少 XPath 脆弱导致的重复尝试。</p>",
+      "tags": [
+        "验证码",
+        "合规",
+        "避坑"
+      ],
+      "category": "避坑指南",
+      "keywords": "浏览器自动化 验证码 解决方案, 自动化Agent被封怎么办, 合规爬虫技巧",
+      "relatedTools": [
+        "Browser Use",
+        "AgentQL"
+      ],
+      "updated": "2026-08-12"
+    },
+    {
+      "slug": "如何使用-browser-use-进行批量处理",
+      "title": "如何使用 Browser Use 进行批量处理？",
+      "summary": "Browser Use 支持将多个任务合并执行，适合需要重复操作的场景。建议先在小批量上验证效果，再扩展到全量，避免一次",
+      "body": "<p>Browser Use 支持将多个任务合并执行，适合需要重复操作的场景。建议先在小批量上验证效果，再扩展到全量，避免一次性处理大量数据导致等待过久。</p><p>相关工具：<a href=\"https://github.com/browser-use/browser-use\">Browser Use</a></p>",
+      "tags": [
+        "Browser Use",
+        "教程",
+        "问答"
+      ],
+      "category": "浏览器自动化",
+      "keywords": "Browser Use,教程,问答",
+      "relatedTools": [
+        "Browser Use"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "playwright-支持哪些文件格式",
+      "title": "Playwright 支持哪些文件格式？",
+      "summary": "具体支持的格式以 Playwright 官方页面为准。多数在线工具兼容常见的文本与表格格式；上传前请确认格式符合要求，避",
+      "body": "<p>具体支持的格式以 Playwright 官方页面为准。多数在线工具兼容常见的文本与表格格式；上传前请确认格式符合要求，避免解析失败。</p><p>相关工具：<a href=\"https://playwright.dev\">Playwright</a></p>",
+      "tags": [
+        "Playwright",
+        "教程",
+        "问答"
+      ],
+      "category": "浏览器自动化",
+      "keywords": "Playwright,教程,问答",
+      "relatedTools": [
+        "Playwright"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "puppeteer-免费版有哪些限制",
+      "title": "Puppeteer 免费版有哪些限制？",
+      "summary": "Puppeteer 通常提供免费额度或试用，高级功能可能需要订阅。使用前可在官网查看最新的套餐说明，按需选择。",
+      "body": "<p>Puppeteer 通常提供免费额度或试用，高级功能可能需要订阅。使用前可在官网查看最新的套餐说明，按需选择。</p><p>相关工具：<a href=\"https://pptr.dev\">Puppeteer</a></p>",
+      "tags": [
+        "Puppeteer",
+        "教程",
+        "问答"
+      ],
+      "category": "浏览器自动化",
+      "keywords": "Puppeteer,教程,问答",
+      "relatedTools": [
+        "Puppeteer"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何在-agentql-中导出结果",
+      "title": "如何在 AgentQL 中导出结果？",
+      "summary": "处理完成后，AgentQL 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若",
+      "body": "<p>处理完成后，AgentQL 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://agentql.com\">AgentQL</a></p>",
+      "tags": [
+        "AgentQL",
+        "教程",
+        "问答"
+      ],
+      "category": "浏览器自动化",
+      "keywords": "AgentQL,教程,问答",
+      "relatedTools": [
+        "AgentQL"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何使用-skyvern-进行批量处理",
+      "title": "如何使用 Skyvern 进行批量处理？",
+      "summary": "用 Skyvern 做批量处理时，先把任务清单整理成结构化文件（CSV/JSON），通过其批量导入或队列功能一次性提交。",
+      "body": "<p>用 Skyvern 做批量处理时，先把任务清单整理成结构化文件（CSV/JSON），通过其批量导入或队列功能一次性提交。处理前用 2–3 条样本验证输出格式与速度，确认无误再扩展到全量，避免大批量出错后难以回滚；若支持并发，可逐步上调并发数观察稳定性。</p><p>相关工具：<a href=\"https://github.com/Skyvern-AI/skyvern\">Skyvern</a></p>",
+      "tags": [
+        "Skyvern",
+        "教程",
+        "问答"
+      ],
+      "category": "浏览器自动化",
+      "keywords": "Skyvern,教程,问答",
+      "relatedTools": [
+        "Skyvern"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "smicallef-spiderfoot-支持哪些文件格式",
+      "title": "smicallef/spiderfoot 支持哪些文件格式？",
+      "summary": "smicallef/spiderfoot 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、",
+      "body": "<p>smicallef/spiderfoot 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Markdown 及主流图片/表格格式。上传前请确认编码为 UTF-8、单文件不超过站点限制，避免解析失败；批量场景建议统一格式后再一次性导入。</p><p>相关工具：<a href=\"https://github.com/smicallef/spiderfoot\">smicallef/spiderfoot</a></p>",
+      "tags": [
+        "smicallef/spiderfoot",
+        "教程",
+        "问答"
+      ],
+      "category": "浏览器自动化",
+      "keywords": "smicallef/spiderfoot,教程,问答",
+      "relatedTools": [
+        "smicallef/spiderfoot"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "lightricks-ltx-2-免费版有哪些限制",
+      "title": "Lightricks/LTX-2 免费版有哪些限制？",
+      "summary": "Lightricks/LTX-2 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小、",
+      "body": "<p>Lightricks/LTX-2 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小、并发数或导出格式。使用前在官网「定价」页核对当前套餐明细，按实际体量选择，避免生产环境触达上限中断。</p><p>相关工具：<a href=\"https://github.com/Lightricks/LTX-2\">Lightricks/LTX-2</a></p>",
+      "tags": [
+        "Lightricks/LTX-2",
+        "教程",
+        "问答"
+      ],
+      "category": "浏览器自动化",
+      "keywords": "Lightricks/LTX-2,教程,问答",
+      "relatedTools": [
+        "Lightricks/LTX-2"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何在-megadose-holehe-中导出结果",
+      "title": "如何在 megadose/holehe 中导出结果？",
+      "summary": "处理完成后，megadose/holehe 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或",
+      "body": "<p>处理完成后，megadose/holehe 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://github.com/megadose/holehe\">megadose/holehe</a></p>",
+      "tags": [
+        "megadose/holehe",
+        "教程",
+        "问答"
+      ],
+      "category": "浏览器自动化",
+      "keywords": "megadose/holehe,教程,问答",
+      "relatedTools": [
+        "megadose/holehe"
+      ],
+      "updated": "2026-08-14"
+    }
+  ]
+}

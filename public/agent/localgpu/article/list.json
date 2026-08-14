@@ -1,0 +1,198 @@
+{
+  "updated": "2026-08-14",
+  "articles": [
+    {
+      "slug": "8g-vram-local-ai-agent-deploy",
+      "title": "8G 显存本地 AI Agent 怎么部署？Ollama + 工具链实操",
+      "summary": "手把手教你用 Ollama 在 8G 显卡跑通本地 AI 智能体，附显存占用、量化参数与提速技巧。",
+      "body": "<p>8G 显存也能跑本地 Agent。关键是用量化模型 + 轻量推理客户端，数据完全离线。</p><h2>一、模型量化</h2><p>选择 4-bit 量化的 7B/8B 模型，显存占用可压到 6G 以内。</p><h2>二、推理客户端</h2><p>LM Studio 提供图形界面与 OpenAI 兼容接口，免命令行即可调用。</p>",
+      "tags": [
+        "Ollama",
+        "本地部署",
+        "显存优化"
+      ],
+      "category": "部署教程",
+      "keywords": "8G显存本地AI Agent部署, 低显存跑大模型教程, 本地Agent显存占用优化",
+      "relatedTools": [
+        "Ollama",
+        "LM Studio"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "comfyui-vs-webui-choose",
+      "title": "ComfyUI 还是 SD WebUI？本地出图界面选型对比",
+      "summary": "从节点编排、插件生态与上手门槛对比 ComfyUI 与 Stable Diffusion WebUI，帮你选对本地出图方案。",
+      "body": "<p>本地出图两大主流界面各有侧重。WebUI 上手快、插件多；ComfyUI 靠节点编排适合复杂工作流。</p><h2>核心差异</h2><p>需要可复用流水线选 ComfyUI；想快速出图选 WebUI。</p>",
+      "tags": [
+        "ComfyUI",
+        "Stable Diffusion",
+        "选型对比"
+      ],
+      "category": "选型对比",
+      "keywords": "ComfyUI 和 SD WebUI 对比, 本地出图界面选型, 显卡AI绘画方案",
+      "relatedTools": [
+        "Stable Diffusion WebUI"
+      ],
+      "updated": "2026-08-12"
+    },
+    {
+      "slug": "如何使用-ollama-进行批量处理",
+      "title": "如何使用 Ollama 进行批量处理？",
+      "summary": "Ollama 支持将多个任务合并执行，适合需要重复操作的场景。建议先在小批量上验证效果，再扩展到全量，避免一次性处理大量",
+      "body": "<p>Ollama 支持将多个任务合并执行，适合需要重复操作的场景。建议先在小批量上验证效果，再扩展到全量，避免一次性处理大量数据导致等待过久。</p><p>相关工具：<a href=\"https://ollama.com\">Ollama</a></p>",
+      "tags": [
+        "Ollama",
+        "教程",
+        "问答"
+      ],
+      "category": "本地显卡",
+      "keywords": "Ollama,教程,问答",
+      "relatedTools": [
+        "Ollama"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "tencentdb-agent-memory",
+      "title": "TencentDB-Agent-Memory",
+      "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, s",
+      "body": "<p>TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, s</p>",
+      "tags": [],
+      "category": "本地显卡",
+      "keywords": "",
+      "relatedTools": [],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "comfyui",
+      "title": "ComfyUI",
+      "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "body": "<p>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</p>",
+      "tags": [],
+      "category": "本地显卡",
+      "keywords": "",
+      "relatedTools": [],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "stable-diffusion-webui-支持哪些文件格式",
+      "title": "Stable Diffusion WebUI 支持哪些文件格式？",
+      "summary": "具体支持的格式以 Stable Diffusion WebUI 官方页面为准。多数在线工具兼容常见的文本与表格格式；上传",
+      "body": "<p>具体支持的格式以 Stable Diffusion WebUI 官方页面为准。多数在线工具兼容常见的文本与表格格式；上传前请确认格式符合要求，避免解析失败。</p><p>相关工具：<a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui\">Stable Diffusion WebUI</a></p>",
+      "tags": [
+        "Stable Diffusion WebUI",
+        "教程",
+        "问答"
+      ],
+      "category": "本地显卡",
+      "keywords": "Stable Diffusion WebUI,教程,问答",
+      "relatedTools": [
+        "Stable Diffusion WebUI"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "lm-studio-免费版有哪些限制",
+      "title": "LM Studio 免费版有哪些限制？",
+      "summary": "LM Studio 通常提供免费额度或试用，高级功能可能需要订阅。使用前可在官网查看最新的套餐说明，按需选择。",
+      "body": "<p>LM Studio 通常提供免费额度或试用，高级功能可能需要订阅。使用前可在官网查看最新的套餐说明，按需选择。</p><p>相关工具：<a href=\"https://lmstudio.ai\">LM Studio</a></p>",
+      "tags": [
+        "LM Studio",
+        "教程",
+        "问答"
+      ],
+      "category": "本地显卡",
+      "keywords": "LM Studio,教程,问答",
+      "relatedTools": [
+        "LM Studio"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何在-privategpt-中导出结果",
+      "title": "如何在 PrivateGPT 中导出结果？",
+      "summary": "处理完成后，PrivateGPT 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格",
+      "body": "<p>处理完成后，PrivateGPT 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://github.com/Mintplex-Labs/anything-llm\">PrivateGPT</a></p>",
+      "tags": [
+        "PrivateGPT",
+        "教程",
+        "问答"
+      ],
+      "category": "本地显卡",
+      "keywords": "PrivateGPT,教程,问答",
+      "relatedTools": [
+        "PrivateGPT"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何使用-unslothai-unsloth-进行批量处理",
+      "title": "如何使用 unslothai/unsloth 进行批量处理？",
+      "summary": "用 unslothai/unsloth 做批量处理时，先把任务清单整理成结构化文件（CSV/JSON），通过其批量导入或",
+      "body": "<p>用 unslothai/unsloth 做批量处理时，先把任务清单整理成结构化文件（CSV/JSON），通过其批量导入或队列功能一次性提交。处理前用 2–3 条样本验证输出格式与速度，确认无误再扩展到全量，避免大批量出错后难以回滚；若支持并发，可逐步上调并发数观察稳定性。</p><p>相关工具：<a href=\"https://github.com/unslothai/unsloth\">unslothai/unsloth</a></p>",
+      "tags": [
+        "unslothai/unsloth",
+        "教程",
+        "问答"
+      ],
+      "category": "本地显卡",
+      "keywords": "unslothai/unsloth,教程,问答",
+      "relatedTools": [
+        "unslothai/unsloth"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "nvidia-nemo-switchyard-支持哪些文件格式",
+      "title": "NVIDIA-NeMo/Switchyard 支持哪些文件格式？",
+      "summary": "NVIDIA-NeMo/Switchyard 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSO",
+      "body": "<p>NVIDIA-NeMo/Switchyard 具体支持的格式以官网文档为准，常见在线工具通常兼容 TXT、CSV、JSON、Markdown 及主流图片/表格格式。上传前请确认编码为 UTF-8、单文件不超过站点限制，避免解析失败；批量场景建议统一格式后再一次性导入。</p><p>相关工具：<a href=\"https://github.com/NVIDIA-NeMo/Switchyard\">NVIDIA-NeMo/Switchyard</a></p>",
+      "tags": [
+        "NVIDIA-NeMo/Switchyard",
+        "教程",
+        "问答"
+      ],
+      "category": "本地显卡",
+      "keywords": "NVIDIA-NeMo/Switchyard,教程,问答",
+      "relatedTools": [
+        "NVIDIA-NeMo/Switchyard"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "lightningpixel-modly-免费版有哪些限制",
+      "title": "lightningpixel/modly 免费版有哪些限制？",
+      "summary": "lightningpixel/modly 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文",
+      "body": "<p>lightningpixel/modly 通常提供免费额度或试用次数，超出后需订阅付费版；免费版可能限制单次处理数量、文件大小、并发数或导出格式。使用前在官网「定价」页核对当前套餐明细，按实际体量选择，避免生产环境触达上限中断。</p><p>相关工具：<a href=\"https://github.com/lightningpixel/modly\">lightningpixel/modly</a></p>",
+      "tags": [
+        "lightningpixel/modly",
+        "教程",
+        "问答"
+      ],
+      "category": "本地显卡",
+      "keywords": "lightningpixel/modly,教程,问答",
+      "relatedTools": [
+        "lightningpixel/modly"
+      ],
+      "updated": "2026-08-14"
+    },
+    {
+      "slug": "如何在-altic-dev-fluidvoice-中导出结果",
+      "title": "如何在 altic-dev/FluidVoice 中导出结果？",
+      "summary": "处理完成后，altic-dev/FluidVoice 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、J",
+      "body": "<p>处理完成后，altic-dev/FluidVoice 一般在结果区右上角提供「导出 / 下载」按钮，可保存为 CSV、JSON 或常见文档格式。若页面无明显入口，可在顶部工具栏或每条结果的操作菜单中查找；长期留存建议导出后本地备份，并留意是否含敏感字段。</p><p>相关工具：<a href=\"https://github.com/altic-dev/FluidVoice\">altic-dev/FluidVoice</a></p>",
+      "tags": [
+        "altic-dev/FluidVoice",
+        "教程",
+        "问答"
+      ],
+      "category": "本地显卡",
+      "keywords": "altic-dev/FluidVoice,教程,问答",
+      "relatedTools": [
+        "altic-dev/FluidVoice"
+      ],
+      "updated": "2026-08-14"
+    }
+  ]
+}

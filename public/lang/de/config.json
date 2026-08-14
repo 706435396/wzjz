@@ -1,0 +1,46 @@
+{
+  "domain": "de.72tool.com",
+  "name": "72tool Online-Tools",
+  "title": "Kostenlose Online-Tools | 72tool Verzeichnis auf Deutsch",
+  "description": "Verzeichnis kostenloser Online-Tools: Textbereinigung, Sitemap-Generierung, KI-Utilities und mehr, auf Deutsch.",
+  "keywords": "werkzeuge, utilitäten, text, sitemap, künstliche intelligenz",
+  "category": "Utilities",
+  "lang": "de",
+  "base": "/lang/de",
+  "article": {
+    "enabled": true,
+    "categories": [
+      "部署教程",
+      "使用技巧",
+      "选型对比",
+      "避坑指南"
+    ]
+  },
+  "ads": {
+    "enabled": true,
+    "region": "global",
+    "provider": "adsense",
+    "slots": {
+      "top": "",
+      "sidebar": "",
+      "article": ""
+    }
+  },
+  "theme": {
+    "brand": "#db2777",
+    "layout": "masonry",
+    "navOrder": [
+      "首页",
+      "教程资讯",
+      "Agent 集群",
+      "工具集群"
+    ]
+  },
+  "community": {
+    "enabled": true,
+    "title": "开发者社群",
+    "url": "/community"
+  },
+  "top": true,
+  "imageSitemap": true
+}

@@ -1,0 +1,19 @@
+{
+  "name": "toolnav-multisubdomain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "多子域名垂直工具导航静态站：1 个 Cloudflare Pages 项目承载上百个独立站点，配套 GitHub Actions 全自动 AI 采集更新",
+  "type": "commonjs",
+  "scripts": {
+    "sitemap": "node scripts/build-sitemap.js",
+    "build": "node scripts/build-sitemap.js",
+    "crawl": "node scripts/main-crawl.js",
+    "serve": "npx --yes serve public -l 8788"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

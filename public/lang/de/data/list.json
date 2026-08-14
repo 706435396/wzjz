@@ -1,0 +1,151 @@
+{
+  "updated": "2026-08-14",
+  "tools": [
+    {
+      "name": "TxtClean Textbereinigung",
+      "url": "https://txtclean.72tool.com/?site=tools/txtclean",
+      "desc": "Kostenloses Werkzeug zur Bereinigung alter Texte: entfernt Sonderzeichen, Leerzeichen und setzt Satzzeichen.",
+      "tags": [
+        "text",
+        "bereinigung",
+        "interpunktion"
+      ],
+      "category": "Textbereinigung",
+      "updated": "2026-08-14"
+    },
+    {
+      "name": "Sitemap-Generator",
+      "url": "https://sitemapgen.72tool.com/?site=tools/sitemapgen",
+      "desc": "Erstellt eine standardisierte sitemap.xml für Ihre Website und verbessert die SEO-Sichtbarkeit.",
+      "tags": [
+        "sitemap",
+        "SEO",
+        "xml"
+      ],
+      "category": "SEO",
+      "updated": "2026-08-14"
+    },
+    {
+      "name": "Ollama (lokale KI)",
+      "url": "https://ollama.com",
+      "desc": "Führen Sie Sprachmodelle auf Ihrem eigenen Computer aus, ohne Daten in die Cloud zu senden.",
+      "tags": [
+        "ki",
+        "lokal",
+        "privat"
+      ],
+      "category": "Künstliche Intelligenz",
+      "updated": "2026-08-13"
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "desc": "Public repository for Agent Skills",
+      "tags": [],
+      "category": "Utilities",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "megadose/holehe",
+      "url": "https://github.com/megadose/holehe",
+      "desc": "holehe allows you to check if the mail is used on different ",
+      "tags": [],
+      "category": "Utilities",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "desc": "A complete AI agency at your fingertips - From frontend wiza",
+      "tags": [],
+      "category": "Utilities",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "desc": "Macro is a unified workspace for teams: email, chat, docs, t",
+      "tags": [],
+      "category": "Utilities",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "3b1b/manim",
+      "url": "https://github.com/3b1b/manim",
+      "desc": "Animation engine for explanatory math videos",
+      "tags": [],
+      "category": "Utilities",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "vitali87/code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "desc": "The ultimate RAG for your monorepo. Query, understand, and e",
+      "tags": [],
+      "category": "Utilities",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "desc": "Reverse Engineering / Authorized Penetration Testing / Secur",
+      "tags": [],
+      "category": "Utilities",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "holaboss-ai/holaOS",
+      "url": "https://github.com/holaboss-ai/holaOS",
+      "desc": "Open-source All in One AI agent workspace. Run any agent — C",
+      "tags": [],
+      "category": "Utilities",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "cloudflare/computer",
+      "url": "https://github.com/cloudflare/computer",
+      "desc": "Give your agent a computer 👾",
+      "tags": [],
+      "category": "Utilities",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "desc": "Turn any technical book PDF into a Claude Code skill — ready",
+      "tags": [],
+      "category": "Utilities",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    }
+  ]
+}

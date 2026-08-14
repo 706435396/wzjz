@@ -1,0 +1,162 @@
+{
+  "updated": "2026-08-14",
+  "tools": [
+    {
+      "name": "Ollama",
+      "url": "https://ollama.com",
+      "desc": "一行命令在本地跑大模型（Llama、Qwen、Gemma 等），支持 GPU 加速，数据完全离线。",
+      "tags": [
+        "本地大模型",
+        "离线",
+        "GPU"
+      ],
+      "category": "本地大模型",
+      "updated": "2026-08-14"
+    },
+    {
+      "name": "Stable Diffusion WebUI",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "desc": "最流行的本地出图界面，支持插件生态与显卡优化，免费生成 AI 图像。",
+      "tags": [
+        "出图",
+        "SD",
+        "插件"
+      ],
+      "category": "图像生成",
+      "updated": "2026-08-10"
+    },
+    {
+      "name": "LM Studio",
+      "url": "https://lmstudio.ai",
+      "desc": "图形化本地推理客户端，免命令行加载 GGUF 模型，内置聊天与 OpenAI 兼容接口。",
+      "tags": [
+        "GUI",
+        "推理",
+        "兼容API"
+      ],
+      "category": "本地大模型",
+      "updated": "2026-08-12"
+    },
+    {
+      "name": "PrivateGPT",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "desc": "基于本地向量库的私有知识库问答，文档不出本机，适合企业内网部署。",
+      "tags": [
+        "知识库",
+        "向量库",
+        "私有"
+      ],
+      "category": "私有知识库",
+      "updated": "2026-08-13"
+    },
+    {
+      "name": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "desc": "精选 unslothai/unsloth：Local UI to run and train LLMs and d，适用",
+      "tags": [
+        "localgpu"
+      ],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "NVIDIA-NeMo/Switchyard",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "desc": "精选 NVIDIA-NeMo/Switchyard：Switchyard lets LLM applications r",
+      "tags": [
+        "localgpu"
+      ],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "lightningpixel/modly",
+      "url": "https://github.com/lightningpixel/modly",
+      "desc": "精选 lightningpixel/modly：Desktop app to generate 3D models fr",
+      "tags": [
+        "localgpu"
+      ],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "altic-dev/FluidVoice",
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "desc": "Fastest and only macOS Dictation app with on-device STT and ",
+      "tags": [],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "desc": "精选 TencentCloud/TencentDB-Agent-Memory：TencentDB Agent Memor",
+      "tags": [
+        "localgpu"
+      ],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "desc": "精选 Comfy-Org/ComfyUI：The most powerful and modular diffus，适用",
+      "tags": [
+        "localgpu"
+      ],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "desc": "14MB foundation model for tiny devices; phones, wearables, s",
+      "tags": [],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "desc": "A complete AI agency at your fingertips - From frontend wiza",
+      "tags": [],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "desc": "Production-grade engineering skills for AI coding agents.",
+      "tags": [],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "_note": "广告过审风控名单：hosts 中的域名不展示广告（由 scripts/ads-audit.js 生成，勿手改）",
+  "generated": "2026-08-14",
+  "thresholds": {
+    "enforce": true,
+    "minTools": 8,
+    "minArticles": 3,
+    "minArticleChars": 600,
+    "blockGray": true,
+    "_note": "广告过审风控门槛（scripts/ads-audit.js 按此判定；不达标的站点自动屏蔽广告，避免联盟判低质站群拒审/封号）"
+  },
+  "hosts": [],
+  "detail": {
+    "browseragent.72tool.com": {
+      "dir": "agent/browser",
+      "tools": 13,
+      "articles": 11,
+      "chars": 1443,
+      "gray": [],
+      "ok": true,
+      "reasons": [],
+      "remediation": []
+    },
+    "tiktokagent.72tool.com": {
+      "dir": "agent/tiktok",
+      "tools": 13,
+      "articles": 10,
+      "chars": 1142,
+      "gray": [],
+      "ok": true,
+      "reasons": [],
+      "remediation": []
+    },
+    "gpuagent.72tool.com": {
+      "dir": "agent/localgpu",
+      "tools": 13,
+      "articles": 12,
+      "chars": 1417,
+      "gray": [],
+      "ok": true,
+      "reasons": [],
+      "remediation": []
+    },
+    "txtclean.72tool.com": {
+      "dir": "tools/txtclean",
+      "tools": 13,
+      "articles": 13,
+      "chars": 1364,
+      "gray": [],
+      "ok": true,
+      "reasons": [],
+      "remediation": []
+    },
+    "sitemapgen.72tool.com": {
+      "dir": "tools/sitemapgen",
+      "tools": 13,
+      "articles": 9,
+      "chars": 1162,
+      "gray": [],
+      "ok": true,
+      "reasons": [],
+      "remediation": []
+    },
+    "es.72tool.com": {
+      "dir": "lang/es",
+      "tools": 13,
+      "articles": 9,
+      "chars": 1272,
+      "gray": [],
+      "ok": true,
+      "reasons": [],
+      "remediation": []
+    },
+    "de.72tool.com": {
+      "dir": "lang/de",
+      "tools": 13,
+      "articles": 9,
+      "chars": 1250,
+      "gray": [],
+      "ok": true,
+      "reasons": [],
+      "remediation": []
+    }
+  }
+}

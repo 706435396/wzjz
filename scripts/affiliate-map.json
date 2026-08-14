@@ -1,0 +1,36 @@
+{
+  "_readme": [
+    "商家域名 -> 联盟分销映射表。采集到的工具官网域名命中 match 即自动生成专属追踪链接。",
+    "字段：match（域名，支持数组，按后缀匹配，含子域名）| network（对应 common/config.json 的 affiliate.networks）",
+    "     advertiser（商家名，仅备注）| aid（CJ 广告主 ID，可选）| cid/mid（Impact 系必填）| landing（可选，指定着陆页替代官网首页）",
+    "     commission（§2.1 佣金权重 1–10，仅用于前端推荐位排序，越高越优先展示；不影响链接本身）",
+    "扩充方式：在联盟后台通过审核后，把商家官网域名与你的 ID 追加到 rules 即可，无需改代码。",
+    "合规红线：不收录翻墙 / 破解 / 盗版类商家，否则广告账户与域名双封（见 MONETIZATION.md 风控章节）。"
+  ],
+  "rules": [
+    { "match": ["hostinger.com", "hostinger.es", "hostinger.de"], "network": "cj", "advertiser": "Hostinger 云服务器/VPS", "aid": "", "commission": 6 },
+    { "match": ["cloudways.com"], "network": "impact", "advertiser": "Cloudways 托管", "cid": "", "mid": "", "commission": 7 },
+    { "match": ["kinsta.com"], "network": "impact", "advertiser": "Kinsta 托管", "cid": "", "mid": "", "commission": 7 },
+    { "match": ["adobe.com"], "network": "cj", "advertiser": "Adobe 创意套件", "aid": "", "commission": 8 },
+    { "match": ["grammarly.com"], "network": "cj", "advertiser": "Grammarly 写作", "aid": "", "commission": 9 },
+    { "match": ["semrush.com"], "network": "impact", "advertiser": "Semrush SEO", "cid": "", "mid": "", "commission": 8 },
+    { "match": ["brightdata.com", "luminati.io"], "network": "impact", "advertiser": "Bright Data 采集代理", "cid": "", "mid": "", "commission": 7 },
+    { "match": ["scraperapi.com"], "network": "partnerstack", "advertiser": "ScraperAPI 爬虫接口", "commission": 6 },
+    { "match": ["apify.com"], "network": "partnerstack", "advertiser": "Apify 自动化爬虫", "commission": 6 },
+    { "match": ["make.com", "integromat.com"], "network": "impact", "advertiser": "Make 自动化编排", "cid": "", "mid": "", "commission": 7 },
+    { "match": ["n8n.io"], "network": "partnerstack", "advertiser": "n8n 工作流自动化", "commission": 6 },
+    { "match": ["zapier.com"], "network": "generic", "advertiser": "Zapier 自动化", "commission": 6 },
+    { "match": ["notion.so", "notion.com"], "network": "generic", "advertiser": "Notion 协作", "commission": 4 },
+    { "match": ["elevenlabs.io"], "network": "impact", "advertiser": "ElevenLabs 语音合成", "cid": "", "mid": "", "commission": 8 },
+    { "match": ["jasper.ai"], "network": "partnerstack", "advertiser": "Jasper AI 写作", "commission": 8 },
+    { "match": ["descript.com"], "network": "partnerstack", "advertiser": "Descript 音视频剪辑", "commission": 7 },
+    { "match": ["wondershare.com", "wondershare.net"], "network": "avangate", "advertiser": "万兴桌面软件", "commission": 9 },
+    { "match": ["movavi.com"], "network": "avangate", "advertiser": "Movavi 剪辑", "commission": 8 },
+    { "match": ["easeus.com"], "network": "avangate", "advertiser": "EaseUS 数据工具", "commission": 8 },
+    { "match": ["runwayml.com", "runway.com"], "network": "generic", "advertiser": "Runway 视频生成", "commission": 6 },
+    { "match": ["browserbase.com"], "network": "generic", "advertiser": "Browserbase 云端浏览器", "commission": 6 },
+    { "match": ["lambdalabs.com"], "network": "impact", "advertiser": "Lambda GPU 云", "cid": "", "mid": "", "commission": 7 },
+    { "match": ["runpod.io"], "network": "generic", "advertiser": "RunPod GPU 算力", "commission": 6 },
+    { "match": ["vast.ai"], "network": "generic", "advertiser": "Vast.ai GPU 租用", "commission": 6 }
+  ]
+}
