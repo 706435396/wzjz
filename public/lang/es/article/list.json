@@ -17,40 +17,6 @@
         "Limpiador de texto TxtClean"
       ],
       "updated": "2026-08-14"
-    },
-    {
-      "slug": "如何使用-limpiador-de-texto-txtclean-进行批量处理",
-      "title": "如何使用 Limpiador de texto TxtClean 进行批量处理？",
-      "summary": "Limpiador de texto TxtClean 支持将多个任务合并执行，适合需要重复操作的场景。建议先在小批量上",
-      "body": "<p>Limpiador de texto TxtClean 支持将多个任务合并执行，适合需要重复操作的场景。建议先在小批量上验证效果，再扩展到全量，避免一次性处理大量数据导致等待过久。</p><p>相关工具：<a href=\"https://txtclean.72tool.com/?site=tools/txtclean\">Limpiador de texto TxtClean</a></p>",
-      "tags": [
-        "Limpiador de texto TxtClean",
-        "Tutorial",
-        "Preguntas"
-      ],
-      "category": "Utilidades",
-      "keywords": "Limpiador de texto TxtClean,教程,问答",
-      "relatedTools": [
-        "Limpiador de texto TxtClean"
-      ],
-      "updated": "2026-08-14"
-    },
-    {
-      "slug": "generador-de-sitemap-支持哪些文件格式",
-      "title": "Generador de sitemap 支持哪些文件格式？",
-      "summary": "具体支持的格式以 Generador de sitemap 官方页面为准。多数在线工具兼容常见的文本与表格格式；上传前请",
-      "body": "<p>具体支持的格式以 Generador de sitemap 官方页面为准。多数在线工具兼容常见的文本与表格格式；上传前请确认格式符合要求，避免解析失败。</p><p>相关工具：<a href=\"https://sitemapgen.72tool.com/?site=tools/sitemapgen\">Generador de sitemap</a></p>",
-      "tags": [
-        "Generador de sitemap",
-        "Tutorial",
-        "Preguntas"
-      ],
-      "category": "Utilidades",
-      "keywords": "Generador de sitemap,教程,问答",
-      "relatedTools": [
-        "Generador de sitemap"
-      ],
-      "updated": "2026-08-14"
     }
   ]
 }

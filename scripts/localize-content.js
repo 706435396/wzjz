@@ -155,15 +155,16 @@ function processSite(dir) {
     origArtWrapper = JSON.parse(fs.readFileSync(artPath, 'utf8'));
     arts = Array.isArray(origArtWrapper) ? origArtWrapper : (origArtWrapper.articles || origArtWrapper.list || []);
 
-    // 小语种站：标题/摘要含中文且目标语言特征极少 => 删除
+    // 小语种站：标题/摘要里中文占比过高（中德/中西混杂）=> 删除
     const cleaned = [];
     for (const a of arts) {
       const title = String(a.title || '');
       const summary = String(a.summary || '');
-      const cjkCount = ((title + summary).match(/[一-龥]/g) || []).length;
-      const targetHint = LANG_HINTS[bl];
-      const isTargetLang = targetHint ? targetHint.test(title + summary) : true;
-      if (bl !== 'zh' && cjkCount > 4 && !isTargetLang) {
+      const text = title + ' ' + summary;
+      const cjkCount = (text.match(/[一-龥]/g) || []).length;
+      const alphaCount = (text.match(/[a-zA-Z]/g) || []).length;
+      const cjkRatio = alphaCount ? cjkCount / (cjkCount + alphaCount) : (cjkCount ? 1 : 0);
+      if (bl !== 'zh' && cjkRatio > 0.2) {
         artRemoved++;
         continue;
       }
