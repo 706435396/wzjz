@@ -141,8 +141,8 @@
 
 ### 3.5 广告 IP / 访问风控过滤
 - **痛点**：代理/批量点击 IP 造成恶意点击，威胁账户封号。
-- **方案**：**边缘层优先**——在 `public/functions/` 新增广告请求前置 Function，读 `request.cf`（Cloudflare 注入的 `cf-threat-score`/`country`/`asn`），对高威胁分/已知代理 ASN 返回 403 不渲染广告位；前端 `ads.js` 再叠加轻量客户端黑名单兜底。
-- **文件**：新 `public/functions/ads-guard.js`（或并入 `ads.js` 客户端层）；改 `public/common/ads.js`。
+- **方案**：**边缘层优先**——在 `functions/` 新增广告请求前置 Function，读 `request.cf`（Cloudflare 注入的 `cf-threat-score`/`country`/`asn`），对高威胁分/已知代理 ASN 返回 403 不渲染广告位；前端 `ads.js` 再叠加轻量客户端黑名单兜底。
+- **文件**：新 `functions/ads-guard.js`（或并入 `ads.js` 客户端层）；改 `public/common/ads.js`。
 - **配置**：`ipRisk.enabled`、`ipRisk.maxThreatScore`、`ipRisk.blocklist:[]`、`ipRisk.proxyDetect:true`。
 - **无备案适配**：Cloudflare 边缘信号零备案可用，比纯前端可靠。
 - **优先级**：P1（封号防护核心）。
@@ -485,7 +485,7 @@
 | 分销看板 | `scripts/aff-dashboard.js` | — |
 | 模板随机 | — | `style.css`、`app.js`、`article.js`、子站 `config.json` |
 | 申诉素材 | `scripts/appeal-gen.js` | — |
-| IP 风控 | `public/functions/ads-guard.js` | `ads.js` |
+| IP 风控 | `functions/ads-guard.js` | `ads.js` |
 | 前端体验 | — | `affiliate.js`、`style.css`、`index.html`、`article.html` |
 | 一体巡检 | `scripts/monit-audit.js` | `ads-audit.js`、`monit.yml` |
 | PID 导入 | `scripts/aff-import.js` | — |

@@ -15,7 +15,7 @@
  *   3) 根域名（domain-map.json.root）—— 返回根总索引 sitemap-index.xml
  *      （其 loc 已含各子站 /article/sitemap.xml，爬虫一次抓全 200 站资讯地图）。
  *
- * 说明：文件必须放在 public/functions/article/sitemap.xml.js，Cloudflare 按文件
+ * 说明：文件必须放在 functions/article/sitemap.xml.js，Cloudflare 按文件
  *   路径自动匹配路由 /article/sitemap.xml（functions 目录下二级目录同样生效）。
  */
 export async function onRequest({ request, env }) {

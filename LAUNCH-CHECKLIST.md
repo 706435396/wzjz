@@ -44,7 +44,7 @@
    - **Build command：留空**（纯静态，省构建额度）。
    - **Build output directory：`public`**。
    - **Root directory（如有）：仓库根**（项目在 `toolnav/` 子目录时需指向该目录）。
-2. **开启 Functions**：本项目用了 `public/functions/`，免费版可用，但注意额度（见下）。
+2. **开启 Functions**：本项目用了 `functions/`，免费版可用，但注意额度（见下）。
 3. **关闭 Preview deployments**：仓库设 `CF_PAGES_PREVIEW_DISABLED=true` 或控制台关闭，避免 PR/分支偷吃构建额度。
 4. **额度评估（Functions）**：免费版 10 万请求/日、CPU 10ms/请求；200 子域的 sitemap/robots 全走 Function，高峰期可能触顶 → 评估 **Pages Pro**（或把 sitemap 改成构建期静态生成、仅 robots 走 Function）。
 

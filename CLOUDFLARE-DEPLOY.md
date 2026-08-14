@@ -177,7 +177,7 @@ git add -A && git commit -m "init: 生成初始 sitemap" && git push
 
 让每个子域名根路径 `https://xxx.72tool.com/sitemap.xml` 直接返回自己的站点地图，站长平台只需提交 `域名/sitemap.xml`，无需填长路径。
 
-1. 新建 `public/functions/sitemap.xml.js`（目录名 `functions` 不可改，Cloudflare 按文件名自动匹配 `/sitemap.xml` 路由）。逻辑：取 `hostname` → 查 `域名->子目录` 映射 → 用 `env.ASSETS.fetch` 读取该子目录内的 `sitemap.xml` 返回，设 `Cache-Control: max-age=3600`。
+1. 新建 `functions/sitemap.xml.js`（目录名 `functions` 不可改，Cloudflare 按文件名自动匹配 `/sitemap.xml` 路由）。逻辑：取 `hostname` → 查 `域名->子目录` 映射 → 用 `env.ASSETS.fetch` 读取该子目录内的 `sitemap.xml` 返回，设 `Cache-Control: max-age=3600`。
 2. **映射零维护**：`build-sitemap.js` 已自动生成 `public/sitemap-routes.json`（域名 → 子目录，来自各子站 `config.json.domain`）。Function 优先读取它，新增站点只要 `config.json.domain` 填对即自动收录；内置 `fallbackMap` 兜底防止 JSON 缺失。
 3. **主域名特例**：`72tool.com` / `www.72tool.com` 访问 `/sitemap.xml` 返回根总索引 `sitemap-index.xml`（其 `<loc>` 已是各子站 `域名/sitemap.xml`，爬虫一次抓全）。
 4. **范围**：该 Function 只拦截 `/sitemap.xml` 这一个路径，其余页面仍走静态资源 + `_redirects`，互不干扰。

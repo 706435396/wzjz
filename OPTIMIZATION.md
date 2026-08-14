@@ -1,6 +1,6 @@
 # 200 站 Cloudflare Pages 子域名工具站 · 全链路优化手册
 
-> 配套代码已落地（见 `scripts/`、`public/functions/`、`.github/workflows/`）。
+> 配套代码已落地（见 `scripts/`、`functions/`、`.github/workflows/`）。
 > 本手册把「优化清单 6 大模块」逐条对应到**已实现**与**部署/配置动作**，方便你照单执行。
 > 全链路零 Google 依赖：AI=智谱 GLM、统计=51.la/百度、账号=Outlook、部署=Cloudflare Pages。
 
@@ -12,9 +12,9 @@
 |------|----------|------|
 | `public/_redirects` | 一.1 | 新增 `# SITE <域名> <目录>` 注册表，站点清单单一来源 |
 | `scripts/build-sitemap.js` | 一.1 / 一.2 | 解析 `_redirects` → `common/domain-map.json`；每站生成 `sitemap.xml` + `sitemap-detail.xml` + 总索引（幂等） |
-| `public/functions/sitemap.xml.js` | 一 / 四 | 子域名根 `/sitemap.xml` 自动返回对应目录地图；根域名返回总索引 |
-| `public/functions/sitemap-detail.xml.js` | 一.2 | 子域名 `/sitemap-detail.xml` 详情内页地图 |
-| `public/functions/robots.txt.js` | 一.2 | 按子域名差异化 `/robots.txt`，屏蔽组件/数据源/筛选页 |
+| `functions/sitemap.xml.js` | 一 / 四 | 子域名根 `/sitemap.xml` 自动返回对应目录地图；根域名返回总索引 |
+| `functions/sitemap-detail.xml.js` | 一.2 | 子域名 `/sitemap-detail.xml` 详情内页地图 |
+| `functions/robots.txt.js` | 一.2 | 按子域名差异化 `/robots.txt`，屏蔽组件/数据源/筛选页 |
 | `public/_headers` | 二.2 / 四.1 | 静态资源分层缓存（CSS/JS/组件 1 天，JSON 1 小时） |
 | `scripts/main-crawl.js` | 三 | 批量 AI（50/批）+ 本地关键词预过滤（免 AI）+ 内容查重防同质化 |
 | `.github/workflows/crawl.yml` | 二.1 | 每日采集；仅新增才提交到 `temp-crawl` 分支（不部署） |

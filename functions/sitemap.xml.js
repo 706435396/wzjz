@@ -11,7 +11,7 @@
  *   2) 内置兜底 fallbackMap —— 防止 domain-map.json 尚未生成时也能工作；
  *   3) 根域名（domain-map.json.root 中的域名）—— 返回根总索引 sitemap-index.xml。
  *
- * 说明：文件必须放在 public/functions/sitemap.xml.js，Cloudflare 按文件名
+ * 说明：文件必须放在 functions/sitemap.xml.js，Cloudflare 按文件名
  *   自动匹配路由 /sitemap.xml（目录名 functions 不可改）。env.ASSETS 是 Pages
  *   默认的静态资源绑定，可读取 public/ 下任意文件。仅拦截 /sitemap.xml 一个路径。
  */
