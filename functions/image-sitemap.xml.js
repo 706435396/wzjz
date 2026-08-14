@@ -17,11 +17,13 @@ export async function onRequest({ request, env }) {
   if (map.root.includes(host)) {
     return serveAsset(env, request.url, '/sitemap-index.xml', 'index');
   }
+  // 子域名 -> 该目录的 image-sitemap.xml
   const dir = map.map[host];
   if (dir) {
     return serveAsset(env, request.url, `/${dir}/image-sitemap.xml`, 'image');
   }
-  return new Response('站点不存在', { status: 404 });
+  // 未知域名（含 *.pages.dev 预览域）返回根总索引，避免 404
+  return serveAsset(env, request.url, '/sitemap-index.xml', 'index');
 }
 
 async function loadMap(env, baseUrl) {

@@ -32,7 +32,8 @@ export async function onRequest({ request, env }) {
   if (dir) {
     return serveAsset(env, request.url, `/${dir}/article/sitemap.xml`, 'article');
   }
-  return new Response('站点不存在', { status: 404 });
+  // 未知域名（含 *.pages.dev 预览域）返回根总索引，避免 404
+  return serveAsset(env, request.url, '/sitemap-index.xml', 'index');
 }
 
 /* ---------- 加载域名映射（自动 JSON 优先，失败退化为内置兜底） ---------- */

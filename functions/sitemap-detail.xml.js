@@ -10,11 +10,13 @@ export async function onRequest({ request, env }) {
   const host = url.hostname.toLowerCase();
   const map = await loadMap(env, request.url);
 
+  // 子域名 -> 该目录的 sitemap-detail.xml
   const dir = map.map[host];
   if (dir) {
     return serveAsset(env, request.url, `/${dir}/sitemap-detail.xml`);
   }
-  return new Response('站点不存在', { status: 404 });
+  // 根域名/未知域名 -> 根总索引（含各子站 sitemap-detail.xml 入口）
+  return serveAsset(env, request.url, '/sitemap-index.xml');
 }
 
 async function loadMap(env, baseUrl) {
