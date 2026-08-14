@@ -52,7 +52,7 @@
     {
       "name": "Semantica",
       "url": "https://github.com/semantica-agi/semantica",
-      "desc": "精选 semantica-agi/semantica：Graph-Native Infrastructure for C",
+      "desc": "Semantica 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
         "txtclean"
       ],
@@ -65,7 +65,7 @@
     {
       "name": "Ragflow",
       "url": "https://github.com/infiniflow/ragflow",
-      "desc": "精选 infiniflow/ragflow：RAGFlow is a leading open-source Ret，适",
+      "desc": "Ragflow 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
         "txtclean"
       ],
@@ -78,7 +78,7 @@
     {
       "name": "Pdf Inspector",
       "url": "https://github.com/firecrawl/pdf-inspector",
-      "desc": "精选 firecrawl/pdf-inspector：Fast Rust library for PDF inspect",
+      "desc": "Pdf Inspector 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
         "txtclean"
       ],
@@ -104,7 +104,7 @@
     {
       "name": "Prime Agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "desc": "Prime Agent 是一款面向「文本清洗」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "desc": "Prime Agent 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
         "文本清洗"
       ],
@@ -117,7 +117,7 @@
     {
       "name": "Drawdb",
       "url": "https://github.com/drawdb-io/drawdb",
-      "desc": "Drawdb 是一款面向「文本清洗」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "desc": "Drawdb 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
         "文本清洗"
       ],
@@ -130,7 +130,7 @@
     {
       "name": "Macro",
       "url": "https://github.com/macro-inc/macro",
-      "desc": "Macro 是一款面向「文本清洗」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "desc": "Macro 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
         "文本清洗"
       ],
@@ -143,7 +143,7 @@
     {
       "name": "LTX 2",
       "url": "https://github.com/Lightricks/LTX-2",
-      "desc": "LTX 2 是一款面向「文本清洗」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "desc": "LTX 2 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
         "文本清洗"
       ],
@@ -156,7 +156,7 @@
     {
       "name": "Ladybird",
       "url": "https://github.com/LadybirdBrowser/ladybird",
-      "desc": "Ladybird 是一款面向「文本清洗」场景的工具，本站已整理其使用方式、适用场景与常见问答，进入详情页可查看官方入口与实操步骤。",
+      "desc": "Ladybird 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
       "tags": [
         "文本清洗"
       ],

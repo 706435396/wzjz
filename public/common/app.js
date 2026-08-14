@@ -85,21 +85,24 @@
     };
     var order = (cfg.theme && cfg.theme.navOrder) || ['首页', '教程资讯', 'Agent 集群', '工具集群'];
     var links = order.map(function (item) {
-      var key, label;
+      var key = '', label = '';
       if (typeof item === 'string') {
         label = item;
         key = item;
         for (var k in navMap) { if (navMap[k].labels.zh === item) { key = k; break; } }
-      } else { key = item.key || ''; label = item.label || ''; }
+      } else if (item && typeof item === 'object') {
+        key = String(item.key || '');
+        label = String(item.label || '');
+      }
       var m = navMap[key];
       var href = m ? m.href : '/';
       var display = label || (m && m.labels[lk]) || (m && m.labels.zh) || key;
-      return { t: display, h: href };
+      return { t: String(display || ''), h: href };
     });
     document.getElementById('topnav').innerHTML = links.map(function (l) {
       return '<a href="' + esc(l.h) + '">' + esc(l.t) + '</a>';
     }).join('');
-    document.getElementById('brand').textContent = (cfg.domain || '72tool').split('.')[0];
+    document.getElementById('brand').textContent = '72tool';
   }
 
   /* 应用差异化主题（品牌色 + 布局），批量消除模板站群特征 */
