@@ -126,6 +126,55 @@ a { color: inherit; text-decoration: none; }
   padding: 3px 9px; border-radius: 6px;
 }
 
+/* 卡片内直接外链入口（与站内「详情」并存） */
+.card-visit {
+  align-self: flex-start; margin-top: 2px;
+  font-size: 13px; font-weight: 600; color: var(--brand);
+  text-decoration: none; border: 1px solid var(--border);
+  padding: 6px 12px; border-radius: 8px; transition: border-color .15s, background .15s;
+}
+.card-visit:hover { border-color: var(--brand); background: var(--brand-soft); }
+
+/* 详情模式：隐藏列表类区块，仅显示详情（避免列表闪现） */
+.detail-mode .hero,
+.detail-mode #topBlock,
+.detail-mode #grid,
+.detail-mode #tutorials,
+.detail-mode #relArticles,
+.detail-mode #catFilter { display: none; }
+
+/* ---------- 工具详情视图（/tool=<slug>） ---------- */
+.tool-detail { padding: 8px 0 48px; }
+.back-link {
+  display: inline-block; margin-bottom: 16px; color: var(--muted);
+  text-decoration: none; font-size: 14px;
+}
+.back-link:hover { color: var(--brand); }
+.detail-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 28px; box-shadow: var(--shadow); max-width: 820px;
+}
+.detail-head { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px; }
+.detail-name { margin: 0; font-size: 28px; line-height: 1.2; }
+.detail-cat {
+  font-size: 13px; color: var(--tag-text); background: var(--tag-bg);
+  padding: 3px 10px; border-radius: 6px;
+}
+.detail-desc { margin: 0 0 16px; color: var(--text); font-size: 16px; line-height: 1.7; }
+.detail-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+.usage-list { margin: 0 0 22px; padding-left: 22px; color: var(--text); line-height: 1.9; }
+.usage-list li { margin-bottom: 6px; }
+.visit-btn {
+  display: inline-block; background: var(--brand); color: #fff; text-decoration: none;
+  font-weight: 700; font-size: 15px; padding: 12px 26px; border-radius: 10px;
+  transition: filter .15s ease;
+}
+.visit-btn:hover { filter: brightness(1.08); }
+@media (max-width: 600px) {
+  .detail-card { padding: 18px; }
+  .detail-name { font-size: 22px; }
+}
+
 .empty { color: var(--muted); text-align: center; padding: 40px 0; }
 
 /* ---------- 页脚 ---------- */

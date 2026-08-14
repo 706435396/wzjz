@@ -32,9 +32,9 @@
     ? '/' + forced.replace(/^\/+|\/+$/g, '')
     : (HOST_MAP[host] || '/');
 
-  /* slug：与 build-sitemap.js 保持一致，用于 ?tool= 深链锚点 */
+  /* slug：与 build-sitemap.js 保持一致（slice 60），用于 ?tool= 深链锚点 */
   function slugify(s) {
-    return String(s || '').toLowerCase().replace(/[^a-z0-9一-龥]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 50);
+    return String(s || '').toLowerCase().replace(/[^a-z0-9一-龥]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60);
   }
 
   /* ---------- 2. 深色 / 浅色模式 ---------- */
@@ -139,14 +139,15 @@
       '<article class="card" id="tool-' + esc(slug) + '" itemscope itemtype="https://schema.org/SoftwareApplication">' +
         img +
         '<h3 class="card-title">' +
-          // 分销链接：有 CPS 追踪则走专属链接并标「分销合作」，否则普通外链统一 nofollow
-          // （站群大量 dofollow 外链易被百度判链接农场；AFF 由 affiliate.js 注入）
-          '<a itemprop="url" href="' + esc(AFF.href(t)) + '" target="_blank" rel="' + esc(AFF.rel(t)) + '">' + esc(t.name) + '</a>' +
+          // ★ 标题链接到站内详情页（?tool=slug），不再直接跳外链；外跳统一放在详情页「访问官网」按钮
+          '<a itemprop="url" href="?tool=' + encodeURIComponent(slug) + '">' + esc(t.name) + '</a>' +
           AFF.badge(t) +
         '</h3>' +
         '<p class="card-desc" itemprop="description">' + esc(t.desc) + '</p>' +
         '<div class="card-tags">' + tags + '</div>' +
         ltMeta +
+        // 直接外链入口（默认 nofollow，分销时 sponsored），与站内详情页并存
+        '<a class="card-visit" href="' + esc(AFF.href(t)) + '" target="_blank" rel="' + esc(AFF.rel(t)) + '">访问官网 ↗</a>' +
         '<meta itemprop="name" content="' + esc(t.name) + '">' +
         '<meta itemprop="applicationCategory" content="' + esc(t.category || '') + '">' +
         '<meta itemprop="operatingSystem" content="Web">' +
@@ -302,6 +303,71 @@
     mk.content = (mk.content || '') + ',' + lt.join(',');
   }
 
+  /* ---------- 4.2 工具详情视图：/tool=<slug> 展示站内详情，避免一点就跳外链 ---------- */
+  // 无 usage 字段时，本地模板派生「使用步骤」（后续 AI 采集可填充 t.usage 覆盖）
+  function detailUsageHTML(t) {
+    var steps = [
+      '打开下方「访问官网」进入 ' + (t.name || '') + ' 主页，完成注册或登录。',
+      '在「' + (t.category || '工具') + '」分类下选择所需功能模块。',
+      (t.tags && t.tags.length) ? ('参考标签【' + t.tags.join('、') + '】快速定位适用场景。') : '',
+      '若遇到操作问题，可查看本页下方的「相关教程」。'
+    ].filter(Boolean);
+    return '<h2 class="section-title">使用步骤</h2><ol class="usage-list">' +
+      steps.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ol>';
+  }
+
+  function hideListUI(hide) {
+    ['topBlock', 'grid', 'tutorials', 'relArticles', 'catFilter', 'sentinel', 'empty'].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.hidden = hide && id !== 'sentinel' && id !== 'empty';
+    });
+  }
+
+  function renderDetail(tool, articles, cfg) {
+    if (!tool) return;
+    var slug = slugify(tool.name);
+    // 视图切换：隐藏列表，显示详情（加 body class 避免列表闪现）
+    document.body.classList.add('detail-mode');
+    hideListUI(true);
+    document.getElementById('detailName').textContent = tool.name;
+    document.getElementById('detailCat').textContent = tool.category || '';
+    document.getElementById('detailBadge').innerHTML = AFF.badge(tool);
+    document.getElementById('detailDesc').textContent = tool.desc || '';
+    document.getElementById('detailTags').innerHTML =
+      (tool.tags || []).map(function (x) { return '<span class="tag">' + esc(x) + '</span>'; }).join('');
+    document.getElementById('detailUsage').innerHTML = detailUsageHTML(tool);
+    var v = document.getElementById('detailVisit');
+    v.href = AFF.href(tool);
+    v.rel = AFF.rel(tool);
+    // Schema.org 结构化数据（详情级）
+    var ld = {
+      '@context': 'https://schema.org',
+      '@type': 'SoftwareApplication',
+      name: tool.name, description: tool.desc,
+      applicationCategory: tool.category, operatingSystem: 'Web',
+      url: location.origin + '/?tool=' + encodeURIComponent(slug),
+      inLanguage: cfg.lang || 'zh-CN'
+    };
+    if (tool.url) ld.sameAs = tool.url;
+    document.getElementById('jsonld').textContent = JSON.stringify(ld);
+    // 相关教程：按 relatedTools / tags 双向匹配（与 renderRelatedArticles 同源逻辑）
+    var relBox = document.getElementById('detailRel'), relList = document.getElementById('detailRelList');
+    var rel = (articles || []).filter(function (a) {
+      return (a.relatedTools && a.relatedTools.indexOf(tool.name) >= 0) ||
+        (a.tags || []).some(function (tg) { return tool.name.toLowerCase().indexOf(tg.toLowerCase()) >= 0; }) ||
+        (a.tags || []).some(function (tg) { return (tool.tags || []).indexOf(tg) >= 0; });
+    }).slice(0, 3);
+    if (rel.length) { relBox.hidden = false; relList.innerHTML = rel.map(tutCardHTML).join(''); }
+    else { relBox.hidden = true; }
+    // TDK：标题与 canonical 指向详情 URL
+    document.title = tool.name + ' - ' + (cfg.name || '72tool');
+    var cano = document.getElementById('canonical');
+    if (cano) cano.setAttribute('href', location.origin + '/?tool=' + encodeURIComponent(slug));
+    var d = document.getElementById('toolDetail');
+    d.hidden = false;
+    window.scrollTo(0, 0);
+  }
+
   /* ---------- 5. 主流程 ---------- */
   var DEFAULT_CFG = {
     domain: host, name: '72tool', title: '72tool 工具导航',
@@ -333,15 +399,16 @@
       renderMeta(cfg); renderNav(cfg); applyThemeStyle(cfg); renderHero(cfg); renderCats(data);
       renderTop(data); renderGrid(data); renderFooter(cfg, data, gconf); renderJsonLd(cfg, data);
       renderTutorials(adata.articles || []); // 首页“最新教程”条
-      // ?tool= 深链：定位并高亮，并推荐配套教程 + 注入长尾 FAQ
+      // ?tool= 深链：打开对应工具详情视图（/tool=<slug>），并在详情页内联相关教程
       var tk = params.get('tool');
       if (tk) {
-        var el = document.getElementById('tool-' + slugify(decodeURIComponent(tk)));
-        if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.classList.add('hl'); }
-        // 反查工具真实名称（data.tools 中匹配 slug）
         var hit = (data.tools || []).find(function (t) { return slugify(t.name) === slugify(decodeURIComponent(tk)); });
-        renderRelatedArticles(hit ? hit.name : decodeURIComponent(tk), adata.articles || []);
-        if (hit) renderToolFaq(hit); // 长尾问答 FAQ（提升百度问答流量）
+        if (hit) {
+          renderDetail(hit, adata.articles || [], cfg);
+        } else {
+          // 未匹配到工具：回退到列表，并尝试按名称匹配相关教程
+          renderRelatedArticles(decodeURIComponent(tk), adata.articles || []);
+        }
       }
       // 广告 + 移动端增强（异步、不阻塞首屏）；传入 stats 供广告过审风控判断质量门槛；tools 供 §1.3 adblock 降级推荐
       if (window.initAds) window.initAds(cfg, { tools: (data.tools || []).length, articles: (adata.articles || []).length }, data.tools || []);
@@ -359,6 +426,16 @@
   });
   document.getElementById('searchInput').addEventListener('input', function () {
     renderGrid(window.__data || { tools: [] });
+  });
+
+  // 整张卡片点击进入详情页（?tool=slug），但「访问官网」按钮与已有链接除外
+  document.getElementById('grid').addEventListener('click', function (e) {
+    if (e.target.closest('.card-visit')) return;   // 让外链按钮正常工作
+    if (e.target.closest('a')) return;            // 已有链接（标题/标签）自行处理
+    var card = e.target.closest('.card');
+    if (card && card.id && card.id.indexOf('tool-') === 0) {
+      location.href = '?tool=' + encodeURIComponent(card.id.slice(5));
+    }
   });
 
   init();
