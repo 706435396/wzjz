@@ -11,7 +11,31 @@
         "interpunktion"
       ],
       "category": "Textbereinigung",
-      "updated": "2026-08-14"
+      "updated": "2026-08-14",
+      "meta": {
+        "openSource": false,
+        "pricing": "free",
+        "platforms": [
+          "Web-Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Sofort einsatzbereit, keine lokale Installation oder Wartung nötig",
+        "Kostenlose Version verfügbar, für Privatanwender ohne Kosten"
+      ],
+      "cons": [
+        "Internetverbindung erforderlich, offline nicht nutzbar"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Offizielle Website öffnen und registrieren\nKlicken Sie auf den roten Button „Offizielle Website besuchen“ und registrieren Sie sich auf TxtClean Textbereinigung mit E-Mail oder Google/GitHub.\nTip:\nWenn die Website nicht lädt, prüfen Sie Ihre Verbindung oder probieren Sie einen anderen Browser.",
+        "Step: Passenden Tarif wählen\nNeue Nutzer erhalten oft ein kostenloses Testkontingent. Wählen Sie zunächst die kostenlose Stufe.\nCheck:\nNach der Registrierung sollten Sie das Dashboard sehen.",
+        "Step: Erste Aufgabe / Projekt erstellen\nKlicken Sie auf „Neu“ oder „Create New“ und folgen Sie den Anleitungen. Wählen Sie für den Einstieg die erste Vorlage.\nTip:\nTesten Sie zuerst mit einer einfachen Anfrage, z.B. „Fasse diesen Text in 3 Punkten zusammen“.",
+        "Step: Ergebnis prüfen und speichern\nDas Tool zeigt das Ergebnis an. Exportieren, kopieren oder speichern Sie es bei Bedarf.\nCheck:\nBei falschen Ergebnissen können Sie die Eingabe anpassen und es erneut versuchen.",
+        "Step: Profitechniken & Kostensparmöglichkeiten\n1. Lesen Sie die offizielle Dokumentation, um teure Modelle zu vermeiden;\n2. Beobachten Sie das kostenlose Kontingent, um Überkosten zu vermeiden;\n3. Weitere Tipps finden Sie in den „Verwandte Anleitungen“."
+      ]
     },
     {
       "name": "Sitemap-Generator",
@@ -23,7 +47,32 @@
         "xml"
       ],
       "category": "SEO",
-      "updated": "2026-08-14"
+      "updated": "2026-08-14",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web-Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Sofort einsatzbereit, keine lokale Installation oder Wartung nötig",
+        "Kostenlose Teststufe, vor dem Upgrade ausprobieren"
+      ],
+      "cons": [
+        "Erweiterte Funktionen und höhere Limits erfordern oft ein kostenpflichtiges Abo",
+        "Internetverbindung erforderlich, offline nicht nutzbar"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Offizielle Website öffnen und registrieren\nKlicken Sie auf den roten Button „Offizielle Website besuchen“ und registrieren Sie sich auf Sitemap-Generator mit E-Mail oder Google/GitHub.\nTip:\nWenn die Website nicht lädt, prüfen Sie Ihre Verbindung oder probieren Sie einen anderen Browser.",
+        "Step: Passenden Tarif wählen\nNeue Nutzer erhalten oft ein kostenloses Testkontingent. Wählen Sie zunächst die kostenlose Stufe.\nCheck:\nNach der Registrierung sollten Sie das Dashboard sehen.",
+        "Step: Erste Aufgabe / Projekt erstellen\nKlicken Sie auf „Neu“ oder „Create New“ und folgen Sie den Anleitungen. Wählen Sie für den Einstieg die erste Vorlage.\nTip:\nTesten Sie zuerst mit einer einfachen Anfrage, z.B. „Fasse diesen Text in 3 Punkten zusammen“.",
+        "Step: Ergebnis prüfen und speichern\nDas Tool zeigt das Ergebnis an. Exportieren, kopieren oder speichern Sie es bei Bedarf.\nCheck:\nBei falschen Ergebnissen können Sie die Eingabe anpassen und es erneut versuchen.",
+        "Step: Profitechniken & Kostensparmöglichkeiten\n1. Lesen Sie die offizielle Dokumentation, um teure Modelle zu vermeiden;\n2. Beobachten Sie das kostenlose Kontingent, um Überkosten zu vermeiden;\n3. Weitere Tipps finden Sie in den „Verwandte Anleitungen“."
+      ]
     },
     {
       "name": "Ollama (lokale KI)",
@@ -35,7 +84,34 @@
         "privat"
       ],
       "category": "Künstliche Intelligenz",
-      "updated": "2026-08-13"
+      "updated": "2026-08-13",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Lokale Bereitstellung",
+          "Web-Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Sofort einsatzbereit, keine lokale Installation oder Wartung nötig",
+        "Lokale / Docker-Bereitstellung möglich, mehr Datenschutz",
+        "Kostenlose Teststufe, vor dem Upgrade ausprobieren"
+      ],
+      "cons": [
+        "Erweiterte Funktionen und höhere Limits erfordern oft ein kostenpflichtiges Abo",
+        "Internetverbindung erforderlich, offline nicht nutzbar"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Offizielle Website öffnen und registrieren\nKlicken Sie auf den roten Button „Offizielle Website besuchen“ und registrieren Sie sich auf Ollama (lokale KI) mit E-Mail oder Google/GitHub.\nTip:\nWenn die Website nicht lädt, prüfen Sie Ihre Verbindung oder probieren Sie einen anderen Browser.",
+        "Step: Passenden Tarif wählen\nNeue Nutzer erhalten oft ein kostenloses Testkontingent. Wählen Sie zunächst die kostenlose Stufe.\nCheck:\nNach der Registrierung sollten Sie das Dashboard sehen.",
+        "Step: Erste Aufgabe / Projekt erstellen\nKlicken Sie auf „Neu“ oder „Create New“ und folgen Sie den Anleitungen. Wählen Sie für den Einstieg die erste Vorlage.\nTip:\nTesten Sie zuerst mit einer einfachen Anfrage, z.B. „Fasse diesen Text in 3 Punkten zusammen“.",
+        "Step: Ergebnis prüfen und speichern\nDas Tool zeigt das Ergebnis an. Exportieren, kopieren oder speichern Sie es bei Bedarf.\nCheck:\nBei falschen Ergebnissen können Sie die Eingabe anpassen und es erneut versuchen.",
+        "Step: Profitechniken & Kostensparmöglichkeiten\n1. Lesen Sie die offizielle Dokumentation, um teure Modelle zu vermeiden;\n2. Beobachten Sie das kostenlose Kontingent, um Überkosten zu vermeiden;\n3. Weitere Tipps finden Sie in den „Verwandte Anleitungen“."
+      ]
     },
     {
       "name": "Skills",
@@ -48,7 +124,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Lokale Bereitstellung"
+        ],
+        "license": "Open-Source-Lizenz (siehe LICENSE im Repository)",
+        "updated": null
+      },
+      "pros": [
+        "Kostenlos und Open Source, transparenter Code, selbst hostbar für volle Datenkontrolle",
+        "Lokale / Docker-Bereitstellung möglich, mehr Datenschutz",
+        "Kostenlose Version verfügbar, für Privatanwender ohne Kosten"
+      ],
+      "cons": [
+        "Technische Grundkenntnisse für Bereitstellung und Konfiguration erforderlich"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Prüfen Sie Ihre Umgebung\nDieses Tool läuft lokal. Stellen Sie zuerst sicher, dass Ihr Computer die Voraussetzungen erfüllt.\nTip:\nInstallieren Sie die erforderliche Laufzeitumgebung (siehe README).\nCheck:\nGeben Sie im Terminal `对应命令` ein. Wenn die Versionsnummer erscheint, ist die Umgebung OK.",
+        "Step: Laden Sie den Code herunter\nÖffnen Sie ein Terminal in einem Ordner Ihrer Wahl und führen Sie folgende Befehle aus:\nCode:\ngit clone https://github.com/anthropics/skills.git\ncd skills\nTip:\nWenn git nicht gefunden wird, laden Sie es unter https://git-scm.com herunter.",
+        "Step: Installieren Sie Abhängigkeiten\nDas Projekt benötigt zusätzliche Pakete, um zu laufen.\nCode:\nmake install\nTip:\nBei Netzwerkproblemen können Sie alternative PyPI- oder npm-Spiegel verwenden.",
+        "Step: API-Key / Konfiguration eintragen\nViele KI-Tools benötigen einen API-Key. Tragen Sie ihn gemäß README ein.\nCode:\n# Beispiel: Ersetzen Sie xxx durch Ihren echten Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nTeilen Sie Ihren Key nicht in öffentlichen Gruppen. Verwenden Sie für Tests einen günstigen Key.",
+        "Step: Starten Sie Ihre erste Aufgabe\nFühren Sie das Beispiel-Skript aus und beobachten Sie die Ausgabe im Terminal.\nCode:\n./run.sh\nCheck:\nWenn das Programm Ergebnisse ausgibt und keine roten Error-Zeilen erscheinen, läuft es.",
+        "Step: Bei Problemen\nLokale Bereitstellung schlägt oft beim ersten Mal fehl. Häufige Ursachen:\n1. Abhängigkeitsversion passt nicht → verwenden Sie die im Repository empfohlene Version;\n2. Key wird nicht erkannt → prüfen Sie die Umgebungsvariablen;\n3. Keine Verbindung zur Modell-API → wechseln Sie den Anbieter oder verwenden Sie einen Mirror.\nTip:\nWeitere Beispiele finden Sie unten unter „Verwandte Anleitungen“ oder auf der offiziellen Website."
+      ]
     },
     {
       "name": "Holehe",
@@ -61,7 +163,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Lokale Bereitstellung"
+        ],
+        "license": "Open-Source-Lizenz (siehe LICENSE im Repository)",
+        "updated": null
+      },
+      "pros": [
+        "Kostenlos und Open Source, transparenter Code, selbst hostbar für volle Datenkontrolle",
+        "Lokale / Docker-Bereitstellung möglich, mehr Datenschutz",
+        "Kostenlose Version verfügbar, für Privatanwender ohne Kosten"
+      ],
+      "cons": [
+        "Technische Grundkenntnisse für Bereitstellung und Konfiguration erforderlich"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Prüfen Sie Ihre Umgebung\nDieses Tool läuft lokal. Stellen Sie zuerst sicher, dass Ihr Computer die Voraussetzungen erfüllt.\nTip:\nInstallieren Sie die erforderliche Laufzeitumgebung (siehe README).\nCheck:\nGeben Sie im Terminal `对应命令` ein. Wenn die Versionsnummer erscheint, ist die Umgebung OK.",
+        "Step: Laden Sie den Code herunter\nÖffnen Sie ein Terminal in einem Ordner Ihrer Wahl und führen Sie folgende Befehle aus:\nCode:\ngit clone https://github.com/megadose/holehe.git\ncd holehe\nTip:\nWenn git nicht gefunden wird, laden Sie es unter https://git-scm.com herunter.",
+        "Step: Installieren Sie Abhängigkeiten\nDas Projekt benötigt zusätzliche Pakete, um zu laufen.\nCode:\nmake install\nTip:\nBei Netzwerkproblemen können Sie alternative PyPI- oder npm-Spiegel verwenden.",
+        "Step: API-Key / Konfiguration eintragen\nViele KI-Tools benötigen einen API-Key. Tragen Sie ihn gemäß README ein.\nCode:\n# Beispiel: Ersetzen Sie xxx durch Ihren echten Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nTeilen Sie Ihren Key nicht in öffentlichen Gruppen. Verwenden Sie für Tests einen günstigen Key.",
+        "Step: Starten Sie Ihre erste Aufgabe\nFühren Sie das Beispiel-Skript aus und beobachten Sie die Ausgabe im Terminal.\nCode:\n./run.sh\nCheck:\nWenn das Programm Ergebnisse ausgibt und keine roten Error-Zeilen erscheinen, läuft es.",
+        "Step: Bei Problemen\nLokale Bereitstellung schlägt oft beim ersten Mal fehl. Häufige Ursachen:\n1. Abhängigkeitsversion passt nicht → verwenden Sie die im Repository empfohlene Version;\n2. Key wird nicht erkannt → prüfen Sie die Umgebungsvariablen;\n3. Keine Verbindung zur Modell-API → wechseln Sie den Anbieter oder verwenden Sie einen Mirror.\nTip:\nWeitere Beispiele finden Sie unten unter „Verwandte Anleitungen“ oder auf der offiziellen Website."
+      ]
     },
     {
       "name": "Agency Agents",
@@ -74,7 +202,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Lokale Bereitstellung"
+        ],
+        "license": "Open-Source-Lizenz (siehe LICENSE im Repository)",
+        "updated": null
+      },
+      "pros": [
+        "Kostenlos und Open Source, transparenter Code, selbst hostbar für volle Datenkontrolle",
+        "Lokale / Docker-Bereitstellung möglich, mehr Datenschutz",
+        "Kostenlose Version verfügbar, für Privatanwender ohne Kosten"
+      ],
+      "cons": [
+        "Technische Grundkenntnisse für Bereitstellung und Konfiguration erforderlich"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Prüfen Sie Ihre Umgebung\nDieses Tool läuft lokal. Stellen Sie zuerst sicher, dass Ihr Computer die Voraussetzungen erfüllt.\nTip:\nInstallieren Sie die erforderliche Laufzeitumgebung (siehe README).\nCheck:\nGeben Sie im Terminal `对应命令` ein. Wenn die Versionsnummer erscheint, ist die Umgebung OK.",
+        "Step: Laden Sie den Code herunter\nÖffnen Sie ein Terminal in einem Ordner Ihrer Wahl und führen Sie folgende Befehle aus:\nCode:\ngit clone https://github.com/msitarzewski/agency-agents.git\ncd agency-agents\nTip:\nWenn git nicht gefunden wird, laden Sie es unter https://git-scm.com herunter.",
+        "Step: Installieren Sie Abhängigkeiten\nDas Projekt benötigt zusätzliche Pakete, um zu laufen.\nCode:\nmake install\nTip:\nBei Netzwerkproblemen können Sie alternative PyPI- oder npm-Spiegel verwenden.",
+        "Step: API-Key / Konfiguration eintragen\nViele KI-Tools benötigen einen API-Key. Tragen Sie ihn gemäß README ein.\nCode:\n# Beispiel: Ersetzen Sie xxx durch Ihren echten Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nTeilen Sie Ihren Key nicht in öffentlichen Gruppen. Verwenden Sie für Tests einen günstigen Key.",
+        "Step: Starten Sie Ihre erste Aufgabe\nFühren Sie das Beispiel-Skript aus und beobachten Sie die Ausgabe im Terminal.\nCode:\n./run.sh\nCheck:\nWenn das Programm Ergebnisse ausgibt und keine roten Error-Zeilen erscheinen, läuft es.",
+        "Step: Bei Problemen\nLokale Bereitstellung schlägt oft beim ersten Mal fehl. Häufige Ursachen:\n1. Abhängigkeitsversion passt nicht → verwenden Sie die im Repository empfohlene Version;\n2. Key wird nicht erkannt → prüfen Sie die Umgebungsvariablen;\n3. Keine Verbindung zur Modell-API → wechseln Sie den Anbieter oder verwenden Sie einen Mirror.\nTip:\nWeitere Beispiele finden Sie unten unter „Verwandte Anleitungen“ oder auf der offiziellen Website."
+      ]
     },
     {
       "name": "Macro",
@@ -87,7 +241,34 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Lokale Bereitstellung",
+          "macOS"
+        ],
+        "license": "Open-Source-Lizenz (siehe LICENSE im Repository)",
+        "updated": null
+      },
+      "pros": [
+        "Kostenlos und Open Source, transparenter Code, selbst hostbar für volle Datenkontrolle",
+        "Lokale / Docker-Bereitstellung möglich, mehr Datenschutz",
+        "Kostenlose Version verfügbar, für Privatanwender ohne Kosten"
+      ],
+      "cons": [
+        "Technische Grundkenntnisse für Bereitstellung und Konfiguration erforderlich"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Prüfen Sie Ihre Umgebung\nDieses Tool läuft lokal. Stellen Sie zuerst sicher, dass Ihr Computer die Voraussetzungen erfüllt.\nTip:\nInstallieren Sie die erforderliche Laufzeitumgebung (siehe README).\nCheck:\nGeben Sie im Terminal `对应命令` ein. Wenn die Versionsnummer erscheint, ist die Umgebung OK.",
+        "Step: Laden Sie den Code herunter\nÖffnen Sie ein Terminal in einem Ordner Ihrer Wahl und führen Sie folgende Befehle aus:\nCode:\ngit clone https://github.com/macro-inc/macro.git\ncd macro\nTip:\nWenn git nicht gefunden wird, laden Sie es unter https://git-scm.com herunter.",
+        "Step: Installieren Sie Abhängigkeiten\nDas Projekt benötigt zusätzliche Pakete, um zu laufen.\nCode:\nmake install\nTip:\nBei Netzwerkproblemen können Sie alternative PyPI- oder npm-Spiegel verwenden.",
+        "Step: API-Key / Konfiguration eintragen\nViele KI-Tools benötigen einen API-Key. Tragen Sie ihn gemäß README ein.\nCode:\n# Beispiel: Ersetzen Sie xxx durch Ihren echten Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nTeilen Sie Ihren Key nicht in öffentlichen Gruppen. Verwenden Sie für Tests einen günstigen Key.",
+        "Step: Starten Sie Ihre erste Aufgabe\nFühren Sie das Beispiel-Skript aus und beobachten Sie die Ausgabe im Terminal.\nCode:\n./run.sh\nCheck:\nWenn das Programm Ergebnisse ausgibt und keine roten Error-Zeilen erscheinen, läuft es.",
+        "Step: Bei Problemen\nLokale Bereitstellung schlägt oft beim ersten Mal fehl. Häufige Ursachen:\n1. Abhängigkeitsversion passt nicht → verwenden Sie die im Repository empfohlene Version;\n2. Key wird nicht erkannt → prüfen Sie die Umgebungsvariablen;\n3. Keine Verbindung zur Modell-API → wechseln Sie den Anbieter oder verwenden Sie einen Mirror.\nTip:\nWeitere Beispiele finden Sie unten unter „Verwandte Anleitungen“ oder auf der offiziellen Website."
+      ]
     },
     {
       "name": "Manim",
@@ -100,7 +281,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Lokale Bereitstellung"
+        ],
+        "license": "Open-Source-Lizenz (siehe LICENSE im Repository)",
+        "updated": null
+      },
+      "pros": [
+        "Kostenlos und Open Source, transparenter Code, selbst hostbar für volle Datenkontrolle",
+        "Lokale / Docker-Bereitstellung möglich, mehr Datenschutz",
+        "Kostenlose Version verfügbar, für Privatanwender ohne Kosten"
+      ],
+      "cons": [
+        "Technische Grundkenntnisse für Bereitstellung und Konfiguration erforderlich"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Prüfen Sie Ihre Umgebung\nDieses Tool läuft lokal. Stellen Sie zuerst sicher, dass Ihr Computer die Voraussetzungen erfüllt.\nTip:\nInstallieren Sie die erforderliche Laufzeitumgebung (siehe README).\nCheck:\nGeben Sie im Terminal `对应命令` ein. Wenn die Versionsnummer erscheint, ist die Umgebung OK.",
+        "Step: Laden Sie den Code herunter\nÖffnen Sie ein Terminal in einem Ordner Ihrer Wahl und führen Sie folgende Befehle aus:\nCode:\ngit clone https://github.com/3b1b/manim.git\ncd manim\nTip:\nWenn git nicht gefunden wird, laden Sie es unter https://git-scm.com herunter.",
+        "Step: Installieren Sie Abhängigkeiten\nDas Projekt benötigt zusätzliche Pakete, um zu laufen.\nCode:\nmake install\nTip:\nBei Netzwerkproblemen können Sie alternative PyPI- oder npm-Spiegel verwenden.",
+        "Step: API-Key / Konfiguration eintragen\nViele KI-Tools benötigen einen API-Key. Tragen Sie ihn gemäß README ein.\nCode:\n# Beispiel: Ersetzen Sie xxx durch Ihren echten Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nTeilen Sie Ihren Key nicht in öffentlichen Gruppen. Verwenden Sie für Tests einen günstigen Key.",
+        "Step: Starten Sie Ihre erste Aufgabe\nFühren Sie das Beispiel-Skript aus und beobachten Sie die Ausgabe im Terminal.\nCode:\n./run.sh\nCheck:\nWenn das Programm Ergebnisse ausgibt und keine roten Error-Zeilen erscheinen, läuft es.",
+        "Step: Bei Problemen\nLokale Bereitstellung schlägt oft beim ersten Mal fehl. Häufige Ursachen:\n1. Abhängigkeitsversion passt nicht → verwenden Sie die im Repository empfohlene Version;\n2. Key wird nicht erkannt → prüfen Sie die Umgebungsvariablen;\n3. Keine Verbindung zur Modell-API → wechseln Sie den Anbieter oder verwenden Sie einen Mirror.\nTip:\nWeitere Beispiele finden Sie unten unter „Verwandte Anleitungen“ oder auf der offiziellen Website."
+      ]
     },
     {
       "name": "Code Graph Rag",
@@ -113,7 +320,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Lokale Bereitstellung"
+        ],
+        "license": "Open-Source-Lizenz (siehe LICENSE im Repository)",
+        "updated": null
+      },
+      "pros": [
+        "Kostenlos und Open Source, transparenter Code, selbst hostbar für volle Datenkontrolle",
+        "Lokale / Docker-Bereitstellung möglich, mehr Datenschutz",
+        "Kostenlose Version verfügbar, für Privatanwender ohne Kosten"
+      ],
+      "cons": [
+        "Technische Grundkenntnisse für Bereitstellung und Konfiguration erforderlich"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Prüfen Sie Ihre Umgebung\nDieses Tool läuft lokal. Stellen Sie zuerst sicher, dass Ihr Computer die Voraussetzungen erfüllt.\nTip:\nInstallieren Sie die erforderliche Laufzeitumgebung (siehe README).\nCheck:\nGeben Sie im Terminal `对应命令` ein. Wenn die Versionsnummer erscheint, ist die Umgebung OK.",
+        "Step: Laden Sie den Code herunter\nÖffnen Sie ein Terminal in einem Ordner Ihrer Wahl und führen Sie folgende Befehle aus:\nCode:\ngit clone https://github.com/vitali87/code-graph-rag.git\ncd code-graph-rag\nTip:\nWenn git nicht gefunden wird, laden Sie es unter https://git-scm.com herunter.",
+        "Step: Installieren Sie Abhängigkeiten\nDas Projekt benötigt zusätzliche Pakete, um zu laufen.\nCode:\nmake install\nTip:\nBei Netzwerkproblemen können Sie alternative PyPI- oder npm-Spiegel verwenden.",
+        "Step: API-Key / Konfiguration eintragen\nViele KI-Tools benötigen einen API-Key. Tragen Sie ihn gemäß README ein.\nCode:\n# Beispiel: Ersetzen Sie xxx durch Ihren echten Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nTeilen Sie Ihren Key nicht in öffentlichen Gruppen. Verwenden Sie für Tests einen günstigen Key.",
+        "Step: Starten Sie Ihre erste Aufgabe\nFühren Sie das Beispiel-Skript aus und beobachten Sie die Ausgabe im Terminal.\nCode:\n./run.sh\nCheck:\nWenn das Programm Ergebnisse ausgibt und keine roten Error-Zeilen erscheinen, läuft es.",
+        "Step: Bei Problemen\nLokale Bereitstellung schlägt oft beim ersten Mal fehl. Häufige Ursachen:\n1. Abhängigkeitsversion passt nicht → verwenden Sie die im Repository empfohlene Version;\n2. Key wird nicht erkannt → prüfen Sie die Umgebungsvariablen;\n3. Keine Verbindung zur Modell-API → wechseln Sie den Anbieter oder verwenden Sie einen Mirror.\nTip:\nWeitere Beispiele finden Sie unten unter „Verwandte Anleitungen“ oder auf der offiziellen Website."
+      ]
     },
     {
       "name": "Reverse Skill",
@@ -126,7 +359,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Lokale Bereitstellung"
+        ],
+        "license": "Open-Source-Lizenz (siehe LICENSE im Repository)",
+        "updated": null
+      },
+      "pros": [
+        "Kostenlos und Open Source, transparenter Code, selbst hostbar für volle Datenkontrolle",
+        "Lokale / Docker-Bereitstellung möglich, mehr Datenschutz",
+        "Kostenlose Version verfügbar, für Privatanwender ohne Kosten"
+      ],
+      "cons": [
+        "Technische Grundkenntnisse für Bereitstellung und Konfiguration erforderlich"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Prüfen Sie Ihre Umgebung\nDieses Tool läuft lokal. Stellen Sie zuerst sicher, dass Ihr Computer die Voraussetzungen erfüllt.\nTip:\nInstallieren Sie die erforderliche Laufzeitumgebung (siehe README).\nCheck:\nGeben Sie im Terminal `对应命令` ein. Wenn die Versionsnummer erscheint, ist die Umgebung OK.",
+        "Step: Laden Sie den Code herunter\nÖffnen Sie ein Terminal in einem Ordner Ihrer Wahl und führen Sie folgende Befehle aus:\nCode:\ngit clone https://github.com/zhaoxuya520/reverse-skill.git\ncd reverse-skill\nTip:\nWenn git nicht gefunden wird, laden Sie es unter https://git-scm.com herunter.",
+        "Step: Installieren Sie Abhängigkeiten\nDas Projekt benötigt zusätzliche Pakete, um zu laufen.\nCode:\nmake install\nTip:\nBei Netzwerkproblemen können Sie alternative PyPI- oder npm-Spiegel verwenden.",
+        "Step: API-Key / Konfiguration eintragen\nViele KI-Tools benötigen einen API-Key. Tragen Sie ihn gemäß README ein.\nCode:\n# Beispiel: Ersetzen Sie xxx durch Ihren echten Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nTeilen Sie Ihren Key nicht in öffentlichen Gruppen. Verwenden Sie für Tests einen günstigen Key.",
+        "Step: Starten Sie Ihre erste Aufgabe\nFühren Sie das Beispiel-Skript aus und beobachten Sie die Ausgabe im Terminal.\nCode:\n./run.sh\nCheck:\nWenn das Programm Ergebnisse ausgibt und keine roten Error-Zeilen erscheinen, läuft es.",
+        "Step: Bei Problemen\nLokale Bereitstellung schlägt oft beim ersten Mal fehl. Häufige Ursachen:\n1. Abhängigkeitsversion passt nicht → verwenden Sie die im Repository empfohlene Version;\n2. Key wird nicht erkannt → prüfen Sie die Umgebungsvariablen;\n3. Keine Verbindung zur Modell-API → wechseln Sie den Anbieter oder verwenden Sie einen Mirror.\nTip:\nWeitere Beispiele finden Sie unten unter „Verwandte Anleitungen“ oder auf der offiziellen Website."
+      ]
     },
     {
       "name": "Holaos",
@@ -139,7 +398,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Lokale Bereitstellung"
+        ],
+        "license": "Open-Source-Lizenz (siehe LICENSE im Repository)",
+        "updated": null
+      },
+      "pros": [
+        "Kostenlos und Open Source, transparenter Code, selbst hostbar für volle Datenkontrolle",
+        "Lokale / Docker-Bereitstellung möglich, mehr Datenschutz",
+        "Kostenlose Version verfügbar, für Privatanwender ohne Kosten"
+      ],
+      "cons": [
+        "Technische Grundkenntnisse für Bereitstellung und Konfiguration erforderlich"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Prüfen Sie Ihre Umgebung\nDieses Tool läuft lokal. Stellen Sie zuerst sicher, dass Ihr Computer die Voraussetzungen erfüllt.\nTip:\nInstallieren Sie die erforderliche Laufzeitumgebung (siehe README).\nCheck:\nGeben Sie im Terminal `对应命令` ein. Wenn die Versionsnummer erscheint, ist die Umgebung OK.",
+        "Step: Laden Sie den Code herunter\nÖffnen Sie ein Terminal in einem Ordner Ihrer Wahl und führen Sie folgende Befehle aus:\nCode:\ngit clone https://github.com/holaboss-ai/holaOS.git\ncd holaOS\nTip:\nWenn git nicht gefunden wird, laden Sie es unter https://git-scm.com herunter.",
+        "Step: Installieren Sie Abhängigkeiten\nDas Projekt benötigt zusätzliche Pakete, um zu laufen.\nCode:\nmake install\nTip:\nBei Netzwerkproblemen können Sie alternative PyPI- oder npm-Spiegel verwenden.",
+        "Step: API-Key / Konfiguration eintragen\nViele KI-Tools benötigen einen API-Key. Tragen Sie ihn gemäß README ein.\nCode:\n# Beispiel: Ersetzen Sie xxx durch Ihren echten Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nTeilen Sie Ihren Key nicht in öffentlichen Gruppen. Verwenden Sie für Tests einen günstigen Key.",
+        "Step: Starten Sie Ihre erste Aufgabe\nFühren Sie das Beispiel-Skript aus und beobachten Sie die Ausgabe im Terminal.\nCode:\n./run.sh\nCheck:\nWenn das Programm Ergebnisse ausgibt und keine roten Error-Zeilen erscheinen, läuft es.",
+        "Step: Bei Problemen\nLokale Bereitstellung schlägt oft beim ersten Mal fehl. Häufige Ursachen:\n1. Abhängigkeitsversion passt nicht → verwenden Sie die im Repository empfohlene Version;\n2. Key wird nicht erkannt → prüfen Sie die Umgebungsvariablen;\n3. Keine Verbindung zur Modell-API → wechseln Sie den Anbieter oder verwenden Sie einen Mirror.\nTip:\nWeitere Beispiele finden Sie unten unter „Verwandte Anleitungen“ oder auf der offiziellen Website."
+      ]
     },
     {
       "name": "Computer",
@@ -152,7 +437,35 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Lokale Bereitstellung",
+          "Web-Cloud"
+        ],
+        "license": "Open-Source-Lizenz (siehe LICENSE im Repository)",
+        "updated": null
+      },
+      "pros": [
+        "Kostenlos und Open Source, transparenter Code, selbst hostbar für volle Datenkontrolle",
+        "Lokale / Docker-Bereitstellung möglich, mehr Datenschutz",
+        "Kostenlose Version verfügbar, für Privatanwender ohne Kosten"
+      ],
+      "cons": [
+        "Technische Grundkenntnisse für Bereitstellung und Konfiguration erforderlich",
+        "Internetverbindung erforderlich, offline nicht nutzbar"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Prüfen Sie Ihre Umgebung\nDieses Tool läuft lokal. Stellen Sie zuerst sicher, dass Ihr Computer die Voraussetzungen erfüllt.\nTip:\nInstallieren Sie die erforderliche Laufzeitumgebung (siehe README).\nCheck:\nGeben Sie im Terminal `对应命令` ein. Wenn die Versionsnummer erscheint, ist die Umgebung OK.",
+        "Step: Laden Sie den Code herunter\nÖffnen Sie ein Terminal in einem Ordner Ihrer Wahl und führen Sie folgende Befehle aus:\nCode:\ngit clone https://github.com/cloudflare/computer.git\ncd computer\nTip:\nWenn git nicht gefunden wird, laden Sie es unter https://git-scm.com herunter.",
+        "Step: Installieren Sie Abhängigkeiten\nDas Projekt benötigt zusätzliche Pakete, um zu laufen.\nCode:\nmake install\nTip:\nBei Netzwerkproblemen können Sie alternative PyPI- oder npm-Spiegel verwenden.",
+        "Step: API-Key / Konfiguration eintragen\nViele KI-Tools benötigen einen API-Key. Tragen Sie ihn gemäß README ein.\nCode:\n# Beispiel: Ersetzen Sie xxx durch Ihren echten Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nTeilen Sie Ihren Key nicht in öffentlichen Gruppen. Verwenden Sie für Tests einen günstigen Key.",
+        "Step: Starten Sie Ihre erste Aufgabe\nFühren Sie das Beispiel-Skript aus und beobachten Sie die Ausgabe im Terminal.\nCode:\n./run.sh\nCheck:\nWenn das Programm Ergebnisse ausgibt und keine roten Error-Zeilen erscheinen, läuft es.",
+        "Step: Bei Problemen\nLokale Bereitstellung schlägt oft beim ersten Mal fehl. Häufige Ursachen:\n1. Abhängigkeitsversion passt nicht → verwenden Sie die im Repository empfohlene Version;\n2. Key wird nicht erkannt → prüfen Sie die Umgebungsvariablen;\n3. Keine Verbindung zur Modell-API → wechseln Sie den Anbieter oder verwenden Sie einen Mirror.\nTip:\nWeitere Beispiele finden Sie unten unter „Verwandte Anleitungen“ oder auf der offiziellen Website."
+      ]
     },
     {
       "name": "Book To Skill",
@@ -165,7 +478,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Lokale Bereitstellung"
+        ],
+        "license": "Open-Source-Lizenz (siehe LICENSE im Repository)",
+        "updated": null
+      },
+      "pros": [
+        "Kostenlos und Open Source, transparenter Code, selbst hostbar für volle Datenkontrolle",
+        "Lokale / Docker-Bereitstellung möglich, mehr Datenschutz",
+        "Kostenlose Version verfügbar, für Privatanwender ohne Kosten"
+      ],
+      "cons": [
+        "Technische Grundkenntnisse für Bereitstellung und Konfiguration erforderlich"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Prüfen Sie Ihre Umgebung\nDieses Tool läuft lokal. Stellen Sie zuerst sicher, dass Ihr Computer die Voraussetzungen erfüllt.\nTip:\nInstallieren Sie die erforderliche Laufzeitumgebung (siehe README).\nCheck:\nGeben Sie im Terminal `对应命令` ein. Wenn die Versionsnummer erscheint, ist die Umgebung OK.",
+        "Step: Laden Sie den Code herunter\nÖffnen Sie ein Terminal in einem Ordner Ihrer Wahl und führen Sie folgende Befehle aus:\nCode:\ngit clone https://github.com/virgiliojr94/book-to-skill.git\ncd book-to-skill\nTip:\nWenn git nicht gefunden wird, laden Sie es unter https://git-scm.com herunter.",
+        "Step: Installieren Sie Abhängigkeiten\nDas Projekt benötigt zusätzliche Pakete, um zu laufen.\nCode:\nmake install\nTip:\nBei Netzwerkproblemen können Sie alternative PyPI- oder npm-Spiegel verwenden.",
+        "Step: API-Key / Konfiguration eintragen\nViele KI-Tools benötigen einen API-Key. Tragen Sie ihn gemäß README ein.\nCode:\n# Beispiel: Ersetzen Sie xxx durch Ihren echten Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nTeilen Sie Ihren Key nicht in öffentlichen Gruppen. Verwenden Sie für Tests einen günstigen Key.",
+        "Step: Starten Sie Ihre erste Aufgabe\nFühren Sie das Beispiel-Skript aus und beobachten Sie die Ausgabe im Terminal.\nCode:\n./run.sh\nCheck:\nWenn das Programm Ergebnisse ausgibt und keine roten Error-Zeilen erscheinen, läuft es.",
+        "Step: Bei Problemen\nLokale Bereitstellung schlägt oft beim ersten Mal fehl. Häufige Ursachen:\n1. Abhängigkeitsversion passt nicht → verwenden Sie die im Repository empfohlene Version;\n2. Key wird nicht erkannt → prüfen Sie die Umgebungsvariablen;\n3. Keine Verbindung zur Modell-API → wechseln Sie den Anbieter oder verwenden Sie einen Mirror.\nTip:\nWeitere Beispiele finden Sie unten unter „Verwandte Anleitungen“ oder auf der offiziellen Website."
+      ]
     }
   ]
 }

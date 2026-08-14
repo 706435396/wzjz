@@ -11,7 +11,32 @@
         "puntuación"
       ],
       "category": "Limpieza de texto",
-      "updated": "2026-08-14"
+      "updated": "2026-08-14",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Nube web"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Listo para usar, sin instalación ni mantenimiento local",
+        "Nivel gratuito disponible, prueba antes de actualizar"
+      ],
+      "cons": [
+        "Funciones avanzadas y mayores límites suelen requerir suscripción de pago",
+        "Requiere conexión a Internet, no funciona sin conexión"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Abra el sitio oficial y regístrese\nHaga clic en „Visitar sitio oficial\" y regístrese en Limpiador de texto TxtClean con correo, Google o GitHub.\nTip:\nSi el sitio no carga, verifique su conexión o pruebe otro navegador.",
+        "Step: Elija un plan adecuado\nLos nuevos usuarios suelen tener prueba gratuita. Comience con el nivel gratuito.\nCheck:\nDespués de registrarse debería ver el panel de control (Dashboard).",
+        "Step: Cree su primera tarea / proyecto\nHaga clic en „Nuevo\" o „Create New\" y siga las instrucciones. Para empezar, elija la primera plantilla.\nTip:\nPruebe primero con una solicitud simple, por ejemplo: „Resume este texto en 3 puntos\".",
+        "Step: Revise y guarde los resultados\nLa herramienta mostrará el resultado. Expórtelo, cópielo o guárdelo según necesite.\nCheck:\nSi el resultado no es correcto, ajuste la entrada e inténtelo de nuevo.",
+        "Step: Consejos avanzados y ahorro\n1. Lea la documentación oficial para evitar modelos costosos;\n2. Controle el uso del nivel gratuito para evitar cargos extras;\n3. Más consejos en „Tutoriales relacionados\"."
+      ]
     },
     {
       "name": "Generador de sitemap",
@@ -23,7 +48,32 @@
         "xml"
       ],
       "category": "SEO",
-      "updated": "2026-08-14"
+      "updated": "2026-08-14",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Nube web"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Listo para usar, sin instalación ni mantenimiento local",
+        "Nivel gratuito disponible, prueba antes de actualizar"
+      ],
+      "cons": [
+        "Funciones avanzadas y mayores límites suelen requerir suscripción de pago",
+        "Requiere conexión a Internet, no funciona sin conexión"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Abra el sitio oficial y regístrese\nHaga clic en „Visitar sitio oficial\" y regístrese en Generador de sitemap con correo, Google o GitHub.\nTip:\nSi el sitio no carga, verifique su conexión o pruebe otro navegador.",
+        "Step: Elija un plan adecuado\nLos nuevos usuarios suelen tener prueba gratuita. Comience con el nivel gratuito.\nCheck:\nDespués de registrarse debería ver el panel de control (Dashboard).",
+        "Step: Cree su primera tarea / proyecto\nHaga clic en „Nuevo\" o „Create New\" y siga las instrucciones. Para empezar, elija la primera plantilla.\nTip:\nPruebe primero con una solicitud simple, por ejemplo: „Resume este texto en 3 puntos\".",
+        "Step: Revise y guarde los resultados\nLa herramienta mostrará el resultado. Expórtelo, cópielo o guárdelo según necesite.\nCheck:\nSi el resultado no es correcto, ajuste la entrada e inténtelo de nuevo.",
+        "Step: Consejos avanzados y ahorro\n1. Lea la documentación oficial para evitar modelos costosos;\n2. Controle el uso del nivel gratuito para evitar cargos extras;\n3. Más consejos en „Tutoriales relacionados\"."
+      ]
     },
     {
       "name": "Ollama (IA local)",
@@ -35,7 +85,34 @@
         "privado"
       ],
       "category": "Inteligencia artificial",
-      "updated": "2026-08-13"
+      "updated": "2026-08-13",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Implementación local",
+          "Nube web"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Listo para usar, sin instalación ni mantenimiento local",
+        "Implementación local / Docker, mayor privacidad de datos",
+        "Nivel gratuito disponible, prueba antes de actualizar"
+      ],
+      "cons": [
+        "Funciones avanzadas y mayores límites suelen requerir suscripción de pago",
+        "Requiere conexión a Internet, no funciona sin conexión"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Abra el sitio oficial y regístrese\nHaga clic en „Visitar sitio oficial\" y regístrese en Ollama (IA local) con correo, Google o GitHub.\nTip:\nSi el sitio no carga, verifique su conexión o pruebe otro navegador.",
+        "Step: Elija un plan adecuado\nLos nuevos usuarios suelen tener prueba gratuita. Comience con el nivel gratuito.\nCheck:\nDespués de registrarse debería ver el panel de control (Dashboard).",
+        "Step: Cree su primera tarea / proyecto\nHaga clic en „Nuevo\" o „Create New\" y siga las instrucciones. Para empezar, elija la primera plantilla.\nTip:\nPruebe primero con una solicitud simple, por ejemplo: „Resume este texto en 3 puntos\".",
+        "Step: Revise y guarde los resultados\nLa herramienta mostrará el resultado. Expórtelo, cópielo o guárdelo según necesite.\nCheck:\nSi el resultado no es correcto, ajuste la entrada e inténtelo de nuevo.",
+        "Step: Consejos avanzados y ahorro\n1. Lea la documentación oficial para evitar modelos costosos;\n2. Controle el uso del nivel gratuito para evitar cargos extras;\n3. Más consejos en „Tutoriales relacionados\"."
+      ]
     },
     {
       "name": "Diagram Design",
@@ -48,7 +125,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Implementación local"
+        ],
+        "license": "Licencia de código abierto (ver LICENSE en el repositorio)",
+        "updated": null
+      },
+      "pros": [
+        "Gratis y de código abierto, código transparente, se puede autoalojar",
+        "Implementación local / Docker, mayor privacidad de datos",
+        "Versión gratuita disponible, sin costo para uso personal"
+      ],
+      "cons": [
+        "Requiere conocimientos técnicos para implementar y configurar"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Verifique su entorno\nEsta herramienta se ejecuta localmente. Asegúrese primero de que su equipo cumpla los requisitos.\nTip:\nInstale el entorno de ejecución requerido (ver README).\nCheck:\nEscriba `comando correspondiente` en la terminal. Si aparece la versión, el entorno es correcto.",
+        "Step: Descargue el código\nAbra una terminal en la carpeta que prefiera y ejecute los siguientes comandos:\nCode:\ngit clone https://github.com/cathrynlavery/diagram-design.git\ncd diagram-design\nTip:\nSi git no se encuentra, descárguelo en https://git-scm.com.",
+        "Step: Instale las dependencias\nEl proyecto necesita paquetes adicionales para funcionar.\nCode:\nmake install\nTip:\nSi hay errores de red, pruebe con espejos alternativos de PyPI o npm.",
+        "Step: Ingrese API-Key / configuración\nMuchas herramientas de IA requieren una API-Key. Ingrésela según el README.\nCode:\n# Ejemplo: reemplace xxx por su clave real\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nNo comparta su clave en grupos públicos. Use una clave económica para pruebas.",
+        "Step: Ejecute su primera tarea\nEjecute el script de ejemplo y observe la salida en la terminal.\nCode:\n./run.sh\nCheck:\nSi el programa imprime resultados y no hay líneas rojas de Error, funciona correctamente.",
+        "Step: Si tiene problemas\nLa implementación local a menudo falla al primer intento. Causas comunes:\n1. La versión de dependencias no coincide → use la versión recomendada en el repositorio;\n2. La clave no se reconoce → verifique las variables de entorno;\n3. No se conecta a la API del modelo → cambie de proveedor o use un espejo.\nTip:\nMás ejemplos en „Tutoriales relacionados“ o en el sitio oficial."
+      ]
     },
     {
       "name": "Macro",
@@ -61,7 +164,34 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Implementación local",
+          "macOS"
+        ],
+        "license": "Licencia de código abierto (ver LICENSE en el repositorio)",
+        "updated": null
+      },
+      "pros": [
+        "Gratis y de código abierto, código transparente, se puede autoalojar",
+        "Implementación local / Docker, mayor privacidad de datos",
+        "Versión gratuita disponible, sin costo para uso personal"
+      ],
+      "cons": [
+        "Requiere conocimientos técnicos para implementar y configurar"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Verifique su entorno\nEsta herramienta se ejecuta localmente. Asegúrese primero de que su equipo cumpla los requisitos.\nTip:\nInstale el entorno de ejecución requerido (ver README).\nCheck:\nEscriba `comando correspondiente` en la terminal. Si aparece la versión, el entorno es correcto.",
+        "Step: Descargue el código\nAbra una terminal en la carpeta que prefiera y ejecute los siguientes comandos:\nCode:\ngit clone https://github.com/macro-inc/macro.git\ncd macro\nTip:\nSi git no se encuentra, descárguelo en https://git-scm.com.",
+        "Step: Instale las dependencias\nEl proyecto necesita paquetes adicionales para funcionar.\nCode:\nmake install\nTip:\nSi hay errores de red, pruebe con espejos alternativos de PyPI o npm.",
+        "Step: Ingrese API-Key / configuración\nMuchas herramientas de IA requieren una API-Key. Ingrésela según el README.\nCode:\n# Ejemplo: reemplace xxx por su clave real\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nNo comparta su clave en grupos públicos. Use una clave económica para pruebas.",
+        "Step: Ejecute su primera tarea\nEjecute el script de ejemplo y observe la salida en la terminal.\nCode:\n./run.sh\nCheck:\nSi el programa imprime resultados y no hay líneas rojas de Error, funciona correctamente.",
+        "Step: Si tiene problemas\nLa implementación local a menudo falla al primer intento. Causas comunes:\n1. La versión de dependencias no coincide → use la versión recomendada en el repositorio;\n2. La clave no se reconoce → verifique las variables de entorno;\n3. No se conecta a la API del modelo → cambie de proveedor o use un espejo.\nTip:\nMás ejemplos en „Tutoriales relacionados“ o en el sitio oficial."
+      ]
     },
     {
       "name": "Manim",
@@ -74,7 +204,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Implementación local"
+        ],
+        "license": "Licencia de código abierto (ver LICENSE en el repositorio)",
+        "updated": null
+      },
+      "pros": [
+        "Gratis y de código abierto, código transparente, se puede autoalojar",
+        "Implementación local / Docker, mayor privacidad de datos",
+        "Versión gratuita disponible, sin costo para uso personal"
+      ],
+      "cons": [
+        "Requiere conocimientos técnicos para implementar y configurar"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Verifique su entorno\nEsta herramienta se ejecuta localmente. Asegúrese primero de que su equipo cumpla los requisitos.\nTip:\nInstale el entorno de ejecución requerido (ver README).\nCheck:\nEscriba `comando correspondiente` en la terminal. Si aparece la versión, el entorno es correcto.",
+        "Step: Descargue el código\nAbra una terminal en la carpeta que prefiera y ejecute los siguientes comandos:\nCode:\ngit clone https://github.com/3b1b/manim.git\ncd manim\nTip:\nSi git no se encuentra, descárguelo en https://git-scm.com.",
+        "Step: Instale las dependencias\nEl proyecto necesita paquetes adicionales para funcionar.\nCode:\nmake install\nTip:\nSi hay errores de red, pruebe con espejos alternativos de PyPI o npm.",
+        "Step: Ingrese API-Key / configuración\nMuchas herramientas de IA requieren una API-Key. Ingrésela según el README.\nCode:\n# Ejemplo: reemplace xxx por su clave real\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nNo comparta su clave en grupos públicos. Use una clave económica para pruebas.",
+        "Step: Ejecute su primera tarea\nEjecute el script de ejemplo y observe la salida en la terminal.\nCode:\n./run.sh\nCheck:\nSi el programa imprime resultados y no hay líneas rojas de Error, funciona correctamente.",
+        "Step: Si tiene problemas\nLa implementación local a menudo falla al primer intento. Causas comunes:\n1. La versión de dependencias no coincide → use la versión recomendada en el repositorio;\n2. La clave no se reconoce → verifique las variables de entorno;\n3. No se conecta a la API del modelo → cambie de proveedor o use un espejo.\nTip:\nMás ejemplos en „Tutoriales relacionados“ o en el sitio oficial."
+      ]
     },
     {
       "name": "Needle",
@@ -87,7 +243,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Implementación local"
+        ],
+        "license": "Licencia de código abierto (ver LICENSE en el repositorio)",
+        "updated": null
+      },
+      "pros": [
+        "Gratis y de código abierto, código transparente, se puede autoalojar",
+        "Implementación local / Docker, mayor privacidad de datos",
+        "Versión gratuita disponible, sin costo para uso personal"
+      ],
+      "cons": [
+        "Requiere conocimientos técnicos para implementar y configurar"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Verifique su entorno\nEsta herramienta se ejecuta localmente. Asegúrese primero de que su equipo cumpla los requisitos.\nTip:\nInstale el entorno de ejecución requerido (ver README).\nCheck:\nEscriba `comando correspondiente` en la terminal. Si aparece la versión, el entorno es correcto.",
+        "Step: Descargue el código\nAbra una terminal en la carpeta que prefiera y ejecute los siguientes comandos:\nCode:\ngit clone https://github.com/cactus-compute/needle.git\ncd needle\nTip:\nSi git no se encuentra, descárguelo en https://git-scm.com.",
+        "Step: Instale las dependencias\nEl proyecto necesita paquetes adicionales para funcionar.\nCode:\nmake install\nTip:\nSi hay errores de red, pruebe con espejos alternativos de PyPI o npm.",
+        "Step: Ingrese API-Key / configuración\nMuchas herramientas de IA requieren una API-Key. Ingrésela según el README.\nCode:\n# Ejemplo: reemplace xxx por su clave real\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nNo comparta su clave en grupos públicos. Use una clave económica para pruebas.",
+        "Step: Ejecute su primera tarea\nEjecute el script de ejemplo y observe la salida en la terminal.\nCode:\n./run.sh\nCheck:\nSi el programa imprime resultados y no hay líneas rojas de Error, funciona correctamente.",
+        "Step: Si tiene problemas\nLa implementación local a menudo falla al primer intento. Causas comunes:\n1. La versión de dependencias no coincide → use la versión recomendada en el repositorio;\n2. La clave no se reconoce → verifique las variables de entorno;\n3. No se conecta a la API del modelo → cambie de proveedor o use un espejo.\nTip:\nMás ejemplos en „Tutoriales relacionados“ o en el sitio oficial."
+      ]
     },
     {
       "name": "Obsidian Skills",
@@ -100,7 +282,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Implementación local"
+        ],
+        "license": "Licencia de código abierto (ver LICENSE en el repositorio)",
+        "updated": null
+      },
+      "pros": [
+        "Gratis y de código abierto, código transparente, se puede autoalojar",
+        "Implementación local / Docker, mayor privacidad de datos",
+        "Versión gratuita disponible, sin costo para uso personal"
+      ],
+      "cons": [
+        "Requiere conocimientos técnicos para implementar y configurar"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Verifique su entorno\nEsta herramienta se ejecuta localmente. Asegúrese primero de que su equipo cumpla los requisitos.\nTip:\nInstale el entorno de ejecución requerido (ver README).\nCheck:\nEscriba `comando correspondiente` en la terminal. Si aparece la versión, el entorno es correcto.",
+        "Step: Descargue el código\nAbra una terminal en la carpeta que prefiera y ejecute los siguientes comandos:\nCode:\ngit clone https://github.com/kepano/obsidian-skills.git\ncd obsidian-skills\nTip:\nSi git no se encuentra, descárguelo en https://git-scm.com.",
+        "Step: Instale las dependencias\nEl proyecto necesita paquetes adicionales para funcionar.\nCode:\nmake install\nTip:\nSi hay errores de red, pruebe con espejos alternativos de PyPI o npm.",
+        "Step: Ingrese API-Key / configuración\nMuchas herramientas de IA requieren una API-Key. Ingrésela según el README.\nCode:\n# Ejemplo: reemplace xxx por su clave real\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nNo comparta su clave en grupos públicos. Use una clave económica para pruebas.",
+        "Step: Ejecute su primera tarea\nEjecute el script de ejemplo y observe la salida en la terminal.\nCode:\n./run.sh\nCheck:\nSi el programa imprime resultados y no hay líneas rojas de Error, funciona correctamente.",
+        "Step: Si tiene problemas\nLa implementación local a menudo falla al primer intento. Causas comunes:\n1. La versión de dependencias no coincide → use la versión recomendada en el repositorio;\n2. La clave no se reconoce → verifique las variables de entorno;\n3. No se conecta a la API del modelo → cambie de proveedor o use un espejo.\nTip:\nMás ejemplos en „Tutoriales relacionados“ o en el sitio oficial."
+      ]
     },
     {
       "name": "Computer",
@@ -113,7 +321,35 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Implementación local",
+          "Nube web"
+        ],
+        "license": "Licencia de código abierto (ver LICENSE en el repositorio)",
+        "updated": null
+      },
+      "pros": [
+        "Gratis y de código abierto, código transparente, se puede autoalojar",
+        "Implementación local / Docker, mayor privacidad de datos",
+        "Versión gratuita disponible, sin costo para uso personal"
+      ],
+      "cons": [
+        "Requiere conocimientos técnicos para implementar y configurar",
+        "Requiere conexión a Internet, no funciona sin conexión"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Verifique su entorno\nEsta herramienta se ejecuta localmente. Asegúrese primero de que su equipo cumpla los requisitos.\nTip:\nInstale el entorno de ejecución requerido (ver README).\nCheck:\nEscriba `comando correspondiente` en la terminal. Si aparece la versión, el entorno es correcto.",
+        "Step: Descargue el código\nAbra una terminal en la carpeta que prefiera y ejecute los siguientes comandos:\nCode:\ngit clone https://github.com/cloudflare/computer.git\ncd computer\nTip:\nSi git no se encuentra, descárguelo en https://git-scm.com.",
+        "Step: Instale las dependencias\nEl proyecto necesita paquetes adicionales para funcionar.\nCode:\nmake install\nTip:\nSi hay errores de red, pruebe con espejos alternativos de PyPI o npm.",
+        "Step: Ingrese API-Key / configuración\nMuchas herramientas de IA requieren una API-Key. Ingrésela según el README.\nCode:\n# Ejemplo: reemplace xxx por su clave real\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nNo comparta su clave en grupos públicos. Use una clave económica para pruebas.",
+        "Step: Ejecute su primera tarea\nEjecute el script de ejemplo y observe la salida en la terminal.\nCode:\n./run.sh\nCheck:\nSi el programa imprime resultados y no hay líneas rojas de Error, funciona correctamente.",
+        "Step: Si tiene problemas\nLa implementación local a menudo falla al primer intento. Causas comunes:\n1. La versión de dependencias no coincide → use la versión recomendada en el repositorio;\n2. La clave no se reconoce → verifique las variables de entorno;\n3. No se conecta a la API del modelo → cambie de proveedor o use un espejo.\nTip:\nMás ejemplos en „Tutoriales relacionados“ o en el sitio oficial."
+      ]
     },
     {
       "name": "Deepseek Reasonix",
@@ -126,7 +362,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Implementación local"
+        ],
+        "license": "Licencia de código abierto (ver LICENSE en el repositorio)",
+        "updated": null
+      },
+      "pros": [
+        "Gratis y de código abierto, código transparente, se puede autoalojar",
+        "Implementación local / Docker, mayor privacidad de datos",
+        "Versión gratuita disponible, sin costo para uso personal"
+      ],
+      "cons": [
+        "Requiere conocimientos técnicos para implementar y configurar"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Verifique su entorno\nEsta herramienta se ejecuta localmente. Asegúrese primero de que su equipo cumpla los requisitos.\nTip:\nInstale el entorno de ejecución requerido (ver README).\nCheck:\nEscriba `comando correspondiente` en la terminal. Si aparece la versión, el entorno es correcto.",
+        "Step: Descargue el código\nAbra una terminal en la carpeta que prefiera y ejecute los siguientes comandos:\nCode:\ngit clone https://github.com/esengine/DeepSeek-Reasonix.git\ncd DeepSeek-Reasonix\nTip:\nSi git no se encuentra, descárguelo en https://git-scm.com.",
+        "Step: Instale las dependencias\nEl proyecto necesita paquetes adicionales para funcionar.\nCode:\nmake install\nTip:\nSi hay errores de red, pruebe con espejos alternativos de PyPI o npm.",
+        "Step: Ingrese API-Key / configuración\nMuchas herramientas de IA requieren una API-Key. Ingrésela según el README.\nCode:\n# Ejemplo: reemplace xxx por su clave real\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nNo comparta su clave en grupos públicos. Use una clave económica para pruebas.",
+        "Step: Ejecute su primera tarea\nEjecute el script de ejemplo y observe la salida en la terminal.\nCode:\n./run.sh\nCheck:\nSi el programa imprime resultados y no hay líneas rojas de Error, funciona correctamente.",
+        "Step: Si tiene problemas\nLa implementación local a menudo falla al primer intento. Causas comunes:\n1. La versión de dependencias no coincide → use la versión recomendada en el repositorio;\n2. La clave no se reconoce → verifique las variables de entorno;\n3. No se conecta a la API del modelo → cambie de proveedor o use un espejo.\nTip:\nMás ejemplos en „Tutoriales relacionados“ o en el sitio oficial."
+      ]
     },
     {
       "name": "Spiderfoot",
@@ -139,7 +401,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Implementación local"
+        ],
+        "license": "Licencia de código abierto (ver LICENSE en el repositorio)",
+        "updated": null
+      },
+      "pros": [
+        "Gratis y de código abierto, código transparente, se puede autoalojar",
+        "Implementación local / Docker, mayor privacidad de datos",
+        "Versión gratuita disponible, sin costo para uso personal"
+      ],
+      "cons": [
+        "Requiere conocimientos técnicos para implementar y configurar"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Verifique su entorno\nEsta herramienta se ejecuta localmente. Asegúrese primero de que su equipo cumpla los requisitos.\nTip:\nInstale el entorno de ejecución requerido (ver README).\nCheck:\nEscriba `comando correspondiente` en la terminal. Si aparece la versión, el entorno es correcto.",
+        "Step: Descargue el código\nAbra una terminal en la carpeta que prefiera y ejecute los siguientes comandos:\nCode:\ngit clone https://github.com/smicallef/spiderfoot.git\ncd spiderfoot\nTip:\nSi git no se encuentra, descárguelo en https://git-scm.com.",
+        "Step: Instale las dependencias\nEl proyecto necesita paquetes adicionales para funcionar.\nCode:\nmake install\nTip:\nSi hay errores de red, pruebe con espejos alternativos de PyPI o npm.",
+        "Step: Ingrese API-Key / configuración\nMuchas herramientas de IA requieren una API-Key. Ingrésela según el README.\nCode:\n# Ejemplo: reemplace xxx por su clave real\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nNo comparta su clave en grupos públicos. Use una clave económica para pruebas.",
+        "Step: Ejecute su primera tarea\nEjecute el script de ejemplo y observe la salida en la terminal.\nCode:\n./run.sh\nCheck:\nSi el programa imprime resultados y no hay líneas rojas de Error, funciona correctamente.",
+        "Step: Si tiene problemas\nLa implementación local a menudo falla al primer intento. Causas comunes:\n1. La versión de dependencias no coincide → use la versión recomendada en el repositorio;\n2. La clave no se reconoce → verifique las variables de entorno;\n3. No se conecta a la API del modelo → cambie de proveedor o use un espejo.\nTip:\nMás ejemplos en „Tutoriales relacionados“ o en el sitio oficial."
+      ]
     },
     {
       "name": "Skills",
@@ -152,7 +440,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Implementación local"
+        ],
+        "license": "Licencia de código abierto (ver LICENSE en el repositorio)",
+        "updated": null
+      },
+      "pros": [
+        "Gratis y de código abierto, código transparente, se puede autoalojar",
+        "Implementación local / Docker, mayor privacidad de datos",
+        "Versión gratuita disponible, sin costo para uso personal"
+      ],
+      "cons": [
+        "Requiere conocimientos técnicos para implementar y configurar"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Verifique su entorno\nEsta herramienta se ejecuta localmente. Asegúrese primero de que su equipo cumpla los requisitos.\nTip:\nInstale el entorno de ejecución requerido (ver README).\nCheck:\nEscriba `comando correspondiente` en la terminal. Si aparece la versión, el entorno es correcto.",
+        "Step: Descargue el código\nAbra una terminal en la carpeta que prefiera y ejecute los siguientes comandos:\nCode:\ngit clone https://github.com/google/skills.git\ncd skills\nTip:\nSi git no se encuentra, descárguelo en https://git-scm.com.",
+        "Step: Instale las dependencias\nEl proyecto necesita paquetes adicionales para funcionar.\nCode:\nmake install\nTip:\nSi hay errores de red, pruebe con espejos alternativos de PyPI o npm.",
+        "Step: Ingrese API-Key / configuración\nMuchas herramientas de IA requieren una API-Key. Ingrésela según el README.\nCode:\n# Ejemplo: reemplace xxx por su clave real\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nNo comparta su clave en grupos públicos. Use una clave económica para pruebas.",
+        "Step: Ejecute su primera tarea\nEjecute el script de ejemplo y observe la salida en la terminal.\nCode:\n./run.sh\nCheck:\nSi el programa imprime resultados y no hay líneas rojas de Error, funciona correctamente.",
+        "Step: Si tiene problemas\nLa implementación local a menudo falla al primer intento. Causas comunes:\n1. La versión de dependencias no coincide → use la versión recomendada en el repositorio;\n2. La clave no se reconoce → verifique las variables de entorno;\n3. No se conecta a la API del modelo → cambie de proveedor o use un espejo.\nTip:\nMás ejemplos en „Tutoriales relacionados“ o en el sitio oficial."
+      ]
     },
     {
       "name": "Reverse Skill",
@@ -165,7 +479,33 @@
       "updated": "2026-08-14",
       "aff": "",
       "affNetwork": "",
-      "affCommission": 0
+      "affCommission": 0,
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "Implementación local"
+        ],
+        "license": "Licencia de código abierto (ver LICENSE en el repositorio)",
+        "updated": null
+      },
+      "pros": [
+        "Gratis y de código abierto, código transparente, se puede autoalojar",
+        "Implementación local / Docker, mayor privacidad de datos",
+        "Versión gratuita disponible, sin costo para uso personal"
+      ],
+      "cons": [
+        "Requiere conocimientos técnicos para implementar y configurar"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: Verifique su entorno\nEsta herramienta se ejecuta localmente. Asegúrese primero de que su equipo cumpla los requisitos.\nTip:\nInstale el entorno de ejecución requerido (ver README).\nCheck:\nEscriba `comando correspondiente` en la terminal. Si aparece la versión, el entorno es correcto.",
+        "Step: Descargue el código\nAbra una terminal en la carpeta que prefiera y ejecute los siguientes comandos:\nCode:\ngit clone https://github.com/zhaoxuya520/reverse-skill.git\ncd reverse-skill\nTip:\nSi git no se encuentra, descárguelo en https://git-scm.com.",
+        "Step: Instale las dependencias\nEl proyecto necesita paquetes adicionales para funcionar.\nCode:\nmake install\nTip:\nSi hay errores de red, pruebe con espejos alternativos de PyPI o npm.",
+        "Step: Ingrese API-Key / configuración\nMuchas herramientas de IA requieren una API-Key. Ingrésela según el README.\nCode:\n# Ejemplo: reemplace xxx por su clave real\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nNo comparta su clave en grupos públicos. Use una clave económica para pruebas.",
+        "Step: Ejecute su primera tarea\nEjecute el script de ejemplo y observe la salida en la terminal.\nCode:\n./run.sh\nCheck:\nSi el programa imprime resultados y no hay líneas rojas de Error, funciona correctamente.",
+        "Step: Si tiene problemas\nLa implementación local a menudo falla al primer intento. Causas comunes:\n1. La versión de dependencias no coincide → use la versión recomendada en el repositorio;\n2. La clave no se reconoce → verifique las variables de entorno;\n3. No se conecta a la API del modelo → cambie de proveedor o use un espejo.\nTip:\nMás ejemplos en „Tutoriales relacionados“ o en el sitio oficial."
+      ]
     }
   ]
 }

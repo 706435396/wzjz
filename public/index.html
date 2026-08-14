@@ -8,7 +8,7 @@
   <meta name="description" content="精选在线工具与 AI 智能体导航站群" />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" id="canonical" href="" />
-  <link rel="stylesheet" href="/common/style.css?v=4" />
+  <link rel="stylesheet" href="/common/style.css?v=5" />
 </head>
 <body>
   <!-- 顶部导航：品牌 + 分类快捷 + 深色切换（均由 app.js 按域名渲染） -->
@@ -55,13 +55,13 @@
 
     <!-- 最新教程：资讯模块双向内链（工具页推荐本站教程，提升停留与收录深度） -->
     <section class="tut-strip" id="tutorials" aria-label="最新教程">
-      <h2 class="section-title">最新教程</h2>
+      <h2 class="section-title" id="tutorialsTitle">最新教程</h2>
       <div class="grid tut-grid" id="tutList"></div>
     </section>
 
     <!-- 相关教程：打开 ?tool= 深链时，按工具名匹配配套资讯 -->
     <section class="rel-articles" id="relArticles" hidden aria-label="相关教程">
-      <h2 class="section-title">相关教程</h2>
+      <h2 class="section-title" id="relArticlesTitle">相关教程</h2>
       <div class="grid tut-grid" id="relList"></div>
     </section>
   </main>
@@ -85,12 +85,12 @@
   <!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"YOUR_CF_BEACON_TOKEN"}'></script> -->
 
   <!-- 公共渲染逻辑：域名识别 -> 加载 config/list -> 渲染 + 暗色 + Schema + 懒加载 + 广告 + 分销 -->
-  <script src="/common/ads.js?v=4"></script>
-  <script src="/common/affiliate.js?v=4"></script>
-  <script src="/common/mobile.js?v=4"></script>
+  <script src="/common/ads.js?v=5"></script>
+  <script src="/common/affiliate.js?v=5"></script>
+  <script src="/common/mobile.js?v=5"></script>
   <!-- 站点探测（HOST_MAP 单一来源）+ Cookie 告知（过审合规，非弹窗底部条） -->
-  <script src="/common/site.js?v=4"></script>
-  <script src="/common/cookie.js?v=4"></script>
-  <script src="/common/app.js?v=4"></script>
+  <script src="/common/site.js?v=5"></script>
+  <script src="/common/cookie.js?v=5"></script>
+  <script src="/common/app.js?v=5"></script>
 </body>
 </html>
