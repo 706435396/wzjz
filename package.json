@@ -9,6 +9,7 @@
     "build": "node scripts/build-sitemap.js",
     "crawl": "node scripts/main-crawl.js",
     "add-domains": "node scripts/add-domains.js",
+    "add-dns": "node scripts/add-dns.js",
     "serve": "npx --yes serve public -l 8788"
   },
   "dependencies": {
