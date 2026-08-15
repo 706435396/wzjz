@@ -57,6 +57,9 @@
 #   · 资讯地图：https://xxx.72tool.com/article/sitemap.xml -> functions/article/sitemap.xml.js
 # 说明：_redirects 只做路径级重写；子域名隔离仍由「自定义域名 + 前端 hostname 识别」实现。
 # ============================================================
+# 资讯数据文件直接透传，避免被下方的 /article/* 页面路由重写
+/article/list.json /article/list.json 200
+
 /article /article.html 200
 /article/* /article.html?slug=:splat 200
 
