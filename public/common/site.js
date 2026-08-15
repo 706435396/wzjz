@@ -46,7 +46,8 @@
   // 每次调用按真实域名实时解析 base，避免缓存旧映射
   function meta() {
     var base = forced ? '/' + forced.replace(/^\/+|\/+$/g, '') : resolveBase(host);
-    return fetch(base + '/config.json', { cache: 'no-cache' })
+    var path = (base === '/' ? '' : base) + '/config.json';
+    return fetch(path, { cache: 'no-cache' })
       .then(function (r) { return r.ok ? r.json() : {}; })
       .catch(function () { return {}; });
   }

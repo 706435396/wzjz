@@ -61,6 +61,7 @@
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
 
     var base = (window.Site && window.Site.base) || '/';
+    function sitePath(sub) { return (base === '/' ? '' : base) + sub; }
     var host = (window.Site && window.Site.host) || location.hostname;
 
     function loadJSON(u) { return fetch(u, { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
@@ -97,7 +98,7 @@
     Promise.all([
       (window.Site && window.Site.globalConfig ? window.Site.globalConfig() : Promise.resolve({})),
       (window.Site && window.Site.meta ? window.Site.meta() : Promise.resolve({})),
-      loadJSON(base + '/data/list.json'),
+      loadJSON(sitePath('/data/list.json')),
       (window.AFF ? window.AFF.load() : Promise.resolve())
     ]).then(function (r) {
       var gconf = r[0] || {}, scfg = r[1] || {}, td = r[2] || { tools: [] };

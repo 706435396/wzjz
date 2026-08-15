@@ -68,10 +68,12 @@
     if (HOST_MAP[host]) return base;
     try {
       var j = await loadJSON('/common/domain-map.json');
-      if (j && j.map && j.map[host]) return '/' + j.map[host];
+      if (j && j.map && j.map[host]) return j.map[host];
     } catch (e) { /* ignore */ }
     return base;
   }
+  // 拼接子站资源路径：base='/' 时避免拼出 '//config.json'
+  function sitePath(sub) { return (base === '/' ? '' : base) + sub; }
 
   /* ---------- 渲染：导航 / Hero / 分类 / 卡片 ---------- */
   function renderNav(cfg) {
@@ -220,7 +222,7 @@
     var affBox = document.getElementById('affBox');
     var toolsCount = 0;
     try {
-      var td = await loadJSON(base + '/data/list.json');
+      var td = await loadJSON(sitePath('/data/list.json'));
       var tools = (td && td.tools) || [];
       toolsCount = tools.length;
       var rel = (art.relatedTools && art.relatedTools.length)
@@ -276,9 +278,9 @@
     window.__articleBase = base;
     var cfg = { domain: host, name: '72tool', title: '教程资讯', description: '垂直工具赛道教程', lang: 'zh-CN' };
     var data = { articles: [], updated: '' };
-    try { cfg = Object.assign(cfg, await loadJSON(base + '/config.json')); } catch (e) {}
+    try { cfg = Object.assign(cfg, await loadJSON(sitePath('/config.json'))); } catch (e) {}
     try {
-      data = await loadJSON(base + '/article/list.json');
+      data = await loadJSON(sitePath('/article/list.json'));
       sessionStorage.setItem('__articles_' + base, JSON.stringify(data));
     } catch (e) { console.warn('article 数据缺失:', e); }
     // 全站合规配置（含 §7.4 多语种免责 byLang）

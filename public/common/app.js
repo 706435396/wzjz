@@ -39,6 +39,8 @@
     if (ROOTS.indexOf(h) >= 0) return '/';
     return '/';
   }
+  // 拼接子站资源路径：base='/' 时避免拼出 '//config.json'（协议相对地址）
+  function sitePath(sub) { return (base === '/' ? '' : base) + sub; }
   function loadHostMap() {
     return loadJSON('/common/domain-map.json')
       .then(function (dm) {
@@ -627,12 +629,12 @@
     var cfg = Object.assign({}, DEFAULT_CFG);
     var data = { tools: [], updated: '' };
     var adata = { articles: [] };
-    var p1 = loadJSON(base + '/config.json').then(function (c) { cfg = Object.assign(cfg, c); })
+    var p1 = loadJSON(sitePath('/config.json')).then(function (c) { cfg = Object.assign(cfg, c); })
       .catch(function (e) { console.warn('config 缺失，使用默认:', e); });
-    var p2 = loadJSON(base + '/data/list.json').then(function (d) { data = d && d.tools ? d : data; })
+    var p2 = loadJSON(sitePath('/data/list.json')).then(function (d) { data = d && d.tools ? d : data; })
       .catch(function (e) { console.warn('data 缺失:', e); });
     // 资讯数据（教程资讯模块）：失败不阻断工具页渲染
-    var p3 = loadJSON(base + '/article/list.json').then(function (a) { adata = a && a.articles ? a : adata; })
+    var p3 = loadJSON(sitePath('/article/list.json')).then(function (a) { adata = a && a.articles ? a : adata; })
       .catch(function (e) { console.warn('article 数据缺失:', e); });
     // CPS 分销配置（affiliate.js 注入；失败不阻断工具页渲染）
     var p4 = (window.AFF ? window.AFF.load() : Promise.resolve());
