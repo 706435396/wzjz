@@ -1,0 +1,88 @@
+{
+  "domain": "fr.72tool.com",
+  "name": "72tool Outils en ligne",
+  "title": "Outils en ligne gratuits | Annuaire 72tool en français",
+  "description": "Annuaire d'outils en ligne gratuits : nettoyage de texte, génération de sitemap, utilitaires IA et plus, en français.",
+  "keywords": "outils, utilitaires, texte, sitemap, intelligence artificielle",
+  "category": "Utilitaires",
+  "lang": "fr",
+  "base": "/lang/fr",
+  "article": {
+    "enabled": true,
+    "categories": [
+      "Guide",
+      "Conseils",
+      "Comparatif",
+      "Pièges"
+    ]
+  },
+  "ads": {
+    "enabled": true,
+    "region": "global",
+    "provider": "adsense",
+    "slots": {
+      "top": "",
+      "sidebar": "",
+      "article": ""
+    }
+  },
+  "theme": {
+    "brand": "#0ea5e9",
+    "layout": "masonry",
+    "navOrder": [
+      { "key": "home", "label": "Accueil" },
+      { "key": "article", "label": "Tutoriels" },
+      { "key": "agents", "label": "Agents" },
+      { "key": "tools", "label": "Outils" }
+    ]
+  },
+  "community": {
+    "enabled": true,
+    "title": "Communauté de développeurs",
+    "url": "/community"
+  },
+  "top": true,
+  "imageSitemap": true,
+  "ui": {
+    "searchPlaceholder": "Rechercher un outil…",
+    "emptyResult": "Aucun outil correspondant trouvé. Essayez un autre mot-clé.",
+    "backToList": "← Retour à la liste d'outils",
+    "detailInfoTitle": "Informations de base",
+    "detailUsageTitle": "Guide étape par étape",
+    "detailProsTitle": "✅ Avantages",
+    "detailConsTitle": "⚠️ Points d'attention",
+    "detailVisitBtn": "Visiter le site officiel ↗",
+    "detailRelTutorials": "Tutoriels associés",
+    "detailRelTools": "Outils similaires",
+    "detailFaqTitle": "Questions associées",
+    "latestTutorials": "Derniers tutoriels",
+    "readTimePrefix": "⏱ Temps de lecture",
+    "readTimeSuffix": "min",
+    "copyCode": "Copier",
+    "copyPromo": "Copier le lien de promotion",
+    "freeTrial": "Essayer gratuitement",
+    "allTools": "Tous",
+    "openSource": "Open Source / Code fermé",
+    "openSourceValue": "Open Source",
+    "closedSourceValue": "Code fermé",
+    "pricing": "Prix",
+    "platforms": "Plateformes",
+    "license": "Licence",
+    "updated": "Mis à jour le",
+    "footerToolsCount": "{{n}} outils · Mis à jour le ",
+    "privacy": "Confidentialité",
+    "promoBadge": "Affiliation",
+    "usageTipLabel": "💡 Astuce :",
+    "usageCheckLabel": "✅ Vérification :",
+    "detailCardBtn": "Voir les détails →",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbAgents": "Clusters d'agents",
+    "breadcrumbTools": "Clusters d'outils",
+    "copyCodeDone": "Copié",
+    "copyCodeFail": "Échec",
+    "pricingFree": "Gratuit",
+    "pricingFreemium": "Gratuit + Payant",
+    "pricingPaid": "Payant",
+    "communityTitle": "Rejoindre la communauté de développeurs"
+  }
+}

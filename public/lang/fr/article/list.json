@@ -1,0 +1,22 @@
+{
+  "updated": "2026-08-14",
+  "articles": [
+    {
+      "slug": "nettoyer-texte-ancien-gratuitement",
+      "title": "Comment nettoyer un ancien texte gratuitement (guide 2026)",
+      "summary": "Guide étape par étape pour supprimer les caractères étranges, les espaces et les lignes vides des anciens textes avec TxtClean.",
+      "body": "<p>Les textes scannés contiennent souvent des caractères bizarres et des sauts de ligne cassés. Ce guide utilise l'outil TxtClean pour les nettoyer en quelques minutes.</p><h2>Étape 1 : Collez le texte</h2><p>Collez le texte OCR dans la zone prévue et cliquez sur « nettoyer ».</p><h2>Étape 2 : Ponctuation</h2><p>Activez la ponctuation automatique pour améliorer la lecture.</p>",
+      "tags": [
+        "texte",
+        "nettoyage",
+        "gratuit"
+      ],
+      "category": "Guide",
+      "keywords": "nettoyer texte ancien gratuit, outil nettoyage texte français, OCR nettoyer caractères",
+      "relatedTools": [
+        "TxtClean — Nettoyeur de texte"
+      ],
+      "updated": "2026-08-14"
+    }
+  ]
+}

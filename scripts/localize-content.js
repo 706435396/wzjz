@@ -35,14 +35,16 @@ const DE = /[äöüß]/i;
 const TEMPLATE_RES = {
   zh: /是一款面向?「?[^」]*」?场景的工具/,
   de: /ist ein Werkzeug der Kategorie/,
-  es: /es una herramienta de la categoría/i
+  es: /es una herramienta de la categoría/i,
+  fr: /est un outil de la catégorie/i
 };
 
 // 目标语言关键词（用于粗略判断是否为对应语言）
 const LANG_HINTS = {
   zh: /\b(本地|在线|免费|工具|支持|生成|模型|AI|智能|使用|功能)\b/,
   de: /\b(der|die|das|und|oder|Werkzeug|Tool|kostenlos|für|auf|von|mit|Anleitung|Beschreibung)\b/i,
-  es: /\b(el|la|los|las|de|en|herramienta|gratis|para|cómo|guía|descripción|enlace)\b/i
+  es: /\b(el|la|los|las|de|en|herramienta|gratis|para|cómo|guía|descripción|enlace)\b/i,
+  fr: /\b(le|la|les|de|du|des|en|un|une|outil|gratuit|pour|comment|guide|description|lien|catégorie|sur|vos|avec|est)\b/i
 };
 
 function baseLang(lang) {
@@ -92,6 +94,7 @@ function tmplDesc(name, cat, lang) {
   if (bl === 'zh') return `${name} 是一款 ${cat || '实用'}工具，支持在浏览器或本地直接使用，适合想快速上手的用户。`;
   if (bl === 'de') return `${name} ist ein ${cat || 'Utility'}-Tool. Hier findest du kuratierte Infos, häufige Fragen und den offiziellen Link.`;
   if (bl === 'es') return `${name} es una herramienta de ${cat || 'utilidades'}. En 72tool encontrarás su descripción, preguntas frecuentes y el enlace oficial.`;
+  if (bl === 'fr') return `${name} est un outil ${cat || 'utilitaires'}. Sur 72tool, retrouvez sa description, ses questions fréquentes et le lien officiel.`;
   return `${name} — ${cat || 'tool'}.`;
 }
 

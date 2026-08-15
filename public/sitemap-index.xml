@@ -37,6 +37,18 @@
     <lastmod>2026-08-14</lastmod>
   </sitemap>
   <sitemap>
+    <loc>https://fr.72tool.com/sitemap.xml</loc>
+    <lastmod>2026-08-14</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://fr.72tool.com/sitemap-detail.xml</loc>
+    <lastmod>2026-08-14</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://fr.72tool.com/article/sitemap.xml</loc>
+    <lastmod>2026-08-14</lastmod>
+  </sitemap>
+  <sitemap>
     <loc>https://gpuagent.72tool.com/sitemap.xml</loc>
     <lastmod>2026-08-14</lastmod>
   </sitemap>
