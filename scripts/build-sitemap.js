@@ -154,6 +154,7 @@ function main() {
 
   const indexUrls = [];        // 总索引条目
   const routes = {};            // 供 Functions 使用的域名->目录映射
+  const nowIso = new Date().toISOString(); // 当前时间戳，用于触发 GSC 重新抓取
 
   for (const domain of domains) {
     const relDir = map[domain];
@@ -175,7 +176,7 @@ function main() {
 
     // (a) 列表页 sitemap：站点根（只含站内 URL，不放外部工具链接）
     const listUrls = [
-      { loc: 'https://' + domain + '/', lastmod: baseDate, freq: 'daily', prio: '1.0' }
+      { loc: 'https://' + domain + '/', lastmod: nowIso, freq: 'daily', prio: '1.0' }
     ];
     fs.writeFileSync(path.join(siteDir, 'sitemap.xml'), buildSitemap(listUrls));
     console.log('✓', relDir + '/sitemap.xml', '| 站内入口', listUrls.length);
@@ -196,8 +197,8 @@ function main() {
     console.log('✓', relDir + '/sitemap-detail.xml', '| 详情', detailUrls.length);
 
     // 总索引登记（工具类）
-    indexUrls.push({ loc: 'https://' + domain + '/sitemap.xml', lastmod: baseDate });
-    indexUrls.push({ loc: 'https://' + domain + '/sitemap-detail.xml', lastmod: baseDate });
+    indexUrls.push({ loc: 'https://' + domain + '/sitemap.xml', lastmod: nowIso });
+    indexUrls.push({ loc: 'https://' + domain + '/sitemap-detail.xml', lastmod: nowIso });
 
     // ★ (c) 资讯/教程栏目 sitemap：域名/article/<slug>
     //    仅当该子站存在 article/list.json 且含文章时才生成（无资讯站不污染索引）
