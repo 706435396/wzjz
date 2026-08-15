@@ -23,7 +23,8 @@
     'txtclean.72tool.com': '/tools/txtclean',
     'sitemapgen.72tool.com': '/tools/sitemapgen',
     'es.72tool.com': '/lang/es',
-    'de.72tool.com': '/lang/de'
+    'de.72tool.com': '/lang/de',
+    'fr.72tool.com': '/lang/fr'
   };
 
   var params = new URLSearchParams(location.search);
