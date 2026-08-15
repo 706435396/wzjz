@@ -1,0 +1,46 @@
+{
+  "domain": "72tool.com",
+  "name": "72tool",
+  "title": "72tool 工具导航",
+  "description": "精选在线工具与 AI 智能体导航",
+  "keywords": "工具,导航,AI,智能体,在线工具",
+  "category": "工具",
+  "lang": "zh-CN",
+  "base": "/",
+  "article": {
+    "enabled": true,
+    "categories": [
+      "部署教程",
+      "使用技巧",
+      "选型对比",
+      "避坑指南"
+    ]
+  },
+  "ads": {
+    "enabled": false,
+    "region": "cn",
+    "provider": "adsterra",
+    "slots": {
+      "top": "",
+      "sidebar": "",
+      "article": ""
+    }
+  },
+  "theme": {
+    "brand": "#2563eb",
+    "layout": "masonry",
+    "navOrder": [
+      "首页",
+      "教程资讯",
+      "Agent 集群",
+      "工具集群"
+    ]
+  },
+  "community": {
+    "enabled": true,
+    "title": "开发者社群",
+    "url": "/community"
+  },
+  "top": true,
+  "imageSitemap": true
+}

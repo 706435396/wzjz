@@ -292,6 +292,14 @@ ${indexUrls
   const domainMap = { root, map };
   fs.writeFileSync(path.join(COMMON_DIR, 'domain-map.json'), JSON.stringify(domainMap, null, 2));
   console.log('✓ common/domain-map.json | 映射', domains.length, '个域名');
+
+  // 生成根域名（72tool.com / www.72tool.com）总站数据：聚合所有中文子站工具
+  try {
+    const { buildRootSite } = require('./build-root-site');
+    buildRootSite();
+  } catch (e) {
+    console.warn('生成根站数据失败:', e.message);
+  }
 }
 
 main();

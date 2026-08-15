@@ -1,0 +1,2119 @@
+{
+  "updated": "2026-08-14",
+  "tools": [
+    {
+      "name": "浏览器使用 (Browser Use)",
+      "url": "https://github.com/browser-use/browser-use",
+      "desc": "开源的浏览器使用 AI 智能体，用自然语言驱动网页操作，支持表单填写、信息提取与多步任务编排。",
+      "tags": [
+        "Python",
+        "AI Agent",
+        "网页操作"
+      ],
+      "category": "通用浏览器 Agent",
+      "updated": "2026-08-14",
+      "originName": "Browser Use",
+      "slug": "browser-use",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Python 包",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "Python 生态完善，便于二次开发与集成",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装 Python 3.10 或更高版本。\nCheck:\n打开终端输入 `code_env_py`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/browser-use/browser-use.git\ncd browser-use\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_py\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_py\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "跨浏览器自动化框架 (Playwright)",
+      "url": "https://playwright.dev",
+      "desc": "微软出品的跨浏览器自动化框架，支持 Chromium/Firefox/WebKit，适合稳定可靠的网页抓取与端到端测试。",
+      "tags": [
+        "自动化",
+        "抓取",
+        "测试"
+      ],
+      "category": "自动化框架",
+      "updated": "2026-08-10",
+      "originName": "Playwright",
+      "slug": "playwright",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 Playwright 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "浏览器控制库 (Puppeteer)",
+      "url": "https://pptr.dev",
+      "desc": "基于 Chrome DevTools 协议的 Node 自动化库，轻量易用，常用于爬虫、截图与页面渲染监控。",
+      "tags": [
+        "Node",
+        "爬虫",
+        "截图"
+      ],
+      "category": "自动化框架",
+      "updated": "2026-08-08",
+      "originName": "Puppeteer",
+      "slug": "puppeteer",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 Puppeteer 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "语义化数据提取 (AgentQL)",
+      "url": "https://agentql.com",
+      "desc": "用类自然语言语义选择器定位页面元素，告别脆弱的 XPath，让数据提取更稳定。",
+      "tags": [
+        "语义选择",
+        "数据提取"
+      ],
+      "category": "数据提取",
+      "updated": "2026-08-12",
+      "originName": "AgentQL",
+      "slug": "agentql",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 AgentQL 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "视觉网页智能体 (Skyvern)",
+      "url": "https://github.com/Skyvern-AI/skyvern",
+      "desc": "结合 LLM 与计算机视觉的网页自动化智能体，能自适应页面结构变化完成复杂工作流。",
+      "tags": [
+        "LLM",
+        "CV",
+        "工作流"
+      ],
+      "category": "通用浏览器 Agent",
+      "updated": "2026-08-13",
+      "originName": "Skyvern",
+      "slug": "skyvern",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/Skyvern-AI/skyvern.git\ncd skyvern\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "开源情报收集 (Spiderfoot)",
+      "url": "https://github.com/smicallef/spiderfoot",
+      "desc": "Spiderfoot 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "浏览器自动化"
+      ],
+      "category": "浏览器自动化",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Spiderfoot",
+      "slug": "spiderfoot",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/smicallef/spiderfoot.git\ncd spiderfoot\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "AI 视频生成模型 (LTX 2)",
+      "url": "https://github.com/Lightricks/LTX-2",
+      "desc": "LTX 2 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "浏览器自动化"
+      ],
+      "category": "浏览器自动化",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "LTX 2",
+      "slug": "ltx-2",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/Lightricks/LTX-2.git\ncd LTX-2\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "邮箱账号探测 (Holehe)",
+      "url": "https://github.com/megadose/holehe",
+      "desc": "Holehe 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "浏览器自动化"
+      ],
+      "category": "浏览器自动化",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Holehe",
+      "slug": "holehe",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/megadose/holehe.git\ncd holehe\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "代理智能体框架 (Agency Agents)",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "desc": "Agency Agents 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "浏览器自动化"
+      ],
+      "category": "浏览器自动化",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Agency Agents",
+      "slug": "agency-agents",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/msitarzewski/agency-agents.git\ncd agency-agents\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "浏览器自动化 (Loopx)",
+      "url": "https://github.com/huangruiteng/loopx",
+      "desc": "Loopx 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "浏览器自动化"
+      ],
+      "category": "浏览器自动化",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Loopx",
+      "slug": "loopx",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/huangruiteng/loopx.git\ncd loopx\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "技能学习转换器 (Book To Skill)",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "desc": "Book To Skill 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "浏览器自动化"
+      ],
+      "category": "浏览器自动化",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Book To Skill",
+      "slug": "book-to-skill",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/virgiliojr94/book-to-skill.git\ncd book-to-skill\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "Obsidian 技能插件 (Obsidian Skills)",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "desc": "Obsidian Skills 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "浏览器自动化"
+      ],
+      "category": "浏览器自动化",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Obsidian Skills",
+      "slug": "obsidian-skills",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/kepano/obsidian-skills.git\ncd obsidian-skills\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "代码图谱 RAG (Code Graph Rag)",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "desc": "Code Graph Rag 是一款 浏览器自动化工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "浏览器自动化"
+      ],
+      "category": "浏览器自动化",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Code Graph Rag",
+      "slug": "code-graph-rag",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/vitali87/code-graph-rag.git\ncd code-graph-rag\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "剪映国际版 (CapCut)",
+      "url": "https://www.capcut.com",
+      "desc": "字节旗下剪辑工具，内置多语言字幕、智能抠像与爆款模板，适合批量产出 TikTok 短视频。",
+      "tags": [
+        "剪辑",
+        "字幕",
+        "模板"
+      ],
+      "category": "视频剪辑",
+      "updated": "2026-08-14",
+      "slug": "剪映国际版-capcut",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 剪映国际版 (CapCut) 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "AI 短视频切片 (Opus Clip)",
+      "url": "https://www.opus.pro",
+      "desc": "AI 长转短工具，自动识别高光片段并生成竖屏短视频，支持多语种标题与标签。",
+      "tags": [
+        "长转短",
+        "AI",
+        "竖屏"
+      ],
+      "category": "AI 剪辑",
+      "updated": "2026-08-11",
+      "originName": "Opus Clip",
+      "slug": "opus-clip",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 Opus Clip 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "TikTok 数据分析 (Exolyt)",
+      "url": "https://exolyt.com",
+      "desc": "TikTok 数据分析与爆款挖掘平台，追踪热门话题、音乐与创作者，辅助内容选题。",
+      "tags": [
+        "数据分析",
+        "选品",
+        "趋势"
+      ],
+      "category": "数据分析",
+      "updated": "2026-08-09",
+      "originName": "Exolyt",
+      "slug": "exolyt",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 Exolyt 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "AI 内容生成 (Predis.ai)",
+      "url": "https://predis.ai",
+      "desc": "输入产品描述即可生成带字幕的短视频与帖子文案，覆盖 TikTok/Reels/Shorts 多平台。",
+      "tags": [
+        "脚本",
+        "文案",
+        "生成"
+      ],
+      "category": "内容生成",
+      "updated": "2026-08-12",
+      "originName": "Predis.ai",
+      "slug": "predis-ai",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 Predis.ai 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "矩阵发布脚本 (Combo Creator)",
+      "url": "https://github.com/",
+      "desc": "开源的 TikTok 账号矩阵运营脚本，支持多账号定时发布与素材池管理（示例条目）。",
+      "tags": [
+        "矩阵",
+        "定时发布",
+        "开源"
+      ],
+      "category": "账号运营",
+      "updated": "2026-08-13",
+      "originName": "Combo Creator",
+      "slug": "combo-creator",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/\ncd Combo Creator\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "短视频自动化 (Holaos)",
+      "url": "https://github.com/holaboss-ai/holaOS",
+      "desc": "Holaos 是一款 跨境短视频工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "跨境短视频"
+      ],
+      "category": "跨境短视频",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Holaos",
+      "slug": "holaos",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/holaboss-ai/holaOS.git\ncd holaOS\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "图表设计 (Diagram Design)",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "desc": "Diagram Design 是一款 跨境短视频工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "跨境短视频"
+      ],
+      "category": "跨境短视频",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Diagram Design",
+      "slug": "diagram-design",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/cathrynlavery/diagram-design.git\ncd diagram-design\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "智能体技能库 (Agent Skills)",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "desc": "Agent Skills 是一款 跨境短视频工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "跨境短视频"
+      ],
+      "category": "跨境短视频",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Agent Skills",
+      "slug": "agent-skills",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/addyosmani/agent-skills.git\ncd agent-skills\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "智能体技能库 (Skills)",
+      "url": "https://github.com/anthropics/skills",
+      "desc": "Skills 是一款 跨境短视频工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "跨境短视频"
+      ],
+      "category": "跨境短视频",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Skills",
+      "slug": "skills",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/anthropics/skills.git\ncd skills\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "数学动画引擎 (Manim)",
+      "url": "https://github.com/3b1b/manim",
+      "desc": "Manim 是一款 跨境短视频工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "跨境短视频"
+      ],
+      "category": "跨境短视频",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Manim",
+      "slug": "manim",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/3b1b/manim.git\ncd manim\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "本地大模型运行 (Ollama)",
+      "url": "https://ollama.com",
+      "desc": "一行命令在本地跑大模型（Llama、Qwen、Gemma 等），支持 GPU 加速，数据完全离线。",
+      "tags": [
+        "本地大模型",
+        "离线",
+        "GPU"
+      ],
+      "category": "本地大模型",
+      "updated": "2026-08-14",
+      "originName": "Ollama",
+      "slug": "ollama",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 Ollama 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "Stable Diffusion 出图界面 (Stable Diffusion WebUI)",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "desc": "最流行的本地出图界面，支持插件生态与显卡优化，免费生成 AI 图像。",
+      "tags": [
+        "出图",
+        "SD",
+        "插件"
+      ],
+      "category": "图像生成",
+      "updated": "2026-08-10",
+      "originName": "Stable Diffusion WebUI",
+      "slug": "stable-diffusion-webui",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git\ncd stable-diffusion-webui\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "大模型桌面客户端 (LM Studio)",
+      "url": "https://lmstudio.ai",
+      "desc": "图形化本地推理客户端，免命令行加载 GGUF 模型，内置聊天与 OpenAI 兼容接口。",
+      "tags": [
+        "GUI",
+        "推理",
+        "兼容API"
+      ],
+      "category": "本地大模型",
+      "updated": "2026-08-12",
+      "originName": "LM Studio",
+      "slug": "lm-studio",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "API 接口"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级",
+        "提供 API，便于接入自动化工作流"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 LM Studio 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "私有知识库问答 (PrivateGPT)",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "desc": "基于本地向量库的私有知识库问答，文档不出本机，适合企业内网部署。",
+      "tags": [
+        "知识库",
+        "向量库",
+        "私有"
+      ],
+      "category": "私有知识库",
+      "updated": "2026-08-13",
+      "originName": "PrivateGPT",
+      "slug": "privategpt",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "务必关注许可证对商业用途的约束"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/Mintplex-Labs/anything-llm.git\ncd anything-llm\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "大模型高效微调 (Unsloth)",
+      "url": "https://github.com/unslothai/unsloth",
+      "desc": "Unsloth 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "localgpu"
+      ],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Unsloth",
+      "slug": "unsloth",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/unslothai/unsloth.git\ncd unsloth\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "模型路由编排 (Switchyard)",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "desc": "Switchyard 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "localgpu"
+      ],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Switchyard",
+      "slug": "switchyard",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/NVIDIA-NeMo/Switchyard.git\ncd Switchyard\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "模块化 AI 工具 (Modly)",
+      "url": "https://github.com/lightningpixel/modly",
+      "desc": "Modly 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "localgpu"
+      ],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Modly",
+      "slug": "modly",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/lightningpixel/modly.git\ncd modly\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "语音交互框架 (Fluidvoice)",
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "desc": "Fluidvoice 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "本地显卡"
+      ],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Fluidvoice",
+      "slug": "fluidvoice",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/altic-dev/FluidVoice.git\ncd FluidVoice\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "腾讯数据库智能体 (TencentDB Agent Memory)",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "desc": "Tencentdb Agent Memory 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "localgpu"
+      ],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Tencentdb Agent Memory",
+      "slug": "tencentdb-agent-memory",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/TencentCloud/TencentDB-Agent-Memory.git\ncd TencentDB-Agent-Memory\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "ComfyUI 工作流出图 (ComfyUI)",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "desc": "Comfyui 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "localgpu"
+      ],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Comfyui",
+      "slug": "comfyui",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/Comfy-Org/ComfyUI.git\ncd ComfyUI\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "数据索引框架 (Needle)",
+      "url": "https://github.com/cactus-compute/needle",
+      "desc": "Needle 是一款 本地显卡工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "本地显卡"
+      ],
+      "category": "本地显卡",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Needle",
+      "slug": "needle",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/cactus-compute/needle.git\ncd needle\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "古籍文本清洗 (TxtClean)",
+      "url": "https://txtclean.72tool.com",
+      "desc": "本站核心工具：粘贴 OCR 识别后的古籍文本，一键去除乱码、多余空格与空行，并自动断句标点。",
+      "tags": [
+        "古籍",
+        "清洗",
+        "标点"
+      ],
+      "category": "文本清洗",
+      "updated": "2026-08-14",
+      "slug": "古籍文本清洗-txtclean",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 古籍文本清洗 (TxtClean) 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "开源繁简转换 (OpenCC)",
+      "url": "https://github.com/BYVoid/OpenCC",
+      "desc": "高质量的中文繁简/港澳繁体互转库，命令行与 API 双形态，适合批量文献转换。",
+      "tags": [
+        "繁简",
+        "转换",
+        "开源"
+      ],
+      "category": "繁简转换",
+      "updated": "2026-08-08",
+      "slug": "开源繁简转换-opencc",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "API 接口"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本",
+        "提供 API，便于接入自动化工作流"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/BYVoid/OpenCC.git\ncd OpenCC\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "自动标点模型 (Punctuator)",
+      "url": "https://github.com/ottokart/punctuator2",
+      "desc": "基于神经网络的自动标点恢复模型，对无标点转录文本补全省略号、逗号与句号。",
+      "tags": [
+        "标点",
+        "模型",
+        "NLP"
+      ],
+      "category": "自动标点",
+      "updated": "2026-08-09",
+      "slug": "自动标点模型-punctuator",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/ottokart/punctuator2.git\ncd punctuator2\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "在线去重空行工具 (TextClean)",
+      "url": "https://txtclean.72tool.com",
+      "desc": "合并连续空行、去除首尾空白、按行去重，专为整理扫描文献的脏文本设计（示例条目）。",
+      "tags": [
+        "去空行",
+        "去重",
+        "整理"
+      ],
+      "category": "文本清洗",
+      "updated": "2026-08-13",
+      "slug": "在线去重空行工具-textclean",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 在线去重空行工具 (TextClean) 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "语义化知识管理 (Semantica)",
+      "url": "https://github.com/semantica-agi/semantica",
+      "desc": "Semantica 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "txtclean"
+      ],
+      "category": "文本清洗",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Semantica",
+      "slug": "semantica",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/semantica-agi/semantica.git\ncd semantica\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "RAGFlow 知识库 (Ragflow)",
+      "url": "https://github.com/infiniflow/ragflow",
+      "desc": "Ragflow 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "txtclean"
+      ],
+      "category": "文本清洗",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Ragflow",
+      "slug": "ragflow",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/infiniflow/ragflow.git\ncd ragflow\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "PDF 结构检查 (PDF Inspector)",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "desc": "Pdf Inspector 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "txtclean"
+      ],
+      "category": "文本清洗",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Pdf Inspector",
+      "slug": "pdf-inspector",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/firecrawl/pdf-inspector.git\ncd pdf-inspector\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "中文教材资源库 (ChinaTextbook)",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "desc": "精选 TapXWorld/ChinaTextbook：所有小初高、大学PDF教材。，适用于文本清洗场景，开箱即用。",
+      "tags": [
+        "txtclean"
+      ],
+      "category": "文本清洗",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Chinatextbook",
+      "slug": "chinatextbook",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/TapXWorld/ChinaTextbook.git\ncd ChinaTextbook\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "自主 AI 智能体 (Prime Agent)",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "desc": "Prime Agent 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "文本清洗"
+      ],
+      "category": "文本清洗",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Prime Agent",
+      "slug": "prime-agent",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/PrimeIntellect-ai/prime-agent.git\ncd prime-agent\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "数据库关系图 (DrawDB)",
+      "url": "https://github.com/drawdb-io/drawdb",
+      "desc": "Drawdb 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "文本清洗"
+      ],
+      "category": "文本清洗",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Drawdb",
+      "slug": "drawdb",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/drawdb-io/drawdb.git\ncd drawdb\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "法律文档自动化 (Macro)",
+      "url": "https://github.com/macro-inc/macro",
+      "desc": "Macro 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "文本清洗"
+      ],
+      "category": "文本清洗",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Macro",
+      "slug": "macro",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "macOS",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/macro-inc/macro.git\ncd macro\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "Ladybird 浏览器 (Ladybird)",
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "desc": "Ladybird 是一款 文本清洗工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "文本清洗"
+      ],
+      "category": "文本清洗",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Ladybird",
+      "slug": "ladybird",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/LadybirdBrowser/ladybird.git\ncd ladybird\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "站点地图生成器 (SitemapGen)",
+      "url": "https://sitemapgen.72tool.com",
+      "desc": "本站核心工具：输入根网址自动爬取整站，生成标准 sitemap.xml，支持分页与多子站索引聚合。",
+      "tags": [
+        "sitemap",
+        "生成",
+        "SEO"
+      ],
+      "category": "站点地图",
+      "updated": "2026-08-14",
+      "slug": "站点地图生成器-sitemapgen",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 站点地图生成器 (SitemapGen) 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "尖叫青蛙 SEO 爬虫 (Screaming Frog)",
+      "url": "https://www.screamingfrog.co.uk/seo-spider/",
+      "desc": "桌面端站点爬取神器，免费版可抓取 500 个 URL，导出完整 sitemap 与 SEO 问题报告。",
+      "tags": [
+        "爬取",
+        "SEO",
+        "桌面"
+      ],
+      "category": "站点地图",
+      "updated": "2026-08-10",
+      "originName": "Screaming Frog SEO Spider",
+      "slug": "screaming-frog-seo-spider",
+      "meta": {
+        "openSource": false,
+        "pricing": "free",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 Screaming Frog SEO Spider 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "Sitemap 生成库 (xml-sitemap)",
+      "url": "https://github.com/ekalinin/sitemap.js",
+      "desc": "Node 端 sitemap 生成库，支持超大站点流式写入与图片/新闻扩展协议。",
+      "tags": [
+        "Node",
+        "库",
+        "流式"
+      ],
+      "category": "开发库",
+      "updated": "2026-08-11",
+      "slug": "sitemap-生成库-xml-sitemap",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装 Node.js 18 或更高版本。\nCheck:\n打开终端输入 `code_env_node`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/ekalinin/sitemap.js.git\ncd sitemap.js\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_node\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_node\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    },
+    {
+      "name": "谷歌搜索控制台 (Google Search Console)",
+      "url": "https://search.google.com/search-console",
+      "desc": "提交 sitemap、查看收录与索引覆盖率，诊断站点的官方入口。",
+      "tags": [
+        "提交",
+        "收录",
+        "诊断"
+      ],
+      "category": "提交平台",
+      "updated": "2026-08-12",
+      "originName": "Google Search Console",
+      "slug": "google-search-console",
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web 云端"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "开箱即用，无需本地安装与运维",
+        "提供免费额度，可先试用再决定是否升级"
+      ],
+      "cons": [
+        "高级功能与更高额度通常需要付费订阅",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: 进入官网并注册账号\n点击下方红色「访问官网」按钮，进入 Google Search Console 主页。找到「Sign Up / 注册」按钮，用邮箱或 Google/GitHub 账号登录。\nTip:\n如果官网打不开，检查网络或稍后再试；也可尝试切换浏览器。",
+        "Step: 选择适合你的套餐\n新用户通常有免费试用或免费额度。建议先选 Free 档，熟悉后再决定是否升级。\nCheck:\n注册成功后，你应该能看到控制台/仪表板（Dashboard）首页。",
+        "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
+        "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
+        "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
+      ]
+    },
+    {
+      "name": "DeepSeek 推理模型 (Deepseek Reasonix)",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "desc": "Deepseek Reasonix 是一款 SEO工具工具，支持在浏览器或本地直接使用，适合想快速上手的用户。",
+      "tags": [
+        "SEO工具"
+      ],
+      "category": "SEO工具",
+      "updated": "2026-08-14",
+      "aff": "",
+      "affNetwork": "",
+      "affCommission": 0,
+      "originName": "Deepseek Reasonix",
+      "slug": "deepseek-reasonix",
+      "meta": {
+        "openSource": true,
+        "pricing": "free",
+        "platforms": [
+          "本地部署",
+          "Web 云端"
+        ],
+        "license": "开源协议（详见仓库 LICENSE）",
+        "updated": null
+      },
+      "pros": [
+        "开源免费，代码透明可审计，可自托管保障数据可控",
+        "支持本地 / Docker 部署，数据隐私更有保障",
+        "提供免费版本，个人与小规模使用零成本"
+      ],
+      "cons": [
+        "需要一定技术基础完成部署与运行环境配置",
+        "依赖网络连接，离线环境无法使用"
+      ],
+      "usageMode": "oss",
+      "usage": [
+        "Step: 检查你的电脑环境\n小白提示：这个工具需要在本地运行，先确认你的电脑满足基本条件。\nTip:\n需要安装对应的运行环境（详见仓库 README）。\nCheck:\n打开终端输入 `code_env_default`，看到版本号说明环境 OK。",
+        "Step: 把代码下载到本地\n在桌面或你喜欢的文件夹里打开终端，复制下面的命令执行：\nCode:\ngit clone https://github.com/esengine/DeepSeek-Reasonix.git\ncd DeepSeek-Reasonix\nTip:\n第一次用 git 的同学：如果提示找不到 git，先去 https://git-scm.com 下载安装。",
+        "Step: 安装依赖\n项目需要一些额外的“积木”才能跑起来。\nCode:\ncode_deps_default\nTip:\n如果命令报错，多半是网络问题。Python 用户可尝试 \"pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple\"。",
+        "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
+        "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
+        "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
+      ]
+    }
+  ]
+}
