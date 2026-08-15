@@ -14,8 +14,11 @@
 (function () {
   'use strict';
 
-  /* ---------- 1. 域名 -> 子目录映射表（新增站点在此追加一行） ---------- */
-  var HOST_MAP = {
+  /* ---------- 1. 域名 -> 子目录映射（硬编码兜底 + 运行时动态读取 domain-map.json） ----------
+   * 优先级：domain-map.json（由 build-sitemap 自动从 _redirects 生成） > 以下硬编码兜底。
+   * 这样新增子站只需在 _redirects 加一行 # SITE 并跑 build-sitemap，
+   * 无需改本文件、无需升 ?v= 版本号、无需清缓存。 */
+  var HARDCODED_MAP = {
     'browseragent.72tool.com': '/agent/browser',
     'tiktokagent.72tool.com': '/agent/tiktok',
     'gpuagent.72tool.com': '/agent/localgpu',
@@ -25,13 +28,29 @@
     'de.72tool.com': '/lang/de',
     'fr.72tool.com': '/lang/fr'
   };
+  var ROOTS = ['72tool.com', 'www.72tool.com'];
+  var HOST_MAP = HARDCODED_MAP;
+  var host = location.hostname;
+  var base = '/';
+
+  // 运行时加载 domain-map.json（含全部子站 域名 -> 子目录），覆盖硬编码表；失败则回退硬编码
+  function resolveBase(h) {
+    if (HOST_MAP[h]) return HOST_MAP[h];
+    if (ROOTS.indexOf(h) >= 0) return '/';
+    return '/';
+  }
+  function loadHostMap() {
+    return loadJSON('/common/domain-map.json')
+      .then(function (dm) {
+        if (dm && dm.map) HOST_MAP = Object.assign({}, HARDCODED_MAP, dm.map);
+        if (dm && dm.root && dm.root.length) ROOTS = dm.root;
+      })
+      .catch(function (e) { console.warn('domain-map 加载失败，用硬编码兜底:', e); })
+      .then(function () { base = resolveBase(host); });
+  }
 
   var params = new URLSearchParams(location.search);
   var forced = params.get('site');
-  var host = location.hostname;
-  var base = forced
-    ? '/' + forced.replace(/^\/+|\/+$/g, '')
-    : (HOST_MAP[host] || '/');
 
   /* slug：与 build-sitemap.js 保持一致（slice 60），用于 ?tool= 深链锚点 */
   function slugify(s) {
@@ -591,13 +610,20 @@
   }
 
   /* ---------- 5. 主流程 ---------- */
-  var DEFAULT_CFG = {
-    domain: host, name: '72tool', title: '72tool 工具导航',
-    description: '精选在线工具与 AI 智能体导航', keywords: '工具,导航',
-    category: '工具', lang: 'zh-CN', base: base
-  };
-
   function init() {
+    // 先解析域名映射（动态读 domain-map.json），再加载本子站数据
+    loadHostMap().then(function () {
+      if (forced) base = '/' + forced.replace(/^\/+|\/+$/g, '');
+      startInit();
+    });
+  }
+
+  function startInit() {
+    var DEFAULT_CFG = {
+      domain: host, name: '72tool', title: '72tool 工具导航',
+      description: '精选在线工具与 AI 智能体导航', keywords: '工具,导航',
+      category: '工具', lang: 'zh-CN', base: base
+    };
     var cfg = Object.assign({}, DEFAULT_CFG);
     var data = { tools: [], updated: '' };
     var adata = { articles: [] };

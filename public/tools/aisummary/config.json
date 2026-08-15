@@ -1,0 +1,100 @@
+{
+  "domain": "aisummary.72tool.com",
+  "name": "AI Summary Tool",
+  "title": "AI Summary Tool | Best AI Tools Tools & Reviews",
+  "description": "Curated directory of the best AI Tools tools. Hand-picked AI Summary Tool with pros, cons, pricing and step-by-step guides — updated regularly.",
+  "keywords": "ai summary, text summarizer, summarize",
+  "category": "AI Tools",
+  "lang": "en",
+  "base": "/tools/aisummary",
+  "article": {
+    "enabled": true,
+    "categories": [
+      "Guide",
+      "Tips",
+      "Compare",
+      "Pitfalls"
+    ]
+  },
+  "ads": {
+    "enabled": true,
+    "region": "global",
+    "provider": "adsense",
+    "slots": {
+      "top": "",
+      "sidebar": "",
+      "article": ""
+    }
+  },
+  "theme": {
+    "brand": "#8b5cf6",
+    "layout": "list",
+    "navOrder": [
+      {
+        "key": "home",
+        "label": "Home"
+      },
+      {
+        "key": "article",
+        "label": "Blog"
+      },
+      {
+        "key": "agents",
+        "label": "Agents"
+      },
+      {
+        "key": "tools",
+        "label": "Tools"
+      }
+    ]
+  },
+  "community": {
+    "enabled": true,
+    "title": "Developer Community",
+    "url": "/community"
+  },
+  "top": false,
+  "imageSitemap": true,
+  "ui": {
+    "searchPlaceholder": "Search tools…",
+    "emptyResult": "No matching tools found. Try another keyword.",
+    "backToList": "← Back to tools",
+    "detailInfoTitle": "Basic Info",
+    "detailUsageTitle": "How to use",
+    "detailProsTitle": "✅ Pros",
+    "detailConsTitle": "⚠️ Cons",
+    "detailVisitBtn": "Visit official site ↗",
+    "detailRelTutorials": "Related tutorials",
+    "detailRelTools": "Similar tools",
+    "detailFaqTitle": "Related questions",
+    "detailCardBtn": "View details →",
+    "latestTutorials": "Latest tutorials",
+    "readTimePrefix": "⏱ Reading",
+    "readTimeSuffix": "min",
+    "copyCode": "Copy",
+    "copyCodeDone": "Copied",
+    "copyCodeFail": "Copy failed",
+    "copyPromo": "Copy promo link",
+    "freeTrial": "Free trial",
+    "allTools": "All",
+    "openSource": "Open Source / Closed",
+    "openSourceValue": "Open Source",
+    "closedSourceValue": "Closed Source",
+    "pricing": "Pricing",
+    "pricingFree": "Free",
+    "pricingFreemium": "Free + Paid",
+    "pricingPaid": "Paid",
+    "platforms": "Platforms",
+    "license": "License",
+    "updated": "Updated",
+    "footerToolsCount": "{{n}} tools · Updated ",
+    "privacy": "Privacy",
+    "promoBadge": "Affiliate",
+    "communityTitle": "Join Developer Community",
+    "usageTipLabel": "💡 Tip:",
+    "usageCheckLabel": "✅ Check:",
+    "breadcrumbHome": "Home",
+    "breadcrumbAgents": "Agent Clusters",
+    "breadcrumbTools": "Tool Clusters"
+  }
+}
