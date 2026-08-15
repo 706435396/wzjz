@@ -173,17 +173,12 @@ function main() {
     }
     const baseDate = dataUpdated || new Date().toISOString().slice(0, 10);
 
-    // (a) 列表页 sitemap：站点根 + 各工具外链
+    // (a) 列表页 sitemap：站点根（只含站内 URL，不放外部工具链接）
     const listUrls = [
       { loc: 'https://' + domain + '/', lastmod: baseDate, freq: 'daily', prio: '1.0' }
     ];
-    for (const t of tools) {
-      if (t && t.url) {
-        listUrls.push({ loc: t.url, lastmod: (t.updated || baseDate).slice(0, 10), freq: 'weekly', prio: '0.7' });
-      }
-    }
     fs.writeFileSync(path.join(siteDir, 'sitemap.xml'), buildSitemap(listUrls));
-    console.log('✓', relDir + '/sitemap.xml', '| 工具', tools.length);
+    console.log('✓', relDir + '/sitemap.xml', '| 站内入口', listUrls.length);
 
     // (b) 详情页 sitemap：域名/?tool=<slug>（分段抓取，避免单文件几万条超时）
     const detailUrls = [];
