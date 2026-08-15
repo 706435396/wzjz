@@ -1,4 +1,409 @@
 {
   "updated": "2026-08-15",
-  "tools": []
+  "tools": [
+    {
+      "name": "JotForm",
+      "originName": "JotForm",
+      "url": "https://www.jotform.com/",
+      "desc": "Create custom forms and surveys easily online",
+      "category": "Dev",
+      "tags": [
+        "form builder",
+        "survey"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the JotForm homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Typeform",
+      "originName": "Typeform",
+      "url": "https://www.typeform.com/",
+      "desc": "Build engaging forms and surveys with a conversational design",
+      "category": "Dev",
+      "tags": [
+        "form builder",
+        "survey",
+        "typeform"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Typeform homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Google Forms",
+      "originName": "Google Forms",
+      "url": "https://forms.google.com/",
+      "desc": "Create simple forms and surveys for free",
+      "category": "Dev",
+      "tags": [
+        "form builder",
+        "survey",
+        "Google"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "free",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free version available, zero cost for personal use"
+      ],
+      "cons": [
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Google Forms homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "SurveyMonkey",
+      "originName": "SurveyMonkey",
+      "url": "https://www.surveymonkey.com/",
+      "desc": "Design and send surveys to gather insights",
+      "category": "Dev",
+      "tags": [
+        "survey",
+        "feedback",
+        "research"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the SurveyMonkey homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Formstack",
+      "originName": "Formstack",
+      "url": "https://www.formstack.com/",
+      "desc": "Build and manage forms and surveys for all your data collection needs",
+      "category": "Dev",
+      "tags": [
+        "form builder",
+        "survey",
+        "data collection"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Formstack homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Kissflow",
+      "originName": "Kissflow",
+      "url": "https://www.kissflow.com/",
+      "desc": "Streamline workflows with forms and surveys",
+      "category": "Dev",
+      "tags": [
+        "form builder",
+        "workflow",
+        "survey"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Kissflow homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Zoho Survey",
+      "originName": "Zoho Survey",
+      "url": "https://www.zoho.com/survey/",
+      "desc": "Create and share surveys to gather feedback",
+      "category": "Dev",
+      "tags": [
+        "survey",
+        "feedback",
+        "Zoho"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Zoho Survey homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Airtable",
+      "originName": "Airtable",
+      "url": "https://www.airtable.com/",
+      "desc": "Combine form building with a database for better data management",
+      "category": "Dev",
+      "tags": [
+        "form builder",
+        "database",
+        "Airtable"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Airtable homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Cvent",
+      "originName": "Cvent",
+      "url": "https://www.cvent.com/",
+      "desc": "Manage events and collect feedback with forms",
+      "category": "Dev",
+      "tags": [
+        "event management",
+        "feedback",
+        "form builder"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Cvent homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Microsoft Forms",
+      "originName": "Microsoft Forms",
+      "url": "https://forms.microsoft.com/",
+      "desc": "Create surveys and quizzes for free",
+      "category": "Dev",
+      "tags": [
+        "form builder",
+        "survey",
+        "Microsoft"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "free",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free version available, zero cost for personal use"
+      ],
+      "cons": [
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Microsoft Forms homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Formsite",
+      "originName": "Formsite",
+      "url": "https://www.formsite.com/",
+      "desc": "Build professional forms and surveys online",
+      "category": "Dev",
+      "tags": [
+        "form builder",
+        "survey",
+        "Formsite"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Formsite homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    }
+  ]
 }

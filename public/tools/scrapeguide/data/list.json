@@ -1,4 +1,384 @@
 {
   "updated": "2026-08-15",
-  "tools": []
+  "tools": [
+    {
+      "name": "Beautiful Soup",
+      "originName": "Beautiful Soup",
+      "url": "https://www.crummy.com/software/BeautifulSoup/",
+      "desc": "Python library for web scraping and parsing HTML/XML documents",
+      "category": "Dev Guide",
+      "tags": [
+        "Python",
+        "HTML parsing"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Python Package",
+          "API",
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Rich Python ecosystem, easy to extend and integrate",
+        "Free tier available, try before you upgrade",
+        "Provides API for automation workflows"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Beautiful Soup homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Scrapy",
+      "originName": "Scrapy",
+      "url": "https://scrapy.org/",
+      "desc": "Python framework for web scraping and crawling",
+      "category": "Dev Guide",
+      "tags": [
+        "Python",
+        "Web crawling"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Python Package",
+          "API",
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Rich Python ecosystem, easy to extend and integrate",
+        "Free tier available, try before you upgrade",
+        "Provides API for automation workflows"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Scrapy homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Selenium",
+      "originName": "Selenium",
+      "url": "https://www.selenium.dev/",
+      "desc": "Automates browsers for testing purposes and web scraping",
+      "category": "Dev Guide",
+      "tags": [
+        "Automation",
+        "Web testing"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "API",
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade",
+        "Provides API for automation workflows"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Selenium homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Puppeteer",
+      "originName": "Puppeteer",
+      "url": "https://pptr.dev/",
+      "desc": "Node library to control headless Chrome or Chromium over the DevTools Protocol",
+      "category": "Dev Guide",
+      "tags": [
+        "Node.js",
+        "Headless browser"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Puppeteer homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Octoparse",
+      "originName": "Octoparse",
+      "url": "https://www.octoparse.com/",
+      "desc": "Web scraping tool for non-programmers to extract data from websites",
+      "category": "Dev Guide",
+      "tags": [
+        "No-code",
+        "Data extraction"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "API",
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade",
+        "Provides API for automation workflows"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Octoparse homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "ParseHub",
+      "originName": "ParseHub",
+      "url": "https://www.parsehub.com/",
+      "desc": "Automated web data extraction tool for non-programmers",
+      "category": "Dev Guide",
+      "tags": [
+        "No-code",
+        "Data scraping"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "API",
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade",
+        "Provides API for automation workflows"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the ParseHub homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "WebHarvy",
+      "originName": "WebHarvy",
+      "url": "https://www.webharvy.com/",
+      "desc": "Web scraping software that allows users to extract data from websites",
+      "category": "Dev Guide",
+      "tags": [
+        "Data extraction",
+        "Web scraping"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "API",
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade",
+        "Provides API for automation workflows"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the WebHarvy homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Apache Nutch",
+      "originName": "Apache Nutch",
+      "url": "http://nutch.apache.org/",
+      "desc": "High-performance, highly scalable open-source web crawler software",
+      "category": "Dev Guide",
+      "tags": [
+        "Apache",
+        "Web crawling"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Apache Nutch homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Common Crawl",
+      "originName": "Common Crawl",
+      "url": "https://commoncrawl.org/",
+      "desc": "Free and open web crawl data that can be used for web scraping",
+      "category": "Dev Guide",
+      "tags": [
+        "Data",
+        "Web crawling"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "free",
+        "platforms": [
+          "API",
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free version available, zero cost for personal use",
+        "Provides API for automation workflows"
+      ],
+      "cons": [
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Common Crawl homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Diffbot",
+      "originName": "Diffbot",
+      "url": "https://www.diffbot.com/",
+      "desc": "AI-powered web scraping and data extraction platform",
+      "category": "Dev Guide",
+      "tags": [
+        "AI",
+        "Data extraction"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "API",
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade",
+        "Provides API for automation workflows"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Diffbot homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    }
+  ]
 }

@@ -1,4 +1,434 @@
 {
   "updated": "2026-08-15",
-  "tools": []
+  "tools": [
+    {
+      "name": "Google Calendar",
+      "originName": "Google Calendar",
+      "url": "https://calendar.google.com",
+      "desc": "Free, web-based calendar for personal and team scheduling",
+      "category": "Productivity",
+      "tags": [
+        "calendar",
+        "scheduling"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "free",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free version available, zero cost for personal use"
+      ],
+      "cons": [
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Google Calendar homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Microsoft Outlook",
+      "originName": "Microsoft Outlook",
+      "url": "https://outlook.live.com",
+      "desc": "Email and calendar service with scheduling and meeting management",
+      "category": "Productivity",
+      "tags": [
+        "email",
+        "calendar"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Microsoft Outlook homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Calendly",
+      "originName": "Calendly",
+      "url": "https://www.calendly.com",
+      "desc": "Appointment scheduling tool for personal and team use",
+      "category": "Productivity",
+      "tags": [
+        "scheduling",
+        "appointment"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Calendly homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Doodle",
+      "originName": "Doodle",
+      "url": "https://www.doodle.com",
+      "desc": "Simple scheduling tool for finding meeting times that work for everyone",
+      "category": "Productivity",
+      "tags": [
+        "scheduling",
+        "meeting"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Doodle homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Acuity Scheduling",
+      "originName": "Acuity Scheduling",
+      "url": "https://www.acuityscheduling.com",
+      "desc": "Online scheduling software for service-based businesses",
+      "category": "Productivity",
+      "tags": [
+        "scheduling",
+        "business"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Acuity Scheduling homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "ScheduleOnce",
+      "originName": "ScheduleOnce",
+      "url": "https://www.scheduleonce.com",
+      "desc": "Automated scheduling tool for meetings with personalized booking pages",
+      "category": "Productivity",
+      "tags": [
+        "scheduling",
+        "meeting"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the ScheduleOnce homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Booked",
+      "originName": "Booked",
+      "url": "https://booked.org",
+      "desc": "Open-source scheduling software for managing appointments and resources",
+      "category": "Productivity",
+      "tags": [
+        "scheduling",
+        "open-source"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Booked homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Appointlet",
+      "originName": "Appointlet",
+      "url": "https://www.appointlet.com",
+      "desc": "Online scheduling software for small businesses and freelancers",
+      "category": "Productivity",
+      "tags": [
+        "scheduling",
+        "small-business"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "free",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free version available, zero cost for personal use"
+      ],
+      "cons": [
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Appointlet homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "TimeTrade",
+      "originName": "TimeTrade",
+      "url": "https://www.timetrade.com",
+      "desc": "Appointment scheduling software for businesses and teams",
+      "category": "Productivity",
+      "tags": [
+        "scheduling",
+        "team"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the TimeTrade homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "When I Work",
+      "originName": "When I Work",
+      "url": "https://www.wheniwork.com",
+      "desc": "Employee scheduling and time tracking software for businesses",
+      "category": "Productivity",
+      "tags": [
+        "scheduling",
+        "time-tracking"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the When I Work homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Schedulista",
+      "originName": "Schedulista",
+      "url": "https://schedulista.com",
+      "desc": "Online scheduling software for solo professionals and small businesses",
+      "category": "Productivity",
+      "tags": [
+        "scheduling",
+        "professional"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Schedulista homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Teamup",
+      "originName": "Teamup",
+      "url": "https://www.teamup.com",
+      "desc": "Free online calendar and scheduling tool for teams and families",
+      "category": "Productivity",
+      "tags": [
+        "calendar",
+        "scheduling"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "free",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free version available, zero cost for personal use"
+      ],
+      "cons": [
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Teamup homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    }
+  ]
 }

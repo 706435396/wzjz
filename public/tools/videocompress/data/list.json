@@ -1,4 +1,398 @@
 {
   "updated": "2026-08-15",
-  "tools": []
+  "tools": [
+    {
+      "name": "HandBrake",
+      "originName": "HandBrake",
+      "url": "https://handbrake.fr/",
+      "desc": "Open-source video transcoder for multiple formats",
+      "category": "Dev",
+      "tags": [
+        "video transcoder",
+        "open-source"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the HandBrake homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "FFmpeg",
+      "originName": "FFmpeg",
+      "url": "https://ffmpeg.org/",
+      "desc": "Libav project, a complete audio and video processing tool",
+      "category": "Dev",
+      "tags": [
+        "libav",
+        "audio processing"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the FFmpeg homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "VLC Media Player",
+      "originName": "VLC Media Player",
+      "url": "https://www.videolan.org/vlc/",
+      "desc": "Free and open-source multimedia player and streaming media server",
+      "category": "Dev",
+      "tags": [
+        "media player",
+        "streaming"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "free",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free version available, zero cost for personal use"
+      ],
+      "cons": [
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the VLC Media Player homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Any Video Converter",
+      "originName": "Any Video Converter",
+      "url": "https://www.anyvideoconverter.com/",
+      "desc": "Convert video and audio files to various formats",
+      "category": "Dev",
+      "tags": [
+        "video converter",
+        "audio converter"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Any Video Converter homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "MediaCoder",
+      "originName": "MediaCoder",
+      "url": "https://www.mediacoder.org/",
+      "desc": "All-in-one media transcoding software",
+      "category": "Dev",
+      "tags": [
+        "media transcoding",
+        "all-in-one"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the MediaCoder homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "XMedia Recode",
+      "originName": "XMedia Recode",
+      "url": "https://www.xmedia-recode.de/",
+      "desc": "Free video and audio transcoding software",
+      "category": "Dev",
+      "tags": [
+        "video transcoding",
+        "audio transcoding"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "free",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free version available, zero cost for personal use"
+      ],
+      "cons": [
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the XMedia Recode homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Avidemux",
+      "originName": "Avidemux",
+      "url": "https://avidemux.org/",
+      "desc": "Free video editor designed for simple cutting, filtering, and encoding tasks",
+      "category": "Dev",
+      "tags": [
+        "video editor",
+        "filtering"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "free",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free version available, zero cost for personal use"
+      ],
+      "cons": [
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Avidemux homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Zamzar",
+      "originName": "Zamzar",
+      "url": "https://www.zamzar.com/",
+      "desc": "Online file conversion service that supports video formats",
+      "category": "Dev",
+      "tags": [
+        "file conversion",
+        "online service"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Zamzar homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "CloudConvert",
+      "originName": "CloudConvert",
+      "url": "https://cloudconvert.com/",
+      "desc": "Online video conversion service with a wide range of formats",
+      "category": "Dev",
+      "tags": [
+        "video conversion",
+        "online service"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the CloudConvert homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Convertio",
+      "originName": "Convertio",
+      "url": "https://convertio.co/",
+      "desc": "Online file conversion tool with support for video formats",
+      "category": "Dev",
+      "tags": [
+        "file conversion",
+        "video conversion"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Convertio homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Apowersoft Video Converter",
+      "originName": "Apowersoft Video Converter",
+      "url": "https://www.apowersoft.com/video-converter.html",
+      "desc": "Convert video and audio files to various formats",
+      "category": "Dev",
+      "tags": [
+        "video converter",
+        "audio converter"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Apowersoft Video Converter homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    }
+  ]
 }

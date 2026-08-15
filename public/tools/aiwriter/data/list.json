@@ -1,4 +1,401 @@
 {
   "updated": "2026-08-15",
-  "tools": []
+  "tools": [
+    {
+      "name": "Grammarly",
+      "originName": "Grammarly",
+      "url": "https://www.grammarly.com/",
+      "desc": "Improve your writing with AI-powered grammar and spell-checking",
+      "category": "AI Tools",
+      "tags": [
+        "ai writer",
+        "writing assistant"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Grammarly homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "ProWritingAid",
+      "originName": "ProWritingAid",
+      "url": "https://www.prowritingaid.com/",
+      "desc": "Enhance your writing with in-depth analysis and feedback",
+      "category": "AI Tools",
+      "tags": [
+        "ai writer",
+        "writing assistant"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the ProWritingAid homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Hemingway Editor",
+      "originName": "Hemingway Editor",
+      "url": "https://www.hemingwayapp.com/",
+      "desc": "Improve readability and make your writing bold and clear",
+      "category": "AI Tools",
+      "tags": [
+        "ai writer",
+        "writing assistant"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Hemingway Editor homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Jasper",
+      "originName": "Jasper",
+      "url": "https://jasper.ai/",
+      "desc": "AI-powered writing assistant to help you create better content faster",
+      "category": "AI Tools",
+      "tags": [
+        "ai writer",
+        "copy ai"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Jasper homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Copysmith",
+      "originName": "Copysmith",
+      "url": "https://www.copysmith.com/",
+      "desc": "AI copywriting tool for creating engaging content",
+      "category": "AI Tools",
+      "tags": [
+        "ai writer",
+        "copy ai"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Copysmith homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Articoolo",
+      "originName": "Articoolo",
+      "url": "https://articoolo.com/",
+      "desc": "Generate unique articles in seconds with AI",
+      "category": "AI Tools",
+      "tags": [
+        "ai writer",
+        "copy ai"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Articoolo homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Wordtune",
+      "originName": "Wordtune",
+      "url": "https://wordtune.com/",
+      "desc": "Improve your writing style with AI-driven suggestions",
+      "category": "AI Tools",
+      "tags": [
+        "ai writer",
+        "writing assistant"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Wordtune homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "MarketMuse",
+      "originName": "MarketMuse",
+      "url": "https://www.marketmuse.com/",
+      "desc": "AI-driven content optimization tool for SEO",
+      "category": "AI Tools",
+      "tags": [
+        "ai writer",
+        "copy ai"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the MarketMuse homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Surfer SEO",
+      "originName": "Surfer SEO",
+      "url": "https://surferseo.com/",
+      "desc": "AI-powered SEO tool for optimizing content",
+      "category": "AI Tools",
+      "tags": [
+        "ai writer",
+        "copy ai"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Surfer SEO homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "GPT-3 by OpenAI",
+      "originName": "GPT-3 by OpenAI",
+      "url": "https://openai.com/products/gpt-3/",
+      "desc": "Advanced AI language model for generating text",
+      "category": "AI Tools",
+      "tags": [
+        "ai writer",
+        "writing assistant"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the GPT-3 by OpenAI homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    },
+    {
+      "name": "Jungle AI",
+      "originName": "Jungle AI",
+      "url": "https://www.jungle.ai/",
+      "desc": "AI-powered content creation tool for online marketing",
+      "category": "AI Tools",
+      "tags": [
+        "ai writer",
+        "copy ai"
+      ],
+      "meta": {
+        "openSource": false,
+        "pricing": "freemium",
+        "platforms": [
+          "Web Cloud"
+        ],
+        "license": null,
+        "updated": null
+      },
+      "pros": [
+        "Ready to use out of the box, no local install or maintenance",
+        "Free tier available, try before you upgrade"
+      ],
+      "cons": [
+        "Advanced features and higher limits usually require a paid plan",
+        "Requires internet connection, unusable offline"
+      ],
+      "usageMode": "saas",
+      "usage": [
+        "Step: Open the official site and sign up\nClick the red \"Visit official site\" button to open the Jungle AI homepage. Find \"Sign Up\" and log in with email or Google/GitHub.\nTip:\nIf the site won’t load, check your connection or try another browser.",
+        "Step: Pick the plan that fits you\nNew users usually get a free trial or free quota. Start with the Free tier before upgrading.\nCheck:\nAfter sign-up you should see the Dashboard home.",
+        "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
+        "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
+        "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
+      ]
+    }
+  ]
 }
