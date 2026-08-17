@@ -1,0 +1,76 @@
+{
+  "updated": "2026-08-16",
+  "articles": [
+    {
+      "slug": "how-to-use-lastpass-for-password-management",
+      "title": "How to Use LastPass for Password Management",
+      "summary": "Learn how to effectively manage your passwords with LastPass and enhance your online security.",
+      "body": "<h2>Introduction to LastPass</h2><p>LastPass is a popular password manager that securely stores your passwords across all your devices. It's an essential tool for anyone looking to maintain strong online security.</p><h2>Setting Up LastPass</h2><p>First, download and install LastPass from the <a href=\"https://browserext.72tool.com/\">browser extensions directory</a>. Once installed, sign up for an account and start importing your passwords.</p><h2>Creating and Storing Passwords</h2><p>With LastPass, you can create strong, unique passwords for each of your accounts. The password generator feature ensures that your passwords are hard to guess.</p><h2>Accessing Your Passwords</h2><p>Access your passwords from any device by logging into your LastPass account. You can also use the LastPass extension to fill in login details automatically.</p><h2>Additional Features</h2><p>LastPass offers features like emergency access, two-factor authentication, and password sharing for added security.</p><h2>Conclusion</h2><p>Using LastPass is a simple and effective way to manage your passwords. Its robust security features make it a must-have tool for anyone serious about online security.</p>",
+      "tags": [
+        "password management",
+        "security",
+        "LastPass"
+      ],
+      "category": "Guide",
+      "keywords": "password management, LastPass, online security",
+      "relatedTools": [
+        "Grammarly"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "comparing-adblock-plus-and-adblocker-extension",
+      "title": "Comparing Adblock Plus and AdBlocker Extension",
+      "summary": "A comparison of Adblock Plus and AdBlocker Extension to help you choose the right ad-blocking tool for your browsing experience.",
+      "body": "<h2>Adblock Plus</h2><p>Adblock Plus is one of the most popular ad-blocking extensions available. It blocks ads across all websites and can be customized to your preferences.</p><h2>AdBlocker Extension</h2><p>AdBlocker Extension is another popular choice for ad-blocking. It offers similar features to Adblock Plus but with a focus on user-friendliness and ease of setup.</p><h2>Performance</h2><p>Adblock Plus is known for its strong ad-blocking capabilities, but it may sometimes slow down your browsing experience. AdBlocker Extension is generally faster and more efficient.</p><h2>Customization</h2><p>Adblock Plus offers extensive customization options, allowing users to block specific types of ads or even create their own ad-blocking rules. AdBlocker Extension has a simpler interface with fewer customization options.</p><h2>Support</h2><p>Both extensions have active communities and support teams. Adblock Plus has a larger user base, which means more resources and updates. AdBlocker Extension is also well-supported but may have fewer community resources.</p><h2>Conclusion</h2><p>Choose Adblock Plus if you need strong ad-blocking capabilities and are willing to invest time in customization. Go for AdBlocker Extension if you prefer a faster, more straightforward ad-blocking experience.</p>",
+      "tags": [
+        "ad-blocking",
+        "Adblock Plus",
+        "AdBlocker Extension"
+      ],
+      "category": "Comparison",
+      "keywords": "ad-blocking, Adblock Plus, AdBlocker Extension",
+      "relatedTools": [
+        "Grammarly",
+        "OneTab"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "how-to-use-json-viewer-for-efficient-json-inspection",
+      "title": "How to Use JSON Viewer for Efficient JSON Inspection",
+      "summary": "Discover how to effectively use JSON Viewer to inspect and manage JSON data in your web applications.",
+      "body": "<h2>What is JSON Viewer?</h2><p>JSON Viewer is a browser extension that allows you to easily view and edit JSON data. It's particularly useful for web developers and anyone working with JSON files.</p><h2>Installation</h2><p>Install JSON Viewer from the <a href=\"https://browserext.72tool.com/\">browser extensions directory</a>. Once installed, it will automatically load any JSON data you encounter on a webpage.</p><h2>Using JSON Viewer</h2><p>When you encounter a JSON object on a webpage, JSON Viewer will display it in a structured format. You can expand and collapse the JSON data, making it easier to read and understand.</p><h2>Editing JSON Data</h2><p>JSON Viewer also allows you to edit JSON data directly within the extension. This is particularly useful when you need to make quick changes to a JSON file without leaving your browser.</p><h2>Exporting JSON Data</h2><p>After making changes to your JSON data, you can export it as a new file or copy it to the clipboard for use elsewhere.</p><h2>Conclusion</h2><p>JSON Viewer is an invaluable tool for anyone working with JSON data. Its simple interface and powerful features make it an essential addition to any developer's toolkit.</p>",
+      "tags": [
+        "JSON Viewer",
+        "JSON inspection",
+        "web development"
+      ],
+      "category": "Guide",
+      "keywords": "JSON Viewer, JSON inspection, web development",
+      "relatedTools": [
+        "Tampermonkey",
+        "Evernote Web Clipper"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "how-to-improve-productivity-with-onetab",
+      "title": "How to Improve Productivity with OneTab",
+      "summary": "Learn how to use OneTab to organize and manage your open tabs, improving your productivity and reducing browser clutter.",
+      "body": "<h2>Understanding OneTab</h2><p>OneTab is a browser extension designed to help you manage your open tabs. It converts all your open tabs into a list, allowing you to save space and organize your browsing sessions.</p><h2>Installation</h2><p>Install OneTab from the <a href=\"https://browserext.72tool.com/\">browser extensions directory</a>. Once installed, you can access OneTab by clicking the extension icon in your browser toolbar.</p><h2>Using OneTab</h2><p>When you open a new tab, OneTab automatically adds it to your list of open tabs. You can expand the list to see all your tabs or collapse it to save space.</p><h2>Organizing Tabs</h2><p>OneTab allows you to organize your tabs into folders, making it easier to find the tabs you need. You can also search through your tabs to quickly locate a specific one.</p><h2>Restoring Tabs</h2><p>When you're ready to resume your browsing, you can restore all your tabs at once or select specific tabs to open.</p><h2>Additional Features</h2><p>OneTab also offers features like tab search, tab sorting, and the ability to share your tabs with others.</p><h2>Conclusion</h2><p>OneTab is a simple yet powerful tool for managing your browser tabs. By using OneTab, you can improve your productivity and keep your browser organized.</p>",
+      "tags": [
+        "OneTab",
+        "productivity",
+        "browser organization"
+      ],
+      "category": "Guide",
+      "keywords": "OneTab, productivity, browser organization",
+      "relatedTools": [
+        "Grammarly",
+        "LastPass"
+      ],
+      "updated": "2026-08-16"
+    }
+  ]
+}

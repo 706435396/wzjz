@@ -1,0 +1,73 @@
+{
+  "updated": "2026-08-16",
+  "articles": [
+    {
+      "slug": "get-started-with-selenium-for-web-automation",
+      "title": "Get Started with Selenium for Web Automation",
+      "summary": "Learn the basics of Selenium for automating web applications in Python.",
+      "body": "<h2>Introduction to Selenium</h2><p>Selenium is a powerful tool for automating web applications. It allows you to simulate user actions and interact with web elements. In this guide, we will walk you through the process of setting up Selenium and writing your first automated script.</p><h2>Setting Up Selenium</h2><p>Before you start, make sure you have Python installed. You can install Selenium using pip:</p><pre><code>pip install selenium</code></pre><p>Next, you will need a WebDriver. This is a browser-specific tool that Selenium uses to control the browser. For example, if you are using Chrome, you would download the ChromeDriver from the official site and place it in your PATH.</p><h2>Writing Your First Script</h2><p>Here is a simple example of a Selenium script:</p><pre><code>from selenium import webdriver  driver = webdriver.Chrome()  driver.get('https://www.example.com')  title = driver.title print(title)  driver.quit()</code></pre><p>This script opens a new Chrome browser, navigates to 'https://www.example.com', prints the title of the page, and then closes the browser.</p><h2>Further Reading</h2><p>For more advanced features and best practices, check out the Selenium documentation.</p>",
+      "tags": [
+        "python automation",
+        "web automation",
+        "selenium"
+      ],
+      "category": "Guide",
+      "keywords": "selenium, python automation, web automation",
+      "relatedTools": [
+        "Selenium"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "using-pyautogui-for-screen-automation",
+      "title": "Using PyAutoGUI for Screen Automation",
+      "summary": "Discover how to use PyAutoGUI to automate screen interactions in Python.",
+      "body": "<h2>Understanding PyAutoGUI</h2><p>PyAutoGUI is a Python library for programmatically controlling the mouse and keyboard. It is useful for automating tasks like taking screenshots, resizing windows, and simulating keystrokes. In this guide, we will explore the basics of PyAutoGUI and how to use it to automate screen interactions.</p><h2>Installation</h2><p>First, install PyAutoGUI using pip:</p><pre><code>pip install pyautogui</code></pre><h2>Basic Usage</h2><p>Here's an example script that takes a screenshot of the desktop:</p><pre><code>import pyautogui  pyautogui.screenshot('screenshot.png')</code></pre><p>This script saves a screenshot of the desktop to the current directory with the name 'screenshot.png'.</p><h2>Advanced Features</h2><p>PyAutoGUI also supports advanced features like controlling the mouse cursor, clicking, dragging, and typing. Check out the PyAutoGUI documentation for more details.</p>",
+      "tags": [
+        "python automation",
+        "screen automation",
+        "PyAutoGUI"
+      ],
+      "category": "Guide",
+      "keywords": "pyautogui, python automation, screen automation",
+      "relatedTools": [
+        "PyAutoGUI"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "data-analysis-with-pandas-in-python",
+      "title": "Data Analysis with Pandas in Python",
+      "summary": "Learn how to perform data analysis using Pandas, a powerful data manipulation library in Python.",
+      "body": "<h2>Introduction to Pandas</h2><p>Pandas is a powerful Python library for data manipulation and analysis. It provides fast, flexible, and expressive data structures designed to make working with structured data easy. In this guide, we will cover the basics of Pandas and how to use it for data analysis.</p><h2>Loading Data</h2><p>Pandas can load data from various sources such as CSV, Excel, SQL databases, and more. Here's an example of loading a CSV file:</p><pre><code>import pandas as pd  df = pd.read_csv('data.csv')</code></pre><h2>Data Manipulation</h2><p>Pandas provides a wide range of functions for data manipulation. For instance, you can select columns, filter rows, and perform calculations:</p><pre><code>df['new_column'] = df['column1'] * df['column2'] df_filtered = df[df['column1'] > 0]</code></pre><h2>Further Reading</h2><p>For more advanced data analysis techniques, explore the Pandas documentation and tutorials.</p>",
+      "tags": [
+        "python automation",
+        "data analysis",
+        "Pandas"
+      ],
+      "category": "Guide",
+      "keywords": "pandas, python automation, data analysis",
+      "relatedTools": [
+        "Pandas"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "scrapy-tutorial-for-web-scraping",
+      "title": "Scrapy Tutorial for Web Scraping",
+      "summary": "Learn how to use Scrapy, a high-level web scraping framework, to extract data from websites.",
+      "body": "<h2>Introduction to Scrapy</h2><p>Scrapy is an open-source and collaborative framework, used to crawl websites and extract data from HTML. It is built on top of Python and is widely used for web scraping tasks. This guide will walk you through the process of setting up Scrapy and writing your first spider.</p><h2>Setting Up Scrapy</h2><p>Install Scrapy using pip:</p><pre><code>pip install scrapy</code></pre><p>Next, create a new Scrapy project:</p><pre><code>scrapy startproject myproject</code></pre><h2>Writing a Spider</h2><p>A spider is the part of Scrapy that handles the crawling logic. Here's a simple example:</p><pre><code>import scrapy  class MySpider(scrapy.Spider):     name = 'example'     start_urls = ['http://example.com']      def parse(self, response):         self.logger.info('Visited %s', response.url)         for href in response.css('a::attr(href)'):             yield {'url': href.get()}  my_spider = MySpider() my_spider.crawl()</code></pre><h2>Further Reading</h2><p>For more information on Scrapy, check out the Scrapy documentation.</p>",
+      "tags": [
+        "python automation",
+        "web scraping",
+        "Scrapy"
+      ],
+      "category": "Guide",
+      "keywords": "scrapy, python automation, web scraping",
+      "relatedTools": [
+        "Scrapy"
+      ],
+      "updated": "2026-08-16"
+    }
+  ]
+}

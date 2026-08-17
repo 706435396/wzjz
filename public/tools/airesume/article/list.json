@@ -1,0 +1,77 @@
+{
+  "updated": "2026-08-16",
+  "articles": [
+    {
+      "slug": "how-to-write-a-resume-using-resumegenius",
+      "title": "How to Write a Resume Using Resume Genius",
+      "summary": "Learn how to effectively use Resume Genius to create a professional resume.",
+      "body": "<h2>Introduction to Resume Genius</h2><p>Resume Genius is a popular AI resume builder that offers a user-friendly interface and a variety of templates to choose from. Whether you're a beginner or a seasoned job seeker, Resume Genius can help you craft a resume that stands out.</p><h2>Step-by-Step Guide</h2><p><ul><li><strong>Select Template:</strong> Choose a template that best suits your industry and job role.</li><li><strong>Enter Your Information:</strong> Fill in your personal details, work experience, education, and skills.</li><li><strong>Customize Your Resume:</strong> Use the editing tools to personalize your resume with your own style.</li><li><strong>Review and Edit:</strong> Proofread your resume for any errors and make necessary adjustments.</li></ul></p><h2>Additional Tips</h2><p>Make sure to use keywords relevant to the job description, and keep your resume concise and to the point. Resume Genius also offers tips and advice on how to write effective resumes.</p>",
+      "tags": [
+        "resume writing",
+        "resume builder",
+        "AI resume"
+      ],
+      "category": "Guide",
+      "keywords": "resume writing, resume builder, AI resume, Resume Genius",
+      "relatedTools": [
+        "Resume Genius"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "comparing-resumego-vs-resumenow",
+      "title": "Comparing ResumeGo vs ResumeNow",
+      "summary": "A comprehensive comparison of ResumeGo and ResumeNow to help you choose the best AI resume builder for your needs.",
+      "body": "<h2>ResumeGo Overview</h2><p>ResumeGo is an AI resume builder that offers a wide range of templates and customization options. It's known for its simplicity and ease of use, making it a great choice for those who want a quick and efficient resume creation process.</p><h2>ResumeNow Overview</h2><p>ResumeNow is another popular AI resume builder that provides a variety of templates and advanced features. It's particularly well-suited for job seekers who want to create a highly customized resume with detailed information.</p><h2>Key Differences</h2><p><ul><li><strong>Templates:</strong> ResumeGo offers a more extensive range of templates, while ResumeNow provides more detailed customization options.</li><li><strong>Ease of Use:</strong> ResumeGo is generally considered easier to use, while ResumeNow requires a bit more technical know-how.</li><li><strong>Price:</strong> Both tools offer free versions, but ResumeNow has more premium features that come at a higher cost.</li></ul></p><h2>Conclusion</h2><p>Both ResumeGo and ResumeNow are excellent AI resume builders, but the best choice depends on your individual needs and preferences.</p>",
+      "tags": [
+        "resume builder comparison",
+        "AI resume",
+        "ResumeGo",
+        "ResumeNow"
+      ],
+      "category": "Comparison",
+      "keywords": "resume builder comparison, AI resume, ResumeGo, ResumeNow",
+      "relatedTools": [
+        "ResumeGo",
+        "ResumeNow"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "best-practices-for-creating-a-resume-with-zety",
+      "title": "Best Practices for Creating a Resume with Zety",
+      "summary": "Discover the best practices for using Zety to create a professional and effective resume.",
+      "body": "<h2>Understanding Zety</h2><p>Zety is a powerful AI resume builder that offers a variety of templates and customization options. It's designed to help job seekers create resumes that are both visually appealing and informative.</p><h2>Key Best Practices</h2><p><ul><li><strong>Choose the Right Template:</strong> Select a template that aligns with your industry and job role.</li><li><strong>Highlight Your Achievements:</strong> Focus on your accomplishments and use quantifiable results to demonstrate your skills.</li><li><strong>Keep It Concise:</strong> Aim for a one-page resume that is clear and easy to read.</li><li><strong>Use Keywords:</strong> Incorporate relevant keywords from the job description to improve your chances of getting noticed.</li></ul></p><h2>Additional Tips</h2><p>Make sure to proofread your resume for any errors, and consider using Zety's built-in tips and suggestions to further enhance your resume.</p>",
+      "tags": [
+        "resume creation",
+        "Zety",
+        "AI resume",
+        "best practices"
+      ],
+      "category": "Guide",
+      "keywords": "resume creation, Zety, AI resume, best practices",
+      "relatedTools": [
+        "Zety"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "using-jobscan-to-optimize-your-resume",
+      "title": "Using Jobscan to Optimize Your Resume",
+      "summary": "Learn how to use Jobscan to analyze and optimize your resume for better job application results.",
+      "body": "<h2>Understanding Jobscan</h2><p>Jobscan is an AI-powered tool that helps job seekers optimize their resumes by analyzing them against job descriptions. It's designed to ensure that your resume is as relevant as possible to the job you're applying for.</p><h2>How to Use Jobscan</h2><p><ul><li><strong>Upload Your Resume:</strong> Upload your resume to the Jobscan platform.</li><li><strong>Enter the Job Description:</strong> Input the job description you're interested in.</li><li><strong>Get the Analysis:</strong> Jobscan will analyze your resume and provide feedback on how well it matches the job description.</li><li><strong>Make Adjustments:</strong> Use the feedback to make necessary changes to your resume.</li></ul></p><h2>Benefits of Using Jobscan</h2><p>By using Jobscan, you can ensure that your resume is tailored to the specific job you're applying for, which can significantly improve your chances of getting an interview.</p>",
+      "tags": [
+        "resume optimization",
+        "Jobscan",
+        "AI resume",
+        "job application"
+      ],
+      "category": "Guide",
+      "keywords": "resume optimization, Jobscan, AI resume, job application",
+      "relatedTools": [
+        "Jobscan"
+      ],
+      "updated": "2026-08-16"
+    }
+  ]
+}

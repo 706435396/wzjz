@@ -1,0 +1,78 @@
+{
+  "updated": "2026-08-16",
+  "articles": [
+    {
+      "slug": "docker-compose-vs-docker-desktop",
+      "title": "Comparing Docker Compose and Docker Desktop",
+      "summary": "Learn the key differences and use cases between Docker Compose and Docker Desktop to determine which tool suits your workflow best.",
+      "body": "<h2>Introduction</h2><p>Docker Compose and Docker Desktop are both essential tools in the Docker ecosystem, but they serve different purposes. This article will help you understand their differences and decide which one is the right fit for your needs.</p><h2>Docker Compose</h2><p>Docker Compose is a tool that defines and runs multi-container Docker applications. It uses YAML files to configure services and their dependencies, making it easy to manage complex applications.</p><h2>Docker Desktop</h2><p>Docker Desktop is an integrated development environment (IDE) for Docker. It allows developers to run, build, and share Docker containers on a single machine. It's a great choice for those who want to work with Docker without setting up a server.</p><h2>Key Differences</h2><ul><li><strong>Scope:</strong> Docker Compose is focused on defining and running multi-container applications, while Docker Desktop is a full-fledged IDE for Docker development.</li><li><strong>Usage:</strong> Docker Compose is often used in conjunction with Dockerfiles, while Docker Desktop can be used for a wider range of Docker-related tasks.</li></ul><h2>Conclusion</h2><p>Both Docker Compose and Docker Desktop are powerful tools with their own strengths. Choose Docker Compose if you're working on complex, multi-container applications, and Docker Desktop if you need a comprehensive Docker development environment.</p>",
+      "tags": [
+        "docker",
+        "comparison",
+        "docker-compose",
+        "docker-desktop"
+      ],
+      "category": "Comparison",
+      "keywords": "docker, docker-compose, docker-desktop, comparison",
+      "relatedTools": [
+        "Docker Compose",
+        "Docker Desktop"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "setting-up-docker-hub-accounts-for-container-sharing",
+      "title": "How to Set Up Docker Hub Accounts for Container Sharing",
+      "summary": "Learn the step-by-step process to create a Docker Hub account and start sharing your containers with the Docker community.",
+      "body": "<h2>Introduction</h2><p>Docker Hub is the world's leading platform for sharing and distributing container images. If you're looking to share your Docker containers with others, setting up a Docker Hub account is the first step. This guide will walk you through the process.</p><h2>Creating a Docker Hub Account</h2><p>1. <a href=\"https://hub.docker.com\">Go to Docker Hub</a>.</p><p>2. Click on the 'Sign Up' button and fill in the required details. Choose a username and password, and provide your email address.</p><p>3. Click 'Create Account' to finish the registration process.</p><h2>Verifying Your Email</h2><p>1. Check your email for a verification message from Docker Hub.</p><p>2. Click the verification link to confirm your email address.</p><h2>Uploading Your First Container</h2><p>1. Go back to Docker Hub and click on the '+' button to create a new repository.</p><p>2. Fill in the repository details and click 'Create Repository'.</p><p>3. Build your Docker image and tag it with your repository name.</p><p>4. Push the image to your Docker Hub repository using the following command:</p><pre><code>docker push yourusername/yourrepositoryname</code></pre><h2>Conclusion</h2><p>Creating a Docker Hub account is a straightforward process. Once you have your account, you can easily share your containers with the Docker community.</p>",
+      "tags": [
+        "docker",
+        "docker-hub",
+        "container-sharing",
+        "how-to"
+      ],
+      "category": "Guide",
+      "keywords": "docker, docker-hub, container-sharing, how-to",
+      "relatedTools": [
+        "Docker Hub"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "using-portainer-to-manage-docker-containers",
+      "title": "Using Portainer to Manage Docker Containers",
+      "summary": "Discover how Portainer simplifies Docker container management, providing a user-friendly interface for deploying, running, and monitoring your containers.",
+      "body": "<h2>Introduction</h2><p>Managing Docker containers can be complex, especially when you're dealing with multiple containers and complex orchestration. Portainer offers a simple and intuitive way to manage Docker containers. This guide will show you how to use Portainer to streamline your container management process.</p><h2>Setting Up Portainer</h2><p>1. <a href=\"https://portainer.io/download\">Download Portainer</a> and install it on your server.</p><p>2. Run Portainer as a Docker container using the following command:</p><pre><code>docker run -d -p 9000:9000 portainer/portainer-ce</code></pre><h2>Accessing Portainer</h2><p>1. Open your web browser and go to <a href=\"http://localhost:9000\">http://localhost:9000</a>.</p><p>2. Enter your Docker credentials to log in.</p><h2>Managing Containers</h2><ul><li><strong>Create Containers:</strong> Use Portainer to create new containers from pre-built images or your own Dockerfiles.</li><li><strong>Run Containers:</strong> Start, stop, and manage containers through Portainer's web interface.</li><li><strong>Monitor Containers:</strong> Track container performance, logs, and system metrics.</li></ul><h2>Conclusion</h2><p>Portainer is a powerful tool for managing Docker containers. With its user-friendly interface, it makes container management more accessible to developers and sysadmins alike.</p>",
+      "tags": [
+        "docker",
+        "portainer",
+        "container-management",
+        "how-to"
+      ],
+      "category": "Guide",
+      "keywords": "docker, portainer, container-management, how-to",
+      "relatedTools": [
+        "Portainer"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "securing-your-docker-containers-with-docker-bench-for-security",
+      "title": "Securing Your Docker Containers with Docker Bench for Security",
+      "summary": "Learn how to use Docker Bench for Security to harden your Docker containers and ensure they are secure against common vulnerabilities.",
+      "body": "<h2>Introduction</h2><p>Security is a crucial aspect of containerized applications. Docker Bench for Security is a tool that helps you audit and secure your Docker containers. This guide will walk you through the process of using Docker Bench for Security to harden your containers.</p><h2>Installing Docker Bench for Security</h2><p>1. <a href=\"https://github.com/docker/bench-for-security\">Download Docker Bench for Security</a> from GitHub.</p><p>2. Extract the downloaded file to a directory on your server.</p><p>3. Run the following command to start the security audit:</p><pre><code>docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v /abs/path/to/your/directory:/abs/path/to/your/directory docker/bench/security:latest</code></pre><h2>Interpreting the Results</h2><p>Docker Bench for Security will scan your system and containers for security issues. It will output a report with detailed information about each finding.</p><h2>Addressing Security Issues</h2><p>1. Review the report and address the issues as recommended.</p><p>2. Re-run the audit after making changes to ensure the vulnerabilities have been fixed.</p><h2>Conclusion</h2><p>Using Docker Bench for Security is an essential step in securing your Docker containers. Regularly auditing your containers with this tool can help you maintain a secure and robust containerized application environment.</p>",
+      "tags": [
+        "docker",
+        "security",
+        "docker-bench-for-security",
+        "how-to"
+      ],
+      "category": "Guide",
+      "keywords": "docker, security, docker-bench-for-security, how-to",
+      "relatedTools": [
+        "Docker Bench for Security"
+      ],
+      "updated": "2026-08-16"
+    }
+  ]
+}

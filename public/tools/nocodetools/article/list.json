@@ -1,0 +1,78 @@
+{
+  "updated": "2026-08-16",
+  "articles": [
+    {
+      "slug": "how-to-build-a-no-code-ecommerce-site-with-bubble",
+      "title": "How to Build a No-Code E-commerce Site with Bubble",
+      "summary": "Learn how to create a fully functional e-commerce site using Bubble without any coding knowledge.",
+      "body": "<h2>Introduction</h2><p>With the rise of no-code development platforms, building an e-commerce site has become more accessible than ever. Bubble is one such platform that allows you to create interactive web applications without writing a single line of code. In this guide, we'll walk you through the process of building a no-code e-commerce site using Bubble.</p><h2>Step 1: Setting Up Your Bubble Account</h2><p>The first step is to sign up for a Bubble account. You can choose from their free plan or opt for a paid plan if you need more advanced features.</p><h2>Step 2: Creating Your E-commerce Page</h2><p>Once you've set up your account, start by creating a new page. You can use Bubble's intuitive drag-and-drop interface to design your e-commerce page.</p><h2>Step 3: Adding Products</h2><p>Bubble allows you to add products to your e-commerce site. You can create a product database and then use it to display your products on your site.</p><h2>Step 4: Implementing a Shopping Cart</h2><p>One of the key features of an e-commerce site is a shopping cart. Bubble makes it easy to implement a shopping cart by using its built-in components.</p><h2>Step 5: Setting Up Payment Gateways</h2><p>Integrating a payment gateway is crucial for any e-commerce site. Bubble supports popular payment gateways like Stripe and PayPal, making it easy to set up secure payment processing.</p><h2>Step 6: Testing and Launching</h2><p>Before launching your e-commerce site, make sure to thoroughly test all features. Bubble allows you to test your site in real-time, ensuring everything works as expected.</p><h2>Conclusion</h2><p>Building an e-commerce site with Bubble is a straightforward process that requires no coding skills. By following these steps, you can create a fully functional e-commerce site in no time.</p>",
+      "tags": [
+        "Bubble",
+        "e-commerce",
+        "no-code"
+      ],
+      "category": "Guide",
+      "keywords": "Bubble, e-commerce, no-code, e-commerce site, Bubble e-commerce",
+      "relatedTools": [
+        "Bubble"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "comparing-adalo-vs-webflow-for-no-code-app-development",
+      "title": "Comparing Adalo vs Webflow for No-Code App Development",
+      "summary": "Discover the differences between Adalo and Webflow to decide which platform is best for your no-code app development needs.",
+      "body": "<h2>Introduction</h2><p>With the growing popularity of no-code app development platforms, it's essential to understand the differences between them to choose the right one for your project. In this article, we compare Adalo and Webflow, two of the leading no-code platforms, to help you make an informed decision.</p><h2>Adalo</h2><p>Adalo is a no-code platform designed specifically for building mobile applications. It offers a drag-and-drop interface, making it easy to create intuitive and responsive apps.</p><h2>Webflow</h2><p>Webflow, on the other hand, is a versatile no-code platform that allows you to build both web and mobile applications. It offers a more robust set of features and design capabilities, making it suitable for more complex projects.</p><h2>Design and Customization</h2><p>Adalo provides a user-friendly interface for designing your app, but its design capabilities are limited compared to Webflow. Webflow offers a wide range of design templates and customization options, allowing you to create highly polished and unique applications.</p><h2>Integration and Functionality</h2><p>Adalo offers a good selection of integrations, including popular services like Stripe and Firebase. Webflow, however, has a broader range of integrations, including APIs and custom code, giving you more flexibility in building your app.</p><h2>Community and Support</h2><p>Both Adalo and Webflow have active communities, but Webflow's community is larger and more diverse. Webflow also offers more extensive documentation and support resources.</p><h2>Conclusion</h2><p>Choosing between Adalo and Webflow depends on your specific project needs. If you're looking to build a simple mobile app, Adalo is a great choice. For more complex projects with web and mobile capabilities, Webflow is the way to go.</p>",
+      "tags": [
+        "Adalo",
+        "Webflow",
+        "no-code",
+        "app development"
+      ],
+      "category": "Comparison",
+      "keywords": "Adalo, Webflow, no-code, app development, Adalo vs Webflow",
+      "relatedTools": [
+        "Adalo",
+        "Webflow"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "using-airtable-and-zapier-to-automate-your-workflows",
+      "title": "Using Airtable and Zapier to Automate Your Workflows",
+      "summary": "Learn how to use Airtable and Zapier together to automate repetitive tasks and streamline your workflows.",
+      "body": "<h2>Introduction</h2><p>Automation is key to increasing productivity and efficiency in any business. Airtable and Zapier are two powerful tools that can be used together to automate workflows and save time. In this guide, we'll show you how to use Airtable and Zapier to streamline your processes.</p><h2>Setting Up Airtable</h2><p>Airtable is a versatile database tool that allows you to create custom tables and organize your data. To get started, sign up for an Airtable account and create a new base.</p><h2>Creating a Zap</h2><p>Next, create a new Zap in Zapier. A Zap is a series of automated tasks that connect two or more apps. Choose Airtable as the trigger and select the event that will start the Zap, such as a new record being created in a table.</p><h2>Selecting the Action</h2><p>In the Zapier editor, choose the action you want to perform when the trigger event occurs. For example, you can create a new task in Asana, send an email notification, or update a record in another database.</p><h2>Testing and Enabling the Zap</h2><p>After setting up the Zap, test it to ensure it works correctly. Once you're satisfied, enable the Zap to start automating your workflows.</p><h2>Common Use Cases</h2><p>Here are some common use cases for using Airtable and Zapier together:</p><ul><li><p>Automate lead management by syncing new leads from your website to your CRM in Airtable.</p></li><li><p>Automate email marketing campaigns by sending out personalized emails based on data in Airtable.</p></li><li><p>Streamline project management by updating project status in Airtable when tasks are completed in another tool.</p></li></ul><h2>Conclusion</h2><p>By combining Airtable and Zapier, you can automate a wide range of workflows, saving time and increasing efficiency. Whether you're managing leads, tracking projects, or automating email campaigns, these tools can help you streamline your processes.</p>",
+      "tags": [
+        "Airtable",
+        "Zapier",
+        "workflows",
+        "automation"
+      ],
+      "category": "Guide",
+      "keywords": "Airtable, Zapier, automation, workflows, Airtable Zapier",
+      "relatedTools": [
+        "Airtable",
+        "Zapier"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "building-a-custom-app-with-appsheet",
+      "title": "Building a Custom App with AppSheet",
+      "summary": "Discover how to use AppSheet to build a custom app that meets your specific business needs without any coding.",
+      "body": "<h2>Introduction</h2><p>AppSheet is a no-code platform that allows you to build custom mobile and web applications using your existing data sources. Whether you need a CRM, project management tool, or a custom app for your business, AppSheet can help you create it without any coding knowledge. In this guide, we'll walk you through the process of building a custom app with AppSheet.</p><h2>Choosing Your Data Source</h2><p>The first step is to choose a data source for your app. This could be a spreadsheet, a database, or any other data source that you want to use.</p><h2>Designing Your App</h2><p>Once you've chosen your data source, you can start designing your app using AppSheet's drag-and-drop interface. You can add forms, lists, and other components to create a user-friendly interface.</p><h2>Customizing Your App</h2><p>AppSheet allows you to customize your app with various features, such as adding logic, setting up workflows, and integrating with other services.</p><h2>Testing and Deploying</h2><p>Before deploying your app, make sure to thoroughly test it to ensure that it works as expected. AppSheet provides a test environment where you can make changes and test your app without affecting the live version.</p><h2>Sharing Your App</h2><p>Once you're satisfied with your app, you can share it with your team or users. AppSheet allows you to distribute your app as a web app, a mobile app, or both.</p><h2>Conclusion</h2><p>Building a custom app with AppSheet is a straightforward process that requires no coding. By following these steps, you can create a powerful app that meets your specific business needs.</p>",
+      "tags": [
+        "AppSheet",
+        "custom app",
+        "no-code",
+        "app development"
+      ],
+      "category": "Guide",
+      "keywords": "AppSheet, custom app, no-code, app development, AppSheet custom app",
+      "relatedTools": [
+        "AppSheet"
+      ],
+      "updated": "2026-08-16"
+    }
+  ]
+}

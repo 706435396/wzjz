@@ -1,0 +1,75 @@
+{
+  "updated": "2026-08-16",
+  "articles": [
+    {
+      "slug": "how-to-encode-html-special-characters",
+      "title": "How to Encode HTML Special Characters for Safe Display",
+      "summary": "Learn how to encode HTML special characters using an HTML Encoder/Decoder tool for secure web content display.",
+      "body": "<h2>Understanding HTML Special Characters</h2><p>HTML special characters are characters that have a special meaning in HTML, such as &lt; for the less than symbol. Encoding these characters is essential to ensure that they are displayed correctly and do not interfere with the HTML structure.</p><h2>Using the HTML Encoder/Decoder Tool</h2><p>The HTML Encoder/Decoder tool on <a href=\"https://encode.72tool.com/\">encode.72tool.com</a> allows you to quickly and easily encode HTML special characters. Here's how to use it:</p><ul><li>Enter the text you want to encode into the input field.</li><li>Click the 'Encode' button.</li><li>Copy the encoded text from the output field.</li></ul><h2>When to Use HTML Encoding</h2><p>Always encode HTML special characters when you are displaying user-generated content or when you are inserting characters that have special meanings in HTML. This practice helps prevent Cross-Site Scripting (XSS) attacks and ensures the integrity of your web pages.</p>",
+      "tags": [
+        "HTML encoding",
+        "web security",
+        "HTML Encoder/Decoder"
+      ],
+      "category": "Guide",
+      "keywords": "HTML encoding, special characters, web security, HTML Encoder/Decoder",
+      "relatedTools": [
+        "HTML Encoder/Decoder"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "compare-base64-url-encoding",
+      "title": "Base64 vs URL Encoding: Understanding the Differences",
+      "summary": "Compare the differences between Base64 and URL encoding, and learn when to use each method for data transfer and web applications.",
+      "body": "<h2>Base64 Encoding</h2><p>Base64 encoding is a method used to represent binary data in an ASCII string format. It is commonly used to encode binary data within text, such as in emails, or to transfer data over media that are designed to deal with textual data.</p><h2>URL Encoding</h2><p>URL encoding, also known as percent-encoding, is used to encode special characters in a URL. It is necessary when you need to include characters in a URL that are not allowed by the URL syntax, such as spaces, punctuation, or non-ASCII characters.</p><h2>When to Use Each Encoding</h2><ul><li>Use <strong>Base64</strong> encoding when you need to embed binary data within text or when transferring data that will be base64 encoded on the receiving end.</li><li>Use <strong>URL encoding</strong> when constructing URLs with special characters, or when you need to pass data via query strings or form fields.</li></ul><h2>Which One is Faster?</h2><p>Base64 encoding is generally slower than URL encoding due to the additional base64-specific processing required. However, the difference is often negligible in the context of web applications.</p>",
+      "tags": [
+        "Base64 encoding",
+        "URL encoding",
+        "data transfer"
+      ],
+      "category": "Comparison",
+      "keywords": "Base64, URL encoding, data transfer, web applications",
+      "relatedTools": [
+        "Base64 Encoder/Decoder",
+        "URL Encoder/Decoder"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "json-encoding-guide",
+      "title": "A Comprehensive Guide to JSON Encoding",
+      "summary": "Learn how to encode JSON data with a JSON Encoder/Decoder tool and understand the importance of JSON encoding in web applications.",
+      "body": "<h2>What is JSON Encoding?</h2><p>JSON encoding is the process of converting JSON data into a format that can be easily stored or transmitted. JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate.</p><h2>Why Encode JSON Data?</h2><p>Encoding JSON data is crucial in web applications for several reasons:</p><ul><li>It allows data to be transmitted between a server and a client in a structured and readable format.</li><li>It enables data interchange between different programming languages and platforms.</li><li>It helps in storing and retrieving data in a consistent manner.</li></ul><h2>Using the JSON Encoder/Decoder Tool</h2><p>The JSON Encoder/Decoder tool on <a href=\"https://encode.72tool.com/\">encode.72tool.com</a> is a straightforward way to encode and decode JSON data. Here's how to use it:</p><ul><li>Enter the JSON data into the input field.</li><li>Click the 'Encode' button to convert the data into a JSON string.</li><li>Click the 'Decode' button to convert the JSON string back into the original data format.</li></ul>",
+      "tags": [
+        "JSON encoding",
+        "web development",
+        "JSON Encoder/Decoder"
+      ],
+      "category": "Guide",
+      "keywords": "JSON encoding, web development, JSON Encoder/Decoder",
+      "relatedTools": [
+        "JSON Encoder/Decoder"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "binary-hex-encoding-difference",
+      "title": "Understanding the Difference Between Binary and Hex Encoding",
+      "summary": "Discover the differences between binary and hex encoding, and learn when and how to use each for data representation and storage.",
+      "body": "<h2>Binary Encoding</h2><p>Binary encoding represents data using only two symbols: 0 and 1. It is the fundamental language of computers, as all data within a computer is stored and processed in binary form.</p><h2>Hex Encoding</h2><p>Hex encoding, on the other hand, represents data using hexadecimal digits, which range from 0 to 9 and from A to F. Hex encoding is a way to represent binary data in a more readable and compact format than binary encoding itself.</p><h2>When to Use Each Encoding</h2><ul><li>Use <strong>Binary encoding</strong> when working at the lowest level with data, such as when interacting with hardware or when implementing algorithms that require direct manipulation of bits.</li><li>Use <strong>Hex encoding</strong> when you need to represent binary data in a more human-readable format or when working with systems that do not directly support binary encoding.</li></ul><h2>Which is More Efficient?</h2><p>Hex encoding is more efficient in terms of storage space and readability, as it requires fewer characters to represent the same amount of data compared to binary encoding.</p>",
+      "tags": [
+        "binary encoding",
+        "hex encoding",
+        "data representation"
+      ],
+      "category": "Comparison",
+      "keywords": "binary encoding, hex encoding, data representation",
+      "relatedTools": [
+        "Binary Encoder/Decoder",
+        "Hex Encoder/Decoder"
+      ],
+      "updated": "2026-08-16"
+    }
+  ]
+}

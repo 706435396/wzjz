@@ -1,0 +1,81 @@
+{
+  "updated": "2026-08-16",
+  "articles": [
+    {
+      "slug": "figma-tips-for-efficient-design-workflows",
+      "title": "Figma Tips for Efficient Design Workflows",
+      "summary": "Discover expert tips to streamline your design process using Figma.",
+      "body": "<h2>Streamlining Your Design Process with Figma</h2><p>Designing effectively in Figma requires more than just knowing how to use the tool. Here are some expert tips to help you optimize your design workflows.</p><h2>1. Master the Keyboard Shortcuts</h2><p>Keyboard shortcuts can significantly speed up your work. Familiarize yourself with the Figma keyboard shortcuts for selecting, manipulating, and navigating your designs.</p><h2>2. Utilize the Grid System</h2><p>The grid system is a powerful feature in Figma that helps maintain alignment and consistency across your design. Learn how to use it effectively to create professional layouts.</p><h2>3. Collaborate with Team Members</h2><p>One of Figma's strengths is its collaborative capabilities. Explore how to work effectively with team members, from sharing designs to leaving comments.</p><h2>4. Use Components to Save Time</h2><p>Components are reusable elements that can save you time. Learn how to create and use components to streamline your design process.</p><p>For more tips on how to enhance your design workflows, check out our <a href=\"https://designtools.72tool.com/\">Design Tools directory</a>.</p>",
+      "tags": [
+        "Figma",
+        "design tips",
+        "workflows"
+      ],
+      "category": "Guide",
+      "keywords": "Figma, design tips, workflows",
+      "relatedTools": [
+        "Figma",
+        "Adobe XD",
+        "Sketch"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "comparing-figma-vs-adobe-xd",
+      "title": "Comparing Figma vs Adobe XD",
+      "summary": "A comprehensive comparison of Figma and Adobe XD to help you choose the right tool for your design needs.",
+      "body": "<h2>Introduction</h2><p>Choosing the right design tool is crucial for any designer. In this article, we compare two popular tools: Figma and Adobe XD.</p><h2>Figma</h2><p>Figma is a collaborative design tool that allows designers to work together in real-time. It's known for its intuitive interface and powerful features.</p><h2>Adobe XD</h2><p>Adobe XD is a vector-based design tool that is part of the Adobe Creative Cloud suite. It's a great choice for designers who are already using Adobe products.</p><h2>Interface and Usability</h2><p>Figma offers a more modern and user-friendly interface, while Adobe XD has a more traditional Adobe look and feel.</p><h2>Collaboration</h2><p>Figma has a clear edge when it comes to collaboration, with real-time editing and commenting features. Adobe XD also supports collaboration, but it's not as seamless.</p><h2>Integration</h2><p>Adobe XD integrates well with other Adobe products, which can be a significant advantage for some users.</p><p>For a more detailed comparison, visit our <a href=\"https://designtools.72tool.com/\">Design Tools directory</a>.</p>",
+      "tags": [
+        "Figma",
+        "Adobe XD",
+        "comparison"
+      ],
+      "category": "Comparison",
+      "keywords": "Figma, Adobe XD, comparison",
+      "relatedTools": [
+        "Figma",
+        "Adobe XD",
+        "Sketch"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "best-practices-for-using-sketch-for-web-design",
+      "title": "Best Practices for Using Sketch for Web Design",
+      "summary": "Learn the best practices for using Sketch to create stunning web designs.",
+      "body": "<h2>Understanding Sketch</h2><p>Sketch is a popular vector-based design tool for web design. It's known for its simplicity and powerful features that make it a favorite among designers.</p><h2>1. Use Symbols to Create Reusable Elements</h2><p>Symbols are a key feature in Sketch that allow you to create reusable elements. Learn how to use them effectively to save time and maintain consistency.</p><h2>2. Master the Artboard System</h2><p>The artboard system in Sketch is a powerful way to organize your designs. Learn how to use it to create multiple views of your design for different devices and screen sizes.</p><h2>3. Leverage Plugins for Additional Functionality</h2><p>Sketch has a vast library of plugins that can extend its functionality. Explore some of the best plugins to enhance your workflow.</p><h2>4. Exporting for Development</h2><p>Exporting your designs for development is a critical step. Learn how to export assets from Sketch in a way that makes it easy for developers to implement your design.</p><p>For more insights on design tools, visit our <a href=\"https://designtools.72tool.com/\">Design Tools directory</a>.</p>",
+      "tags": [
+        "Sketch",
+        "web design",
+        "best practices"
+      ],
+      "category": "Guide",
+      "keywords": "Sketch, web design, best practices",
+      "relatedTools": [
+        "Sketch",
+        "Figma",
+        "Adobe XD"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "how-to-use-invision-for-prototyping-mobile-apps",
+      "title": "How to Use InVision for Prototyping Mobile Apps",
+      "summary": "Learn how to use InVision to create high-fidelity prototypes for mobile apps.",
+      "body": "<h2>Introduction to InVision</h2><p>InVision is a powerful design tool that is widely used for prototyping and collaboration. It's known for its ease of use and robust features.</p><h2>1. Set Up Your Project</h2><p>Before you start designing, it's important to set up your project correctly. Learn how to create a new project and set up your design system.</p><h2>2. Create Wireframes</h2><p>Wireframes are the foundation of your design. Learn how to create wireframes in InVision to outline the structure of your app.</p><h2>3. Add Interactivity</h2><p>One of the strengths of InVision is its ability to add interactivity to your prototypes. Learn how to create hotspots and transitions to bring your design to life.</p><h2>4. Collaborate with Stakeholders</h2><p>InVision makes it easy to collaborate with stakeholders. Learn how to share your prototypes and collect feedback from team members and clients.</p><h2>5. Export for Development</h2><p>Once your prototype is complete, it's time to export it for development. Learn how to export your design from InVision in a format that developers can use.</p><p>For more information on design tools, visit our <a href=\"https://designtools.72tool.com/\">Design Tools directory</a>.</p>",
+      "tags": [
+        "InVision",
+        "prototyping",
+        "mobile apps"
+      ],
+      "category": "Guide",
+      "keywords": "InVision, prototyping, mobile apps",
+      "relatedTools": [
+        "InVision",
+        "Figma",
+        "Zeplin"
+      ],
+      "updated": "2026-08-16"
+    }
+  ]
+}

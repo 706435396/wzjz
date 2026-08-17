@@ -1,0 +1,78 @@
+{
+  "updated": "2026-08-16",
+  "articles": [
+    {
+      "slug": "setting-up-apache-web-server-on-ubuntu",
+      "title": "Setting Up Apache Web Server on Ubuntu",
+      "summary": "Learn how to install and configure Apache on Ubuntu for a robust web server setup.",
+      "body": "<h2>Introduction</h2><p>Apache is a widely-used web server software that powers millions of websites worldwide. Setting up Apache on Ubuntu is a straightforward process that can be completed in a few simple steps.</p><h2>Prerequisites</h2><p>Before you begin, ensure that you have the following prerequisites:</p><ul><li>Ubuntu server installed.</li><li>Root access or sudo privileges.</li></ul><h2>Step-by-Step Guide</h2><p>1. Update your system packages:</p><p><code>sudo apt update</code></p><p>2. Install Apache:</p><p><code>sudo apt install apache2</code></p><p>3. Check the status of Apache:</p><p><code>sudo systemctl status apache2</code></p><p>4. Enable Apache to start on boot:</p><p><code>sudo systemctl enable apache2</code></p><p>5. Test Apache by opening a web browser and navigating to <a href=\"http://localhost/\">http://localhost/</a>.</p><h2>Conclusion</h2><p>This guide provides a basic setup for Apache on Ubuntu. For further customization, explore additional Apache modules and configurations.</p>",
+      "tags": [
+        "Apache",
+        "Ubuntu",
+        "web server"
+      ],
+      "category": "Guide",
+      "keywords": "Apache, Ubuntu, web server, installation, configuration",
+      "relatedTools": [
+        "Apache"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "comparing-nginx-and-apache-for-web-servers",
+      "title": "Comparing Nginx and Apache for Web Servers",
+      "summary": "Discover the differences between Nginx and Apache, two of the most popular web server software options.",
+      "body": "<h2>Introduction</h2><p>When it comes to web servers, Nginx and Apache are two of the most widely-used options. Both have their strengths and weaknesses, and the choice between them can depend on various factors.</p><h2>Performance</h2><p>Nginx is known for its high performance and scalability, making it a popular choice for high-traffic websites. Apache, while also performant, may not scale as well under heavy loads.</p><h2>Configuration</h2><p>Apache has a rich set of features and is highly configurable, but its configuration files can be more complex. Nginx has a simpler configuration format, which can be easier to manage.</p><h2>Use Cases</h2><p>Apache is often the go-to choice for complex web applications, while Nginx is preferred for static content and high-performance needs.</p><h2>Conclusion</h2><p>Both Nginx and Apache are excellent web server solutions, and the best choice depends on your specific requirements. Consider your application's needs and performance expectations when making your decision.</p>",
+      "tags": [
+        "Nginx",
+        "Apache",
+        "web server",
+        "comparison"
+      ],
+      "category": "Comparison",
+      "keywords": "Nginx, Apache, web server, performance, configuration",
+      "relatedTools": [
+        "Apache",
+        "Nginx"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "configuring-docker-for-postgresql-database",
+      "title": "Configuring Docker for PostgreSQL Database",
+      "summary": "Learn how to set up a PostgreSQL database using Docker for easy deployment and scalability.",
+      "body": "<h2>Introduction</h2><p>Docker is a powerful tool for containerization, and it can be used to easily deploy and manage databases like PostgreSQL. This guide will walk you through the process of setting up a PostgreSQL database in a Docker container.</p><h2>Prerequisites</h2><p>Before you begin, ensure that you have the following prerequisites:</p><ul><li>Docker installed on your system.</li><li>Root access or sudo privileges.</li></ul><h2>Step-by-Step Guide</h2><p>1. Pull the official PostgreSQL image from Docker Hub:</p><p><code>docker pull postgres</code></p><p>2. Run a PostgreSQL container:</p><p><code>docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres</code></p><p>3. Connect to the PostgreSQL container using a database client:</p><p><code>docker exec -it some-postgres psql -U postgres</code></p><h2>Conclusion</h2><p>This guide demonstrates how to set up a PostgreSQL database using Docker. For more advanced configurations, consider using Docker Compose or Docker Swarm.</p>",
+      "tags": [
+        "Docker",
+        "PostgreSQL",
+        "database",
+        "configuration"
+      ],
+      "category": "Guide",
+      "keywords": "Docker, PostgreSQL, database, configuration, deployment",
+      "relatedTools": [
+        "Docker",
+        "PostgreSQL"
+      ],
+      "updated": "2026-08-16"
+    },
+    {
+      "slug": "using-ansible-for-automated-server-deployment",
+      "title": "Using Ansible for Automated Server Deployment",
+      "summary": "Discover how to use Ansible for automating server deployment and configuration tasks, saving time and reducing errors.",
+      "body": "<h2>Introduction</h2><p>Ansible is a powerful automation tool that can help streamline server deployment and configuration. By using Ansible, you can automate repetitive tasks, saving time and reducing the potential for human error.</p><h2>Prerequisites</h2><p>Before you begin, ensure that you have the following prerequisites:</p><ul><li>Ansible installed on your system.</li><li>Access to a server that you want to automate.</li></ul><h2>Step-by-Step Guide</h2><p>1. Define your server configuration in an Ansible playbook:</p><p><code>ansible-playbook -i hosts playbook.yml</code></p><p>2. Use Ansible modules to automate tasks such as installing packages, configuring services, and managing users.</p><p>3. Test your playbook to ensure it performs as expected.</p><h2>Conclusion</h2><p>Ansible is a valuable tool for automating server deployment and configuration. By using Ansible, you can create repeatable, reliable server environments.</p>",
+      "tags": [
+        "Ansible",
+        "server deployment",
+        "automation",
+        "configuration"
+      ],
+      "category": "Guide",
+      "keywords": "Ansible, server deployment, automation, configuration, playbook",
+      "relatedTools": [
+        "Ansible"
+      ],
+      "updated": "2026-08-16"
+    }
+  ]
+}
