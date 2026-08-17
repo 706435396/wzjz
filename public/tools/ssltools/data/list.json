@@ -34,7 +34,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Let's Encrypt is an automated, free, and open certificate authority that provides an easy way to obtain and install SSL/TLS certificates for use with web servers. It is designed to enable secure communication over the internet by making it simpler and less expensive to obtain certificates. The tool operates on the ACME protocol, which automates the process of certificate issuance. Key features of Let's Encrypt include automatic certificate renewal, a simple installation process, and compatibility with a wide range of web servers and operating systems. It is ideal for web developers, system administrators, and website owners who want to secure their sites with SSL/TLS without the complexity and cost associated with traditional certificate authorities. While Let's Encrypt significantly reduces the barriers to secure web communication, it may not be suitable for organizations with high security requirements or those that require a more customized certificate issuance process."
     },
     {
       "name": "Certbot",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Certbot is a client that automates the process of obtaining and installing TLS/SSL certificates from Let's Encrypt or other certificate authorities. It is designed to be easy to use and integrate into existing workflows, making it an ideal tool for web developers and system administrators. Certbot supports a variety of web servers, including Apache, Nginx, and Microsoft IIS, as well as various operating systems. Key features of Certbot include automated certificate renewal, support for both webroot and standalone challenges, and detailed logging. It is well-suited for organizations of all sizes, from small websites to large enterprise environments, that require automated certificate management. However, Certbot may not be the best choice for those who require extensive customization or who need to manage certificates across multiple domains or services."
     },
     {
       "name": "OpenSSL",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "OpenSSL is a robust, commercial-grade toolset for the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols. It provides a wide range of cryptographic functions, including encryption, decryption, digital signing, and certificate management. OpenSSL is widely used in the industry for securing internet communications and protecting sensitive data. Key features of OpenSSL include support for various cryptographic algorithms, strong security features, and a modular design that allows for easy integration into applications. It is suitable for developers, system administrators, and security professionals who require a versatile tool for implementing SSL/TLS in their systems. However, OpenSSL can be complex to configure and may require significant expertise to use effectively, which can be a limitation for less experienced users."
     },
     {
       "name": "ACME Server",
@@ -145,7 +148,8 @@
         "Step: Fill in the API Key / account config\nMany AI tools need a model connection. Find the config item in the README and fill it in.\nCode:\n# Example: replace xxx with your real Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nDo not screenshot your Key in public groups. Get a free/cheap Key (e.g. GLM-4, DeepSeek) to practice.",
         "Step: Start and run your first task\nRun the example command from the project and watch the terminal output.\nCode:\n./run.sh\nCheck:\nIf the program prints results (no red Error text), you have it working.",
         "Step: Troubleshooting\nFailing the first local deploy is normal. Common issues:\n1. Dependency version mismatch → use the Python/Node version the repo recommends;\n2. Key not working → check your environment variables;\n3. Cannot reach the model API → switch mirror or provider.\nTip:\nSee more examples in \"Related tutorials\" below, or click \"Visit official site\"."
-      ]
+      ],
+      "detail": "The ACME (Automated Certificate Management Environment) Server is an implementation of the ACME protocol, which is used for automated issuance of TLS certificates. It is designed to work with ACME clients, such as Certbot, to streamline the process of obtaining certificates. The ACME Server is an essential component for organizations that want to automate certificate management and reduce the administrative overhead associated with traditional certificate issuance. Key features of the ACME Server include support for the ACME protocol, integration with various certificate authorities, and a web-based user interface for managing certificates. It is suitable for use in both small and large organizations, from individual web developers to large-scale enterprises. However, the ACME Server may require some configuration and technical expertise to set up and maintain effectively."
     },
     {
       "name": "SSL Labs",
@@ -182,7 +186,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "SSL Labs is a comprehensive tool for testing the configuration of SSL/TLS enabled web servers. It provides detailed reports on the security and performance of a server's SSL/TLS setup, including information on supported protocols, cipher suites, and security vulnerabilities. SSL Labs is an invaluable resource for web administrators, security professionals, and developers who need to ensure that their web servers are secure and up to date. Key features of SSL Labs include automated testing, comprehensive reports, and integration with other security tools. It is suitable for organizations of all sizes, from small businesses to large enterprises, that need to ensure the security of their web applications. However, SSL Labs primarily focuses on testing SSL/TLS configurations and may not provide deep insights into other aspects of web security."
     },
     {
       "name": "Qualys SSL Labs",
@@ -219,7 +224,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Qualys SSL Labs is a specialized tool for assessing the security and performance of SSL/TLS configurations on web servers. It offers detailed vulnerability reports, performance metrics, and recommendations for improvement. Qualys SSL Labs is a valuable resource for organizations that require a thorough analysis of their SSL/TLS infrastructure to identify and mitigate potential risks. Key features of Qualys SSL Labs include automated scanning, in-depth reports, and integration with Qualys' other security products. It is well-suited for both small and large organizations, from individual web developers to large enterprises, that need to ensure the security and performance of their web applications. However, the tool may be overkill for organizations with basic SSL/TLS needs and could be seen as expensive or complex for those with limited security budgets or technical resources."
     },
     {
       "name": "Comodo CA",
@@ -256,7 +262,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Comodo CA is a leading provider of SSL certificates for secure websites, ensuring that online transactions and data exchanges are protected from cyber threats. Key features include a wide range of certificate types, including domain validated (DV), organization validated (OV), and extended validation (EV) certificates. These certificates are designed to meet the highest standards of security and trust. Comodo CA is suitable for businesses of all sizes, from small startups to large enterprises. It offers a user-friendly interface and robust support services. Pros include its extensive certificate options, competitive pricing, and strong reputation in the industry. Limitations may include a more complex setup process for some certificate types and potential delays in issuance for certain high-assurance certificates."
     },
     {
       "name": "GeoTrust",
@@ -293,7 +300,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "GeoTrust is an SSL certificate authority that offers a comprehensive range of security solutions for websites. The platform provides various types of certificates, including DV, OV, and EV, catering to different security needs. GeoTrust's certificates are trusted by millions of users worldwide, ensuring a high level of trust and credibility for businesses. It is ideal for small to medium-sized businesses, as well as large enterprises. Key features include a straightforward certificate issuance process, reliable customer support, and competitive pricing. Pros include its broad certificate selection, strong brand recognition, and ease of use. Limitations may include a less intuitive user interface for some users and potential longer processing times for certain certificate types."
     },
     {
       "name": "Symantec",
@@ -330,7 +338,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Symantec, a well-established SSL certificate authority, offers a diverse array of security solutions for websites. The company provides a range of certificate types, from basic domain validation to advanced extended validation, ensuring robust security for online transactions. Symantec's certificates are widely recognized and trusted by users globally, making it a suitable choice for businesses of all sizes. Key features include a user-friendly interface, comprehensive support services, and competitive pricing. Pros include its extensive certificate options, strong brand reputation, and reliable performance. Limitations may include a higher cost compared to some competitors, a more complex setup process for certain certificate types, and potential delays in issuance for high-assurance certificates."
     },
     {
       "name": "DigiCert",
@@ -367,7 +376,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "DigiCert is an SSL certificate authority known for its advanced security solutions. The platform offers a variety of certificate types, including DV, OV, and EV, designed to meet the highest security standards. DigiCert's certificates are trusted by millions of users worldwide, making it a reliable choice for businesses seeking to establish trust with their customers. It is suitable for businesses of all sizes, from small startups to large enterprises. Key features include a streamlined certificate issuance process, robust support services, and competitive pricing. Pros include its advanced security features, strong brand reputation, and extensive certificate options. Limitations may include a higher cost for certain certificate types, a more complex setup process for some users, and potential delays in issuance for high-assurance certificates."
     },
     {
       "name": "GlobalSign",
@@ -404,7 +414,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "GlobalSign is an SSL certificate authority specializing in secure online transactions. The platform offers a range of certificate types, including DV, OV, and EV, ensuring that businesses can protect their online interactions with customers. GlobalSign's certificates are trusted by millions of users globally, making it a reliable choice for businesses looking to establish trust. It is suitable for small to medium-sized businesses, as well as large enterprises. Key features include a straightforward certificate issuance process, reliable customer support, and competitive pricing. Pros include its broad certificate selection, strong brand recognition, and ease of use. Limitations may include a less intuitive user interface for some users, potential longer processing times for certain certificate types, and a higher cost for certain advanced certificate features."
     }
   ]
 }

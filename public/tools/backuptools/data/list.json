@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Acronis True Image is a comprehensive backup and recovery software designed for both Windows and macOS users. It offers a wide range of features including full system backup, file and folder backup, and cloud backup. Key features include incremental and differential backup options, which help optimize storage space by only backing up changed files. The software supports scheduled backups, allowing users to automate their backup process. It also includes a disaster recovery plan, ensuring that users can restore their entire system in case of a failure. Acronis True Image is suitable for both individual users and small to medium-sized businesses. Pros include its robust backup and recovery capabilities, ease of use, and comprehensive support for various backup types. However, some users may find the interface less intuitive, and the pricing can be considered high compared to other backup solutions."
     },
     {
       "name": "Carbonite",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Carbonite is an online backup service that is designed for both personal and business data. It offers automatic and continuous backup, ensuring that all files are protected without manual intervention. The service supports a wide range of file types, including documents, photos, music, and videos. Key features include versioning, which allows users to restore previous versions of files, and remote access, enabling users to access their files from anywhere. Carbonite also provides mobile apps for iOS and Android devices. It is suitable for individuals and small to medium-sized businesses looking for a reliable and secure cloud backup solution. Pros include its ease of use, secure data storage, and comprehensive mobile app support. However, some users may experience slower backup speeds, and the free version has limited features."
     },
     {
       "name": "Duplicati",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Duplicati is an open-source backup client that supports various cloud storage providers, including Amazon S3, Microsoft OneDrive, Google Drive, and more. It is designed to be easy to use and secure, with encryption options to protect sensitive data. Key features include incremental backup, which only backs up changed files, and compression, which reduces the amount of storage space required. Duplicati also supports scheduled backups and can be integrated with cron jobs on Linux systems. It is suitable for users who want to back up their data to multiple cloud storage providers. Pros include its open-source nature, flexibility, and strong security features. However, the user interface can be less polished compared to commercial solutions, and some advanced features may require technical knowledge to set up."
     },
     {
       "name": "IDrive",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "IDrive is a secure cloud backup and file sync solution that caters to both individuals and businesses. It offers a range of features including full system backup, file and folder backup, and cloud storage. Key features include remote access, allowing users to access their files from anywhere, and file versioning, which enables users to restore previous versions of files. IDrive also supports mobile apps for iOS and Android devices. It is suitable for users who need a reliable and secure backup solution with advanced features. Pros include its strong security measures, ease of use, and comprehensive mobile app support. However, some users may find the pricing structure complex, and the initial setup process can be more involved than other backup solutions."
     },
     {
       "name": "Macrium Reflect",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Macrium Reflect is a disk imaging and cloning software designed for Windows systems. It allows users to create a complete image of their hard drive or individual partitions, which can be used for system backup and recovery. Key features include scheduled backups, which can be set to run automatically, and the ability to create bootable rescue media. Macrium Reflect supports various backup types, including full, incremental, and differential backups. It is suitable for users who need a reliable and fast backup solution. Pros include its fast backup speeds, ease of use, and comprehensive backup options. However, some users may find the interface less intuitive, and the advanced features can be overwhelming for beginners."
     },
     {
       "name": "Norton Ghost",
@@ -214,7 +219,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Norton Ghost is a disk cloning and backup software designed for Windows users. It allows users to create a complete image of their hard drive, which can be used for system backup and recovery. Key features include incremental and differential backup options, which help optimize storage space by only backing up changed files. Norton Ghost also supports disk cloning, which can be used to transfer the entire contents of one disk to another. It is suitable for users who need a reliable and fast backup solution. Pros include its robust backup and recovery capabilities, ease of use, and comprehensive backup options. However, some users may find the interface less user-friendly, and the pricing can be considered high compared to other backup solutions."
     },
     {
       "name": "SyncBackFree",
@@ -249,7 +255,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "SyncBackFree is a comprehensive backup and synchronization software designed for Windows users. It offers a wide range of features to ensure that your data is securely backed up and synchronized across multiple devices. Key features include scheduled backups, incremental backup options, and support for various file types. It also allows users to create custom backup sets and includes advanced options for file filtering and exclusion. SyncBackFree is ideal for individuals and small businesses looking for a reliable and user-friendly backup solution. The software is free to use, making it an attractive option for those on a budget. However, it may lack some advanced features found in paid backup solutions and may not offer the same level of technical support."
     },
     {
       "name": "Veeam Backup & Replication",
@@ -285,7 +292,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Veeam Backup & Replication is a robust backup, replication, and recovery solution designed for virtual and physical environments. It provides comprehensive data protection for organizations of all sizes. Key features include automated backup and recovery processes, support for a wide range of virtualization platforms, and advanced reporting and analytics tools. The software offers granular recovery options, allowing users to recover individual files, folders, or entire virtual machines. Veeam Backup & Replication is ideal for IT professionals and organizations that require a high level of data protection and recovery capabilities. While it is a powerful tool, it may be overkill for small businesses with limited IT resources, and the cost can be a barrier for some users."
     },
     {
       "name": "Backblaze",
@@ -321,7 +329,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Backblaze is an online backup service that offers unlimited storage for individuals and businesses. It is known for its simplicity and affordability, making it a popular choice for those looking for a straightforward backup solution. Key features include automated, continuous backup, easy-to-use web interface, and robust security measures. Backblaze offers a single backup plan with no hidden costs, which is a significant advantage over other backup services. It is particularly well-suited for users who want to ensure that their data is safely stored offsite. However, the service may lack some advanced features such as file versioning and selective file recovery, and it does not support bare-metal recovery."
     },
     {
       "name": "CrashPlan",
@@ -357,7 +366,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "CrashPlan is a personal and business-grade cloud backup solution that provides secure, reliable, and scalable data protection. It is designed for users who require advanced backup capabilities and want to ensure that their data is always safe. Key features include military-grade encryption, cloud-based storage, and the ability to backup and restore from any location. CrashPlan offers flexible backup options, including file-level backup, full system image backup, and incremental backups. It is ideal for individuals, small businesses, and enterprises with complex backup needs. While CrashPlan is a powerful tool, it may be more complex to set up and manage compared to other backup solutions, and the pricing can be higher for larger storage requirements."
     }
   ]
 }

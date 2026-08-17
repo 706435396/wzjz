@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Labelbox is an AI-powered data labeling platform designed for teams working on machine learning projects. It streamlines the process of data labeling by providing a user-friendly interface and advanced features that enhance collaboration and efficiency. Key features include real-time collaboration, support for various data types such as images, videos, and text, and customizable workflows. Labelbox is ideal for data scientists, machine learning engineers, and product managers who need to ensure high-quality labeled data for training AI models. The platform offers robust project management tools, making it easy to track progress, manage tasks, and maintain version control. While Labelbox is highly efficient and scalable, it may have a steep learning curve for new users, and the pricing can be prohibitive for small teams or startups."
     },
     {
       "name": "LabelImg",
@@ -72,7 +73,8 @@
         "Step: Fill in the API Key / account config\nMany AI tools need a model connection. Find the config item in the README and fill it in.\nCode:\n# Example: replace xxx with your real Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nDo not screenshot your Key in public groups. Get a free/cheap Key (e.g. GLM-4, DeepSeek) to practice.",
         "Step: Start and run your first task\nRun the example command from the project and watch the terminal output.\nCode:\n./run.sh\nCheck:\nIf the program prints results (no red Error text), you have it working.",
         "Step: Troubleshooting\nFailing the first local deploy is normal. Common issues:\n1. Dependency version mismatch → use the Python/Node version the repo recommends;\n2. Key not working → check your environment variables;\n3. Cannot reach the model API → switch mirror or provider.\nTip:\nSee more examples in \"Related tutorials\" below, or click \"Visit official site\"."
-      ]
+      ],
+      "detail": "LabelImg is a versatile tool for image annotation, specifically designed for object detection tasks. It allows users to easily label images by drawing bounding boxes around objects of interest. The tool supports various file formats and can be used with different programming languages, making it a flexible choice for developers. Key features of LabelImg include support for multiple annotation formats, the ability to export annotations to popular machine learning frameworks, and a simple, intuitive interface. LabelImg is suitable for individuals and small teams working on computer vision projects. However, it lacks advanced features like real-time collaboration and automated labeling, which might be limitations for larger teams or more complex projects."
     },
     {
       "name": "Label Studio",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Label Studio is an open-source data labeling tool that provides a flexible and customizable platform for machine learning projects. It supports a wide range of data types, including images, videos, text, and tables, making it a versatile choice for various labeling tasks. Label Studio's key features include a user-friendly interface, support for custom annotation formats, and seamless integration with popular machine learning frameworks. The tool is well-suited for both individual data annotators and teams, offering features like real-time collaboration and version control. While Label Studio is highly customizable and open-source, it may require some technical expertise to set up and configure, and it might not offer the same level of automation as some commercial alternatives."
     },
     {
       "name": "TurboLabel",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "TurboLabel is an automated data labeling tool designed to accelerate the process of labeling data for computer vision applications. It uses AI algorithms to automatically label images, reducing the time and effort required for manual labeling. Key features of TurboLabel include high accuracy in automated labeling, support for various data types, and easy integration with existing workflows. The tool is ideal for teams that need to label large datasets quickly and efficiently. However, TurboLabel may not always achieve perfect accuracy, and it requires careful configuration to ensure the best results. Additionally, the tool might be expensive for small teams or projects with limited budgets."
     },
     {
       "name": "Annotate.io",
@@ -180,7 +184,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Annotate.io is a web-based image annotation tool that simplifies the process of labeling images for machine learning projects. It offers a user-friendly interface and supports a wide range of annotation types, including bounding boxes, polygons, and polylines. Key features of Annotate.io include real-time collaboration, support for large datasets, and seamless integration with popular machine learning platforms. The tool is suitable for both individual annotators and teams, providing a centralized platform for all labeling activities. However, Annotate.io may have limitations in terms of customization options and might not be as powerful as some desktop-based annotation tools. Additionally, the pricing structure can be complex, with different plans available for different use cases."
     },
     {
       "name": "CVAT.io",
@@ -216,7 +221,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "CVAT.io is an open-source platform for video and image annotation, designed to facilitate the creation of labeled datasets for machine learning and computer vision applications. It offers a comprehensive set of features, including support for various annotation types, real-time collaboration, and integration with popular machine learning frameworks. Key features of CVAT.io include a user-friendly interface, customizable workflows, and robust project management tools. The platform is well-suited for both individual researchers and large organizations, providing a scalable solution for labeling large datasets. However, CVAT.io may require some technical knowledge to set up and configure, and it might not offer the same level of automation as some commercial tools. Additionally, the open-source nature of the platform means that some features may be limited compared to proprietary alternatives."
     },
     {
       "name": "Label Insight",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Label Insight is an advanced automated data labeling tool designed to streamline the process of creating high-quality machine learning datasets. It leverages state-of-the-art AI algorithms to automatically label images, text, and audio data, significantly reducing the time and effort required for manual labeling. Key features include a robust AI engine that can handle large volumes of data, customizable labeling rules to accommodate specific project requirements, and seamless integration with popular machine learning platforms. Label Insight is ideal for data scientists, AI researchers, and machine learning engineers who need to rapidly generate labeled datasets for training and testing their models. While it offers significant efficiency gains, the tool may require some initial setup and fine-tuning to achieve optimal results. Additionally, it may not be suitable for projects that require highly specialized or nuanced labeling."
     },
     {
       "name": "Data Labeling Studio",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Data Labeling Studio is a comprehensive platform designed to facilitate the creation of high-quality AI training datasets. It provides a user-friendly interface that allows users to label and annotate data with ease, making it an excellent choice for both beginners and experienced data annotators. Key features include a variety of labeling tools for different data types, such as images, text, and video, collaborative labeling capabilities for teams, and robust quality control mechanisms to ensure the accuracy of labeled data. Data Labeling Studio is suitable for a wide range of users, including data scientists, AI researchers, and business analysts who need to build and maintain AI training datasets. However, the tool may have a steeper learning curve for new users, and it may not offer the same level of automation as some other data labeling solutions. Additionally, its performance may vary depending on the complexity of the datasets being labeled."
     }
   ]
 }

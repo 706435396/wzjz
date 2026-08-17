@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Hashcat is a widely-used, high-performance password cracking tool designed for developers and security professionals. It leverages rule-based masks and time-memory trade-offs to crack passwords efficiently. Key features include support for numerous hash types, including MD5, SHA-1, SHA-256, and many more. It also offers GPU acceleration, making it one of the fastest password crackers available. Hashcat is particularly useful for penetration testing and security audits. It is for those who require a robust and versatile tool to test the strength of their password policies. While it is highly effective, its complexity and the potential for misuse may be limitations for some users."
     },
     {
       "name": "John the Ripper",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "John the Ripper is a popular, open-source password cracker that supports a wide range of password hash types, making it a valuable tool for developers and security professionals. It is known for its speed and flexibility, offering various attack modes such as brute-force, dictionary, and hybrid attacks. John the Ripper can be used to test the strength of passwords and can crack them in a fraction of the time compared to other tools. It is suitable for those involved in security audits, penetration testing, and password policy enforcement. However, its extensive capabilities and the potential for misuse can be limitations for users who are not well-versed in security practices."
     },
     {
       "name": "WinRAR",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "WinRAR is a powerful archive manager that offers users the ability to compress, encrypt, and password-protect files and folders. It supports a wide range of archive formats, including RAR, ZIP, and 7-Zip, making it a versatile tool for developers and IT professionals. Key features include 256-bit AES encryption, file recovery records, and the ability to split archives into multiple parts. WinRAR is ideal for those who need to manage large files and folders, ensuring data security and efficient storage. However, its licensing model may be a limitation for individual users, and its interface can be somewhat complex for new users."
     },
     {
       "name": "7-Zip",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "7-Zip is an open-source file archiver that provides users with a high level of compression and encryption. It supports multiple archive formats, including 7z, ZIP, GZIP, and BZIP2. One of its standout features is the strong AES-256 encryption, which ensures the security of compressed files. 7-Zip is a favorite among developers and IT professionals due to its high compression ratio and flexibility. It is also known for its user-friendly interface and the ability to create self-extracting archives. While it is a powerful tool, its lack of built-in support for certain file types and its command-line interface may be limitations for some users."
     },
     {
       "name": "GnuPG",
@@ -178,7 +182,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "GnuPG is a free software encryption tool that allows users to encrypt and sign data to ensure confidentiality and authenticity. It is based on the OpenPGP standard and offers a wide range of cryptographic algorithms, including RSA, DSA, and ElGamal. GnuPG is particularly useful for developers and security professionals who need to protect sensitive information. It can be used for email encryption, file encryption, and secure key management. Its integration with various email clients and file systems makes it a convenient choice for those who require secure communication and data storage. However, its complexity and the learning curve associated with setting up and managing encryption keys can be limitations for some users."
     },
     {
       "name": "Bouncy Castle",
@@ -214,7 +219,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Bouncy Castle is a comprehensive Java-based cryptographic library that provides a wide array of cryptographic algorithms and protocols. It is widely used in the development of secure applications and systems, making it a valuable tool for developers. Key features include support for various encryption algorithms, secure key management, and secure random number generation. Bouncy Castle is suitable for those who require robust cryptographic solutions in their Java applications. Its ease of integration and extensive documentation make it a popular choice among developers. However, its licensing model can be complex, and some users may find its extensive feature set overwhelming."
     },
     {
       "name": "CryptoJS",
@@ -250,7 +256,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "CryptoJS is a versatile JavaScript library designed for cryptographic operations. It is renowned for its small size, fast execution, and ease of use, making it an ideal choice for developers looking to implement cryptographic functionalities in their web applications. Key features of CryptoJS include a comprehensive set of cryptographic primitives such as hashes, ciphers, and HMACs, support for various encryption modes and padding schemes, and a flexible API that allows for easy integration into existing projects. It is suitable for both beginners and experienced developers, offering a straightforward interface that simplifies the process of encrypting, decrypting, and hashing data. While CryptoJS is highly efficient and user-friendly, it may lack some advanced features and might not be the best choice for highly complex or specialized cryptographic needs."
     },
     {
       "name": "OpenSSL",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "OpenSSL is a robust and full-featured toolkit that provides an extensive range of functionalities for implementing the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is widely used in the development of secure communication protocols and is known for its commercial-grade security and reliability. Key features of OpenSSL include support for various cryptographic algorithms, SSL/TLS protocol implementations, a command-line interface for testing and managing SSL connections, and a rich set of APIs for programming languages such as C, C++, and Python. It is suitable for developers and system administrators who require a high level of security and flexibility in their cryptographic implementations. However, OpenSSL can be complex to set up and configure, and its extensive feature set might be overwhelming for those unfamiliar with cryptographic concepts."
     },
     {
       "name": "Libsodium",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Libsodium is a modern and easy-to-use software library that provides a comprehensive set of cryptographic operations, including encryption, decryption, and authentication. It is designed to be secure, efficient, and easy to integrate into applications. Key features of Libsodium include a wide range of cryptographic primitives, such as public-key and secret-key cryptography, support for various algorithms and modes, and a focus on security and privacy. It is suitable for developers who require robust and efficient cryptographic functionalities for their applications, particularly those dealing with sensitive data. Libsodium is known for its strong security guarantees and its ability to handle complex cryptographic operations with ease. However, it may not be the best choice for applications that require very high performance or specialized cryptographic algorithms."
     },
     {
       "name": "ECC Crypto Library",
@@ -359,7 +368,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The ECC Crypto Library is a specialized cryptographic library that supports elliptic curve cryptography (ECC) and other algorithms. ECC is known for its strong security and efficiency, making it a popular choice for secure communications and data encryption. Key features of the ECC Crypto Library include support for various ECC algorithms, integration with popular programming languages, and a focus on security and performance. It is suitable for developers who require high-security cryptographic functionalities in their applications, particularly those involving secure key exchange, digital signatures, and secure communications. The library provides a straightforward API that simplifies the implementation of ECC-based cryptographic operations. However, it may not be as versatile as some other libraries and might not support a wide range of non-ECC algorithms."
     },
     {
       "name": "NIST Cryptographic Toolkit",
@@ -395,7 +405,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The NIST Cryptographic Toolkit is a suite of tools designed to assist developers and researchers in performing cryptographic operations and analyzing cryptographic algorithms. Developed by the National Institute of Standards and Technology (NIST), the toolkit includes a variety of tools for testing, implementing, and evaluating cryptographic algorithms. Key features of the NIST Cryptographic Toolkit include support for a wide range of cryptographic algorithms, tools for analyzing algorithm performance and security, and documentation and resources for understanding cryptographic concepts. It is suitable for developers, researchers, and security professionals who require a comprehensive set of tools for cryptographic development and analysis. The toolkit provides a valuable resource for ensuring the security and reliability of cryptographic implementations. However, the NIST Cryptographic Toolkit can be complex to use and may require a deep understanding of cryptographic principles to fully utilize its capabilities."
     }
   ]
 }

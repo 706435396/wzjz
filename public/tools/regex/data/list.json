@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "RegexBuddy is a powerful tool designed for developers and regex enthusiasts who need to create, test, and debug regular expressions efficiently. It offers a user-friendly interface that allows users to build regex patterns step by step, providing real-time feedback and suggestions. Key features include syntax highlighting, regex pattern visualization, and a regex debugger that helps identify and fix errors. RegexBuddy is suitable for those working with various programming languages and platforms, as it supports a wide range of regex flavors. It is particularly useful for those who need to understand the intricacies of regex syntax and performance. Pros include its comprehensive regex reference, regex pattern optimization tools, and the ability to generate code snippets in multiple programming languages. Limitations may include a steeper learning curve for beginners and a somewhat complex interface."
     },
     {
       "name": "RegExr",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "RegExr is an online tool that enables developers to test and debug regular expressions in a user-friendly environment. It provides a simple interface where users can input their regex patterns and test them against sample strings. The tool offers immediate feedback on the match results, making it easy to identify and correct errors. RegExr is particularly useful for those who need to quickly validate regex patterns or experiment with different regex syntaxes. Key features include regex pattern syntax highlighting, a regex reference, and the ability to share patterns with others. It is suitable for web developers, data analysts, and anyone who works with text processing. Pros include its ease of use, quick feedback, and the ability to collaborate on regex patterns. Limitations may include limited support for complex regex features and a lack of advanced debugging tools."
     },
     {
       "name": "RegExr - Regex One",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "RegExr - Regex One is an interactive regex testing tool that allows users to experiment with regex patterns and see the results in real-time. It provides a simple and intuitive interface with examples of regex patterns for various use cases. Users can input their own patterns and test them against sample strings, with immediate visual feedback on the match results. This tool is ideal for those who are learning regex or need to quickly test and validate patterns. Key features include a regex pattern builder, a regex reference, and a collection of example patterns. It is suitable for beginners and intermediate users who want to understand regex syntax and how it works. Pros include its interactive nature, ease of use, and the ability to learn by example. Limitations may include limited support for advanced regex features and a lack of in-depth documentation."
     },
     {
       "name": "Regex Crossword",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Regex Crossword is an innovative tool that uses an interactive crossword puzzle format to teach regex. It is designed for beginners who want to learn regex in a fun and engaging way. The tool presents users with a crossword puzzle where the clues are regular expressions. Solving the puzzle helps users understand the basics of regex syntax and how to construct patterns. Regex Crossword is a unique approach to learning regex that makes the process more accessible and less intimidating. Key features include a crossword puzzle format, a regex reference, and a step-by-step learning approach. It is suitable for absolute beginners who have no prior knowledge of regex. Pros include its educational value, interactive nature, and the ability to learn regex in a non-traditional setting. Limitations may include the limited scope of regex patterns covered and the lack of advanced features."
     },
     {
       "name": "Regex101",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Regex101 is an online platform that serves as a regex tester, debugger, validator, and formatter. It is designed for developers and data analysts who need to work with regular expressions on a regular basis. The tool allows users to test their regex patterns against sample strings, providing detailed feedback on the match results. Regex101 offers a range of features to help users optimize their regex patterns, including syntax highlighting, regex pattern visualization, and a regex reference. It is suitable for users of all skill levels, from beginners to advanced regex users. Pros include its comprehensive regex testing capabilities, user-friendly interface, and the ability to share patterns with others. Limitations may include a lack of advanced debugging tools and the need for a stable internet connection to access the platform."
     },
     {
       "name": "Regex Golf",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Regex Golf is a competitive platform that challenges users to create the shortest possible regex patterns for given tasks. It is designed for regex enthusiasts and developers who enjoy the challenge of optimizing their regex patterns. The platform allows users to submit their regex solutions, and others can view and comment on the submissions. Regex Golf is a unique way to learn and improve regex skills, as it encourages users to think creatively and efficiently. Key features include a task-based approach, a leaderboard to track performance, and the ability to view and discuss regex patterns. It is suitable for those who are passionate about regex and want to test their skills against others. Pros include its educational value, the opportunity to learn from others, and the competitive nature of the platform. Limitations may include the complexity of some tasks and the potential for frustration when trying to create the shortest regex pattern."
     },
     {
       "name": "Regex Visualizer",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Regex Visualizer tool at regex.72tool.com is a powerful resource for developers who need to understand and debug regular expressions. It allows users to visualize regex patterns and observe the matching process step by step. Key features include the ability to input regex patterns and see how they match against sample text, real-time highlighting of matching segments, and the option to toggle between different matching modes (e.g., greedy, lazy). This tool is ideal for developers of all skill levels, from beginners who are learning regex for the first time to experienced developers who need to verify their regex logic. One of the pros of this tool is its intuitive interface, which makes complex regex patterns more accessible and easier to understand. However, a limitation is that it may not support all the nuances of every regex engine, which can be a challenge for those working with highly specialized or custom regex implementations."
     },
     {
       "name": "Regex Coach",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Regex Coach is an interactive learning tool designed to help developers master regular expressions. It provides a structured approach to learning regex patterns, offering explanations, examples, and interactive exercises. The tool covers a wide range of regex concepts, from basic syntax to advanced techniques, making it suitable for both beginners and intermediate learners. Key features of Regex Coach include a comprehensive library of regex patterns, a sandbox for testing and experimenting with expressions, and immediate feedback on user attempts. This tool is particularly beneficial for those who want to improve their regex skills or need to brush up on their knowledge before tackling complex text processing tasks. A pro of Regex Coach is its engaging and educational approach, which can help solidify understanding of regex patterns. However, a limitation may be its somewhat steep learning curve, especially for those who are completely new to regular expressions, and it may not be as effective as a hands-on coding environment for some users."
     },
     {
       "name": "Regex Tester",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Regex Tester tool at regex.72tool.com is a versatile online platform for testing and debugging regular expressions. It allows users to input their regex patterns and test them against a variety of sample texts. Key features of the tool include a simple and intuitive interface, support for multiple regex flavors (including PCRE), and the ability to display detailed information about each match, such as capture groups and their respective values. This tool is designed for developers, data scientists, and anyone else who works with text processing and pattern matching. It is particularly useful for quickly verifying the correctness of regex patterns or for troubleshooting issues in code. A significant pro of Regex Tester is its ease of use, making it accessible to users of all skill levels. However, a limitation could be its reliance on the user to provide accurate sample text, which might lead to incorrect results if the text is not representative of the actual data."
     }
   ]
 }

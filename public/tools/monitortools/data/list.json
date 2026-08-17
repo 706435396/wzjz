@@ -37,7 +37,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Uptime Robot is a reliable tool designed for website and API monitoring. It ensures that your online services are always up and running by sending regular checks to your website or API. Key features include customizable monitoring intervals, alert notifications via email, SMS, or webhooks, and a user-friendly dashboard that provides real-time insights. Uptime Robot is ideal for developers, IT professionals, and small to medium-sized businesses looking for a straightforward and effective monitoring solution. Pros: It's easy to set up and use, offers multiple monitoring options, and provides comprehensive alerts. Limitations: The free plan has limitations on the number of monitors and alert methods."
     },
     {
       "name": "Pingdom",
@@ -73,7 +74,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Pingdom is a robust tool for real-time website and server monitoring. It allows you to track the performance and availability of your web applications, ensuring a seamless user experience. Key features include detailed performance metrics, visual reports, and alerting systems that notify you of any issues. Pingdom is suitable for developers, system administrators, and businesses of all sizes. Pros: It offers a comprehensive set of tools for monitoring, integrates well with other services, and provides actionable insights. Limitations: Some advanced features are only available in the paid plans, and the pricing can be steep for small businesses."
     },
     {
       "name": "StatusPage.io",
@@ -109,7 +111,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "StatusPage.io is a powerful tool for creating and managing status pages for your services. It allows you to keep your customers informed about the status of your online services in real-time. Key features include customizable status pages, incident management, and integration with various monitoring tools. StatusPage.io is ideal for IT teams, DevOps professionals, and companies that want to maintain transparent communication with their users. Pros: It's easy to set up and customize, offers a great user experience, and provides a centralized platform for incident management. Limitations: The free plan is quite limited, and some advanced features require a paid subscription."
     },
     {
       "name": "Monitis",
@@ -145,7 +148,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Monitis is an all-in-one monitoring platform designed for DevOps teams. It provides comprehensive monitoring solutions for servers, applications, networks, and cloud services. Key features include real-time monitoring, alerting, and reporting, as well as integration with popular DevOps tools. Monitis is suitable for medium to large businesses with complex IT infrastructures. Pros: It offers a wide range of monitoring capabilities, integrates with many third-party tools, and provides a scalable solution for growing businesses. Limitations: The pricing can be complex, and some users may find the interface overwhelming."
     },
     {
       "name": "Nagios",
@@ -181,7 +185,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Nagios is an open-source monitoring system for IT infrastructure. It allows you to monitor the availability and performance of your network, servers, applications, and services. Key features include a powerful alerting system, a customizable dashboard, and a wide range of plugins for various monitoring needs. Nagios is ideal for IT professionals and system administrators who prefer open-source solutions. Pros: It's free, highly customizable, and has a strong community supporting it. Limitations: It can be challenging to set up and configure, and it requires a significant amount of technical expertise to manage effectively."
     },
     {
       "name": "Zabbix",
@@ -216,7 +221,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Zabbix is a free and open-source monitoring solution that provides comprehensive monitoring of networks, servers, applications, and services. It is known for its scalability and flexibility, making it suitable for both small and large organizations. Key features include a powerful data collection engine, advanced visualization, and a user-friendly web interface. Zabbix is ideal for IT administrators and DevOps professionals who require a robust monitoring tool. Pros: It's free, highly customizable, and offers a wide range of monitoring capabilities. Limitations: The initial setup can be complex, and it may require a steep learning curve for new users."
     },
     {
       "name": "Datadog",
@@ -252,7 +258,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Datadog is a unified monitoring and security platform designed to help organizations gain visibility into their entire technology stack. It provides real-time monitoring, security analytics, and business intelligence to enable teams to quickly identify and resolve issues. Key features include infrastructure monitoring, application performance monitoring (APM), log management, and security monitoring. Datadog is suitable for developers, IT operations teams, and security analysts. It integrates with a wide range of technologies and services, making it a versatile tool for managing complex environments. Pros include its comprehensive feature set, strong integration capabilities, and user-friendly interface. Limitations may include a steep learning curve for new users and potential costs associated with scaling to larger deployments."
     },
     {
       "name": "New Relic",
@@ -288,7 +295,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "New Relic is an application performance monitoring (APM) platform that provides insights into the performance of applications, infrastructure, and end-user experience. It helps developers and operations teams identify and resolve issues quickly, optimize application performance, and improve user satisfaction. Key features include APM, real-user monitoring (RUM), infrastructure monitoring, and synthetic monitoring. New Relic is ideal for developers, IT operations teams, and DevOps professionals. It offers a wide range of integrations and is known for its ease of use. Pros include its robust feature set, strong community support, and scalability. Limitations may include a complex pricing structure and potential performance overhead on monitored applications."
     },
     {
       "name": "Prometheus",
@@ -324,7 +332,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Prometheus is an open-source monitoring and alerting toolkit that is widely used for monitoring complex systems. It is designed to be highly scalable and efficient, making it suitable for both small and large environments. Key features include a flexible query language, powerful alerting capabilities, and the ability to store and query time-series data. Prometheus is ideal for developers, system administrators, and DevOps engineers. It can be easily integrated with other tools and services, making it a versatile choice for monitoring. Pros include its open-source nature, strong community support, and flexibility. Limitations may include a steeper learning curve compared to some commercial tools and a more limited set of features in its free version."
     },
     {
       "name": "Nginx Monitor",
@@ -360,7 +369,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Nginx Monitor is a tool specifically designed to monitor the performance and health of Nginx web servers. It provides real-time monitoring and alerting, helping administrators to quickly identify and resolve issues that may impact server performance. Key features include server monitoring, performance metrics, and alerting based on thresholds. Nginx Monitor is suitable for system administrators and DevOps professionals who manage Nginx-based web servers. It offers a simple and intuitive interface, making it easy to use. Pros include its focus on Nginx-specific metrics, ease of integration with other monitoring tools, and cost-effectiveness. Limitations may include a more limited feature set compared to some other monitoring solutions and potential performance overhead on monitored servers."
     },
     {
       "name": "SolarWinds",
@@ -396,7 +406,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "SolarWinds is a network performance monitoring tool that provides comprehensive visibility into the performance and health of networks, servers, applications, and databases. It offers a wide range of features, including network monitoring, application performance monitoring, and security monitoring. SolarWinds is suitable for IT professionals, including network administrators, system administrators, and security analysts. It provides a user-friendly interface and integrates with a variety of other IT management tools. Pros include its extensive feature set, ease of use, and strong community support. Limitations may include a complex and sometimes overwhelming interface, as well as potential costs associated with purchasing and maintaining the software."
     }
   ]
 }

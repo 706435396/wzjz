@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "World Time Buddy is a versatile time zone converter designed for developers and individuals who need to manage multiple time zones efficiently. It allows users to convert time across the world with ease, making it an essential tool for those working in global teams or managing international projects. Key features include a user-friendly interface, the ability to convert time for any date and time, and the option to add favorite time zones for quick access. It is also capable of showing the time difference between two time zones, which is particularly useful for scheduling meetings or coordinating tasks across different regions. World Time Buddy is suitable for a wide range of users, from freelancers to corporate teams, and is particularly beneficial for those who need to stay on top of time zone changes. Pros include its simplicity, accuracy, and the ability to handle a vast number of time zones. Limitations might include a lack of advanced features for more complex time management tasks, and it may not be as robust as some enterprise-level solutions."
     },
     {
       "name": "Time.is",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Time.is is a versatile world clock and time zone converter designed for developers and users who need to manage multiple time zones efficiently. It provides a user-friendly interface that displays the current time in various time zones simultaneously, allowing users to easily compare and convert times across the globe. Key features include a real-time world clock that updates every second, a time zone converter with a simple input and output format, and the ability to search for specific cities or time zones. This tool is particularly useful for developers working on global projects, remote teams coordinating across different time zones, and individuals who frequently travel or communicate with people in different parts of the world. Pros include its ease of use, accurate time display, and comprehensive time zone support. Limitations may include a lack of advanced features for complex time management tasks and the absence of a mobile app."
     },
     {
       "name": "TimeAndDate",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "TimeAndDate is a comprehensive time zone converter and world clock that caters to the needs of developers, businesses, and individuals who require accurate and up-to-date time information worldwide. The tool offers a wide range of features, including time zone conversion, world clock display, and the ability to track time changes and daylight saving adjustments. It is particularly useful for those managing international travel, scheduling global meetings, or simply curious about the time in different parts of the world. TimeAndDate features a user-friendly interface, making it easy to navigate and find the information needed. It is suitable for a diverse user base, from travelers and students to corporate teams and government organizations. The pros of TimeAndDate include its extensive range of features, accuracy, and ease of use. However, some users may find the interface slightly overwhelming due to the abundance of options, and it may lack some advanced features that power users might seek."
     },
     {
       "name": "Time24",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Time24 is a straightforward time zone converter and world clock designed for developers and users who require quick and reliable time zone conversions. It offers a simple, no-frills interface that focuses on the core functionality of converting time between different time zones and displaying the current time in various parts of the world. Key features include a time zone converter with a straightforward input and output format, a world clock that updates in real-time, and the ability to search for specific cities or time zones. This tool is ideal for developers who need to integrate time zone data into their applications, individuals managing global schedules, and anyone who needs to quickly determine the time in another location. Pros include its simplicity, speed, and accuracy. Limitations may include a lack of advanced features for complex time management tasks and the absence of additional time-related tools or services."
     },
     {
       "name": "ConvertWorldTime",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ConvertWorldTime is a dedicated tool for converting time across the globe, designed with developers and users in mind who require accurate and efficient time zone conversions. It provides a straightforward interface that allows users to quickly convert time between any two time zones, making it an essential tool for anyone dealing with global time management. Key features include a user-friendly time zone converter, the ability to input and output time in various formats, and support for a wide range of time zones. This tool is particularly useful for developers working on international projects, individuals managing global teams, and anyone who needs to communicate or coordinate across different time zones. Pros include its accuracy, ease of use, and comprehensive time zone support. Limitations may include a lack of additional time-related features, such as a world clock or time zone database updates, and the absence of a mobile app for on-the-go access."
     }
   ]
 }

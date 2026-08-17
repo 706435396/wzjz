@@ -34,7 +34,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "AdBlock Plus is a free ad blocking extension designed for browsers such as Google Chrome, Firefox, and Safari. It effectively blocks intrusive ads, pop-ups, and trackers, enhancing the user experience by providing a cleaner and faster web browsing environment. Key features include customizable filters, a whitelist for allowing certain ads, and a simple interface for users to manage their ad blocking preferences. AdBlock Plus is ideal for individuals who value privacy and a clutter-free web browsing experience. However, it may occasionally block legitimate content or ads, and it does not offer advanced privacy features beyond ad blocking."
     },
     {
       "name": "uBlock Origin",
@@ -71,7 +72,8 @@
         "Step: Fill in the API Key / account config\nMany AI tools need a model connection. Find the config item in the README and fill it in.\nCode:\n# Example: replace xxx with your real Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nDo not screenshot your Key in public groups. Get a free/cheap Key (e.g. GLM-4, DeepSeek) to practice.",
         "Step: Start and run your first task\nRun the example command from the project and watch the terminal output.\nCode:\n./run.sh\nCheck:\nIf the program prints results (no red Error text), you have it working.",
         "Step: Troubleshooting\nFailing the first local deploy is normal. Common issues:\n1. Dependency version mismatch → use the Python/Node version the repo recommends;\n2. Key not working → check your environment variables;\n3. Cannot reach the model API → switch mirror or provider.\nTip:\nSee more examples in \"Related tutorials\" below, or click \"Visit official site\"."
-      ]
+      ],
+      "detail": "uBlock Origin is an efficient ad blocker for various browsers, including Chrome, Firefox, and Opera. It is known for its lightweight design and fast performance, which allows it to block ads without significantly impacting browser speed. The tool offers a range of features, such as customizable filters, real-time blocking of malicious ads, and a user-friendly interface. uBlock Origin is suitable for users who prioritize speed and performance while browsing the web. It is also effective in blocking trackers and other privacy-invasive elements. However, it may require some technical knowledge to fine-tune settings, and it may occasionally block non-intrusive ads."
     },
     {
       "name": "Adblock Fast",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Adblock Fast is a fast and efficient ad blocking software designed for Windows, macOS, and Linux operating systems. It is known for its speed, as it blocks ads and trackers before they can load, resulting in a faster browsing experience. The tool features a simple interface and easy-to-use settings, making it accessible to both beginners and advanced users. Adblock Fast offers a customizable whitelist and the ability to block ads based on specific criteria. It is ideal for users who want a no-frills ad blocking solution that focuses on performance. However, it lacks advanced privacy features and may not be as effective against some sophisticated ad and tracker technologies."
     },
     {
       "name": "AdGuard",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "AdGuard is a comprehensive ad and tracker blocking software that works across browsers and devices, including Windows, macOS, iOS, and Android. It offers a wide range of features, such as ad blocking, tracker protection, and a built-in ad blocker for YouTube. AdGuard allows users to customize their ad blocking preferences and includes a whitelist for allowing certain ads. It is suitable for individuals who want a robust solution for ad and tracker blocking on multiple devices. The tool also includes a feature to block malicious websites and a VPN-like privacy feature. However, AdGuard may be overkill for users who only need basic ad blocking, and it can be resource-intensive on some devices."
     },
     {
       "name": "Privacy Badger",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Privacy Badger is a browser extension designed to protect users against trackers that follow them around the web. It is developed by the Electronic Frontier Foundation (EFF) and focuses on blocking third-party trackers without the need for extensive user configuration. Privacy Badger automatically identifies and blocks trackers that are known to violate privacy or are known to slow down web browsing. The tool is ideal for users who are concerned about their online privacy and want a simple way to protect themselves from trackers. It is easy to use and integrates seamlessly with popular browsers. However, Privacy Badger may not block all types of trackers, and it does not offer ad blocking capabilities."
     },
     {
       "name": "Adblock Edge",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Adblock Edge is an ad blocking extension specifically designed for Microsoft Edge, the default web browser on Windows 10. It is based on the open-source AdBlock Plus project and offers similar features, such as ad blocking, tracker protection, and a whitelist for allowing certain ads. Adblock Edge is easy to use and provides a straightforward way to enhance privacy and performance while browsing the web. It is ideal for Microsoft Edge users who want to block intrusive ads and improve their browsing experience. However, like other ad blocking tools, Adblock Edge may occasionally block legitimate content, and it does not offer advanced privacy features beyond ad blocking."
     },
     {
       "name": "Adblock Browser",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Adblock Browser is a specialized web browser designed to enhance the user experience by blocking ads and other intrusive content. It is built with a focus on user privacy and security, offering built-in ad blocking and tracking protection features. This browser automatically blocks most ads, pop-ups, and trackers, allowing users to browse the web without interruptions. Key features include a customizable ad blocking list, easy-to-use interface, and compatibility with various websites. It is ideal for users who want to eliminate ads and improve their online experience. The Adblock Browser is suitable for a wide range of users, from casual internet surfers to those who require a more secure browsing environment. Pros include a faster browsing experience, improved privacy, and a more enjoyable online experience. Limitations may include the potential blocking of some non-intrusive ads that support content creators and websites, and the need for occasional updates to keep up with new ad technologies."
     },
     {
       "name": "AdBlocker Ultimate",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "AdBlocker Ultimate is a comprehensive ad blocking software designed for Windows and macOS users. It effectively blocks ads, pop-ups, and other intrusive content across all web browsers installed on the user's computer. This software is known for its ease of use and high performance, providing users with a seamless browsing experience. Key features include automatic ad blocking, real-time tracking protection, and the ability to whitelist specific websites. AdBlocker Ultimate is suitable for anyone who wants to remove ads from their browsing sessions and protect their privacy. It is particularly beneficial for power users and professionals who spend a significant amount of time online. Pros include a significant improvement in browsing speed, enhanced privacy, and the ability to customize the ad blocking experience. Limitations may include the potential to block legitimate ads that support content creators and websites, and the need for periodic updates to stay ahead of new ad technologies."
     },
     {
       "name": "AdBlocker for YouTube",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "AdBlocker for YouTube is a dedicated extension designed to block all ads on the popular video-sharing platform. It is specifically tailored to remove pre-roll, mid-roll, and post-roll ads, as well as banners and other intrusive ad formats. The extension is easy to install and integrates seamlessly with the YouTube user interface. Key features of AdBlocker for YouTube include automatic ad blocking, a simple one-click toggle for enabling or disabling the extension, and compatibility with all browsers that support Chrome extensions. This tool is perfect for YouTube users who want to watch videos without interruptions. Pros of using AdBlocker for YouTube include a completely ad-free viewing experience, faster video loading times, and the ability to enjoy content as intended by the creators. Limitations may include the potential blocking of ads that are essential for the sustainability of the platform, and the need for a reliable internet connection to ensure the extension works effectively."
     },
     {
       "name": "AdBlocker for Chrome",
@@ -358,7 +367,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "AdBlocker for Chrome is a popular extension designed to enhance the browsing experience on Google Chrome. This extension effectively blocks ads, pop-ups, and other unwanted content, allowing users to focus on the content they want to see. It is known for its simplicity and effectiveness, providing a seamless browsing experience without the distractions of ads. Key features include automatic ad blocking, customizable settings, and the ability to whitelist specific websites. AdBlocker for Chrome is ideal for Chrome users who want to improve their online experience and protect their privacy. It is suitable for a broad audience, from casual browsers to tech-savvy individuals. Pros include a faster browsing experience, improved privacy, and the ability to tailor the ad blocking to the user's preferences. Limitations may include the potential blocking of some non-intrusive ads, and the need to occasionally update the extension to ensure compatibility with the latest ad technologies."
     },
     {
       "name": "AdBlocker for Firefox",
@@ -394,7 +404,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "AdBlocker for Firefox is a dedicated ad blocking extension designed for users of the Mozilla Firefox browser. It is designed to remove ads, pop-ups, and other intrusive content, providing a cleaner and more enjoyable browsing experience. The extension is known for its ease of use and effectiveness, making it a popular choice among Firefox users. Key features include automatic ad blocking, customizable settings, and the ability to whitelist specific websites. AdBlocker for Firefox is suitable for anyone who uses Firefox and wants to eliminate ads and improve their online experience. It is ideal for a wide range of users, from casual browsers to those who require a more secure browsing environment. Pros include a faster browsing experience, enhanced privacy, and the ability to customize the ad blocking experience. Limitations may include the potential blocking of some non-intrusive ads that support content creators and websites, and the need for periodic updates to keep up with new ad technologies."
     }
   ]
 }

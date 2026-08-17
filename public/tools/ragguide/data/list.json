@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "RagAI is an AI-powered tool designed to streamline the content generation process. It leverages advanced natural language processing algorithms to create high-quality, unique content for various purposes, including blog posts, articles, and social media updates. Key features of RagAI include a vast database of information, customizable templates, and the ability to generate content in multiple languages. It is ideal for content creators, marketers, and businesses looking to produce content quickly and efficiently. Pros of using RagAI include its speed and efficiency in content creation, as well as its ability to produce content that is both engaging and informative. Limitations may include the potential for repetitive or less nuanced writing, as it relies on AI algorithms to generate content."
     },
     {
       "name": "RetrieverGen",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "RetrieverGen is a powerful AI tool that combines content retrieval and generation capabilities. It allows users to search for relevant information and then seamlessly integrate it into new content. This tool is particularly useful for researchers, writers, and content creators who need to gather and organize information quickly. Key features of RetrieverGen include a comprehensive search engine, advanced filtering options, and the ability to generate content based on the retrieved information. It is suitable for individuals and teams working on research projects, academic papers, or content marketing campaigns. Pros of RetrieverGen include its efficiency in information retrieval and content generation, as well as its ability to save time and reduce the risk of plagiarism. Limitations may include the potential for limited search results or the need for manual editing to refine the generated content."
     },
     {
       "name": "AI Writer",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "AI Writer is an automated writing assistant that uses AI technology to help users create high-quality written content. It can assist with everything from generating ideas and outlines to writing full articles and reports. Key features of AI Writer include a user-friendly interface, a wide range of content types, and the ability to customize the tone and style of the writing. It is ideal for writers, bloggers, and professionals who need to produce content quickly and effectively. Pros of using AI Writer include its ability to save time and improve productivity, as well as its flexibility in generating content for various purposes. Limitations may include the potential for less nuanced or creative writing, as it relies on AI algorithms to generate content."
     },
     {
       "name": "Copy.ai",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Copy.ai is an AI-driven content creation platform that offers a wide range of tools to help users create engaging and effective content. It includes features such as AI copywriting, SEO optimization, and content scheduling. Key features of Copy.ai include a vast library of templates, a content calendar, and the ability to integrate with other marketing tools. It is suitable for businesses of all sizes, from small startups to large corporations, looking to streamline their content creation process. Pros of using Copy.ai include its ease of use, the ability to generate content quickly, and its integration capabilities. Limitations may include the potential for repetitive or less personalized content, as it relies on AI algorithms to generate content."
     },
     {
       "name": "Articoolo",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Articoolo is an AI-based article generator designed to create SEO-optimized content for websites and blogs. It uses advanced natural language processing to generate unique articles that are tailored to the specific needs of the user. Key features of Articoolo include a wide range of topics and keywords, the ability to customize the tone and style of the articles, and the option to generate multiple versions of the same article. It is ideal for content marketers, SEO professionals, and website owners looking to increase their online presence. Pros of using Articoolo include its ability to generate high-quality, SEO-friendly content quickly, as well as its flexibility in creating content for various niches. Limitations may include the potential for less nuanced or original writing, as it relies on AI algorithms to generate content."
     },
     {
       "name": "MarketMuse",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "MarketMuse is an AI-powered content optimization tool that helps users create high-quality, SEO-optimized content. It provides insights into the best topics, keywords, and content structures to use for a given topic. Key features of MarketMuse include a content brief generator, keyword research tools, and a content analysis feature. It is suitable for content marketers, SEO professionals, and businesses looking to improve their search engine rankings. Pros of using MarketMuse include its ability to provide valuable insights for content creation, as well as its integration with other SEO tools. Limitations may include the potential for complex features that may require a learning curve, and the need for manual editing to refine the generated content."
     },
     {
       "name": "Copysmith",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Copysmith is an AI copywriting tool designed to streamline the process of creating engaging and effective marketing content. It leverages advanced natural language processing to generate high-quality copy in seconds. Key features include a vast library of templates for different marketing scenarios, such as emails, landing pages, and social media posts. Users can easily customize the generated content to match their brand voice and messaging. Copysmith is ideal for marketing professionals, copywriters, and small business owners looking to save time and improve the quality of their marketing materials. Pros include its speed and efficiency, as well as the ability to create personalized content at scale. Limitations may include a learning curve for new users and the need for human oversight to ensure the generated content aligns with specific marketing strategies."
     },
     {
       "name": "Articoolo Pro",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Articoolo Pro is an advanced AI article writer tailored for professionals who need to produce high-quality, unique content quickly. The tool uses sophisticated algorithms to generate articles on a wide range of topics, ensuring originality and readability. Key features include a built-in grammar and style checker, the ability to create multiple variations of the same article, and integration with popular content management systems. Articoolo Pro is perfect for content marketers, bloggers, and SEO professionals. Its pros include the ability to produce a large volume of content in a short time frame and the assurance of originality. However, limitations may include the potential for the generated content to lack a personal touch or specific nuances that a human writer might bring, and the need for some manual editing to ensure the content is perfectly tailored to the intended audience."
     },
     {
       "name": "Jasper",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Jasper is an AI writing assistant that can help with all types of content creation, from blog posts and emails to product descriptions and social media updates. It uses machine learning to understand the context and intent behind the content, allowing it to generate relevant and engaging text. Key features include a variety of templates for different content types, the ability to train the AI on specific writing styles, and integration with popular tools like Google Docs and WordPress. Jasper is suitable for writers, marketers, and small business owners who need to produce a lot of content. Its pros include its versatility, ease of use, and the ability to save time on content creation. Limitations may include the need for some manual editing to ensure the content is perfectly tailored to the intended audience and the potential for the AI to produce content that is too generic or lacks a unique voice."
     },
     {
       "name": "Wordsmith",
@@ -359,7 +368,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Wordsmith is an automated content creation tool specifically designed for financial reports and other complex documents. It uses AI to generate text that is both accurate and engaging, saving time and reducing the risk of errors. Key features include the ability to create financial reports, investment memos, and regulatory documents, as well as customizable templates and the option to integrate with data sources. Wordsmith is ideal for financial analysts, investment professionals, and anyone who needs to produce detailed and data-driven content. Its pros include its accuracy, efficiency, and the ability to handle large volumes of data. Limitations may include the need for some manual oversight to ensure the generated content aligns with specific regulatory requirements and the potential for the AI to produce text that lacks a personal touch or specific industry nuances."
     },
     {
       "name": "ContentBot",
@@ -395,7 +405,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ContentBot is an AI-driven content generation tool that can help businesses create a wide range of content, from blog posts and articles to product descriptions and social media updates. It uses natural language processing to understand user input and generate content that is both relevant and engaging. Key features include a variety of content templates, the ability to customize the generated content, and integration with popular content management systems. ContentBot is suitable for content marketers, small business owners, and anyone who needs to produce a lot of content. Its pros include its ease of use, the ability to create content at scale, and the potential to save time on content creation. Limitations may include the need for some manual editing to ensure the content is perfectly tailored to the intended audience and the potential for the AI to produce content that is too generic or lacks a unique voice."
     }
   ]
 }

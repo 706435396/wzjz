@@ -548,6 +548,13 @@
       AFF.badge(tool) + '</div>';
     html += '<div class="detail-tags">' + tags + '</div>';
     html += '<p class="detail-desc" itemprop="description">' + esc(tool.desc || '') + '</p>';
+    // 长描述 detail（data/list.json 中由 AI 批量生成，纯文本按段落渲染）
+    if (tool.detail && String(tool.detail).trim()) {
+      var detailHTML = String(tool.detail).split(/\n{2,}/).map(function (p) {
+        var t = p.trim(); return t ? '<p>' + esc(t) + '</p>' : '';
+      }).join('');
+      html += '<section class="detail-long" aria-label="' + esc(uiText(cfg, 'detailLongTitle') || '详细介绍') + '">' + detailHTML + '</section>';
+    }
     html += infoCardHTML(tool, cfg);
     html += pcHTML(tool, cfg);
     html += '<h2 class="detail-h2">' + esc(uiText(cfg, 'detailUsageTitle')) + '</h2><ol class="usage-list">' + usageHTML(tool, cfg) + '</ol>';

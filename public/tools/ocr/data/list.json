@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ABBYY FineReader is a powerful document conversion tool designed for developers who need to convert scanned documents into editable text with high accuracy. It supports a wide range of file formats, including PDF, Word, Excel, and PowerPoint, ensuring seamless integration with various applications. Key features include advanced OCR technology that accurately recognizes text, even in complex layouts, and the ability to convert documents into searchable PDFs. FineReader is suitable for developers who require precise text recognition and document conversion capabilities. Pros include its high accuracy rate, support for multiple file formats, and robust batch processing capabilities. Limitations may include a steep learning curve and a higher price point compared to some alternatives."
     },
     {
       "name": "Adobe Acrobat Pro DC",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Adobe Acrobat Pro DC is a comprehensive PDF solution that offers developers the ability to create, edit, and sign PDFs with advanced OCR capabilities. It provides a suite of tools for document management, collaboration, and security. Key features include the ability to convert scanned documents and images to PDFs, edit text and images within PDFs, and add digital signatures. Acrobat Pro DC also integrates with Adobe Creative Cloud services, allowing for easy collaboration and sharing. This tool is ideal for developers who need to work with PDFs on a regular basis and require advanced OCR features. Pros include its extensive feature set, seamless integration with other Adobe products, and strong security features. Limitations may include a high price point and a somewhat complex user interface."
     },
     {
       "name": "Tesseract OCR",
@@ -108,7 +110,8 @@
         "Step: Fill in the API Key / account config\nMany AI tools need a model connection. Find the config item in the README and fill it in.\nCode:\n# Example: replace xxx with your real Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nDo not screenshot your Key in public groups. Get a free/cheap Key (e.g. GLM-4, DeepSeek) to practice.",
         "Step: Start and run your first task\nRun the example command from the project and watch the terminal output.\nCode:\n./run.sh\nCheck:\nIf the program prints results (no red Error text), you have it working.",
         "Step: Troubleshooting\nFailing the first local deploy is normal. Common issues:\n1. Dependency version mismatch → use the Python/Node version the repo recommends;\n2. Key not working → check your environment variables;\n3. Cannot reach the model API → switch mirror or provider.\nTip:\nSee more examples in \"Related tutorials\" below, or click \"Visit official site\"."
-      ]
+      ],
+      "detail": "Tesseract OCR is an open-source OCR engine that provides developers with the ability to extract text from images and scanned documents. It is available for various platforms, including Windows, macOS, and Linux, making it a versatile choice for developers. Tesseract offers a range of languages and character sets, supporting both English and non-Latin scripts. Key features include accurate text recognition, support for multiple image formats, and the ability to customize recognition settings. This tool is suitable for developers who need a cost-effective OCR solution for their projects. Pros include its open-source nature, flexibility, and strong community support. Limitations may include a less user-friendly interface and a less extensive feature set compared to commercial OCR tools."
     },
     {
       "name": "Google Cloud Vision API",
@@ -145,7 +148,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Google Cloud Vision API is a machine learning service that provides developers with powerful image recognition and OCR capabilities. It offers a wide range of features, including label detection, face detection, and text recognition. The OCR component of the API can extract text from images with high accuracy, making it suitable for a variety of applications, such as document processing, data extraction, and content moderation. Key features include support for multiple languages, the ability to detect and recognize text in various fonts and styles, and integration with other Google Cloud services. This tool is ideal for developers who need to process images and extract text on a large scale. Pros include its high accuracy, scalability, and ease of integration with other Google Cloud services. Limitations may include a potential learning curve for developers unfamiliar with Google Cloud services and the need for a Google Cloud account to use the API."
     },
     {
       "name": "Microsoft Azure Computer Vision API",
@@ -181,7 +185,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Microsoft Azure Computer Vision API is an AI-based image analysis service that offers developers the ability to analyze images and extract valuable insights. It includes OCR capabilities that can recognize text from images with high accuracy. The API supports a wide range of languages and character sets, making it suitable for global applications. Key features include the ability to detect objects, faces, and scenes in images, as well as extract text and metadata. This tool is ideal for developers who need to process and analyze images on a large scale. Pros include its high accuracy, ease of integration with other Azure services, and strong support for global applications. Limitations may include a potential learning curve for developers unfamiliar with Azure services and the need for an Azure account to use the API."
     },
     {
       "name": "Kofax OmniPage",
@@ -217,7 +222,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Kofax OmniPage is a document conversion tool that allows developers to convert paper documents and scanned images into digital formats with OCR capabilities. It supports a wide range of file formats, including PDF, Word, Excel, and PowerPoint, making it easy to integrate with existing document workflows. Key features include advanced OCR technology that accurately recognizes text and images, even in complex layouts, and the ability to convert documents into searchable PDFs. OmniPage is suitable for developers who need to digitize large volumes of documents and require high-quality OCR results. Pros include its high accuracy rate, support for multiple file formats, and robust batch processing capabilities. Limitations may include a higher price point compared to some alternatives and a somewhat complex user interface."
     },
     {
       "name": "Ocrify",
@@ -253,7 +259,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Ocrify is a dedicated OCR (Optical Character Recognition) service designed for developers seeking to integrate text recognition capabilities into their applications. The tool specializes in converting images to text, making it an essential component for applications that require automated text extraction from images. Key features of Ocrify include high accuracy in text recognition, support for multiple languages, and the ability to process a wide range of image formats such as JPEG, PNG, and TIFF. It is designed to be easily integrated via an API, allowing developers to embed OCR functionality directly into their software. Ocrify is particularly beneficial for applications in fields such as e-commerce, document management, and content analysis. However, it may have limitations in terms of batch processing capabilities and may require additional customization for specific use cases."
     },
     {
       "name": "OnlineOCR.net",
@@ -288,7 +295,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "OnlineOCR.net is a free online OCR service that enables users to convert scanned documents and images into editable text formats. This tool is ideal for individuals and small businesses that need to digitize their paper documents without investing in expensive software. OnlineOCR.net supports a variety of document formats, including PDF, JPG, and PNG, and offers language support for over 100 different languages. Its user-friendly interface allows for quick and easy conversion with just a few clicks. The service is particularly useful for tasks like creating searchable PDFs, extracting text from images, and archiving documents. However, OnlineOCR.net may not offer the same level of accuracy as dedicated OCR software, and its free tier has limitations on the number of pages and the complexity of documents it can process."
     },
     {
       "name": "OcrSpace",
@@ -324,7 +332,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "OcrSpace is an OCR service that stands out for its support for multiple languages and file formats, making it a versatile choice for developers and users with diverse needs. The service offers high-quality text recognition from images, supporting formats such as JPEG, PNG, and BMP. OcrSpace's language support extends to over 100 languages, including rare ones, which is particularly useful for international applications. One of its key features is the ability to process large batches of documents, which is beneficial for organizations with high-volume OCR needs. The service also provides an API for integration, allowing developers to easily incorporate OCR functionality into their applications. However, OcrSpace may have limitations in terms of the number of free conversions per month and may require a subscription for more extensive usage."
     },
     {
       "name": "Readiris",
@@ -360,7 +369,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Readiris is a powerful OCR software solution designed for converting paper documents into digital formats with precision and ease. It is widely used by businesses and individuals who require reliable text recognition and conversion capabilities. Readiris supports a wide range of document types, including scanned papers, PDFs, and images, and offers high accuracy in text recognition, even from complex layouts. The software provides features like text editing, form data extraction, and the ability to convert documents into various digital formats, such as Word, Excel, and PDF. Readiris is particularly beneficial for workflows that involve document digitization, archiving, and sharing. Its user-friendly interface makes it accessible to users of all skill levels. However, the software may have a higher price point compared to some other OCR solutions, and it may require some initial setup to customize it for specific requirements."
     }
   ]
 }

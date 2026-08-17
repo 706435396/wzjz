@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Hugging Face Transformers is a repository of models for natural language processing (NLP) that enables developers to easily build and deploy state-of-the-art NLP applications. It provides a wide range of pre-trained models for tasks such as text classification, sentiment analysis, machine translation, and more. Key features include a vast collection of models, easy-to-use APIs, and seamless integration with popular frameworks like TensorFlow and PyTorch. It is ideal for developers, researchers, and data scientists who need to leverage the power of NLP in their projects. Pros include its extensive model library, user-friendly interface, and active community support. Limitations may include the need for technical expertise to fine-tune models and the potential for high computational requirements for certain tasks."
     },
     {
       "name": "TorchHub",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "TorchHub is a repository of PyTorch models that provides a convenient way for developers to access and use pre-trained models for various tasks. It includes models for computer vision, natural language processing, and reinforcement learning. Key features of TorchHub include a simple and intuitive interface, easy model downloading, and support for both CPU and GPU training. It is suitable for researchers and developers who are working with PyTorch and need access to a wide range of pre-trained models. Pros include its vast model library, ease of use, and integration with PyTorch. Limitations may include the need for a good understanding of PyTorch to effectively use the models and the potential for high computational costs for some models."
     },
     {
       "name": "Model Hub",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Model Hub is an open-source repository of AI models that aims to provide a centralized location for developers to access and share AI models. It includes models for various domains such as computer vision, natural language processing, and speech recognition. Key features of Model Hub include a user-friendly interface, easy model browsing, and support for multiple programming languages. It is designed for developers, researchers, and data scientists who are looking for a diverse set of AI models to use in their projects. Pros include its open-source nature, extensive model library, and community-driven updates. Limitations may include the need for technical expertise to understand and implement some models and the potential for varying quality and performance among the models."
     },
     {
       "name": "TensorFlow Hub",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "TensorFlow Hub is a repository of TensorFlow models that allows developers to easily find and use pre-trained models for their projects. It includes models for a wide range of tasks, such as image classification, object detection, and language modeling. Key features of TensorFlow Hub include a comprehensive model library, easy-to-use APIs, and seamless integration with TensorFlow. It is suitable for developers and researchers who are working with TensorFlow and need access to a variety of pre-trained models. Pros include its extensive model library, ease of use, and strong integration with TensorFlow. Limitations may include the need for technical expertise to fine-tune models and the potential for high computational requirements for certain tasks."
     },
     {
       "name": "FastAI",
@@ -178,7 +182,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "FastAI is an open-source machine learning library that simplifies the process of building and training machine learning models. It is designed to be user-friendly and efficient, making it accessible to both beginners and experienced practitioners. Key features of FastAI include a high-level API for model building, pre-trained models, and easy-to-use data loading and augmentation tools. It is ideal for developers, researchers, and students who are looking to quickly prototype and deploy machine learning models. Pros include its simplicity, speed, and ease of use. Limitations may include a smaller model library compared to some other frameworks and the need for a good understanding of machine learning concepts to effectively use the library."
     },
     {
       "name": "Transformers.js",
@@ -215,7 +220,8 @@
         "Step: Fill in the API Key / account config\nMany AI tools need a model connection. Find the config item in the README and fill it in.\nCode:\n# Example: replace xxx with your real Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nDo not screenshot your Key in public groups. Get a free/cheap Key (e.g. GLM-4, DeepSeek) to practice.",
         "Step: Start and run your first task\nRun the example command from the project and watch the terminal output.\nCode:\nnpm run example\nCheck:\nIf the program prints results (no red Error text), you have it working.",
         "Step: Troubleshooting\nFailing the first local deploy is normal. Common issues:\n1. Dependency version mismatch → use the Python/Node version the repo recommends;\n2. Key not working → check your environment variables;\n3. Cannot reach the model API → switch mirror or provider.\nTip:\nSee more examples in \"Related tutorials\" below, or click \"Visit official site\"."
-      ]
+      ],
+      "detail": "Transformers.js is a library that allows developers to use Hugging Face models in JavaScript. It enables the creation of NLP applications that can run in the browser or on Node.js. Key features of Transformers.js include support for a wide range of Hugging Face models, easy integration with popular JavaScript frameworks, and efficient performance. It is suitable for developers who are building web applications or server-side applications with JavaScript and need to incorporate NLP capabilities. Pros include its seamless integration with JavaScript, extensive model support, and ease of use. Limitations may include the need for a good understanding of JavaScript and NLP to effectively use the library and the potential for high computational requirements for certain tasks."
     },
     {
       "name": "AI21 Labs",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "AI21 Labs is a cutting-edge AI research and development company that specializes in creating advanced language models. Their flagship product, AI21g, is a general-purpose language model designed to understand and generate human-like text. AI21g is capable of a wide range of tasks, from language translation to creative writing and even code generation. Key features of AI21g include its ability to understand context, generate coherent narratives, and adapt to new information. It is particularly useful for businesses looking to automate content creation, improve customer service, or enhance their product descriptions. AI21g is suitable for a diverse range of users, from individual content creators to large-scale enterprises. While AI21g offers a high degree of flexibility and capability, it can be resource-intensive and requires a significant amount of computational power to run effectively. Additionally, the complexity of the model means that it may require specialized knowledge to utilize to its full potential."
     },
     {
       "name": "OpenAI GPT-3",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "OpenAI's GPT-3 is an open-source AI language model that has gained significant attention for its ability to generate human-like text. GPT-3 is based on a deep learning architecture and has been trained on a vast corpus of text data. It is capable of tasks such as language translation, summarization, and even creating poetry. Key features of GPT-3 include its massive scale, with over 175 billion parameters, and its ability to learn from context. It is suitable for a wide range of applications, from chatbots to content generation tools. GPT-3 is accessible to developers and researchers, but it requires a strong understanding of machine learning and AI. While GPT-3 is powerful, it can be computationally intensive and may not always produce perfect results. It also relies on a large amount of data to function effectively."
     },
     {
       "name": "Stanford NLP Group",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Stanford NLP Group is a renowned research group at Stanford University that focuses on the development and application of natural language processing (NLP) technologies. The group conducts cutting-edge research in areas such as machine translation, sentiment analysis, and text classification. They have developed several influential NLP tools and resources, including the Stanford CoreNLP suite. Key features of the Stanford NLP Group's work include a strong emphasis on open-source tools and a commitment to advancing the field of NLP. The group is suitable for researchers, developers, and educators interested in NLP. While the Stanford NLP Group's work is highly respected, it can be complex and requires a deep understanding of NLP concepts. The group's focus on research means that some tools may not be as user-friendly as commercial solutions."
     },
     {
       "name": "AllenNLP",
@@ -359,7 +368,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "AllenNLP is an open-source natural language processing (NLP) library developed by the Allen Institute for Artificial Intelligence. It is designed to be easy to use while still providing access to state-of-the-art NLP techniques. AllenNLP includes pre-trained models and a wide range of tools for tasks such as text classification, named entity recognition, and sentiment analysis. Key features of AllenNLP include its modular design, which allows users to easily customize and extend their models, and its focus on ease of use. It is suitable for researchers, developers, and data scientists who need a robust NLP toolset. While AllenNLP is powerful and flexible, it can be complex to set up and requires a good understanding of NLP concepts. The library may not be as user-friendly for beginners compared to some other NLP tools."
     },
     {
       "name": "SpaCy",
@@ -395,7 +405,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "SpaCy is an industrial-strength natural language processing (NLP) library that is designed for speed and accuracy. It provides a wide range of NLP features, including tokenization, lemmatization, named entity recognition, and dependency parsing. SpaCy is known for its ease of use and its ability to handle large volumes of text data efficiently. Key features of SpaCy include its comprehensive set of NLP functionalities, its fast performance, and its extensive documentation. It is suitable for a wide range of users, from individual developers to large organizations. While SpaCy is powerful and user-friendly, it may not offer the same level of flexibility as some other NLP libraries. It is also primarily focused on NLP tasks and may not be as versatile for other AI applications."
     }
   ]
 }

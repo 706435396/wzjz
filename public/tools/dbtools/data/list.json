@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "MySQL Workbench is a comprehensive visual tool designed for MySQL database development and administration. It provides a user-friendly interface for managing MySQL databases, allowing users to create, modify, and delete database objects such as tables, views, and stored procedures. Key features include database design, SQL development, and server administration. It supports various MySQL versions and is suitable for both beginners and experienced users. MySQL Workbench is ideal for developers and database administrators who need a robust tool for database management. Pros include its intuitive design, extensive feature set, and compatibility with multiple MySQL versions. Limitations may include a steep learning curve for new users and occasional performance issues with large databases."
     },
     {
       "name": "Microsoft SQL Server Management Studio",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Microsoft SQL Server Management Studio (SSMS) is an integrated development environment (IDE) specifically designed for managing SQL Server instances. It offers a wide range of features for database development, administration, and troubleshooting. Users can create and manage databases, execute SQL queries, and monitor server performance. SSMS supports various SQL Server versions and includes tools for data modeling, SQL Server Agent jobs, and reporting services. It is primarily used by database administrators, developers, and IT professionals. Pros include its comprehensive feature set, seamless integration with other Microsoft products, and robust performance. Limitations may include a complex user interface and a significant learning curve for new users."
     },
     {
       "name": "PostgreSQL",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "PostgreSQL is an open-source object-relational database system known for its robustness, flexibility, and advanced features. It supports a wide range of data types, indexing methods, and query optimization techniques. PostgreSQL is highly scalable and can handle large datasets with ease. Key features include support for stored procedures, triggers, and user-defined types. It is suitable for a variety of applications, from small-scale projects to enterprise-level systems. PostgreSQL is favored by developers and database administrators for its reliability and extensibility. Pros include its powerful query language, extensive documentation, and active community support. Limitations may include a steeper learning curve compared to other databases and a less intuitive user interface."
     },
     {
       "name": "Oracle SQL Developer",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Oracle SQL Developer is an integrated development environment (IDE) specifically designed for Oracle Database. It provides a comprehensive set of tools for database development, administration, and performance tuning. Users can create and manage database objects, execute SQL scripts, and generate reports. SQL Developer supports various Oracle Database versions and includes features for data modeling, SQL tuning, and database security. It is widely used by Oracle database administrators, developers, and IT professionals. Pros include its extensive feature set, seamless integration with Oracle products, and user-friendly interface. Limitations may include a higher cost compared to other database management tools and a more complex user interface for beginners."
     },
     {
       "name": "DBeaver",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "DBeaver is a universal database manager and SQL client that supports a wide range of database management systems, including MySQL, PostgreSQL, Oracle, SQLite, and more. It provides a unified interface for database development, administration, and data analysis. Key features include database design, SQL execution, and data editing. DBeaver is highly customizable and supports various plugins for additional functionality. It is suitable for developers, database administrators, and data analysts. Pros include its versatility, ease of use, and extensive plugin ecosystem. Limitations may include a less polished user interface compared to some other database management tools and a steeper learning curve for users unfamiliar with its features."
     },
     {
       "name": "phpMyAdmin",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "phpMyAdmin is a web-based tool designed for MySQL database management. It provides a user-friendly interface for creating, modifying, and deleting database objects such as tables, views, and stored procedures. phpMyAdmin is particularly useful for managing MySQL databases without the need for command-line tools. It supports various MySQL versions and includes features for database backup, repair, and user management. phpMyAdmin is widely used by web developers, database administrators, and system administrators. Pros include its ease of use, web-based interface, and extensive documentation. Limitations may include a less powerful feature set compared to some other database management tools and a less intuitive user interface for complex database operations."
     },
     {
       "name": "SQLite Browser",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "SQLite Browser is a user-friendly GUI tool designed for managing SQLite databases. It provides a comprehensive interface for creating, editing, and managing SQLite databases efficiently. Key features include a visual database editor, a SQL editor with syntax highlighting, and the ability to import and export data in various formats. This tool is ideal for developers, database administrators, and anyone who needs to work with SQLite databases. It supports multiple database connections, allowing users to manage multiple databases simultaneously. The tool also offers advanced features like triggers, views, and stored procedures. However, it lacks support for some advanced database management features and may not be suitable for large-scale database operations. Overall, SQLite Browser is a versatile and easy-to-use tool for SQLite database management."
     },
     {
       "name": "DataGrip",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "DataGrip is a versatile database IDE developed by JetBrains, designed to support multiple database management systems, including MySQL, PostgreSQL, SQLite, Oracle, and SQL Server. It offers a comprehensive set of tools for database development, administration, and data analysis. Key features of DataGrip include intelligent code completion, SQL editor with syntax highlighting, database schema browsing, and support for database drivers. The IDE provides a seamless experience for developers who work with multiple databases, allowing them to switch between different databases with ease. DataGrip is also equipped with advanced features such as database refactoring, data comparison, and support for Git and other version control systems. It is suitable for both individual developers and teams working on complex database projects. However, the tool can be resource-intensive, and its learning curve might be steep for new users. Additionally, while it offers a wide range of features, some users may find that it lacks specialized tools for certain database systems."
     },
     {
       "name": "pgAdmin",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "pgAdmin is an open-source administration and development platform for PostgreSQL databases. It is a powerful tool that provides a comprehensive set of features for managing and developing PostgreSQL databases. Key features include a user-friendly interface, support for multiple database connections, and a range of tools for database management, such as data modeling, query execution, and user management. pgAdmin also offers advanced features like backup and restore, role-based security, and support for extensions. It is suitable for database administrators, developers, and power users who require a robust platform for PostgreSQL database management. The tool is highly customizable and can be extended with plugins. However, it may have a steep learning curve for new users, and some advanced features may require additional configuration. Despite this, pgAdmin is a reliable and feature-rich tool for PostgreSQL database management."
     },
     {
       "name": "SQLyog",
@@ -359,7 +368,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "SQLyog is a comprehensive database management tool designed for MySQL and MariaDB databases. It offers a wide range of features for database administrators and developers, including data import/export, SQL query execution, and database schema management. Key features of SQLyog include a powerful GUI, support for stored procedures and triggers, and the ability to perform advanced data analysis. The tool is particularly useful for automating repetitive tasks and for ensuring data consistency across multiple databases. SQLyog also provides features for database replication and backup, which are critical for disaster recovery. It is suitable for both small businesses and large enterprises. However, SQLyog can be expensive for individual users or small organizations, and it may have a steep learning curve for those not familiar with database management tools. Additionally, while it offers extensive functionality, some users may find that it is not as efficient as other database management tools for certain tasks."
     }
   ]
 }

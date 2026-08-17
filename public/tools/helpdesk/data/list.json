@@ -36,7 +36,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Zendesk is an all-in-one customer service platform designed for businesses of all sizes. It offers a comprehensive suite of tools to streamline customer support operations, including ticketing, live chat, and self-service portals. Key features include a customizable interface, advanced reporting capabilities, and seamless integration with other business applications. It is suitable for companies looking to improve customer satisfaction and enhance their support team's efficiency. Zendesk is known for its scalability, allowing businesses to grow and adapt to changing customer needs. However, some users may find the pricing structure to be complex, and the platform can be overwhelming for small businesses with limited resources."
     },
     {
       "name": "Freshdesk",
@@ -73,7 +74,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Freshdesk is a customer support software that caters to businesses of all sizes, providing a robust set of tools to deliver exceptional service. The platform includes ticketing, live chat, community forums, and a self-service portal. Its key features include a user-friendly interface, automation capabilities, and integration with popular business tools. Freshdesk is particularly well-suited for companies seeking a cost-effective solution with a strong emphasis on customer engagement. While it offers a wide range of functionalities, some users may find the customization options limited and the reporting features not as advanced as other competitors."
     },
     {
       "name": "Intercom",
@@ -110,7 +112,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Intercom is a versatile SaaS tool that enables businesses to engage with customers across their website, app, and email. It offers a suite of communication channels, including live chat, messaging, and email automation. Key features include a customizable chatbot, powerful analytics, and seamless integration with CRM systems. Intercom is ideal for businesses looking to build stronger relationships with their customers and streamline their communication processes. However, the platform may be overkill for small businesses with limited customer interaction, and some users have reported challenges with the chatbot's effectiveness."
     },
     {
       "name": "Help Scout",
@@ -147,7 +150,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Help Scout is a simple and intuitive help desk software designed to be easy to use for both support teams and customers. It provides a comprehensive set of tools for managing customer inquiries, including email ticketing, live chat, and a self-service knowledge base. Key features include a clean and straightforward interface, automation rules, and strong integration capabilities. Help Scout is well-suited for small to medium-sized businesses that prioritize customer satisfaction and efficient support. However, the platform may lack some advanced features found in larger, more complex customer service solutions."
     },
     {
       "name": "Jira Service Desk",
@@ -184,7 +188,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Jira Service Desk is a service desk software that integrates seamlessly with the Jira issue tracking system, making it an ideal choice for organizations already using Atlassian products. It offers a range of features, including ticketing, incident management, and service catalog. Key features include a customizable interface, advanced reporting, and integration with other Jira tools. Jira Service Desk is particularly beneficial for IT and development teams that require a robust ticketing system and issue tracking. However, the platform may be less suitable for businesses outside the IT sector, and the learning curve can be steep for new users."
     },
     {
       "name": "Zoho Desk",
@@ -221,7 +226,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Zoho Desk is an all-in-one help desk software that empowers businesses to deliver great customer service. It includes ticketing, live chat, community forums, and a self-service portal. Key features of Zoho Desk include a user-friendly interface, automation capabilities, and strong integration with other Zoho applications. It is suitable for businesses of all sizes looking for a comprehensive customer support solution. While Zoho Desk offers a wide range of functionalities, some users may find the platform's reporting tools to be limited and the pricing structure to be less transparent than competitors."
     },
     {
       "name": "HappyFox",
@@ -258,7 +264,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "HappyFox is a customer support software designed to streamline and simplify the process of handling customer inquiries and issues. It is known for its ease of use and quick deployment, making it an ideal choice for businesses of all sizes. Key features of HappyFox include a customizable ticketing system, a knowledge base for self-service support, and integration capabilities with various third-party applications. It is suitable for companies looking to improve their customer service efficiency and provide a seamless support experience. HappyFox is for businesses that require a robust and user-friendly platform to manage their customer support operations. Pros include its intuitive interface, strong integration options, and comprehensive reporting features. Limitations may include a steeper learning curve for some users and the need for additional add-ons for certain advanced features."
     },
     {
       "name": "Gong",
@@ -295,7 +302,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Gong is an AI-powered customer service platform that leverages advanced machine learning algorithms to enhance customer satisfaction and streamline support operations. It offers features such as automated ticketing, intelligent routing, and real-time sentiment analysis. Gong is designed for businesses that want to leverage AI to improve their customer service and reduce response times. Key features include AI-driven insights, predictive analytics, and a user-friendly interface. It is suitable for companies of all sizes, from small startups to large enterprises. Pros of Gong include its ability to handle high volumes of inquiries efficiently, its insights-driven approach to customer service, and its scalability. Limitations may include the need for a significant investment in AI technology and the potential for initial resistance to change among some staff members."
     },
     {
       "name": "Front",
@@ -332,7 +340,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Front is a collaborative help desk software that brings together customer support, sales, and marketing teams in one platform. It allows for seamless communication and efficient ticket management, ensuring that customer inquiries are addressed promptly and effectively. Key features of Front include shared inboxes, team collaboration tools, and integration with popular business applications. It is designed for teams that need a unified support system to improve their customer service and internal communication. Front is suitable for businesses of all sizes, from small startups to large enterprises. Pros include its ease of use, strong collaboration features, and flexibility. Limitations may include a higher price point compared to some competitors and the need for a significant investment in training for new users."
     },
     {
       "name": "Freshservice",
@@ -369,7 +378,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Freshservice is an IT service management (ITSM) software that helps organizations manage their IT services effectively. It is designed to automate IT processes, improve service delivery, and enhance customer satisfaction. Key features of Freshservice include a service catalog, incident management, change management, and asset management. It is suitable for businesses looking to streamline their IT operations and provide a better service experience to their customers. Freshservice is for companies of all sizes, from small businesses to large enterprises. Pros include its user-friendly interface, comprehensive feature set, and strong integration capabilities. Limitations may include a steep learning curve for some users and the potential need for additional customization to meet specific business requirements."
     },
     {
       "name": "Smartsupp",
@@ -406,7 +416,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Smartsupp is a live chat and help desk software designed for online businesses looking to enhance their customer support and engagement. It offers real-time chat support, automated chatbots, and a comprehensive ticketing system. Smartsupp is suitable for businesses of all sizes, from small e-commerce stores to large enterprises. Key features include multilingual support, detailed analytics, and easy integration with popular e-commerce platforms. It is for companies that want to provide immediate and personalized customer support. Pros of Smartsupp include its ease of use, affordability, and the ability to handle high volumes of customer inquiries. Limitations may include limited customization options for the chat interface and the need for additional features for more complex support operations."
     }
   ]
 }

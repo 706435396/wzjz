@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Bubble is a powerful platform designed for building web applications without the need for coding. It offers a visual development environment that allows users to create complex applications by dragging and dropping elements and defining their behavior through a user-friendly interface. Key features include a visual editor for designing the user interface, a logic editor for defining the application's behavior, and a database editor for managing data. Bubble is ideal for entrepreneurs, small businesses, and developers looking to quickly prototype and launch web applications. It is particularly useful for those who want to create dynamic websites and web apps with interactive elements. Pros include its ease of use, flexibility, and the ability to create complex applications without coding. Limitations include a learning curve for new users and potential performance issues with very large applications."
     },
     {
       "name": "Adalo",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Adalo is a low-code platform that enables users to create custom applications without writing a single line of code. It provides a visual development environment where users can design the user interface, define the application's logic, and manage data through a user-friendly interface. Adalo is suitable for businesses and individuals looking to build mobile and web applications quickly and efficiently. Key features include a visual editor for designing the app, a logic editor for defining the app's behavior, and a database editor for managing data. It is particularly well-suited for creating applications that require complex workflows and integrations. Pros include its ease of use, scalability, and the ability to create applications with minimal technical expertise. Limitations may include limited customization options and potential performance issues with very large applications."
     },
     {
       "name": "Wix",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Wix is a comprehensive website builder that allows users to create and manage websites and web applications without any coding knowledge. It offers a wide range of templates and customization options, making it easy to create a professional-looking website. Key features include a drag-and-drop editor for designing the website, a variety of templates for different types of websites, and a range of tools for managing content and e-commerce. Wix is suitable for small businesses, freelancers, and individuals looking to create a simple website or web application. It is particularly well-suited for those who want to quickly launch a website with minimal effort. Pros include its ease of use, wide range of templates, and extensive support resources. Limitations include limited customization options for advanced users and potential performance issues with complex websites."
     },
     {
       "name": "Webflow",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Webflow is a web design and publishing platform that allows users to create custom websites and web applications without the need for coding. It offers a visual editor for designing the user interface and a powerful backend for managing content and functionality. Key features include a responsive design editor, a content management system, and a range of integrations with third-party services. Webflow is ideal for designers, agencies, and businesses looking to create high-quality, interactive websites. It is particularly well-suited for creating complex websites with custom designs and functionalities. Pros include its flexibility, ease of use, and the ability to create responsive websites. Limitations may include a steeper learning curve for new users and potential performance issues with very large websites."
     },
     {
       "name": "OutSystems",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "OutSystems is a low-code platform designed for building enterprise-grade applications. It allows developers to create scalable, robust applications using a visual development environment. Key features include a drag-and-drop interface for designing the user interface, a logic editor for defining the application's behavior, and a range of tools for managing data and integrations. OutSystems is suitable for large enterprises and organizations that require complex, scalable applications. It is particularly well-suited for building applications that require high levels of security and compliance. Pros include its scalability, robustness, and the ability to create applications with minimal technical expertise. Limitations may include a higher cost compared to other low-code platforms and a steeper learning curve for new users."
     },
     {
       "name": "AppSheet",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "AppSheet is a no-code platform that allows users to automate workflows and create applications by connecting to existing data sources. It enables users to build mobile and web applications by defining the data sources, the user interface, and the application's logic. AppSheet is ideal for businesses and individuals looking to automate processes and improve productivity without the need for coding. Key features include a visual editor for designing the application, a logic editor for defining the application's behavior, and a range of integrations with popular data sources and services. It is particularly well-suited for creating applications that require data-driven workflows. Pros include its ease of use, flexibility, and the ability to create applications quickly. Limitations may include limited customization options and potential performance issues with very large datasets."
     },
     {
       "name": "Zapier",
@@ -250,7 +256,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Zapier is a powerful automation tool that connects over 3,000 apps and services to automate workflows. It allows users to create 'Zaps', which are automated tasks that trigger when certain events occur in one app and perform actions in another. Key features include a user-friendly interface, a wide range of integrations, and the ability to create complex workflows with conditional logic. It is ideal for small to medium-sized businesses, developers, and individuals looking to streamline their workflows without the need for coding. Pros: Zapier simplifies complex processes, saves time, and reduces manual errors. Cons: Some users may find the pricing model limiting for extensive automation needs, and there can be limitations with complex workflows."
     },
     {
       "name": "Airtable",
@@ -286,7 +293,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Airtable is a versatile platform that combines the power of a database with the ease of use of a spreadsheet. It allows teams to create custom databases and collaborate on them in real-time. Key features include a drag-and-drop interface, a wide range of views (like grid, calendar, and gallery), and seamless integration with other tools. It is suitable for a variety of users, from small businesses to large enterprises, especially those who need a balance between a database and a collaboration tool. Pros: Airtable is highly customizable, easy to use, and promotes team collaboration. Cons: The free version has limited features and storage, and some users may find the interface less intuitive than traditional databases."
     },
     {
       "name": "Appian",
@@ -322,7 +330,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Appian is a low-code automation platform that enables businesses to build and deploy powerful applications without extensive coding. It offers a comprehensive set of tools for process automation, data integration, and analytics. Key features include a drag-and-drop interface, AI-powered automation, and extensive integration capabilities. It is designed for enterprises looking to streamline operations and improve customer experiences. Pros: Appian is highly scalable, offers robust security, and can handle complex business processes. Cons: The platform can be complex to learn for new users, and the pricing can be steep for small businesses."
     },
     {
       "name": "Nintex",
@@ -358,7 +367,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Nintex is a workflow automation platform that empowers users to automate complex business processes without coding. It provides a range of tools for process mapping, design, execution, and optimization. Key features include a user-friendly interface, integration with various systems, and the ability to create workflows that span multiple departments. It is suitable for businesses of all sizes looking to automate repetitive tasks and improve efficiency. Pros: Nintex is highly customizable, offers robust security, and can integrate with a wide range of systems. Cons: The learning curve can be steep for some users, and the pricing may be prohibitive for small businesses with limited budgets."
     }
   ]
 }

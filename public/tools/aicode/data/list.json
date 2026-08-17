@@ -36,7 +36,8 @@
         "Step: Fill in the API Key / account config\nMany AI tools need a model connection. Find the config item in the README and fill it in.\nCode:\n# Example: replace xxx with your real Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nDo not screenshot your Key in public groups. Get a free/cheap Key (e.g. GLM-4, DeepSeek) to practice.",
         "Step: Start and run your first task\nRun the example command from the project and watch the terminal output.\nCode:\n./run.sh\nCheck:\nIf the program prints results (no red Error text), you have it working.",
         "Step: Troubleshooting\nFailing the first local deploy is normal. Common issues:\n1. Dependency version mismatch → use the Python/Node version the repo recommends;\n2. Key not working → check your environment variables;\n3. Cannot reach the model API → switch mirror or provider.\nTip:\nSee more examples in \"Related tutorials\" below, or click \"Visit official site\"."
-      ]
+      ],
+      "detail": "GitHub Copilot is an AI-powered coding assistant designed for GitHub users. It provides code completion suggestions based on the context of your code, allowing developers to write code more efficiently and reduce repetitive tasks. Key features include real-time suggestions, integration with GitHub's codebase, and the ability to learn from a vast array of code repositories. GitHub Copilot is suitable for developers of all skill levels who work on a wide range of programming languages. Pros: Streamlines the coding process, enhances productivity, and encourages experimentation with new code. Limitations: The tool may occasionally generate incorrect suggestions, and its learning capabilities are dependent on the code available in GitHub's repositories."
     },
     {
       "name": "Kite",
@@ -72,7 +73,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Kite is a smart code completion tool designed for Python, JavaScript, and other programming languages. It offers instant code completion, documentation, and examples, helping developers to write code more efficiently. Key features include code intelligence, quick documentation lookup, and code snippets. Kite is ideal for developers who work on a variety of projects and need a reliable code completion tool. Pros: Improves coding speed, enhances code quality, and provides easy access to documentation and examples. Limitations: Limited support for programming languages outside of Python and JavaScript, and the learning curve for some features can be steep."
     },
     {
       "name": "TabNine",
@@ -108,7 +110,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "TabNine is an AI-powered code completion tool designed for all major programming languages. It leverages machine learning algorithms to provide accurate code suggestions based on the context of your code. Key features include intelligent code completion, code snippets, and the ability to customize suggestions. TabNine is suitable for developers of all skill levels, from beginners to experienced programmers. Pros: Accelerates the coding process, reduces the time spent on writing code, and improves code quality. Limitations: The tool may occasionally provide irrelevant suggestions, and the performance can be affected by the size and complexity of the codebase."
     },
     {
       "name": "IntelliCode",
@@ -144,7 +147,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "IntelliCode is an AI-powered code completion feature for Visual Studio. It analyzes your coding patterns and suggests code snippets and best practices, helping you to write more efficiently. Key features include code analysis, smart completion, and refactoring suggestions. IntelliCode is ideal for Visual Studio users who want to enhance their coding experience. Pros: Increases productivity, reduces coding time, and improves code quality. Limitations: The tool's performance may vary depending on the complexity of the project, and it may not be as intuitive for users unfamiliar with Visual Studio."
     },
     {
       "name": "Repl.it Code Assistant",
@@ -180,7 +184,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Repl.it Code Assistant is an AI-powered code completion tool designed for Repl.it users. It offers real-time suggestions, code snippets, and documentation to help developers write code more efficiently. Key features include smart completion, code examples, and easy access to documentation. Repl.it Code Assistant is suitable for developers who use Repl.it for coding and learning. Pros: Streamlines the coding process, improves productivity, and provides easy access to resources. Limitations: The tool's learning capabilities are limited by the codebase available in Repl.it, and it may not be as powerful as dedicated code completion tools for other IDEs."
     },
     {
       "name": "CodeWhisperer",
@@ -216,7 +221,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "CodeWhisperer is an AI-powered code completion tool specifically designed for AWS Cloud development. It provides code suggestions and best practices tailored to AWS services, helping developers to write more efficient and secure code. Key features include AWS-specific code suggestions, code snippets, and integration with AWS services. CodeWhisperer is ideal for developers who work on AWS Cloud projects. Pros: Improves coding speed, enhances security, and ensures best practices are followed. Limitations: The tool may not be as effective for developers who are not familiar with AWS services, and it may not provide suggestions for non-AWS-specific code."
     },
     {
       "name": "DeepTab",
@@ -252,7 +258,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "DeepTab is an AI-powered code completion tool designed specifically for Python and JavaScript developers. It leverages advanced machine learning algorithms to understand coding patterns and suggest code completions that are contextually relevant and efficient. Key features include real-time code suggestions, support for a wide range of Python and JavaScript frameworks, and integration with popular code editors. DeepTab is ideal for developers who want to streamline their coding process, reduce errors, and improve productivity. Pros include its high accuracy, seamless integration, and the ability to adapt to individual coding styles. Limitations may include a learning curve for new users and potential performance issues with very large codebases."
     },
     {
       "name": "AI Code",
@@ -288,7 +295,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "AI Code is an all-encompassing AI-powered code completion tool that supports a variety of programming languages, including but not limited to Python, Java, C++, and Ruby. This tool uses machine learning to analyze code patterns and provide intelligent suggestions that can help developers write code faster and with fewer errors. Key features include multi-language support, customizable code templates, and integration with popular IDEs and code editors. AI Code is suitable for developers working across different programming languages and environments. Its pros include a broad language support, ease of integration, and the ability to enhance code quality. However, some users may find the learning curve steep, and there could be limitations in handling very complex or niche programming languages."
     },
     {
       "name": "CodeGuru",
@@ -324,7 +332,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "CodeGuru is an AI-powered code completion and analysis tool designed for IBM Cloud environments. It offers intelligent code suggestions and automated code analysis to help developers write better and more secure code. Key features include deep learning-based code recommendations, automated code review, and integration with IBM Cloud services. CodeGuru is particularly useful for developers working with IBM Cloud platforms and applications. Its pros include its deep integration with IBM Cloud, the ability to improve code quality and security, and its ease of use. Limitations may include a lack of support for non-IBM Cloud platforms and potential performance issues with very large and complex codebases."
     },
     {
       "name": "CodeWhisperer (Azure)",
@@ -360,7 +369,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "CodeWhisperer is an AI-powered code completion tool developed by Microsoft for Azure DevOps. It offers intelligent code suggestions based on the context of the development task and the codebase. Key features include real-time code recommendations, support for multiple programming languages, and integration with Azure DevOps services. CodeWhisperer is designed for developers working within the Azure ecosystem. Its pros include its seamless integration with Azure DevOps, the ability to improve coding efficiency, and the support for a wide range of programming languages. Limitations may include a learning curve for new users and potential performance issues with large or complex projects."
     },
     {
       "name": "CodeMate",
@@ -396,7 +406,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "CodeMate is an AI-powered code completion tool that supports Python, JavaScript, and TypeScript. It uses machine learning to analyze code and provide intelligent suggestions that can help developers write code more efficiently. Key features include real-time code suggestions, support for popular frameworks and libraries, and integration with popular code editors. CodeMate is ideal for developers working with these specific programming languages. Its pros include its accuracy in code suggestions, ease of integration, and the ability to enhance coding speed and quality. Limitations may include a limited language support compared to some other tools and potential performance issues with very large codebases."
     }
   ]
 }

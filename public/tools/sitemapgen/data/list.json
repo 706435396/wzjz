@@ -37,7 +37,8 @@
         "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
         "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
         "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
-      ]
+      ],
+      "detail": "The SitemapGen tool is a core feature designed to automatically crawl an entire website by inputting the root URL. It generates a standard sitemap.xml file, supporting pagination and the aggregation of indexes from multiple sub-sites. This tool is ideal for website owners and SEO professionals who need an efficient way to create and manage sitemaps, ensuring that search engines can index all relevant pages. Key features include automatic crawling, sitemap.xml generation, pagination support, and multi-sub-site index aggregation. It is suitable for users of all skill levels, from beginners to advanced webmasters. While the tool is highly efficient and user-friendly, it may lack advanced customization options compared to some premium sitemap generators."
     },
     {
       "name": "尖叫青蛙 SEO 爬虫 (Screaming Frog)",
@@ -75,7 +76,8 @@
         "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
         "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
         "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
-      ]
+      ],
+      "detail": "Screaming Frog is a desktop SEO spider tool that allows users to crawl websites and analyze their SEO performance. The free version of the tool is capable of crawling up to 500 URLs, exporting a complete sitemap, and providing a detailed SEO issues report. This tool is perfect for SEO professionals, web developers, and digital marketers who need to quickly identify and fix SEO issues. Key features include URL crawling, sitemap generation, SEO issue reporting, and a user-friendly interface. It is suitable for users with varying levels of SEO expertise. However, the free version has limitations in terms of the number of URLs it can crawl, and the full version may be expensive for small businesses."
     },
     {
       "name": "Sitemap 生成库 (xml-sitemap)",
@@ -114,7 +116,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_node\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "The xml-sitemap tool is a Node.js library designed for generating sitemaps. It supports streaming large site maps and extends the protocol to include image and news sitemap formats. This tool is ideal for developers who need to integrate sitemap generation into their web applications. Key features include support for large site maps, streaming capabilities, and image/news sitemap extensions. It is suitable for developers with Node.js experience. While the tool is powerful and flexible, it may require a certain level of technical expertise to set up and use effectively. Additionally, it may not offer the same level of user interface and ease of use as some other sitemap generation tools."
     },
     {
       "name": "谷歌搜索控制台 (Google Search Console)",
@@ -153,7 +156,8 @@
         "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
         "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
         "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
-      ]
+      ],
+      "detail": "Google Search Console is an official platform provided by Google for website owners and SEO professionals to submit sitemaps, monitor their website's performance in search results, and diagnose issues. The platform allows users to submit sitemaps, view the number of indexed pages, check the coverage of their site, and receive notifications about potential issues. This tool is essential for anyone looking to improve their website's visibility in Google search results. Key features include sitemap submission, performance tracking, coverage checking, and issue notifications. It is suitable for users of all skill levels, from beginners to advanced SEO experts. However, the tool may not offer as many advanced features as some other SEO tools, and it is limited to Google search results."
     },
     {
       "name": "数据索引框架 (Needle)",
@@ -196,7 +200,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "Needle is an SEO tool designed to help users quickly improve their website's search engine rankings. It supports both browser and local usage, making it accessible to users with varying levels of SEO expertise. The tool provides a range of features to help users analyze their website's SEO performance, including keyword research, backlink analysis, and on-page optimization suggestions. This tool is ideal for SEO professionals, digital marketers, and website owners who want to optimize their sites for search engines. Key features include keyword research, backlink analysis, on-page optimization, and a user-friendly interface. It is suitable for users who prefer a straightforward and easy-to-use tool. However, Needle may lack some advanced features offered by premium SEO tools, and it may not be as comprehensive as some of its competitors."
     },
     {
       "name": "Obsidian 技能插件 (Obsidian Skills)",
@@ -239,7 +244,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "Obsidian Skills is an SEO tool designed to be used within the Obsidian note-taking app. It provides users with a range of SEO features, including keyword research, backlink analysis, and on-page optimization suggestions. The tool is ideal for users who prefer to manage their SEO tasks within the Obsidian ecosystem. Key features include keyword research, backlink analysis, on-page optimization, and integration with the Obsidian note-taking app. It is suitable for users who are already using Obsidian and want to incorporate SEO into their workflow. While Obsidian Skills offers a unique integration, it may not be as powerful or comprehensive as standalone SEO tools. Additionally, the tool's effectiveness may depend on the user's familiarity with the Obsidian platform."
     },
     {
       "name": "智能体技能库 (Skills)",
@@ -282,7 +288,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "Skills is a versatile SEO tool designed to streamline the optimization process for both beginners and seasoned professionals. This tool allows users to access a comprehensive library of SEO skills directly within their browser or on their local machine. With Skills, users can quickly implement essential SEO strategies such as keyword research, on-page optimization, and backlink analysis. The user-friendly interface ensures that even those without extensive technical knowledge can easily navigate and utilize the tool's features. Key features include a real-time keyword tracker, a backlink monitor, and a content optimization assistant. Skills is particularly beneficial for small to medium-sized businesses, freelance SEO consultants, and digital marketing agencies looking to enhance their SEO capabilities. However, it may lack some advanced features that power users or large-scale operations might require. Its main limitation is that it primarily focuses on basic to intermediate SEO tasks and may not cater to highly complex SEO campaigns."
     },
     {
       "name": "短视频自动化 (Holaos)",
@@ -325,7 +332,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "Holaos is a powerful SEO tool designed to streamline the process of optimizing video content for search engines. It allows users to easily analyze and enhance their video content to improve visibility and rankings on platforms like YouTube and Vimeo. Key features include video keyword research, SEO score analysis, and automated suggestions for title, description, and tags. Holaos is suitable for content creators, digital marketers, and SEO professionals looking to optimize their video content efficiently. The tool is user-friendly, supporting both browser and local installations, making it accessible for users of all skill levels. While Holaos offers a comprehensive set of features, it may lack advanced customization options for more experienced users."
     },
     {
       "name": "智能体技能库 (Skills)",
@@ -368,7 +376,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "Skills is a versatile SEO tool designed to streamline the optimization process for both beginners and seasoned professionals. This tool allows users to access a comprehensive library of SEO skills directly within their browser or on their local machine. With Skills, users can quickly implement essential SEO strategies such as keyword research, on-page optimization, and backlink analysis. The user-friendly interface ensures that even those without extensive technical knowledge can easily navigate and utilize the tool's features. Key features include a real-time keyword tracker, a backlink monitor, and a content optimization assistant. Skills is particularly beneficial for small to medium-sized businesses, freelance SEO consultants, and digital marketing agencies looking to enhance their SEO capabilities. However, it may lack some advanced features that power users or large-scale operations might require. Its main limitation is that it primarily focuses on basic to intermediate SEO tasks and may not cater to highly complex SEO campaigns."
     },
     {
       "name": "Ladybird 浏览器 (Ladybird)",
@@ -411,7 +420,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "Ladybird is a versatile SEO tool that integrates seamlessly with popular web browsers, providing users with a range of features to enhance their SEO efforts. The browser extension allows for quick keyword research, backlink analysis, and site audits directly from the browser. Ladybird is ideal for digital marketers, SEO specialists, and content creators who need a tool that can be used on the go. Its user-friendly interface and real-time insights make it easy to identify SEO opportunities and track progress. The tool supports both local and browser installations, catering to users who prefer a lightweight solution. However, Ladybird may not offer the same depth of analysis as some standalone SEO software."
     },
     {
       "name": "邮箱账号探测 (Holehe)",
@@ -454,7 +464,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "Holehe is a specialized SEO tool designed to help users discover and verify email addresses associated with websites. This tool is particularly useful for outreach campaigns, lead generation, and networking efforts. Holehe provides accurate email address detection and verification, ensuring that users can reach out to the right contacts. The tool is suitable for sales professionals, marketers, and business developers who need to expand their contact lists and build relationships. Holehe can be used in both browser and local environments, making it convenient for users to integrate into their workflow. While Holehe is effective for email address discovery, it may not offer additional SEO features beyond email verification."
     },
     {
       "name": "自主 AI 智能体 (Prime Agent)",
@@ -497,7 +508,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "Prime Agent is an innovative AI-powered SEO tool designed to assist users in optimizing their online presence. The tool leverages advanced algorithms to provide personalized SEO recommendations, content suggestions, and keyword insights. Prime Agent is suitable for businesses and individuals looking to automate their SEO processes and stay ahead of the competition. Its AI-driven approach offers a high level of accuracy and efficiency, saving users time and resources. The tool is compatible with both browser and local environments, making it accessible to a wide range of users. However, Prime Agent may require some initial setup and training to fully utilize its capabilities, and it may not be as intuitive for users who are not familiar with AI-driven tools."
     },
     {
       "name": "DeepSeek 推理模型 (Deepseek Reasonix)",
@@ -540,7 +552,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "DeepSeek Reasonix is an SEO tool designed to streamline the process of optimizing websites for search engines. It offers a user-friendly interface that allows users to access its features directly through their browser or by downloading the tool to their local device. This tool is particularly suitable for individuals who are looking to quickly improve their website's search engine rankings without the need for extensive technical knowledge. Key features of DeepSeek Reasonix include an automated keyword research tool, which helps users identify the most relevant and high-traffic keywords for their content. It also includes a backlink analysis feature that evaluates the quality and quantity of a website's backlinks, providing insights into potential areas for improvement. The tool is also equipped with a site audit function that scans a website for SEO issues, such as broken links, missing meta tags, and duplicate content. DeepSeek Reasonix is ideal for small to medium-sized businesses, content creators, and SEO professionals who need a comprehensive yet easy-to-use tool to enhance their SEO efforts. While the tool is highly effective and user-friendly, it may lack some advanced features that power users or large-scale businesses might require. Additionally, the depth of analysis provided by DeepSeek Reasonix might not match that of more sophisticated SEO platforms."
     }
   ]
 }

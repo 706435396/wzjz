@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Shopify POS is a powerful point-of-sale system designed to manage sales in-store seamlessly. It integrates directly with your Shopify store, allowing you to track inventory, process payments, and manage customer information all from one platform. Key features include a user-friendly interface, support for multiple payment methods, and the ability to process sales on various devices such as tablets, smartphones, and laptops. It's ideal for retailers looking to streamline their in-store operations and provide a consistent shopping experience across all channels. Shopify POS is also equipped with advanced reporting tools to help you analyze sales data and make informed business decisions. However, it may require a significant initial setup and training for staff, and it may not be suitable for businesses with complex inventory management needs."
     },
     {
       "name": "Shopify Mailchimp Integration",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Shopify Mailchimp Integration allows you to connect your Shopify store with Mailchimp, one of the leading email marketing platforms. This integration enables you to easily manage your email campaigns, segment your audience, and automate email workflows directly from your Shopify admin dashboard. Key features include automatic syncing of customer data, the ability to create targeted email lists, and access to Mailchimp's powerful email design and analytics tools. It's particularly beneficial for businesses looking to grow their customer base and engage with their audience through personalized email marketing. However, the integration may require some technical knowledge to set up and configure properly, and it might limit the customization options for email templates compared to using Mailchimp directly."
     },
     {
       "name": "Shopify Apps",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Shopify Apps are a vast collection of third-party applications that can be installed directly into your Shopify store to extend its functionality. These apps cover a wide range of needs, from inventory management and customer service to marketing and analytics. Key features include easy installation and configuration, integration with your existing Shopify store, and access to a wide array of features tailored to specific business needs. Whether you're looking to improve your customer experience, streamline your operations, or increase your sales, there's likely an app for that. However, with so many options, it can be challenging to find the right app for your business, and some apps may require a subscription fee or additional setup to work effectively."
     },
     {
       "name": "Shopify SEO Manager",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Shopify SEO Manager is a tool designed to help you optimize your Shopify store for search engines, making it easier for potential customers to find your products online. It provides a suite of features to help you improve your website's search engine rankings, including keyword research tools, SEO audit reports, and built-in recommendations for optimizing your product pages, meta tags, and content. Key features include automated SEO suggestions, integration with Google Search Console, and the ability to track your store's SEO performance over time. It's ideal for online retailers looking to increase their online visibility and drive more organic traffic to their store. However, the effectiveness of the SEO Manager can vary depending on the competitiveness of your industry and the specific keywords you're targeting, and it may require ongoing optimization and monitoring to maintain high rankings."
     },
     {
       "name": "Shopify Printful Integration",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Shopify Printful Integration enables you to offer print-on-demand products through Printful, a leading on-demand printing service. This integration allows you to easily add print-on-demand products to your Shopify store without the need to handle inventory or fulfill orders manually. Key features include a simple product setup process, automated order fulfillment, and access to a wide range of custom print products. It's perfect for businesses looking to expand their product offerings without the hassle of inventory management. However, the integration may come with additional costs for printing and shipping, and it may limit your control over the production process and product quality compared to traditional manufacturing methods."
     }
   ]
 }

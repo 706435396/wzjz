@@ -37,7 +37,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Selenium is a powerful tool designed for automating web applications for testing purposes. It allows users to simulate real user interactions with a web application, such as clicking buttons, filling out forms, and navigating through pages. Selenium supports multiple programming languages, including Python, Java, and C#, making it versatile for various testing environments. Key features of Selenium include cross-browser testing, support for various web technologies, and the ability to record and playback user actions. It is particularly useful for regression testing, where the same test cases are run repeatedly to ensure that new code changes do not break existing functionality. Selenium is ideal for developers, QA engineers, and testers who need to automate web application testing. While Selenium is highly flexible and powerful, it can be complex to set up and requires a good understanding of programming concepts. Additionally, it may not be suitable for all types of testing, especially those that require complex user interactions or heavy data processing."
     },
     {
       "name": "PyAutoGUI",
@@ -73,7 +74,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "PyAutoGUI is a Python library that allows users to automate the mouse and keyboard via Python scripts. It is particularly useful for automating tasks that involve graphical user interfaces, such as automating web browser actions, filling out forms, and interacting with desktop applications. PyAutoGUI supports various operating systems, including Windows, macOS, and Linux, and can control the mouse cursor, simulate keyboard presses, and capture screenshots. Key features of PyAutoGUI include support for multiple input devices, the ability to simulate complex user interactions, and integration with other Python libraries. It is suitable for developers, testers, and automation enthusiasts who need to automate repetitive tasks or create automated test scripts. However, PyAutoGUI may not be the best choice for complex automation tasks that require advanced scripting or integration with other tools. Additionally, its performance can vary depending on the complexity of the task and the capabilities of the system it is running on."
     },
     {
       "name": "Pandas",
@@ -109,7 +111,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Pandas is a flexible and powerful data analysis tool for Python, providing high-performance, easy-to-use data structures and data analysis tools. It is built on top of NumPy and provides data structures such as DataFrames and Series, which are similar to tables and columns in relational databases. Pandas allows users to manipulate, analyze, and visualize data efficiently. Key features of Pandas include data manipulation capabilities, such as sorting, filtering, and grouping, as well as advanced statistical functions, time series analysis, and integration with other Python libraries. It is suitable for data analysts, data scientists, and researchers who need to work with large datasets and perform complex data analysis tasks. While Pandas is highly efficient and versatile, it can be challenging to learn for beginners, and its extensive feature set can sometimes make it difficult to find the right tool for a specific task. Additionally, Pandas may not be the best choice for tasks that require real-time data processing or low-level data manipulation."
     },
     {
       "name": "Scrapy",
@@ -149,7 +152,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Scrapy is a fast high-level web crawling and scraping framework for Python, designed for extracting data from websites. It is built on top of Twisted, a Python-based asynchronous networking library, and provides a high-level API for web crawling and data extraction. Scrapy is highly scalable and can handle large amounts of data efficiently. Key features of Scrapy include support for asynchronous requests, built-in support for handling cookies and sessions, and the ability to customize the crawling process. It is suitable for developers who need to extract data from websites for tasks such as web scraping, data mining, and web crawling. Scrapy is particularly useful for building custom web crawlers and data extraction pipelines. However, Scrapy can be complex to set up and requires a good understanding of Python and web technologies. Additionally, it may not be the best choice for tasks that require real-time data processing or integration with other data processing tools."
     },
     {
       "name": "Beautiful Soup",
@@ -185,7 +189,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Beautiful Soup is a Python library for parsing HTML and XML documents. It provides a simple and intuitive API for navigating, searching, and modifying the parse tree of HTML or XML documents. Beautiful Soup is particularly useful for web scraping tasks, where it can be used to extract specific data from HTML pages. Key features of Beautiful Soup include support for parsing HTML and XML documents, the ability to navigate the parse tree using a variety of methods, and the ability to modify the document structure. It is suitable for developers and web scraping enthusiasts who need to extract data from HTML pages. Beautiful Soup is known for its ease of use and flexibility, but it may not be the best choice for complex parsing tasks that require advanced HTML or XML processing. Additionally, its performance can vary depending on the complexity of the document and the size of the dataset."
     },
     {
       "name": "pytest",
@@ -221,7 +226,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "pytest is a simple yet powerful testing framework for Python, designed to make writing tests as easy as possible. It is built on top of the built-in unittest module and provides a wide range of features for testing Python code, including support for Arrange-Act-Assert patterns, fixtures for setting up test environments, and plugins for extending its functionality. Key features of pytest include automatic discovery of test files and functions, support for parameterized tests, and the ability to run tests in parallel. It is suitable for developers and QA engineers who need to write and run tests for Python code. Pytest is known for its ease of use and flexibility, making it a popular choice for testing Python applications. However, its extensive feature set can sometimes make it overwhelming for beginners, and it may not be the best choice for complex testing scenarios that require advanced testing frameworks."
     },
     {
       "name": "Robot Framework",
@@ -257,7 +263,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Robot Framework is a robust, extensible, and easy-to-use test automation framework. It is designed for acceptance level testing and is written in Python. The framework is known for its simple syntax and readability, making it accessible to both beginners and experienced testers. Key features include support for keyword-driven and data-driven testing, a wide range of libraries for different test types, and seamless integration with other testing tools. It is suitable for teams looking to automate their test processes, especially in the context of web applications and APIs. Robot Framework is open-source and has a strong community, which contributes to its continuous improvement. Pros include its flexibility, scalability, and the ability to create tests that are easy to maintain. Limitations may include a steeper learning curve for those unfamiliar with Python and a more complex setup for complex test scenarios."
     },
     {
       "name": "Fabric",
@@ -293,7 +300,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Fabric is a Pythonic tool that simplifies the deployment of applications. It is designed to streamline the process of deploying applications to various environments, including cloud platforms. Fabric uses SSH to connect to remote servers and execute commands, allowing developers to automate tasks such as deploying code, configuring servers, and managing databases. Key features of Fabric include a powerful scripting language, support for parallel execution, and a wide range of plugins that extend its capabilities. It is particularly useful for web developers and DevOps engineers who need to manage multiple servers and automate repetitive tasks. Fabric is highly customizable, making it adaptable to various deployment scenarios. Pros include its ease of use, flexibility, and the ability to automate complex deployment workflows. Limitations may include a learning curve for those unfamiliar with Python and the need for proper security measures when dealing with SSH keys and remote servers."
     },
     {
       "name": "Ansible",
@@ -331,7 +339,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Ansible is a powerful tool for automating IT infrastructure at scale. It allows users to automate repetitive tasks across cloud, virtual, and physical environments. Ansible uses a simple YAML-based configuration file to define tasks and can be used to manage servers, configure network devices, and deploy applications. Key features of Ansible include its agentless architecture, which eliminates the need to install software on managed hosts, and its powerful inventory management system. It is suitable for organizations looking to streamline their IT operations and reduce manual configuration errors. Ansible is open-source and has a large community, which contributes to its continuous development. Pros include its ease of use, scalability, and the ability to automate complex IT processes. Limitations may include a steep learning curve for beginners and the need for a good understanding of infrastructure management principles."
     },
     {
       "name": "Django REST framework",
@@ -371,7 +380,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Django REST framework is a flexible and powerful toolkit for building Web APIs using the Django web framework. It provides a wide range of features for building RESTful APIs, including serialization, authentication, viewsets, and routers. The framework is designed to work seamlessly with Django and is widely used in the Python community for creating APIs for web applications. Key features of Django REST framework include support for various authentication methods, serialization of complex data types, and the ability to create custom views and serializers. It is particularly useful for building APIs that are consumed by web and mobile applications. Django REST framework is suitable for both small and large projects and is widely used in the web development industry. Pros include its ease of use, extensive documentation, and strong community support. Limitations may include a learning curve for those unfamiliar with Django and the complexity of configuring authentication and permissions."
     },
     {
       "name": "Celery",
@@ -407,7 +417,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Celery is an asynchronous task queue/job queue based on distributed message passing. It is designed to handle large volumes of tasks and is particularly useful for applications that require real-time processing or background task execution. Celery supports various message brokers, including RabbitMQ and Redis, and can be integrated with a wide range of web frameworks. Key features of Celery include its support for task scheduling, retries, and prioritization, as well as its ability to distribute tasks across multiple workers. It is suitable for developers who need to offload time-consuming tasks from the main application flow. Celery is known for its stability and reliability, making it a popular choice for high-performance applications. Pros include its scalability, flexibility, and the ability to handle complex task dependencies. Limitations may include a complex configuration process for large-scale deployments and the need for a good understanding of asynchronous programming concepts."
     }
   ]
 }

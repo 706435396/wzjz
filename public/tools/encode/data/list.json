@@ -34,7 +34,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Base64 Encoder/Decoder tool is a versatile utility designed for developers who need to encode or decode text into Base64 format. This format is commonly used for data transmission over media that are not 8-bit clean. The tool supports both encoding and decoding operations, allowing users to convert text to Base64 and vice versa with ease. Key features include a user-friendly interface, support for both encoding and decoding, and the ability to handle large text inputs. It is particularly useful for developers working on web applications, APIs, and data serialization tasks. The tool is suitable for all levels of developers, from beginners to advanced professionals. While the tool is highly efficient and user-friendly, it may not offer advanced features such as error handling or batch processing, which could be limitations for some users."
     },
     {
       "name": "URL Encoder/Decoder",
@@ -69,7 +70,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The URL Encoder/Decoder tool is a critical resource for developers dealing with web applications and APIs. It allows users to encode and decode URLs, ensuring that special characters are properly formatted for transmission over the web. This tool is essential for maintaining the integrity of data during URL construction and parsing. Key features include support for both encoding and decoding, a straightforward interface, and the ability to handle a wide range of characters. It is ideal for developers of web applications, SEO professionals, and anyone working with URL manipulation. The tool is suitable for users of all skill levels. However, it may lack advanced features such as bulk processing or integration with other development tools, which could be a limitation for some users."
     },
     {
       "name": "HTML Encoder/Decoder",
@@ -104,7 +106,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The HTML Encoder/Decoder tool is a valuable asset for web developers who need to ensure that HTML content is correctly encoded and decoded. This tool transforms HTML entities into their respective characters, which is crucial for preventing HTML injection attacks and ensuring the proper display of content. Key features include a simple interface for encoding and decoding, support for a wide range of HTML entities, and compatibility with various web development environments. It is suitable for web developers, content creators, and anyone working with HTML content. The tool is user-friendly for all skill levels. However, it may not offer advanced features such as error handling or integration with version control systems, which could be limitations for some users."
     },
     {
       "name": "JSON Encoder/Decoder",
@@ -139,7 +142,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The JSON Encoder/Decoder tool is designed for developers who work with JSON data, a lightweight data interchange format widely used in web applications. This tool allows users to convert JSON data to string format and back, making it easier to manipulate and transmit JSON data. Key features include a user-friendly interface, support for both encoding and decoding, and the ability to handle large JSON files. It is ideal for web developers, data scientists, and anyone working with JSON data. The tool is suitable for users of all skill levels. While the tool is efficient and straightforward, it may not offer advanced features such as data validation or integration with other development tools, which could be limitations for some users."
     },
     {
       "name": "ASCII Table",
@@ -174,7 +178,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The ASCII Table tool is a fundamental resource for developers and programmers who need to reference ASCII characters and their corresponding codes. This tool provides a comprehensive list of ASCII characters, including control characters, printable characters, and special symbols, along with their decimal, hexadecimal, and binary representations. Key features include an easy-to-read layout, quick access to character codes, and the ability to search for specific characters. It is suitable for all levels of developers, from beginners to advanced professionals. The tool is particularly useful for those working on systems that rely heavily on ASCII encoding, such as old operating systems or legacy applications. However, the tool is a simple reference tool and does not offer advanced features such as character encoding conversion or data manipulation, which could be limitations for some users."
     },
     {
       "name": "Binary Encoder/Decoder",
@@ -209,7 +214,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Binary Encoder/Decoder tool is a practical utility for developers who need to convert text to binary and back. This tool is useful for understanding binary data, debugging, and working with low-level programming. Key features include a straightforward interface, support for both encoding and decoding, and the ability to handle large text inputs. It is ideal for software developers, system administrators, and anyone working with binary data. The tool is suitable for users of all skill levels. However, it may not offer advanced features such as error handling or integration with other development tools, which could be limitations for some users."
     },
     {
       "name": "Hex Encoder/Decoder",
@@ -244,7 +250,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Hex Encoder/Decoder tool is a versatile utility designed for developers and IT professionals who need to convert text to hexadecimal and vice versa. This tool is particularly useful for tasks involving binary data manipulation, such as encoding and decoding binary files, debugging, and working with APIs that require hexadecimal input. Key features include real-time conversion, support for both uppercase and lowercase hexadecimal characters, and the ability to handle large text inputs efficiently. It is suitable for developers of all skill levels, from beginners to experts, and is often used in web development, mobile app development, and systems programming. Pros of using this tool include its ease of use, speed, and accuracy. Limitations may include a lack of advanced features for more complex encoding and decoding tasks, and the tool may not be as robust as specialized software for certain niche applications."
     },
     {
       "name": "MD5 Generator",
@@ -279,7 +286,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The MD5 Generator tool is a straightforward application for generating the MD5 hash of a given string. This tool is commonly used in software development for password hashing, data integrity checks, and creating unique identifiers for files. It supports a variety of input methods, including text input, file upload, and URL input, making it accessible for users with different needs. Key features include a user-friendly interface, the ability to generate hashes quickly, and support for both ASCII and Unicode characters. The tool is ideal for developers, system administrators, and anyone who needs to create MD5 hashes for security purposes. Pros include its simplicity, speed, and reliability. However, limitations may include a lack of support for more advanced hashing algorithms, and the fact that MD5 is considered cryptographically broken and unsuitable for further use in security-sensitive applications."
     },
     {
       "name": "SHA-256 Generator",
@@ -314,7 +322,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The SHA-256 Generator tool is designed to generate the SHA-256 hash of a string, providing a secure way to verify data integrity and create unique identifiers for files. This tool is essential for developers and IT professionals who require robust cryptographic functions in their applications. It features a simple interface that allows users to input text or upload files to generate hashes. Key features include support for both text and file input, fast hashing capabilities, and compatibility with a wide range of programming languages. The tool is particularly useful for creating digital signatures, password storage, and ensuring the security of sensitive data. Pros include its strong security, ease of use, and wide applicability. Limitations may include the complexity of understanding and implementing SHA-256 hashing in some applications, and the tool may not offer advanced features for users who require more specialized hashing functions."
     },
     {
       "name": "Base64 Decode Online",
@@ -349,7 +358,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Base64 Decode Online tool is a convenient solution for decoding Base64 encoded text. It is a valuable resource for developers and IT professionals who work with binary data and need to convert Base64 strings back to their original form. This tool supports a variety of input methods, including text input and file upload, and is capable of handling large files efficiently. Key features include a user-friendly interface, fast decoding times, and the ability to handle both ASCII and Unicode characters. It is particularly useful for tasks such as data recovery, debugging, and data manipulation in various programming environments. Pros of using this tool include its ease of use, speed, and reliability. Limitations may include a lack of advanced features for more complex Base64 manipulation tasks, and the tool may not be as robust as specialized software for certain niche applications."
     },
     {
       "name": "URL Decode Online",
@@ -384,7 +394,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The URL Decode Online tool is designed to decode URL encoded text, making it a valuable resource for developers and IT professionals who work with web applications and need to handle encoded URLs. This tool supports various input methods, including text input and file upload, and is capable of handling large files efficiently. Key features include a simple interface, fast decoding times, and compatibility with a wide range of web applications. It is particularly useful for tasks such as debugging, data recovery, and manipulating URLs in web development. Pros of using this tool include its ease of use, speed, and reliability. Limitations may include a lack of advanced features for more complex URL manipulation tasks, and the tool may not be as robust as specialized software for certain niche applications."
     }
   ]
 }

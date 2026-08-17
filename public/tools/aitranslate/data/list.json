@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Google Translate is a powerful online translation service that allows users to translate text or entire web pages between hundreds of different languages. It is a widely-used tool for individuals, businesses, and educators who need to communicate across language barriers. Key features include automatic detection of the source language, instant translation of text, and the ability to translate web pages by entering a URL. The tool also offers a photo translation feature, which allows users to take a picture of text and have it translated. Google Translate is accessible through a web browser and mobile app, making it convenient for users on the go. It is suitable for a broad audience, from students learning a new language to professionals needing to translate business documents. Pros include its ease of use, extensive language support, and the ability to translate both text and images. Limitations include occasional inaccuracies in translations, limited support for certain languages, and privacy concerns related to the handling of user data."
     },
     {
       "name": "DeepL Translator",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "DeepL Translator is an AI-powered translation tool that offers highly accurate translations between 25+ languages. It is known for its high-quality translations, which often surpass those of other translation services. The tool uses neural networks to understand the context and nuances of language, resulting in more natural and readable translations. Key features include a side-by-side translation view, the ability to translate entire documents, and support for both text and speech input. DeepL Translator is particularly useful for professionals who require precise translations for business or academic purposes. It is also suitable for language learners who want to improve their reading skills. Pros include its exceptional accuracy and readability, as well as its user-friendly interface. Limitations may include slower translation speeds compared to some other services and limited support for less popular languages."
     },
     {
       "name": "Microsoft Translator",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Microsoft Translator is a versatile translation tool that supports the translation of text, speech, and images across 60+ languages. It is designed for users who need to communicate across different languages in a variety of contexts. Key features include real-time speech translation, image translation, and the ability to translate entire documents. The tool is available through a web browser, mobile app, and as a plugin for Microsoft Office applications. Microsoft Translator is suitable for a wide range of users, from travelers to business professionals. Pros include its comprehensive language support, ease of use, and integration with other Microsoft products. Limitations may include occasional inaccuracies in translations, limited support for certain dialects, and privacy concerns related to the handling of user data."
     },
     {
       "name": "Yandex.Translate",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Yandex.Translate is a translation service provided by the Russian search engine Yandex. It offers translation of text, websites, and documents in over 100 languages. The tool is known for its ease of use and its ability to translate text by simply typing or copying and pasting it into the input field. Yandex.Translate also supports the translation of entire web pages and documents, making it a useful tool for researchers and students. The tool is available through a web browser and mobile app, and it includes features such as a dictionary and a phrasebook. Yandex.Translate is suitable for a broad audience, from casual users to language learners. Pros include its wide range of languages supported and its user-friendly interface. Limitations may include occasional inaccuracies in translations and privacy concerns related to the handling of user data."
     },
     {
       "name": "Papago",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Papago is a real-time translation service that supports text, speech, and image translation. Developed by Naver, a South Korean internet company, Papago is known for its quick and accurate translations. The tool is particularly useful for users who need to communicate in real-time with people who speak different languages. Key features include automatic speech recognition, text translation, and the ability to translate images. Papago is available through a web browser and mobile app, making it convenient for users on the go. It is suitable for a wide range of users, from travelers to business professionals. Pros include its speed and accuracy, as well as its ease of use. Limitations may include occasional inaccuracies in translations, limited support for certain languages, and privacy concerns related to the handling of user data."
     },
     {
       "name": "Memrise",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Memrise is an AI-powered language learning tool that uses spaced repetition and AI-powered translation to help users learn new languages. The platform offers a wide range of courses in over 20 languages, tailored to different skill levels. Key features include interactive lessons, a spaced repetition system to reinforce learning, and the ability to translate words and phrases using AI. Memrise also includes a community feature, allowing users to practice with native speakers and access additional learning resources. The tool is suitable for language learners of all levels, from beginners to advanced learners. Pros include its effective learning methods, extensive language support, and interactive learning experience. Limitations may include the need for a consistent learning schedule to make progress, and the fact that it may not be as effective for users who prefer traditional language learning methods."
     },
     {
       "name": "iTranslate",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "iTranslate is an AI-powered translation and dictionary tool designed for quick and accurate language translation. It supports over 100 languages, making it a versatile choice for individuals and businesses alike. Key features include real-time translation, offline dictionary access, and a user-friendly interface. This tool is ideal for users who need to translate text, documents, or web pages on the go. It is also equipped with a voice-to-text feature, allowing users to translate spoken words. iTranslate is suitable for a wide range of users, from students and travelers to professionals and businesses. Pros include its ease of use, broad language support, and offline functionality. However, limitations may include occasional inaccuracies in translation and a lack of advanced features for professional translation needs."
     },
     {
       "name": "MotaWord",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "MotaWord is an automated translation service designed to streamline the process of translating documents and websites. It leverages AI technology to deliver fast and accurate translations. Key features include batch translation, website translation, and integration with popular content management systems. MotaWord is ideal for businesses and individuals who need to translate large volumes of content efficiently. It supports a wide range of file formats and offers a user-friendly dashboard for managing translation projects. Pros include its speed, accuracy, and ease of integration. However, limitations may include the potential for errors in complex or specialized content and the need for manual review in some cases."
     },
     {
       "name": "Lingvanex",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Lingvanex is a comprehensive translation service tailored for businesses with advanced translation needs. It offers a range of features designed to enhance translation quality and efficiency. Key features include machine translation, human post-editing, and translation memory. Lingvanex supports over 100 languages and offers customization options to meet specific business requirements. This tool is ideal for businesses that require high-quality translations for marketing materials, legal documents, and technical content. Pros include its advanced features, high translation quality, and scalability. However, limitations may include a higher cost compared to other translation services and a learning curve for users unfamiliar with the platform."
     },
     {
       "name": "Wordfish",
@@ -361,7 +370,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Wordfish is an automated translation and localization tool designed for website owners and businesses. It simplifies the process of translating and adapting websites for different languages and regions. Key features include automated translation, website integration, and SEO optimization. Wordfish is ideal for businesses that want to expand their online presence globally. It supports a wide range of languages and offers customization options to ensure accurate translations. Pros include its ease of use, cost-effectiveness, and SEO-friendly translations. However, limitations may include the potential for errors in complex website structures and the need for manual review in some cases."
     },
     {
       "name": "Tilde",
@@ -397,7 +407,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Tilde is an AI-powered translation and localization platform designed to help businesses reach a global audience. It offers a range of features to streamline the translation process, including machine translation, human post-editing, and localization services. Tilde supports over 100 languages and offers customization options to meet specific business needs. This tool is ideal for businesses that require high-quality translations and localization for their products and services. Key features include a user-friendly interface, project management tools, and collaboration features. Pros include its advanced AI technology, high translation quality, and scalability. However, limitations may include a higher cost for larger projects and the need for technical expertise to fully utilize all features."
     }
   ]
 }

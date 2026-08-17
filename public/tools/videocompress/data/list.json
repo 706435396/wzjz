@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "HandBrake is an open-source video transcoder designed for converting video from nearly any format to a selection of modern, widely supported codecs. It is widely used by developers, video editors, and enthusiasts for its ability to handle a variety of video formats, including H.264, H.265, and HEVC. Key features include batch processing, customizable video and audio codecs, and support for multiple output formats like MP4, MKV, and WebM. HandBrake is suitable for individuals and small teams looking to create universal video files for various platforms, such as streaming services, mobile devices, and gaming consoles. While it offers a robust set of features, the interface can be somewhat complex for beginners, and it may not support the latest video formats or codecs without additional software updates."
     },
     {
       "name": "FFmpeg",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "FFmpeg is a powerful tool within the Libav project, which is a complete audio and video processing library. It is primarily used by developers for its versatility in handling a wide range of audio and video formats, including container formats like MP4, MOV, and AVI, as well as codecs such as H.264, H.265, and AAC. FFmpeg supports a variety of operations, including decoding, encoding, transcoding, muxing, demuxing, filtering, and streaming. It is known for its high performance and low latency, making it suitable for real-time processing tasks. This tool is ideal for developers who require extensive control over media processing and are comfortable with command-line interfaces. However, its complexity can be a limitation for those unfamiliar with the command line, and it may require additional configuration and setup to achieve specific processing tasks."
     },
     {
       "name": "VLC Media Player",
@@ -106,7 +108,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "VLC Media Player is a free and open-source multimedia player that is also capable of serving as a streaming media server. It supports a vast array of audio and video formats, including MP4, MKV, MOV, and WMV, making it a versatile choice for users who need to play back a wide range of media files. Key features include a simple interface, extensive format support, and the ability to play damaged or incomplete media files. VLC is suitable for both casual users and developers, as it can be used for testing video and audio files, as well as for streaming content to various devices. However, it may not offer the same level of customization as dedicated media servers or players, and its interface can be overwhelming for new users."
     },
     {
       "name": "Any Video Converter",
@@ -142,7 +145,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Any Video Converter is a user-friendly software designed for converting video and audio files to various formats. It supports a wide range of input and output formats, including popular ones like MP4, AVI, WMV, and FLAC. The tool offers batch conversion, allowing users to convert multiple files at once, and it includes features like video editing, such as trimming, cropping, and adding watermarks. It is suitable for individuals who need to convert videos for different devices or platforms. While it is straightforward to use, Any Video Converter may lack advanced features found in more professional transcoding software, and it may not offer the same level of control over encoding settings."
     },
     {
       "name": "MediaCoder",
@@ -178,7 +182,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "MediaCoder is an all-in-one media transcoding software that supports a vast array of audio and video formats. It is known for its high performance and advanced features, making it a favorite among professional video editors and developers. Key features include batch processing, real-time preview, and extensive customization options for encoding parameters. MediaCoder supports a wide range of codecs and containers, and it can handle complex transcoding tasks efficiently. It is suitable for users who require advanced transcoding capabilities and are willing to invest time in learning the software's features. However, its complexity can be a drawback for beginners, and it may not be the most efficient choice for simple transcoding tasks."
     },
     {
       "name": "XMedia Recode",
@@ -213,7 +218,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "XMedia Recode is a free video and audio transcoding software that offers a range of features for converting media files. It supports a variety of formats, including MP4, MKV, AVI, and WMV, and it includes features like batch conversion, video resizing, and audio extraction. The interface is designed to be user-friendly, making it accessible for both beginners and experienced users. XMedia Recode is suitable for individuals who need to convert media files for different devices or platforms. However, it may not support the latest codecs or formats without updates, and it may not offer the same level of control over encoding settings as some other transcoding tools."
     },
     {
       "name": "Avidemux",
@@ -248,7 +254,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Avidemux is a free video editor designed for simple cutting, filtering, and encoding tasks. It is an open-source project that offers a user-friendly interface for those who need to perform basic video editing without the complexity of professional video editing software. The tool supports a variety of video formats, including AVI, MPEG, and MP4, and also offers audio and subtitle support. Key features of Avidemux include the ability to cut and merge video files, apply various filters to enhance video quality, and encode videos to different formats. It is suitable for users who require quick and straightforward video editing solutions. Avidemux is ideal for those working with simple video projects, such as creating clips for social media or quick video tutorials. While it lacks advanced editing features, its simplicity and ease of use make it a valuable tool for basic video editing needs. Pros: Free, open-source, simple to use, supports multiple video formats. Limitations: Limited advanced editing features, may not be suitable for complex video projects."
     },
     {
       "name": "Zamzar",
@@ -284,7 +291,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Zamzar is an online file conversion service that supports a wide range of video formats, making it a convenient tool for users who need to convert videos for different devices or platforms. The service is easy to use, allowing users to upload a video file and select the desired output format. Zamzar supports over 1200 different file formats, including popular video formats like MP4, AVI, MOV, and MKV. Users can convert files up to 100MB in size for free, with larger files requiring a premium subscription. Key features include batch conversion, which allows users to convert multiple files at once, and the ability to convert files directly from a URL. Zamzar is suitable for individuals and businesses looking for a quick and easy way to convert video files. Pros include its simplicity, broad format support, and the ability to convert files from URLs. Limitations may include the file size limit for free users and the need to upload files to the service."
     },
     {
       "name": "CloudConvert",
@@ -320,7 +328,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "CloudConvert is an online video conversion service that allows users to convert videos to a wide range of formats with ease. This web-based tool supports over 200 different video formats, making it versatile for users with diverse conversion needs. CloudConvert offers a straightforward interface, allowing users to upload videos, select the desired output format, and initiate the conversion process. Key features include batch conversion, which enables users to convert multiple videos at once, and the ability to convert videos directly from URLs. The service also supports additional features like video resizing, trimming, and adding watermarks. CloudConvert is suitable for individuals, businesses, and developers who need to convert videos for different platforms and devices. Pros: Wide range of supported formats, easy to use, batch conversion, supports URL conversion. Limitations: Free plan has limitations on file size and conversion time, some advanced features require a paid subscription."
     },
     {
       "name": "Convertio",
@@ -356,7 +365,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Convertio is an online file conversion tool that supports a variety of video formats, making it a convenient option for users who need to convert videos quickly and easily. The service is user-friendly, allowing users to upload a video file and select the desired output format. Convertio supports over 300 different file formats, including popular video formats like MP4, AVI, MOV, and MKV. Users can convert files up to 100MB in size for free, with larger files requiring a premium subscription. Key features include batch conversion, which allows users to convert multiple files at once, and the ability to convert files directly from a URL. Convertio also offers additional features like video trimming, merging, and the ability to add watermarks. The tool is suitable for individuals and small businesses. Pros include its simplicity, broad format support, and additional features like video trimming. Limitations may include the file size limit for free users and the need to upload files to the service."
     },
     {
       "name": "Apowersoft Video Converter",
@@ -392,7 +402,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Apowersoft Video Converter is a versatile tool designed for converting video and audio files to various formats. This software supports a wide range of input and output formats, including popular ones like MP4, AVI, MOV, and MP3. The converter offers a user-friendly interface that makes it easy for users to navigate and perform conversions. Key features of Apowersoft Video Converter include batch conversion, allowing users to convert multiple files at once, and the ability to extract audio from video files. The tool also offers video editing features such as trimming, cropping, and adding watermarks. Apowersoft Video Converter is suitable for individuals and businesses that need to convert videos for different devices and platforms. Pros: Supports a wide range of formats, batch conversion, video editing features, easy to use. Limitations: Free version has limited features, watermark on converted files, some advanced features require a paid subscription."
     }
   ]
 }

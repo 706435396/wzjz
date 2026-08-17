@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Visual Studio Code is a feature-rich code editor developed by Microsoft, designed to be a versatile tool for developers of all kinds. It supports a wide range of programming languages and offers a vast array of extensions to enhance its functionality. Key features include syntax highlighting, code completion, and debugging tools. It is particularly well-suited for Markdown editing, with built-in support for Markdown preview and live preview options. Visual Studio Code is ideal for developers who require a robust and customizable code editor with a strong focus on Markdown. Pros include its extensive library of extensions, seamless integration with Git, and a highly customizable interface. Limitations may include a steeper learning curve for new users and the potential for resource-intensive performance on less powerful machines."
     },
     {
       "name": "Typora",
@@ -70,7 +71,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Typora is a minimalist and distraction-free Markdown editor that emphasizes simplicity and readability. It offers a live preview feature, allowing users to see their Markdown content as they type. The editor's interface is designed to be intuitive, with a focus on the text rather than the formatting. Key features include syntax highlighting, footnotes, and support for tables and images. Typora is perfect for writers and bloggers who want a straightforward tool for creating and editing Markdown content. Pros include its clean and uncluttered interface, fast performance, and seamless integration with other Markdown tools. Limitations may include a lack of advanced features compared to some other Markdown editors and limited support for custom extensions."
     },
     {
       "name": "MarkdownPad",
@@ -105,7 +107,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "MarkdownPad is a powerful and easy-to-use Markdown editor specifically designed for Windows users. It provides a comprehensive set of features for writing and formatting Markdown content, including syntax highlighting, live preview, and a built-in image uploader. The editor also supports themes and customizations, allowing users to tailor the interface to their preferences. Key features include a distraction-free mode, footnotes, and support for tables and math equations. MarkdownPad is ideal for users who need a robust Markdown editor without the complexity of a full-fledged IDE. Pros include its user-friendly interface, extensive documentation, and strong support for Markdown features. Limitations may include a lack of support for some advanced Markdown extensions and the fact that it is only available for Windows users."
     },
     {
       "name": "Dillinger",
@@ -141,7 +144,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Dillinger is an online Markdown editor that provides a live preview feature, allowing users to see their Markdown content as they type. It is a web-based tool that can be accessed from any device with an internet connection. Key features include syntax highlighting, support for footnotes, and a built-in image uploader. Dillinger also offers cloud storage integration with services like Dropbox and Google Drive, making it easy to sync and share Markdown files. It is perfect for users who need a Markdown editor that is accessible from anywhere and offers cloud-based storage options. Pros include its ease of use, cross-platform compatibility, and cloud storage integration. Limitations may include a lack of advanced features compared to some desktop editors and potential performance issues with very large Markdown files."
     },
     {
       "name": "StackEdit",
@@ -177,7 +181,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "StackEdit is a Markdown editor with cloud sync and collaboration features, making it an excellent choice for writers and bloggers who work on multiple devices. It is a web-based tool that offers a live preview feature, syntax highlighting, and support for footnotes, tables, and math equations. StackEdit allows users to save their documents to cloud storage services like Dropbox, Google Drive, and OneDrive, ensuring that their work is always backed up and accessible. It also supports real-time collaboration, allowing multiple users to edit the same document simultaneously. StackEdit is ideal for teams and individuals who need a Markdown editor with robust cloud-based features. Pros include its cloud sync capabilities, real-time collaboration, and seamless integration with popular cloud storage services. Limitations may include a lack of advanced formatting options compared to some other Markdown editors and potential performance issues with very large documents."
     },
     {
       "name": "Marp",
@@ -213,7 +218,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Marp is a Markdown editor specifically designed for creating presentations. It allows users to write Markdown content and see a live preview of their slides as they type. Key features include syntax highlighting, support for tables, images, and math equations, and a range of themes and templates. Marp is perfect for users who want to create professional-looking presentations using Markdown. Pros include its ease of use, live preview feature, and the ability to create visually appealing presentations without the need for complex design software. Limitations may include a steeper learning curve for users unfamiliar with Markdown formatting for presentations and the potential for limited support for some advanced presentation features."
     },
     {
       "name": "Typewriter",
@@ -248,7 +254,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Typewriter is a Markdown editor designed for developers who need a live preview and a distraction-free writing environment. It provides a clean and straightforward interface that allows users to focus on their writing without any unnecessary distractions. Key features include syntax highlighting, live preview, and a customizable hotkey system. The Typewriter is ideal for developers, writers, and anyone who needs a focused writing experience. While it offers a simple and efficient workflow, some users may find the lack of advanced features like version control or integration with other tools to be a limitation."
     },
     {
       "name": "MarkText",
@@ -284,7 +291,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "MarkText is an open-source Markdown editor that offers a wide range of features for both beginners and advanced users. It provides a user-friendly interface with support for syntax highlighting, live preview, and a wide range of plugins. Key features include a distraction-free mode, customizable themes, and support for footnotes and tables. MarkText is suitable for developers, writers, and researchers who need a versatile tool for their Markdown editing needs. However, the open-source nature of the tool means that some features may be less polished compared to commercial alternatives, and the plugin ecosystem may not be as robust."
     },
     {
       "name": "Mou",
@@ -319,7 +327,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Mou is a Markdown editor specifically designed for Mac users who require a live preview feature. It offers a simple and intuitive interface that allows users to focus on their writing. Key features include syntax highlighting, live preview, and a customizable hotkey system. Mou is perfect for writers, bloggers, and developers who need a quick and easy way to create Markdown content. However, it lacks some advanced features found in other Markdown editors, such as support for plugins or integration with version control systems."
     },
     {
       "name": "Zettlr",
@@ -355,7 +364,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Zettlr is a Markdown editor that places a strong emphasis on research and writing. It offers a comprehensive set of features that cater to the needs of academic writers and researchers. Key features include a built-in reference manager, support for bibliographies, and integration with various research tools. Zettlr also provides a distraction-free writing mode and a powerful plugin system. It is ideal for students, researchers, and academics who need a robust tool for their writing and research workflows. However, the learning curve for some of its advanced features may be steep, and the editor may not be as fast as other Markdown editors."
     },
     {
       "name": "TextMate",
@@ -390,7 +400,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "TextMate is a powerful and customizable text editor that excels in Markdown editing, among other text-based tasks. It offers a wide range of features, including syntax highlighting, code snippets, and a powerful macro system. Key features include a customizable interface, support for multiple programming languages, and integration with version control systems. TextMate is suitable for developers, writers, and anyone who needs a versatile text editor. However, the steep learning curve and the lack of a live preview feature may be drawbacks for some users."
     },
     {
       "name": "ReMarkable",
@@ -426,7 +437,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ReMarkable is a Markdown editor designed specifically for iPad users who value simplicity and focus. It offers a clean and distraction-free writing environment with a focus on Markdown editing. Key features include syntax highlighting, live preview, and a customizable interface. ReMarkable is perfect for writers, bloggers, and anyone who needs a Markdown editor on their iPad. However, it may lack some advanced features found in other Markdown editors, and the lack of a desktop version may be a limitation for users who need to work on multiple devices."
     }
   ]
 }

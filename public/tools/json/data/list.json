@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "JSONLint is an essential tool for developers working with JSON data. It serves as an online JSON validator and formatter, ensuring that your JSON code is syntactically correct and well-formatted. The tool provides syntax highlighting, making it easier to identify and correct errors in your JSON code. Key features include real-time validation, automatic formatting, and support for both standard and non-standard JSON formats. JSONLint is ideal for developers who need to quickly check the validity of their JSON data, debug JSON-related issues, and ensure compliance with JSON standards. While it is a powerful tool for JSON validation, it lacks advanced features like JSON schema validation and may not handle complex JSON structures with nested objects and arrays efficiently."
     },
     {
       "name": "JSONEditor Online",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "JSONEditor Online is a versatile and interactive JSON editor designed for developers who need to work with JSON data. It offers syntax highlighting, real-time validation, and formatting, making it easier to manage and manipulate JSON objects and arrays. The editor supports a wide range of JSON features, including nested objects, arrays, and custom data types. Key features include a user-friendly interface, support for large JSON files, and the ability to export and import JSON data. JSONEditor Online is particularly useful for developers who need to collaborate on JSON projects, as it allows multiple users to work on the same JSON document simultaneously. However, it may not be the best choice for complex JSON transformations or when working with extremely large JSON files due to performance limitations."
     },
     {
       "name": "JSON Formatter",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "JSON Formatter is a simple yet efficient tool for formatting and validating JSON data. It provides a straightforward interface that allows users to paste their JSON code and receive a well-formatted version in return. The tool automatically indents and organizes the JSON data, making it easier to read and understand. Key features include real-time validation, support for both standard and non-standard JSON formats, and the ability to customize the formatting options. JSON Formatter is ideal for developers who need to quickly format their JSON data for readability or for debugging purposes. However, it lacks advanced features like JSON schema validation and may not be suitable for complex JSON structures with nested objects and arrays."
     },
     {
       "name": "Online JSON Editor",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Online JSON Editor is a comprehensive tool designed for developers who require a robust JSON editing experience. It offers syntax highlighting, real-time validation, and formatting, making it easier to create, modify, and validate JSON data. The editor supports a wide range of JSON features, including nested objects, arrays, and custom data types. Key features include a user-friendly interface, support for large JSON files, and the ability to export and import JSON data. Online JSON Editor is particularly useful for developers who need to collaborate on JSON projects, as it allows multiple users to work on the same JSON document simultaneously. However, it may not be the best choice for complex JSON transformations or when working with extremely large JSON files due to performance limitations."
     },
     {
       "name": "JSONPath",
@@ -180,7 +184,8 @@
         "Step: Fill in the API Key / account config\nMany AI tools need a model connection. Find the config item in the README and fill it in.\nCode:\n# Example: replace xxx with your real Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nDo not screenshot your Key in public groups. Get a free/cheap Key (e.g. GLM-4, DeepSeek) to practice.",
         "Step: Start and run your first task\nRun the example command from the project and watch the terminal output.\nCode:\nnpm run example\nCheck:\nIf the program prints results (no red Error text), you have it working.",
         "Step: Troubleshooting\nFailing the first local deploy is normal. Common issues:\n1. Dependency version mismatch → use the Python/Node version the repo recommends;\n2. Key not working → check your environment variables;\n3. Cannot reach the model API → switch mirror or provider.\nTip:\nSee more examples in \"Related tutorials\" below, or click \"Visit official site\"."
-      ]
+      ],
+      "detail": "JSONPath is a powerful tool for querying JSON documents using a path expression language. It allows developers to extract specific data from JSON objects and arrays, making it easier to manipulate and process JSON data. Key features include support for a wide range of JSON query operations, such as filtering, mapping, and transforming JSON data. JSONPath is particularly useful for developers who need to perform complex data extraction and manipulation tasks on JSON documents. It is widely used in various programming languages and frameworks, making it a versatile tool for JSON data processing. However, JSONPath may have a steep learning curve for beginners, and it may not be suitable for all types of JSON data due to its specific query capabilities."
     }
   ]
 }

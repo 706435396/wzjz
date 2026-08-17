@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "TinyPNG is a powerful tool designed to compress PNG images without sacrificing quality. It uses advanced algorithms to reduce file size while maintaining the original image's sharpness and clarity. Key features include batch processing, which allows users to compress multiple images at once, and the ability to adjust compression levels to find the perfect balance between file size and quality. TinyPNG is ideal for web developers, graphic designers, and anyone who needs to optimize images for web use. The tool is user-friendly and integrates seamlessly with various platforms, making it a go-to choice for efficient image compression. However, it may not be suitable for images that require high resolution or for users who prefer manual control over the compression process."
     },
     {
       "name": "ImageOptim",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ImageOptim is a versatile image optimization tool that helps developers and designers reduce image file sizes for web and mobile platforms. It automatically removes unnecessary metadata, optimizes JPEG and PNG files, and supports batch processing. Key features include lossless compression, which maintains image quality while reducing file size, and the ability to resize images to specific dimensions. ImageOptim is suitable for anyone working on web projects, from individual designers to large-scale development teams. The tool is known for its simplicity and effectiveness, but it may not offer the same level of customization as some other image optimization tools."
     },
     {
       "name": "Optimizilla",
@@ -106,7 +108,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Optimizilla is a free online image optimizer that provides users with the ability to compress JPG and PNG files effectively. It offers a range of compression options, allowing users to adjust the level of compression to achieve the desired balance between file size and image quality. Key features include batch processing, which enables users to compress multiple images at once, and the option to preview the results before applying changes. Optimizilla is perfect for individuals and small businesses looking for a cost-effective solution to optimize their images. However, it may lack some advanced features found in paid optimization tools and may not be as efficient for large-scale image optimization tasks."
     },
     {
       "name": "Compressor.io",
@@ -142,7 +145,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Compressor.io is an online image compression tool designed to improve website loading times by reducing image file sizes. It supports a wide range of image formats, including JPG, PNG, and GIF, and offers lossless and lossy compression options. Key features include batch processing, which allows users to compress multiple images simultaneously, and the ability to preview the results before downloading. Compressor.io is ideal for web developers and SEO professionals who want to enhance their website's performance. The tool is user-friendly and offers a straightforward interface, but it may not provide the same level of control as some desktop-based image optimization software."
     },
     {
       "name": "ImageResizer",
@@ -178,7 +182,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ImageResizer is an online tool that allows users to resize and compress images efficiently. It supports a variety of image formats, including JPG, PNG, and BMP, and offers batch processing capabilities. Key features include adjustable quality settings, which enable users to control the level of compression, and the ability to resize images to specific dimensions. ImageResizer is suitable for anyone who needs to manage and optimize their image library, such as bloggers, photographers, and web designers. The tool is known for its ease of use and fast processing times, but it may not offer the same level of advanced features as some dedicated image editing software."
     },
     {
       "name": "TinyPNG for GIMP",
@@ -215,7 +220,8 @@
         "Step: Fill in the API Key / account config\nMany AI tools need a model connection. Find the config item in the README and fill it in.\nCode:\n# Example: replace xxx with your real Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nDo not screenshot your Key in public groups. Get a free/cheap Key (e.g. GLM-4, DeepSeek) to practice.",
         "Step: Start and run your first task\nRun the example command from the project and watch the terminal output.\nCode:\n./run.sh\nCheck:\nIf the program prints results (no red Error text), you have it working.",
         "Step: Troubleshooting\nFailing the first local deploy is normal. Common issues:\n1. Dependency version mismatch → use the Python/Node version the repo recommends;\n2. Key not working → check your environment variables;\n3. Cannot reach the model API → switch mirror or provider.\nTip:\nSee more examples in \"Related tutorials\" below, or click \"Visit official site\"."
-      ]
+      ],
+      "detail": "TinyPNG for GIMP is a plugin that integrates the popular TinyPNG compression technology directly into the GIMP image editing software. It allows users to compress PNG files without losing quality, making it an essential tool for graphic designers and web developers who work with GIMP. Key features include batch processing, adjustable compression levels, and the ability to preview the results before saving. TinyPNG for GIMP is ideal for users who are already familiar with GIMP and want to streamline their workflow. The plugin is known for its simplicity and effectiveness, but it may not offer the same level of customization as some other image optimization tools."
     },
     {
       "name": "ImageMagick",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ImageMagick is a versatile image processing tool designed for developers and graphic designers who require the ability to convert, edit, compose, or compose images. It supports a wide range of image formats, including popular ones like JPEG, PNG, GIF, and BMP. The tool offers a powerful command-line interface that allows users to manipulate images with precision. Key features include batch processing, image format conversion, and the ability to apply various effects and filters to images. ImageMagick is suitable for both simple tasks like resizing images and complex operations such as creating image montages. It is widely used in web development, graphic design, and scientific research. Pros include its flexibility, robustness, and extensive feature set. However, limitations include a steep learning curve and the need for technical expertise to fully utilize its capabilities."
     }
   ]
 }

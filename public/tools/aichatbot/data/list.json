@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Dialogflow is a powerful tool from Google that allows users to build conversational interfaces for their applications. It leverages Google's AI to understand and respond to user queries in a natural and intuitive way. Key features include natural language understanding, intent detection, entity extraction, and automated responses. Dialogflow is ideal for developers and businesses looking to create chatbots, virtual assistants, and other conversational interfaces. It offers a wide range of integrations with popular messaging platforms and can be used to build bots for websites, mobile apps, and messaging platforms. Pros include its robust NLU capabilities, ease of integration, and extensive documentation. Limitations include a learning curve for new users and potential costs for higher usage levels."
     },
     {
       "name": "IBM Watson Assistant",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "IBM Watson Assistant is an AI-powered chatbot platform that enables users to create and deploy chatbots with ease. It offers a drag-and-drop interface for building conversational flows and provides advanced AI capabilities for understanding and responding to user queries. Key features include natural language understanding, sentiment analysis, and automated responses. IBM Watson Assistant is suitable for businesses of all sizes and can be integrated with a wide range of applications and services. Pros include its strong AI capabilities, scalability, and robust support. Limitations may include a higher cost for enterprise-level features and a steeper learning curve for complex configurations."
     },
     {
       "name": "Microsoft Bot Framework",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Microsoft Bot Framework is a comprehensive platform for building and connecting intelligent bots to interact with users naturally across a variety of channels, including web, mobile, and messaging platforms. It provides tools and services to create bots that can understand and respond to user inputs in a conversational manner. Key features include language understanding, dialog management, and bot hosting. The framework is suitable for developers with a background in C# or Node.js. Pros include its extensive documentation, community support, and seamless integration with Microsoft's ecosystem. Limitations include a more complex setup process and a learning curve for those unfamiliar with Microsoft's development tools."
     },
     {
       "name": "Zendesk Chat",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Zendesk Chat is an integrated platform that allows businesses to easily create and manage chatbots. It offers a user-friendly interface and a range of features to build and customize chatbots for customer service, sales, and support. Key features include automated responses, proactive messaging, and integration with other Zendesk products. It is suitable for businesses of all sizes and can be used on websites, mobile apps, and messaging platforms. Pros include its ease of use, strong integration capabilities, and scalability. Limitations may include a lack of advanced AI features and potential costs for additional features or higher usage levels."
     },
     {
       "name": "Intercom",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Intercom is a customer communication platform that includes AI chatbots for building and scaling conversations with customers. It allows businesses to engage with customers through personalized messaging across various channels, including email, chat, and social media. Key features include automated messaging, chatbot templates, and integration with CRM systems. Intercom is suitable for businesses looking to improve customer engagement and support. Pros include its user-friendly interface, strong integration capabilities, and powerful analytics. Limitations may include a higher cost for more advanced features and a learning curve for setting up complex workflows."
     },
     {
       "name": "Botsify",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Botsify is a no-code chatbot builder designed for businesses of all sizes. It allows users to create and deploy chatbots without any coding knowledge. The platform offers a drag-and-drop interface for building conversational flows and provides a range of templates and customization options. Key features include natural language processing, automated responses, and integration with popular messaging platforms. Botsify is suitable for small businesses and startups looking to quickly launch chatbots. Pros include its ease of use, affordability, and quick deployment. Limitations may include limited advanced AI features and a less robust API compared to other platforms."
     },
     {
       "name": "Drift",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Drift is an AI-powered chatbot platform designed to enhance customer engagement and streamline lead management. It allows businesses to engage with leads and customers in real-time through live chat, chatbots, and email. Key features include automated lead qualification, personalized messaging, and seamless integration with CRM systems. Drift is ideal for sales and marketing teams looking to improve their customer interactions and streamline the sales process. Pros include its ease of use, robust integration capabilities, and the ability to automate repetitive tasks. Limitations may include a learning curve for some users and the potential for high costs if the platform is overused or not properly managed."
     },
     {
       "name": "MivaChat",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "MivaChat is a user-friendly tool that enables businesses to create chatbots for their websites without the need for coding skills. It offers a drag-and-drop interface for building chatbot workflows and supports a range of functionalities such as live chat, automated responses, and customer data collection. MivaChat is suitable for small to medium-sized businesses that want to enhance customer support and engagement without the complexity of custom development. Key features include customizable chatbot designs, multilingual support, and analytics to track chatbot performance. Pros include its simplicity, affordability, and the ability to quickly deploy chatbots. Limitations may include limited advanced features compared to more sophisticated chatbot platforms and potential limitations in customization options."
     },
     {
       "name": "Botpress",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Botpress is an open-source platform that empowers developers to build, train, and deploy conversational AI applications. It provides a flexible framework for creating chatbots and virtual assistants that can be integrated into various channels, including websites, messaging apps, and IoT devices. Botpress is designed for developers and businesses that require a high degree of customization and control over their AI chatbot solutions. Key features include a modular architecture, natural language understanding, and a rich set of APIs for integration. Botpress is ideal for organizations with specific AI needs or those looking to develop unique chatbot experiences. Pros include its scalability, flexibility, and the ability to leverage a community-driven ecosystem. Limitations may include a steeper learning curve for those unfamiliar with AI development, and the need for technical expertise to fully utilize its capabilities."
     }
   ]
 }

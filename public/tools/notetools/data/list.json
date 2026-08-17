@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Evernote is a versatile productivity tool designed to help users organize notes, photos, and documents in one place. It allows users to create and store text notes, images, audio recordings, and even scanned documents. Key features include a powerful search function that can recognize text within images, the ability to sync notes across multiple devices, and a vast library of templates for different types of projects. Evernote is ideal for individuals, students, and professionals who need to manage a large volume of information and collaborate with others. Pros include its robust note-taking capabilities, seamless integration with other apps, and a user-friendly interface. Limitations may include a learning curve for some users and the need for a premium subscription for certain advanced features."
     },
     {
       "name": "Microsoft OneNote",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Microsoft OneNote is a digital note-taking application that enables users to capture, organize, and share their notes efficiently. It offers a wide range of tools for creating and formatting notes, including text, images, and tables. OneNote is particularly well-suited for students and professionals who need to manage complex projects and ideas. Key features include the ability to create notebooks with multiple sections, search for text within handwritten notes, and access notes from any device. OneNote is deeply integrated with the Microsoft ecosystem, allowing for easy sharing and collaboration with other Office 365 users. Pros include its robust note-taking features, strong integration with Microsoft products, and the ability to work offline. Limitations may include a less intuitive interface for some users and a reliance on the Microsoft ecosystem."
     },
     {
       "name": "Google Keep",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Google Keep is a simple and straightforward note-taking app that allows users to quickly capture and organize notes. It is designed for quick note-taking and is particularly useful for those who need to jot down ideas or reminders on the go. The app offers a variety of note types, including text, voice, and photo notes, and supports color coding and tags for organization. Google Keep is well-suited for students, teachers, and anyone who needs a quick and easy way to store and access their notes. Pros include its simplicity, integration with other Google services, and offline access. Limitations may include a lack of advanced formatting options and limited collaboration features compared to other note-taking apps."
     },
     {
       "name": "Notion",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Notion is an all-in-one workspace that combines the functionality of notes, tasks, and databases into a single platform. It is designed for individuals and teams who need a comprehensive solution for organizing their work and personal projects. Notion allows users to create pages, which can contain text, images, tables, and even embedded files from other services. Key features include a powerful search function, the ability to create databases and tables for organizing information, and seamless collaboration tools. Notion is well-suited for professionals, educators, and anyone who needs a flexible and customizable workspace. Pros include its versatility, strong collaboration features, and ease of use. Limitations may include a steeper learning curve for users unfamiliar with similar tools and the potential for complexity when managing large projects."
     },
     {
       "name": "Trello",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Trello is a visual collaboration tool that helps users organize tasks and projects in a visually appealing and intuitive way. It uses a card-based system to manage tasks, allowing users to create boards, lists, and cards to represent different stages of a project. Trello is particularly well-suited for teams working on projects with multiple steps and deadlines. Key features include the ability to assign tasks to team members, set due dates, and add comments and attachments to cards. Trello integrates with a wide range of other apps and services, making it a versatile tool for project management. Pros include its ease of use, visual approach to project management, and strong collaboration features. Limitations may include a lack of advanced project management features for complex projects and the potential for the interface to become cluttered with many cards and lists."
     },
     {
       "name": "Roam Research",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Roam Research is a graph-based note-taking tool that encourages deep thinking and knowledge organization. It allows users to create and connect notes in a non-linear manner, forming a network of ideas. Roam is particularly well-suited for researchers, writers, and anyone who needs to explore and connect concepts in a flexible and dynamic way. Key features include the ability to create links between notes, the use of blocks for different types of content, and the option to view notes in a graph view to see connections. Roam is known for its powerful search capabilities and the ability to export notes in various formats. Pros include its innovative approach to note-taking, strong search and organization features, and the potential for deep and meaningful connections between ideas. Limitations may include a steep learning curve for new users and the need for a strong understanding of the graph-based structure to fully leverage its capabilities."
     },
     {
       "name": "Zoho Notebook",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Zoho Notebook is a versatile digital notebook designed for users who need a reliable tool for capturing and organizing their ideas. This productivity tool allows users to jot down notes, create to-do lists, and manage their schedules all in one place. Key features of Zoho Notebook include a user-friendly interface, seamless integration with other Zoho products, and robust sharing capabilities. It supports various file formats, including PDFs, images, and videos, making it easy to attach and reference external content. Zoho Notebook is ideal for individuals, students, and professionals who require a comprehensive note-taking solution. It is particularly useful for those who need to access their notes on multiple devices. Pros include its robust feature set, cross-platform compatibility, and strong integration with the Zoho ecosystem. Limitations may include a learning curve for some users and the fact that it is not as feature-rich as some dedicated note-taking applications."
     },
     {
       "name": "Apple Notes",
@@ -286,7 +293,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Apple Notes is a simple yet powerful note-taking app designed exclusively for iOS and macOS users. This productivity tool provides a straightforward interface that makes it easy to capture and organize thoughts, ideas, and information. Key features of Apple Notes include rich text formatting, the ability to create and organize notes into notebooks and folders, and seamless integration with other Apple services. Users can easily insert images, links, and even sketches directly into their notes. Apple Notes is perfect for users who want a simple and reliable way to keep track of their thoughts and information. It is particularly popular among Apple device users who appreciate the seamless integration with their ecosystem. Pros include its simplicity, ease of use, and seamless synchronization across all Apple devices. Limitations may include a lack of advanced features found in some other note-taking applications and the fact that it is limited to Apple device users."
     },
     {
       "name": "Google Docs Notes",
@@ -322,7 +330,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Google Docs Notes is a feature within the Google Docs platform that allows users to take notes directly within their documents. It is particularly useful for students, researchers, and professionals who need to annotate or add additional information to their Google Docs files. Users can create notes by clicking on the 'Add Note' button within the document, which opens a sidebar where they can type their notes. These notes are then visible to anyone with edit access to the document. Key features include the ability to format text within notes, add images, and link to other documents. Google Docs Notes is designed for users who are already familiar with the Google Docs interface and want a convenient way to add additional context or comments to their documents. Pros include its integration with the Google Drive ecosystem, real-time collaboration capabilities, and accessibility from any device with internet access. However, limitations include the fact that notes are not easily searchable within the document itself and the lack of a dedicated note-taking interface, which may be a drawback for users who prefer a more traditional note-taking experience."
     }
   ]
 }

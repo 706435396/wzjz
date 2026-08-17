@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Adobe Color is a powerful tool designed for designers and artists who need to create and share color palettes. It offers a wide range of features that make it easy to generate harmonious color schemes. Users can explore a vast library of pre-made palettes or create their own from scratch. The tool provides a variety of color harmony rules, such as monochromatic, complementary, analogous, and triadic, to ensure that the palettes are visually appealing. Adobe Color also allows users to save and sync their palettes across devices, making it a convenient choice for collaborative projects. Key features include a color wheel, a gradient editor, and the ability to export palettes in various formats. It is particularly useful for those who work with Adobe Creative Cloud applications, as it integrates seamlessly with them. However, it may not be as intuitive for beginners, and the free version has some limitations in terms of palette storage and sharing options."
     },
     {
       "name": "Coolors",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Coolors is an intuitive tool for generating and tweaking color palettes. It is designed for both beginners and experienced designers who need a quick and easy way to experiment with colors. The interface is straightforward, allowing users to generate random palettes or manually adjust colors to achieve the desired look. Coolors supports a variety of color formats, including HEX, RGB, and HSL, making it versatile for different design needs. Users can also save their palettes and share them with others, which is great for collaboration. The tool offers a range of color harmony options, such as monochromatic, complementary, and analogous, to help users create balanced color schemes. However, Coolors lacks advanced features like a gradient editor or a color wheel, which might be a limitation for some users."
     },
     {
       "name": "Paletton",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Paletton is a comprehensive tool for exploring color palettes and understanding color harmony. It is ideal for designers who want to delve deeper into the science of color and create palettes that are both aesthetically pleasing and technically sound. Paletton offers a variety of tools to analyze and manipulate colors, including a color wheel, a harmony generator, and a color scheme previewer. Users can experiment with different color combinations and see how they work together in real-time. The tool also provides detailed information about each color, such as its name, hex code, and RGB values. Paletton is particularly useful for those working on complex design projects that require precise color control. However, it can be overwhelming for beginners due to its extensive features and technical language."
     },
     {
       "name": "ColorZilla",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ColorZilla is a versatile tool that serves as a color picker, eyedropper, and gradient generator. It is designed for web designers and developers who need to extract colors from images or create custom gradients. The color picker feature allows users to select a color from any point on the screen, which is useful for matching colors across different design elements. The eyedropper tool is particularly handy for web developers who need to ensure that their color schemes are consistent across different browsers. ColorZilla also includes a gradient generator that lets users create linear or radial gradients with ease. The tool is lightweight and easy to use, making it a popular choice among web professionals. However, it lacks advanced features like color harmony analysis or palette creation, which might be needed for more complex design tasks."
     },
     {
       "name": "ColorSnapper",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ColorSnapper is a convenient tool for capturing colors from any web page. It is designed for designers and developers who need to quickly grab color inspiration or ensure that their design elements match the colors of a specific website. The tool allows users to select a color from any part of the screen and save it to a palette. ColorSnapper supports various color formats, including HEX, RGB, and HSL, making it easy to integrate the captured colors into design projects. It also offers a history feature that keeps track of all the colors that have been captured, which is useful for reference. The tool is lightweight and runs in the background, so it doesn't interfere with other tasks. However, it may not be as powerful as some other color tools when it comes to creating and managing palettes or analyzing color harmony."
     },
     {
       "name": "Colordot",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Colordot is a unique tool that generates color palettes from images. It is perfect for designers who need to create color schemes based on existing visuals. The tool uses advanced algorithms to analyze the dominant colors in an image and generate a palette that can be used for various design projects. Colordot allows users to adjust the number of colors in the palette and even tweak the individual colors to better suit their needs. The tool is straightforward to use and provides a quick way to generate color inspiration. It is particularly useful for those who work with photography or graphic design. However, Colordot may not be as effective for creating palettes from complex or varied images, and it lacks advanced features like color harmony analysis or integration with other design tools."
     },
     {
       "name": "Material Palette",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Material Palette is an essential tool for designers and developers looking to explore and utilize Google's Material Design color palettes. This tool provides a comprehensive collection of pre-defined color palettes that adhere to the Material Design guidelines, ensuring consistency and aesthetic harmony across various digital products. Key features include the ability to view color palettes in different formats, such as RGB, HEX, and HSL, and to easily copy these values for use in design software or code. Material Palette is particularly useful for those working on Android or web applications that follow the Material Design philosophy. It is also a valuable resource for designers seeking inspiration or looking to create custom palettes that align with Material Design principles. While the tool offers a vast array of palettes, it may lack the ability to create entirely new palettes from scratch, which could be a limitation for some users."
     },
     {
       "name": "Flat UI Colors",
@@ -286,7 +293,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Flat UI Colors is a free online resource that offers a vast collection of flat UI color themes. This tool is designed for designers and developers who prefer the simplicity and modern look of flat design. Users can browse through a wide range of color palettes, each carefully curated to provide a cohesive and visually appealing design experience. Key features include the ability to preview color palettes in various formats, download them as image files, and integrate them into design projects. Flat UI Colors is particularly useful for those working on web and mobile applications that require a clean and minimalistic design aesthetic. However, the tool may not offer advanced customization options, which could be a limitation for users who require highly tailored color schemes."
     },
     {
       "name": "Color Hunter",
@@ -322,7 +330,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Color Hunter is an intuitive tool that helps designers find the perfect color palette for their projects. By analyzing images from the web, Color Hunter extracts dominant colors and suggests palettes that complement the original image. This tool is ideal for those who need inspiration or want to ensure their color choices are harmonious. Key features include the ability to upload an image or use the tool's built-in search to find color palettes, and to save and share favorite palettes. Color Hunter is particularly useful for designers working on branding projects or looking to create a cohesive visual identity. However, the tool may not offer extensive customization options, and its reliance on image analysis could sometimes result in less than ideal color suggestions."
     },
     {
       "name": "ColorSchemer",
@@ -358,7 +367,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ColorSchemer is a versatile tool for creating and saving color schemes, designed for both beginners and experienced designers. This software allows users to experiment with different color combinations and save their favorite schemes for future reference. Key features include a color wheel for selecting base colors, a gradient tool for creating seamless transitions between colors, and the ability to import and export color schemes. ColorSchemer is particularly useful for those working on graphic design, web design, and UI/UX projects. It is also a valuable resource for designers who need to maintain consistency across multiple projects. However, the tool may lack advanced features found in some other color scheme tools, which could be a limitation for users with more complex design needs."
     },
     {
       "name": "ColorZilla for Chrome",
@@ -394,7 +404,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ColorZilla for Chrome is a powerful extension that allows users to pick and analyze colors from any web page. This tool is invaluable for designers, developers, and anyone working with web design and development. Key features include a color picker, eyedropper, gradient generator, and a CSS color picker. The extension is particularly useful for quickly identifying and copying color values from web pages, which can save time when working on design projects. ColorZilla for Chrome is also a great tool for learning about color theory and experimenting with different color combinations. However, the extension may not offer advanced color analysis features, and its functionality is limited to what can be achieved within the Chrome browser."
     }
   ]
 }

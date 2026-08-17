@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "JotForm is an online form builder that empowers users to create custom forms and surveys with ease. With a user-friendly interface and a wide range of templates, JotForm is suitable for both beginners and advanced users. Key features include drag-and-drop form building, integration with popular services like Google Drive, Dropbox, and payment gateways, and real-time analytics. It is ideal for businesses, educators, and individuals who need to collect information efficiently. Pros include its versatility, ease of use, and extensive customization options. However, limitations may include a learning curve for some users and potential costs for advanced features."
     },
     {
       "name": "Typeform",
@@ -72,7 +73,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Typeform offers a unique approach to form and survey creation with its conversational design. This tool allows users to build engaging forms and surveys that feel more like a conversation than a traditional questionnaire. Key features include conditional logic, multimedia integration, and seamless data analysis. Typeform is perfect for marketers, researchers, and anyone looking to gather valuable insights in an interactive way. Its pros include its engaging user experience and powerful analytics. On the downside, some users may find the pricing structure complex and the tool can be overkill for simple form needs."
     },
     {
       "name": "Google Forms",
@@ -108,7 +110,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Google Forms is a free online form and survey builder provided by Google. It is a simple and straightforward tool that allows users to create forms and surveys without any technical knowledge. Key features include collaboration with Google Drive, easy sharing, and automatic data collection in a Google Sheets spreadsheet. Google Forms is ideal for students, educators, and small businesses that need a quick and cost-effective solution for data collection. Its pros are its simplicity and integration with other Google services. However, limitations include limited customization options and advanced features compared to dedicated form builders."
     },
     {
       "name": "SurveyMonkey",
@@ -145,7 +148,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "SurveyMonkey is a comprehensive survey tool that enables users to design, distribute, and analyze surveys to gather insights. It offers a wide range of question types, advanced analytics, and collaboration features. Key features include survey templates, real-time data collection, and detailed reporting. SurveyMonkey is suitable for market researchers, business professionals, and anyone needing to conduct in-depth research. Its pros include its robust features and scalability. However, the tool can be overwhelming for beginners and the pricing may increase as the number of responses grows."
     },
     {
       "name": "Formstack",
@@ -182,7 +186,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Formstack is a versatile form and survey management platform designed to streamline data collection processes. It offers a range of features to build, publish, and manage forms, including conditional logic, e-signature integration, and data automation. Formstack is ideal for organizations of all sizes that require a robust solution for data collection and management. Its pros include its powerful automation capabilities and user-friendly interface. However, the tool can be expensive for small businesses, and the learning curve may be steep for some users."
     },
     {
       "name": "Kissflow",
@@ -219,7 +224,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Kissflow is a workflow automation tool that uses forms and surveys to streamline processes within an organization. It allows users to create custom workflows, automate tasks, and track progress all in one platform. Key features include workflow templates, form building, and integration with other business tools. Kissflow is suitable for businesses looking to improve efficiency and collaboration. Its pros include its ease of use and integration capabilities. However, the tool may be too complex for very simple workflows, and the pricing can be prohibitive for small teams."
     },
     {
       "name": "Zoho Survey",
@@ -256,7 +262,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Zoho Survey is a powerful tool designed for creating and sharing surveys to gather feedback from a wide range of audiences. It offers a user-friendly interface that allows users to design surveys with ease, incorporating various question types such as multiple-choice, text, and ratings. Key features include real-time analytics, customizable templates, and the ability to integrate with other Zoho products. This tool is ideal for businesses, educators, and researchers looking to collect valuable insights from their target audience. Pros include its comprehensive survey creation capabilities and seamless integration with other Zoho tools. However, limitations may include a learning curve for new users and limited customization options for some advanced features."
     },
     {
       "name": "Airtable",
@@ -293,7 +300,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Airtable is a versatile tool that combines form building with a robust database, making it an excellent choice for managing and organizing data. It allows users to create custom forms and easily import data into a centralized database, which can then be used for various purposes such as project management, event planning, and inventory tracking. Key features include a drag-and-drop interface, conditional logic, and the ability to create multiple views of the data. This tool is suitable for individuals and teams across various industries, from small businesses to large enterprises. Pros include its flexibility and ease of use. However, limitations may include a steep learning curve for those unfamiliar with database management and limited support for complex calculations."
     },
     {
       "name": "Cvent",
@@ -330,7 +338,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Cvent is a comprehensive event management platform that includes features for managing events and collecting feedback through forms. It offers a wide range of tools for event planning, registration, and analytics, making it an ideal solution for event organizers, corporate event planners, and conference hosts. Key features include customizable event websites, mobile apps, and real-time reporting. This tool is suitable for businesses of all sizes looking to streamline their event management processes. Pros include its robust event management capabilities and extensive integration options. However, limitations may include a high cost for some features and a complex user interface that can be challenging to navigate."
     },
     {
       "name": "Microsoft Forms",
@@ -366,7 +375,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Microsoft Forms is a free tool that allows users to create surveys and quizzes with ease. It is part of the Microsoft Office 365 suite and offers a simple interface for designing forms, quizzes, and polls. Key features include real-time responses, data analysis, and the ability to share forms via email, social media, or a link. This tool is ideal for educators, students, and businesses looking for a cost-effective way to gather feedback or conduct assessments. Pros include its integration with other Microsoft Office tools and ease of use. However, limitations may include limited customization options and a lack of advanced analytics features."
     },
     {
       "name": "Formsite",
@@ -403,7 +413,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Formsite is an online platform that enables users to build professional forms and surveys quickly and easily. It offers a wide range of templates and customization options, allowing users to create forms that fit their specific needs. Key features include form analytics, conditional logic, and the ability to integrate with popular third-party applications. This tool is suitable for businesses, non-profits, and individuals looking to collect data, manage applications, or conduct market research. Pros include its extensive template library and user-friendly interface. However, limitations may include a lack of advanced features for complex surveys and a higher cost for more advanced plans."
     }
   ]
 }

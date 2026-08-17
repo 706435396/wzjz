@@ -36,7 +36,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Figma is a collaborative interface design tool that allows users to create, iterate, and share designs in real-time. It is designed to facilitate teamwork among designers, developers, and stakeholders by providing a shared platform for collaboration. Key features include vector-based design tools, a library of pre-made components, and the ability to create interactive prototypes. Figma is particularly well-suited for teams working on web and mobile applications. It is accessible through a web browser and offers a seamless experience across different devices. Figma is ideal for designers, product managers, and developers who need to collaborate on design projects. Pros include its intuitive interface, seamless collaboration features, and robust design tools. Limitations may include a learning curve for new users and the need for a stable internet connection for real-time collaboration."
     },
     {
       "name": "Adobe XD",
@@ -73,7 +74,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Adobe XD is a design and prototype tool that enables users to create interactive web and mobile interfaces. It is part of the Adobe Creative Cloud suite and integrates seamlessly with other Adobe tools. Key features include vector design tools, a library of assets, and the ability to create prototypes with transitions and animations. Adobe XD is well-suited for designers who need to create detailed and interactive designs for web and mobile applications. It offers a user-friendly interface and powerful design capabilities. Adobe XD is ideal for UX/UI designers and product designers. Pros include its integration with the Adobe ecosystem, advanced design features, and extensive asset library. Limitations may include a steep learning curve and the need for Adobe Creative Cloud subscription for full functionality."
     },
     {
       "name": "Sketch",
@@ -109,7 +111,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Sketch is a vector-based design tool specifically designed for Mac users. It is widely used for creating user interfaces and icons. Sketch offers a simple and intuitive interface, making it accessible for designers of all skill levels. Key features include vector editing, a library of symbols, and the ability to create prototypes. Sketch is particularly popular among designers working on iOS and macOS applications. It is known for its speed and efficiency in design tasks. Sketch is ideal for UI/UX designers, graphic designers, and product designers. Pros include its ease of use, powerful design features, and a strong community support. Limitations may include limited collaboration features and compatibility issues with non-Mac platforms."
     },
     {
       "name": "InVision",
@@ -146,7 +149,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "InVision is a digital product design platform that provides tools for collaboration, prototyping, and design handoff. It is designed to streamline the design process from concept to launch. Key features include collaborative design boards, interactive prototypes, and the ability to export design assets. InVision is well-suited for teams working on complex digital products, including web and mobile applications. It supports collaboration across various disciplines, including design, development, and marketing. InVision is ideal for product designers, UX/UI designers, and project managers. Pros include its robust collaboration features, ease of use, and extensive integration options. Limitations may include a steep learning curve for some users and the need for a paid subscription for full functionality."
     },
     {
       "name": "Zeplin",
@@ -183,7 +187,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Zeplin is a design handoff and collaboration tool that helps designers, developers, and product managers work together more effectively. It allows for the creation of design specifications, assets, and style guides, making it easier to hand off designs to developers. Key features include design specifications, asset management, and style guides. Zeplin is well-suited for teams working on web and mobile applications where clear communication between designers and developers is crucial. It integrates with popular design tools like Sketch, Adobe XD, and Figma. Zeplin is ideal for designers, developers, and product managers. Pros include its ease of use, comprehensive design specifications, and efficient collaboration features. Limitations may include a learning curve for new users and the need for a paid subscription for full functionality."
     },
     {
       "name": "Canva",
@@ -220,7 +225,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Canva is a design and publishing platform that makes it easy for anyone to create professional-looking designs. It offers a wide range of templates, design tools, and stock images. Key features include drag-and-drop design, a library of templates, and the ability to create social media graphics, presentations, and more. Canva is particularly well-suited for small businesses, marketers, and individuals who need to create visual content without extensive design experience. It is accessible through a web browser and offers a user-friendly interface. Canva is ideal for social media managers, small business owners, and educators. Pros include its ease of use, extensive template library, and affordable pricing. Limitations may include a lack of advanced design features and limited customization options for templates."
     },
     {
       "name": "Miro",
@@ -257,7 +263,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Miro is a visual collaboration platform designed to enhance team collaboration and project management. It provides a digital canvas where teams can brainstorm, design, and manage projects in a visual format. Key features include real-time collaboration, sticky notes, voting, and the ability to integrate with other tools like Slack and Google Drive. Miro is ideal for teams that need to visualize ideas, manage workflows, and conduct virtual meetings. It is used by businesses of all sizes, from startups to large enterprises. Pros include its user-friendly interface, robust collaboration features, and extensive integrations. Limitations may include a learning curve for new users and the potential for feature overload due to the extensive toolset."
     },
     {
       "name": "Mural",
@@ -294,7 +301,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Mural is a digital workspace for visual collaboration, designed to bring teams together to create, ideate, and solve problems visually. It offers a wide range of templates and tools for brainstorming, planning, and presenting ideas. Key features include infinite canvas, sticky notes, voting, and the ability to integrate with other apps like Microsoft Teams and Jira. Mural is suitable for both creative and technical teams looking to enhance their collaboration process. Its pros include its intuitive interface, powerful collaboration features, and flexibility in project types. However, some users may find the pricing structure complex, and there can be a steep learning curve for new users."
     },
     {
       "name": "Lucidchart",
@@ -331,7 +339,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Lucidchart is a diagram and flowchart software that allows users to create professional diagrams, flowcharts, and org charts. It offers a variety of templates and shapes, as well as advanced features like real-time collaboration and integration with other tools. Key features include a drag-and-drop interface, collaboration tools, and the ability to export diagrams in multiple formats. Lucidchart is widely used in technical, educational, and business settings. Its pros include its comprehensive library of shapes, strong collaboration features, and seamless integration with popular software. Limitations may include a lack of advanced design capabilities and a steeper learning curve for users not familiar with diagramming software."
     },
     {
       "name": "ProcessOn",
@@ -368,7 +377,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ProcessOn is an online diagramming and collaboration platform that enables users to create, share, and collaborate on diagrams in real-time. It offers a range of templates for flowcharts, process maps, and UML diagrams, as well as collaboration features like comments and task assignments. Key features include a user-friendly interface, real-time collaboration, and integration with cloud storage services. ProcessOn is suitable for individuals and teams in various industries, including IT, finance, and healthcare. Its pros include its ease of use, collaborative nature, and affordable pricing. However, some users may find the free version limited in features and the interface less polished compared to premium competitors."
     },
     {
       "name": "Crello",
@@ -405,7 +415,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Crello is a design and presentation tool that allows users to create professional-looking visuals, presentations, and social media graphics without needing graphic design experience. It offers a vast library of templates, design elements, and stock images, as well as powerful editing tools. Key features include an intuitive drag-and-drop interface, collaboration features, and the ability to create responsive designs. Crello is ideal for small businesses, marketers, and individuals who need to produce high-quality visuals quickly. Its pros include its ease of use, extensive library of resources, and affordability. Limitations may include a less sophisticated design engine compared to dedicated graphic design software and the potential for design consistency issues when using templates."
     }
   ]
 }

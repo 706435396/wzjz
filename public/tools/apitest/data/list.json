@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Postman is an API development and testing platform that empowers developers to create, share, test, and document APIs. It provides a user-friendly interface for designing and executing API requests, making it an essential tool for modern software development. Key features include a rich set of request types, environment management, and collaboration tools. Postman is suitable for developers of all skill levels and is widely used for both SOAP and RESTful web services. Its pros include a powerful request builder, easy-to-use UI, and extensive documentation. However, some users may find the pricing model limiting for larger teams, and the tool may not be as powerful as some enterprise-grade solutions for complex API management."
     },
     {
       "name": "SoapUI",
@@ -73,7 +74,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "SoapUI is an open-source API testing tool designed for testing SOAP and REST web services. It offers a comprehensive suite of features for creating and executing automated tests, monitoring performance, and debugging issues. SoapUI is known for its robustness and flexibility, making it a popular choice among developers and QA professionals. Key features include support for various protocols, test data generation, and comprehensive reporting. It is suitable for both beginners and experienced users. The pros of SoapUI include its open-source nature, which makes it cost-effective, and its extensive community support. However, limitations include a steep learning curve for new users and a less intuitive interface compared to some other tools."
     },
     {
       "name": "JMeter",
@@ -111,7 +113,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "JMeter is an open-source performance testing tool designed for testing web applications. It allows users to simulate a heavy load on a server, group of servers, or network to test its robustness. JMeter is known for its flexibility and scalability, making it suitable for a wide range of performance testing scenarios. Key features include support for various protocols, data-driven testing, and a powerful user interface. It is ideal for developers and QA engineers who need to test the performance of their applications. The pros of JMeter include its open-source nature, extensive community support, and the ability to test a wide range of applications. However, limitations may include a complex setup process and a less user-friendly interface for beginners."
     },
     {
       "name": "LoadRunner",
@@ -147,7 +150,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "LoadRunner is a performance testing tool designed for enterprise applications. It is known for its scalability and robustness, making it suitable for testing large-scale systems under heavy loads. LoadRunner supports a wide range of protocols and technologies, including web, mobile, and database applications. Key features include advanced scripting capabilities, real-time monitoring, and comprehensive reporting. It is often used by large organizations with complex IT infrastructures. The pros of LoadRunner include its powerful performance testing capabilities, extensive protocol support, and strong integration with other HP software. However, limitations may include a high learning curve and a significant cost for licensing."
     },
     {
       "name": "Apigee",
@@ -183,7 +187,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Apigee is an API management platform that enables developers to create, publish, and manage APIs. It provides a comprehensive set of tools for API lifecycle management, including API design, testing, deployment, and monitoring. Apigee is designed for enterprises that need to build scalable and secure APIs. Key features include API analytics, developer portal, and API security. It is suitable for API architects, developers, and IT administrators. The pros of Apigee include its robust API management capabilities, strong security features, and seamless integration with other enterprise systems. However, limitations may include a complex setup process and a high cost for larger deployments."
     },
     {
       "name": "Insomnia",
@@ -219,7 +224,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Insomnia is an API client designed for testing and building HTTP requests. It provides a simple and intuitive interface for creating, sending, and analyzing API requests. Insomnia is ideal for developers who need a lightweight tool for API development and testing. Key features include environment management, request history, and code generation. It is suitable for both individual developers and teams. The pros of Insomnia include its ease of use, flexibility, and low cost. However, limitations may include limited support for certain protocols and a less robust feature set compared to some other API testing tools."
     },
     {
       "name": "RestAssured",
@@ -255,7 +261,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "RestAssured is a powerful Java library designed to simplify the process of testing RESTful APIs. It provides a fluent and easy-to-use API for writing test cases, making it an ideal choice for developers who want to ensure the reliability and performance of their APIs. Key features of RestAssured include support for various HTTP methods, assertions for validating responses, and integration with popular testing frameworks like JUnit and TestNG. It is particularly useful for automating API testing, which is essential for continuous integration and delivery pipelines. RestAssured is suitable for developers of all skill levels, from beginners to experienced professionals. Its primary advantage is its simplicity and ease of use, which allows for quick setup and implementation. However, some users may find that it lacks advanced features for complex API testing scenarios."
     },
     {
       "name": "Katalon Studio",
@@ -293,7 +300,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Katalon Studio is an all-in-one automation solution that caters to a wide range of testing needs, including API, web, desktop, and mobile testing. It is designed to be user-friendly, making it accessible to both non-programmers and experienced testers. The tool offers a comprehensive set of features, including data-driven testing, keyword-driven testing, and record and playback capabilities. Katalon Studio also supports various scripting languages, such as Groovy and JavaScript, which allows for customization and flexibility in test creation. It is particularly well-suited for enterprises looking to automate their testing processes across different platforms. The main advantage of Katalon Studio is its versatility and ease of integration with other tools and systems. However, some users may find the learning curve steep, and the tool can be resource-intensive for complex test scenarios."
     },
     {
       "name": "TestComplete",
@@ -331,7 +339,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "TestComplete is an automated testing tool that enables developers and testers to create and execute tests for desktop, mobile, and web applications. It supports a wide range of programming languages, including C#, VB.NET, and JavaScript, making it adaptable to different development environments. TestComplete offers features such as data-driven testing, image recognition, and support for various UI controls. It is particularly useful for regression testing and ensuring the quality of applications across different platforms. TestComplete is suitable for both small development teams and large enterprises. Its main strength lies in its robustness and comprehensive feature set. However, some users may find the tool's complexity and the need for a steep learning curve to be limitations."
     },
     {
       "name": "WAPT",
@@ -369,7 +378,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "WAPT (Web Application Performance and Load Testing) is a specialized tool designed for testing the performance and load capacity of web applications. It allows users to simulate thousands of virtual users to test how an application performs under heavy traffic. WAPT provides detailed reports and analytics to help identify bottlenecks and optimize the application's performance. Key features include support for various web technologies, such as HTML5, AJAX, and Silverlight, and integration with popular databases and servers. WAPT is ideal for web developers and performance engineers who need to ensure that their applications can handle high user loads. Its primary advantage is its ability to simulate real-world user scenarios, which is crucial for accurate performance testing. However, WAPT may be overkill for smaller applications or those with less complex performance requirements."
     },
     {
       "name": "API Fortress",
@@ -405,7 +415,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "API Fortress is an automated API testing and monitoring platform that enables continuous testing and validation of APIs throughout their lifecycle. It offers a comprehensive set of features, including automated test creation, test execution, and monitoring of API performance and security. API Fortress integrates seamlessly with CI/CD pipelines, making it an essential tool for DevOps teams. The platform supports various testing frameworks and allows for customization to meet specific testing requirements. API Fortress is suitable for organizations that prioritize API quality and security. Its main advantage is its ability to provide real-time insights into API performance and issues, which is critical for maintaining high-quality APIs. However, some users may find the tool's pricing model to be a limitation, especially for smaller organizations with limited budgets."
     }
   ]
 }

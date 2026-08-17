@@ -36,7 +36,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Airtable is a collaborative database that combines the simplicity of a spreadsheet with the power of a database. It allows users to organize and share information in a visually appealing and intuitive manner. Key features include a flexible interface that can be customized with tables, forms, and views, as well as powerful automation tools to streamline workflows. It is ideal for individuals, small teams, and organizations that need a flexible and user-friendly solution for managing data, projects, and processes. Airtable is well-suited for anyone who requires a collaborative platform that can handle complex data and offers seamless integration with other tools. Pros include its versatility, ease of use, and robust feature set. Limitations may include a steeper learning curve for some users and potential performance issues with very large datasets."
     },
     {
       "name": "Miro",
@@ -73,7 +74,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Miro is a visual collaboration platform designed for team brainstorming and planning. It provides a virtual canvas where teams can create, organize, and share ideas in real-time. Key features include a variety of shapes, sticky notes, and other drawing tools, as well as integration with popular tools like Slack, Google Drive, and Microsoft Teams. Miro is perfect for remote teams and organizations that need to facilitate collaborative sessions, whether they are brainstorming sessions, project planning meetings, or agile ceremonies. Pros include its versatility, ease of use, and the ability to facilitate effective communication and collaboration. Limitations may include a potential lack of advanced project management features for some users and the need for a strong internet connection to ensure smooth performance."
     },
     {
       "name": "Asana",
@@ -110,7 +112,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Asana is a project management tool that helps teams track tasks, manage their work, and collaborate more effectively. It provides a centralized platform where users can assign tasks, set deadlines, and monitor progress. Key features include a timeline view, a kanban board, and a calendar view, as well as integrations with popular apps like Slack, Microsoft Teams, and Google Workspace. Asana is suitable for a wide range of teams, from small businesses to large enterprises, that need a comprehensive project management solution. Pros include its scalability, customization options, and ease of use. Limitations may include a somewhat complex user interface for new users and the potential need for additional training to fully utilize its features."
     },
     {
       "name": "Monday.com",
@@ -147,7 +150,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Monday.com is a work operating system that provides a flexible platform for teams to plan, track, and manage their work. It allows teams to create their own workflows and dashboards, tailored to their specific needs. Key features include customizable templates, a variety of views like a timeline and a calendar, and seamless integration with over 1000 apps and services. Monday.com is ideal for teams that need a customizable and intuitive solution for managing their projects and tasks. Pros include its adaptability, user-friendly interface, and robust feature set. Limitations may include a higher price point for some users and the potential need for ongoing training to ensure teams are fully utilizing the platform's capabilities."
     },
     {
       "name": "Trello",
@@ -184,7 +188,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Trello is a project management tool that uses boards, lists, and cards to organize tasks and projects. It is known for its simplicity and visual approach to task management. Key features include a drag-and-drop interface, due dates, and the ability to add comments and attachments to cards. Trello is perfect for small teams and individuals who need a straightforward and intuitive way to manage their work. It is also well-suited for managing tasks that have a lot of dependencies or need to be prioritized. Pros include its ease of use, visual appeal, and the ability to create custom workflows. Limitations may include a lack of advanced reporting and analytics features for some users and the potential need for additional tools to manage complex projects."
     },
     {
       "name": "ClickUp",
@@ -221,7 +226,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ClickUp is an all-in-one project management tool designed to help teams organize and collaborate effectively. It offers a wide range of features, including task management, document sharing, and time tracking. Key features include a customizable interface, a variety of views like a calendar and a kanban board, and integrations with over 1000 apps and services. ClickUp is suitable for teams of all sizes that need a comprehensive and adaptable project management solution. Pros include its versatility, extensive feature set, and ease of customization. Limitations may include a steeper learning curve for some users and the potential need for additional training to take full advantage of its capabilities."
     },
     {
       "name": "Notion",
@@ -258,7 +264,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Notion is an all-in-one workspace that revolutionizes the way teams organize, share, and manage their work. It combines the functionalities of notes, tasks, wikis, and databases into a single, intuitive platform. Key features include a flexible page structure that allows users to create and link pages with ease, a powerful search engine that makes finding information quick and efficient, and collaborative tools that enable teams to work together in real-time. Notion is ideal for individuals, students, educators, and businesses of all sizes. It is particularly useful for project management, knowledge management, and personal productivity. Pros include its versatility, ease of use, and seamless integration with other tools. Limitations may include a steep learning curve for some users and the potential for complexity as the workspace grows."
     },
     {
       "name": "Slack",
@@ -295,7 +302,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Slack is a business communication platform designed to bring people together in a shared workspace. It facilitates real-time messaging, file sharing, and collaboration, making it an essential tool for team communication and project coordination. Key features include channels for organizing conversations, direct messaging for private conversations, and integrations with a wide range of other applications and services. Slack is suitable for teams of all sizes, from small startups to large enterprises. It is particularly valuable for remote teams, as it enables seamless communication regardless of location. Pros include its ease of use, extensive integrations, and robust search functionality. Limitations may include the potential for information overload in large teams and the need for careful management of channels and notifications."
     },
     {
       "name": "Microsoft Teams",
@@ -332,7 +340,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Microsoft Teams is a team collaboration platform that provides a comprehensive set of tools for communication, collaboration, and productivity. It includes chat, meetings, calling, and a shared workspace for files and notes. Teams is deeply integrated with the Microsoft 365 suite, offering seamless integration with applications like Word, Excel, and PowerPoint. It is designed for businesses of all sizes, from small teams to large enterprises. Teams is particularly well-suited for organizations that already use Microsoft products, as it offers a consistent and familiar experience. Pros include its robust feature set, strong security, and seamless integration with other Microsoft tools. Limitations may include a potentially complex setup process and the need for a Microsoft 365 subscription to access some features."
     },
     {
       "name": "Zapier",
@@ -368,7 +377,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Zapier is an automation tool that enables users to connect different apps and services together without the need for complex coding. It automates workflows and tasks by allowing users to create 'zaps,' which are rules that trigger one app to perform an action in another when certain events occur. Zapier is suitable for individuals, small businesses, and large organizations looking to streamline their processes and increase productivity. Key features include a vast library of supported apps and services, an intuitive interface for creating zaps, and the ability to create multi-step workflows. It is particularly useful for automating repetitive tasks such as sending emails, updating databases, and syncing files. Pros include its ease of use, wide range of integrations, and the ability to automate tasks that would otherwise require manual intervention. However, limitations may include a limited number of zaps that can be created at once and the potential for higher costs as the number of zaps increases."
     }
   ]
 }

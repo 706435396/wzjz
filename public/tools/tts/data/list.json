@@ -36,7 +36,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Google Cloud Text-to-Speech is a powerful tool designed to convert text into natural-sounding speech. It leverages the advanced capabilities of Google's AI to produce high-quality, lifelike audio output. Key features include a wide range of voices and languages, customizable speech parameters, and seamless integration with other Google Cloud services. This tool is ideal for developers looking to add voice capabilities to their applications, such as creating automated customer service agents, reading out text content, or enhancing accessibility features. Pros include high-quality speech synthesis, extensive language support, and easy integration. Limitations may include a learning curve for setting up and configuring the service, as well as potential costs associated with using Google Cloud resources."
     },
     {
       "name": "Amazon Polly",
@@ -73,7 +74,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Amazon Polly is a service that turns text into lifelike speech, allowing developers to create engaging audio experiences. It offers a vast selection of voices and languages, and supports customization of speech characteristics like pitch, rate, and emphasis. Amazon Polly is well-suited for applications that require voice interaction, such as interactive voice response systems, audiobooks, and podcasts. Its key features include high-quality speech synthesis, real-time speech generation, and integration with AWS services. Pros include a wide range of voices and languages, easy-to-use API, and seamless AWS integration. Limitations may include a higher cost for extensive usage and the need for AWS account to access the service."
     },
     {
       "name": "IBM Watson Text to Speech",
@@ -110,7 +112,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "IBM Watson Text to Speech is a comprehensive text-to-speech solution that enables developers to create natural-sounding speech from text. It offers a variety of voices and languages, and allows for fine-tuning of speech parameters to match specific requirements. This tool is ideal for applications that require high-quality voice output, such as interactive voice assistants, automated customer service, and educational tools. Key features include advanced speech synthesis technology, multilingual support, and integration with IBM Watson services. Pros include high-quality speech output, robust API, and integration with IBM Watson services. Limitations may include a steeper learning curve for developers unfamiliar with IBM Watson, and potential costs associated with using IBM Watson services."
     },
     {
       "name": "Microsoft Azure Cognitive Services Text-to-Speech",
@@ -147,7 +150,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Microsoft Azure Cognitive Services Text-to-Speech is a service that converts text into natural-sounding speech, enabling developers to add voice capabilities to their applications. It offers a wide range of voices and languages, and allows for customization of speech parameters. This tool is suitable for a variety of applications, including automated customer service, audiobooks, and interactive voice assistants. Key features include high-quality speech synthesis, multilingual support, and seamless integration with Azure services. Pros include a broad range of voices and languages, easy-to-use API, and integration with Azure services. Limitations may include a learning curve for setting up and configuring the service, as well as potential costs associated with using Azure resources."
     },
     {
       "name": "eSpeak NG",
@@ -183,7 +187,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "eSpeak NG is a free and open-source speech synthesizer that converts text into speech. It supports multiple languages and is designed to be lightweight and efficient. This tool is ideal for developers looking for a cost-effective solution to add text-to-speech capabilities to their applications, such as educational tools, screen readers, and command-line utilities. Key features include multilingual support, customizable voice parameters, and compatibility with various operating systems. Pros include being free and open-source, ease of integration, and support for multiple languages. Limitations may include lower quality speech output compared to commercial solutions, limited voice options, and a less user-friendly interface."
     },
     {
       "name": "MaryTTS",
@@ -220,7 +225,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "MaryTTS is an open-source, multilingual text-to-speech system that provides developers with a flexible and customizable tool for converting text into speech. It supports a wide range of languages and offers various voice options, making it suitable for applications that require localized voice output. MaryTTS is ideal for developers working on projects that require high-quality speech synthesis and language support. Key features include multilingual support, customizable voice parameters, and an open-source license. Pros include being open-source, allowing for customization, and supporting multiple languages. Limitations may include a less polished user interface, a steeper learning curve for developers, and potentially lower quality speech output compared to commercial solutions."
     },
     {
       "name": "festival speech synthesizer",
@@ -256,7 +262,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Festival Speech Synthesizer is a free, open-source speech synthesis system designed to convert text into spoken words. It supports a wide range of languages, including English, and is known for its high-quality output. Key features include a wide variety of voices, support for different languages and dialects, and the ability to customize speech parameters such as pitch and rate. It is suitable for developers, researchers, and anyone interested in creating speech-enabled applications. The Festival Speech Synthesizer is highly customizable and can be integrated into various projects. However, it may require some technical expertise to set up and configure properly. It also has limited support for advanced features compared to commercial speech synthesis systems."
     },
     {
       "name": "Microsoft Speech SDK",
@@ -292,7 +299,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Microsoft Speech SDK is a comprehensive toolkit for developers looking to create speech-enabled applications. It provides robust APIs for speech recognition, speech synthesis, and speech-to-text functionalities. Key features include support for multiple languages, integration with Microsoft Azure Cognitive Services, and a wide range of speech engines. It is ideal for developers working on Windows-based applications and is well-documented, making it easy to use. The SDK offers high-quality speech recognition and synthesis, but it may have limitations when it comes to custom voice creation and advanced language support. It is also primarily designed for use with Microsoft technologies."
     },
     {
       "name": "Nuance Dragon NaturallySpeaking",
@@ -329,7 +337,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Nuance Dragon NaturallySpeaking is a powerful text-to-speech software that converts written text into natural-sounding speech. It is designed for users who need to convert documents, emails, or other text into spoken words for accessibility or productivity purposes. Key features include high accuracy in speech recognition, a wide range of voices, and the ability to customize speech settings. Dragon NaturallySpeaking is user-friendly and can be trained to recognize individual voices. However, it may require some time to set up and train, and it may not be as accurate as commercial speech synthesis systems in certain contexts. It is best suited for individual users and small businesses."
     },
     {
       "name": "CereProc Text-to-Speech",
@@ -366,7 +375,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "CereProc Text-to-Speech is a cutting-edge platform for creating custom voices for text-to-speech applications. It offers a wide range of voices, including unique and distinctive characters, and allows users to create custom voices tailored to specific applications. Key features include advanced speech synthesis technology, a user-friendly interface, and the ability to integrate with various third-party applications. CereProc Text-to-Speech is suitable for developers, voice actors, and anyone looking to create custom voices. However, the platform may be expensive for individual users, and the process of creating custom voices can be time-consuming. It is best suited for professional applications that require high-quality, unique voices."
     },
     {
       "name": "Voximplant",
@@ -403,7 +413,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Voximplant is a text-to-speech API designed for real-time communication applications. It allows developers to integrate high-quality speech synthesis into their applications, enabling features such as voice calls, chatbots, and automated customer service. Key features include support for multiple languages, real-time speech synthesis, and easy integration with popular messaging platforms. Voximplant is suitable for developers of communication and voice-based applications. However, it may have limitations in terms of customization options and support for advanced speech features. It is best suited for applications that require quick and easy integration of text-to-speech capabilities."
     },
     {
       "name": "Voicery",
@@ -440,7 +451,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Voicery is an AI-driven text-to-speech platform that specializes in creating unique voices for various applications. It offers a wide range of voices, including those inspired by real people, celebrities, and fictional characters. Key features include advanced AI technology, high-quality speech synthesis, and the ability to customize voices. Voicery is suitable for developers, content creators, and anyone looking to create distinctive and engaging voices. However, the platform may be expensive for individual users, and the process of creating and customizing voices can be complex. It is best suited for professional applications that require high-quality, unique voices."
     },
     {
       "name": "Acapela Group",
@@ -477,7 +489,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Acapela Group is a comprehensive Text-to-Speech (TTS) solution provider, offering a wide range of applications across various industries. The tool utilizes advanced speech synthesis technology to convert written text into natural-sounding audio. Key features include a vast library of high-quality voices in multiple languages, customizable speech parameters, and seamless integration capabilities with various platforms and devices. It is ideal for businesses in education, marketing, accessibility, and entertainment, where human-like voiceovers are required. The platform is user-friendly, allowing for easy customization of pitch, rate, and intonation. However, the pricing can be on the higher side for small-scale applications, and the initial setup might require technical expertise."
     }
   ]
 }

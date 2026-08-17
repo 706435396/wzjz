@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "DALL-E 2 is an advanced AI tool designed to create images from text descriptions. With its cutting-edge technology, users can input detailed textual descriptions and receive high-quality images that visually represent those descriptions. Key features include a vast library of images, the ability to fine-tune image details, and seamless integration with various platforms. It is ideal for content creators, designers, and anyone looking to visualize abstract or complex ideas. Pros include its ease of use, high-quality output, and the ability to generate unique images quickly. Limitations may include the need for precise text descriptions and potential limitations in image complexity."
     },
     {
       "name": "Midjourney AI",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Midjourney AI is a powerful tool that generates images based on text prompts. It leverages the latest AI algorithms to produce a wide range of visuals, from simple scenes to intricate designs. Key features include a user-friendly interface, customizable settings, and the ability to save and share generated images. It is suitable for artists, designers, and anyone interested in exploring the possibilities of AI-generated art. Pros include its versatility, the ability to experiment with different styles, and the potential for creative inspiration. Limitations may include the need for a good understanding of text prompts to achieve desired results and the potential for repetitive or predictable outputs."
     },
     {
       "name": "DeepArt.io",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "DeepArt.io is an innovative AI tool that transforms your photos into works of art. By analyzing the style of famous artworks, it applies those styles to your own images, creating unique and visually stunning results. Key features include a wide range of artistic styles to choose from, the ability to adjust the intensity of the transformation, and the option to download the final artwork. It is perfect for art enthusiasts, photographers, and anyone looking to add a creative touch to their images. Pros include its ease of use, the ability to create one-of-a-kind art pieces, and the potential for artistic exploration. Limitations may include the potential for less-than-ideal results with certain image types and the need for a good internet connection to process images."
     },
     {
       "name": "Artbreeder",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Artbreeder is an AI tool that allows users to create unique images by blending features from different sources. It uses a genetic algorithm to evolve images, enabling users to experiment with various combinations and see the results in real-time. Key features include a simple and intuitive interface, the ability to save and load image generations, and the option to share your creations. It is ideal for artists, designers, and anyone interested in exploring the creative potential of AI. Pros include its ease of use, the ability to generate highly unique images, and the potential for endless creative exploration. Limitations may include the need for a good understanding of the tool's features to achieve desired results and the potential for less-than-ideal outcomes with certain combinations."
     },
     {
       "name": "Deep Dream Generator",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Deep Dream Generator is an AI tool that takes your photos and generates surreal images by enhancing the features within them. It uses deep learning algorithms to amplify textures, patterns, and details, resulting in dreamlike or abstract visuals. Key features include a user-friendly interface, adjustable settings for intensity and zoom level, and the ability to save and share your creations. It is perfect for artists, photographers, and anyone interested in exploring the surreal side of AI-generated art. Pros include its ease of use, the ability to create visually striking images, and the potential for creative inspiration. Limitations may include the potential for less-than-ideal results with certain image types and the need for a good understanding of the tool's settings to achieve desired effects."
     },
     {
       "name": "RunwayML",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "RunwayML is a platform that enables users to build and share AI-powered applications. It provides a user-friendly interface and a wide range of pre-built models, making it accessible to both beginners and experienced AI developers. Key features include drag-and-drop functionality, easy integration with other tools and platforms, and the ability to share your applications with the community. It is ideal for data scientists, developers, and anyone interested in creating AI-powered applications. Pros include its ease of use, the ability to quickly build and deploy AI applications, and the potential for collaborative development. Limitations may include the need for a basic understanding of AI and machine learning concepts and the potential for limitations in the complexity of applications that can be built."
     },
     {
       "name": "NightCafe Creator",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "NightCafe Creator is an innovative AI-powered tool designed to transform text descriptions into stunning visual art. This platform leverages the power of artificial intelligence to generate unique and personalized images based on user input. Key features include a user-friendly interface, a vast library of art styles, and the ability to fine-tune the generated images with additional details. Ideal for artists, designers, and anyone looking to explore the intersection of creativity and technology, NightCafe Creator is perfect for creating custom artwork for personal or commercial use. Pros include its ease of use, the wide range of art styles available, and the flexibility to modify images to suit individual preferences. Limitations may include the need for a strong text description to achieve the desired outcome and the potential for limitations in the complexity of the generated images."
     },
     {
       "name": "Artisto",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Artisto is a cutting-edge AI tool that transforms your photos into beautiful paintings with a single click. This tool uses advanced machine learning algorithms to analyze your images and apply artistic techniques to create a unique painting effect. Key features include a variety of brush styles, color palettes, and the ability to save and share your creations. Artisto is ideal for anyone looking to add a touch of artistry to their photos, from casual users to professional photographers. The tool's pros include its simplicity, the high-quality output, and the ability to experiment with different artistic styles. However, limitations may include the lack of customization options beyond the initial transformation and the potential for the output to be less detailed than traditional paintings."
     }
   ]
 }

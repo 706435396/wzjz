@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "TeamViewer is a versatile remote desktop access tool designed for both individuals and businesses. It allows users to connect to and control computers from anywhere in the world, making it an essential tool for remote work, IT support, and collaboration. Key features include high-speed file transfers, secure connections using end-to-end encryption, and cross-platform compatibility with Windows, macOS, Linux, iOS, and Android. TeamViewer is particularly useful for IT professionals who need to troubleshoot issues or provide support to clients remotely. It also supports multiple monitors, remote printing, and the ability to wake up sleeping computers. While TeamViewer offers a free version with limited features, the paid versions provide more advanced functionalities such as remote control of mobile devices and remote access to cloud storage. One limitation is that the free version lacks some of the more sophisticated features like remote access to mobile devices and cloud storage. Additionally, the user interface can be somewhat overwhelming for new users."
     },
     {
       "name": "AnyDesk",
@@ -72,7 +73,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "AnyDesk is a high-performance remote desktop software that offers seamless and secure connections for Windows, macOS, and Linux users. It is designed to provide a smooth and responsive remote desktop experience, making it ideal for professional use. Key features include ultra-fast screen sharing, low latency, and high-quality video and audio transmission. AnyDesk also supports multiple monitors, file transfers, and remote control of the host computer. It is particularly useful for remote work, online meetings, and technical support. The software is compatible with various devices, including smartphones and tablets, allowing users to access their computers from anywhere. AnyDesk prioritizes security with end-to-end encryption and two-factor authentication. However, the free version of AnyDesk has limitations, such as a watermark on the screen and a maximum of one concurrent session. The paid versions offer more advanced features and remove these restrictions. One limitation is that the user interface is not as intuitive as some other remote desktop tools, which might make it challenging for new users to navigate."
     },
     {
       "name": "Windows Remote Desktop",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Windows Remote Desktop is a built-in feature of the Windows operating system that allows users to connect to and control another computer remotely. It is designed for Windows users who need to access their work or home computers from a different location. Key features include easy setup, secure connections using Network Level Authentication (NLA), and the ability to transfer files between computers. Windows Remote Desktop is particularly useful for remote work, accessing files and applications on another computer, and providing IT support. It supports multiple monitors and remote printing. The software is compatible with various versions of Windows, including Windows 10, Windows 8, and Windows 7. One limitation is that it requires both the host and client computers to be running Windows, which can restrict its use in cross-platform environments. Additionally, the user interface is somewhat basic and may not offer the advanced features found in third-party remote desktop tools."
     },
     {
       "name": "UltraVNC",
@@ -144,7 +147,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "UltraVNC is a free and open-source remote desktop software that supports Windows, Linux, and macOS. It is designed for users who need to remotely access and control computers across different platforms. Key features include high-quality screen sharing, file transfers, and remote control capabilities. UltraVNC is particularly useful for IT professionals, system administrators, and users who require remote access for technical support or collaboration. It supports multiple monitors and offers encryption options for secure connections. The software is easy to set up and use, making it accessible for users with varying levels of technical expertise. However, the user interface can be somewhat outdated and less intuitive compared to modern remote desktop tools. UltraVNC also lacks some advanced features found in commercial alternatives, such as remote access to mobile devices and cloud storage. Another limitation is that the free version does not include technical support."
     },
     {
       "name": "TightVNC",
@@ -181,7 +185,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "TightVNC is a free remote desktop software that is compatible with Windows, Linux, and macOS. It provides users with the ability to remotely access and control computers across different platforms. Key features include fast screen updates, file transfers, and remote control capabilities. TightVNC is particularly useful for IT professionals, system administrators, and users who require remote access for technical support or collaboration. It supports multiple monitors and offers encryption options for secure connections. The software is easy to set up and use, making it accessible for users with varying levels of technical expertise. However, TightVNC has a few limitations. The user interface is basic and may not be as user-friendly as some other remote desktop tools. Additionally, it lacks some advanced features, such as remote access to mobile devices and cloud storage. Another limitation is that the free version does not include technical support."
     },
     {
       "name": "RealVNC",
@@ -219,7 +224,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "RealVNC is a commercial remote desktop software that offers advanced features for Windows, Linux, and macOS users. It is designed for businesses and individuals who require robust remote access and control capabilities. Key features include high-quality screen sharing, file transfers, remote control, and secure connections using end-to-end encryption. RealVNC is particularly useful for IT professionals, system administrators, and businesses that need to provide remote support or access their computers from anywhere. It supports multiple monitors, remote printing, and offers a range of customization options. The software is compatible with various devices, including smartphones and tablets, allowing for flexible remote access. RealVNC also includes features like session recording and remote access to mobile devices. However, the cost of the software can be a limitation for individual users or small businesses. Additionally, the user interface may be less intuitive for new users compared to some other remote desktop tools."
     },
     {
       "name": "Remote Desktop Connection Manager",
@@ -255,7 +261,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Remote Desktop Connection Manager is a powerful tool designed for developers and IT professionals who need to manage multiple remote desktop connections efficiently. It allows users to centralize their remote connections, making it easier to access and manage multiple remote desktops from a single interface. Key features include the ability to organize connections into groups, customizing the appearance of the connection list, and the option to save connection settings for quick access. The tool is particularly useful for those who frequently work with virtual machines, remote servers, or multiple client machines. It is compatible with Windows and supports various remote desktop protocols. While the Remote Desktop Connection Manager streamlines the process of remote access, it may have limitations in terms of cross-platform compatibility and advanced security features compared to specialized remote desktop solutions."
     },
     {
       "name": "GoToMyPC",
@@ -291,7 +298,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "GoToMyPC is a robust remote access software designed for Windows and macOS users. It enables users to securely access their computers from anywhere in the world using a web browser or the GoToMyPC mobile app. Key features include one-click access, secure data transfer, and the ability to control the remote computer with ease. The software supports high-quality video and audio streaming, making it ideal for remote work, presentations, and technical support. GoToMyPC is suitable for both individual users and businesses, providing a reliable solution for remote access needs. However, it may come with a cost, and some users might find the setup process slightly complex. Additionally, the performance can vary depending on the quality of the internet connection."
     },
     {
       "name": "Chrome Remote Desktop",
@@ -327,7 +335,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Chrome Remote Desktop is a free remote access tool that allows users to remotely access and control a computer from another computer or mobile device using a Chrome browser or the Chrome Remote Desktop app. It is a convenient solution for individuals and small businesses looking for a simple and cost-effective way to access their desktops from anywhere. Key features include cross-platform compatibility, easy setup, and secure data transfer using end-to-end encryption. Chrome Remote Desktop is particularly useful for accessing files, running applications, and providing remote assistance. However, it may not offer the same level of advanced features and customization options as dedicated remote desktop software, and it is limited to Chrome browser users."
     },
     {
       "name": "Remote Desktop Connection (MacOS)",
@@ -362,7 +371,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The Remote Desktop Connection feature is a built-in tool in macOS that allows users to connect to and control a remote Windows computer. It is a convenient option for users who need to access a Windows desktop or server from their Mac. Key features include support for multiple monitors, seamless file transfers, and the ability to use keyboard shortcuts across platforms. The Remote Desktop Connection on macOS is straightforward to set up and use, making it accessible to users with limited technical expertise. However, it is limited to remote connections to Windows computers and may not offer the same level of performance or advanced features as third-party remote desktop solutions. Additionally, the user interface is not as intuitive as some dedicated remote desktop software."
     }
   ]
 }

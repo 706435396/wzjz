@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Asana is a collaborative project management tool designed to streamline workflows and enhance team communication. It allows teams to organize, track, and manage their work in a centralized platform. Key features include task assignments, deadlines, and progress tracking, making it easy to see what everyone is working on and when it's due. Asana is suitable for teams of all sizes and industries, from small startups to large enterprises. It offers a variety of views, such as lists, boards, and calendars, to accommodate different work styles. The platform also integrates with other tools like Slack, Google Drive, and Microsoft Office, enhancing its versatility. Pros: Asana's intuitive interface and robust features make it a powerful tool for managing projects efficiently. It promotes transparency and collaboration, which can lead to increased productivity. Cons: The learning curve can be steep for new users, and the pricing can be prohibitive for small teams or startups."
     },
     {
       "name": "Trello",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Trello is a visual project management tool that uses boards, lists, and cards to organize tasks and projects. It's known for its simplicity and ease of use, making it a great choice for teams that prefer a more visual approach to managing their work. Trello's key features include task assignments, due dates, and the ability to add comments and attachments to cards. It's well-suited for both small teams and large organizations, and it's particularly popular in creative industries. Trello also offers a range of integrations with other tools, such as Slack, Google Drive, and Microsoft Teams. Pros: Trello's straightforward design and flexibility make it an excellent choice for teams that need to manage tasks and projects in a visual manner. It's also highly customizable, allowing teams to tailor the tool to their specific needs. Cons: Trello can become unwieldy for complex projects with many tasks and dependencies, and its reporting capabilities are limited compared to other project management tools."
     },
     {
       "name": "Monday.com",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Monday.com is a work operating system that provides a flexible and intuitive platform for managing projects and workflows. It's designed to be adaptable to any type of work, from creative projects to sales pipelines. Monday.com's key features include customizable workflows, task assignments, and real-time updates. The platform offers a variety of views, including boards, timelines, and calendars, to help teams visualize their work. It's well-suited for teams of all sizes and industries, and it's particularly popular in marketing, sales, and creative teams. Monday.com also integrates with a wide range of other tools, such as Google Workspace, Microsoft Office, and Salesforce. Pros: Monday.com's versatility and user-friendly interface make it a great choice for teams that need a flexible project management solution. It promotes collaboration and transparency, which can lead to improved team performance. Cons: The pricing can be expensive for small teams, and the tool can be overwhelming for teams that are not used to project management software."
     },
     {
       "name": "Jira",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Jira is a bug tracking and project management tool that's widely used in software development teams. It's known for its robust features and scalability, making it suitable for both small teams and large organizations. Key features of Jira include issue tracking, agile project management, and reporting. It's particularly well-suited for teams that follow agile methodologies, such as Scrum or Kanban. Jira allows teams to create and prioritize tasks, track progress, and collaborate on fixes and features. It also offers a wide range of integrations with other development tools, such as Git, Bitbucket, and Confluence. Pros: Jira's powerful tracking and reporting capabilities make it an excellent choice for software development teams. It promotes transparency and accountability, which can lead to improved product quality. Cons: Jira can be complex to set up and configure, and it may be overkill for teams that don't require its advanced features."
     },
     {
       "name": "Basecamp",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Basecamp is a project management software that emphasizes simplicity and ease of use. It's designed to help teams stay organized and communicate effectively without the complexity of other project management tools. Key features of Basecamp include message boards, to-do lists, schedules, and document storage. It's particularly well-suited for small to medium-sized teams and is often used by creative agencies, consulting firms, and other service-based businesses. Basecamp also offers a range of integrations with other tools, such as Slack, Google Drive, and QuickBooks. Pros: Basecamp's simplicity and focus on communication make it an excellent choice for teams that prefer a straightforward approach to project management. It's also cost-effective, which can be a significant advantage for small businesses. Cons: Basecamp may lack some of the advanced features offered by other project management tools, and it can be challenging to manage complex projects with many tasks and dependencies."
     },
     {
       "name": "Smartsheet",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Smartsheet is a business management and collaboration platform that combines the power of project management with the flexibility of a spreadsheet. It's designed to help teams manage their work more effectively, whether they're working on projects, tracking time, or managing resources. Key features of Smartsheet include task assignments, deadlines, and real-time collaboration. It's well-suited for teams of all sizes and industries, and it's particularly popular in professional services, IT, and healthcare. Smartsheet also offers a variety of views, including grid, calendar, and timeline, to help teams visualize their work. The platform integrates with a wide range of other tools, such as Microsoft Office, Google Workspace, and Salesforce. Pros: Smartsheet's combination of project management and spreadsheet functionality makes it a versatile tool for managing a wide range of tasks. It's also highly customizable, allowing teams to tailor the tool to their specific needs. Cons: The learning curve can be steep for new users, and the pricing can be expensive for small teams or startups."
     },
     {
       "name": "Microsoft Project",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Microsoft Project is a comprehensive project management software designed for professionals who need to plan, execute, and track projects efficiently. It offers robust features for project scheduling, resource management, and collaboration. Key features include a Gantt chart for visualizing project timelines, task dependencies, and critical path analysis. It supports multiple project views and allows users to create custom reports. Microsoft Project is ideal for teams working on complex projects that require detailed planning and coordination. It integrates seamlessly with other Microsoft Office tools, making it a preferred choice for many organizations. However, the software can be expensive and may have a steep learning curve for new users."
     },
     {
       "name": "ClickUp",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ClickUp is an all-in-one project management tool designed to streamline workflows and enhance team collaboration. It caters to a wide range of industries and team sizes, offering a flexible and customizable platform. Key features include task management, time tracking, document sharing, and communication tools. ClickUp's intuitive interface allows users to create and assign tasks, set deadlines, and monitor progress. It supports various project views such as Kanban, list, and calendar, making it easy to manage projects of different types. The tool is suitable for teams of all sizes and is particularly beneficial for remote work environments. However, some users may find the pricing structure complex, and the extensive feature set can be overwhelming for small teams."
     },
     {
       "name": "Wrike",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Wrike is a project management software tailored for marketing, creative, and professional teams. It provides a comprehensive set of tools for planning, executing, and tracking projects. Key features include a dynamic Gantt chart, real-time collaboration, and customizable workflows. Wrike's intuitive interface allows teams to manage tasks, track deadlines, and allocate resources effectively. It offers various project views, including a timeline, board, and list, to accommodate different project management styles. The tool is particularly well-suited for teams that require granular control over project workflows and deadlines. Wrike also integrates with popular tools like Google Drive, Slack, and Adobe Creative Cloud. However, the software may have a higher price point compared to other project management tools, and some users may find the interface less intuitive."
     },
     {
       "name": "Notion",
@@ -359,7 +368,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Notion is an all-in-one workspace that combines notes, tasks, and collaboration features into a single platform. It is designed for individuals and teams looking for a flexible and customizable solution for organizing their work. Key features include a knowledge base, task management, and collaborative document editing. Notion allows users to create pages, databases, and boards to organize information and track projects. It supports real-time collaboration, making it easy for team members to work together on shared documents. The tool is particularly useful for teams that need to document processes, share knowledge, and manage tasks in a centralized location. Notion also offers integrations with various apps and services, such as Slack, Google Drive, and Trello. However, the learning curve for Notion can be steep, and some users may find the pricing model less transparent."
     }
   ]
 }

@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Google Cloud Speech-to-Text is a powerful tool designed to convert audio to text with high accuracy. It leverages Google's cutting-edge speech recognition engine to transcribe a wide range of audio formats, including MP3, WAV, and FLAC. Key features include real-time streaming, automatic language detection, and support for over 120 languages and accents. This tool is ideal for developers and businesses that require fast and accurate transcription services for applications such as voice search, automated transcription, and speech analytics. Pros include its high accuracy, extensive language support, and seamless integration with other Google Cloud services. Limitations include potential cost implications for large-scale deployments and the need for a stable internet connection for real-time streaming."
     },
     {
       "name": "IBM Watson Speech to Text",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "IBM Watson Speech to Text is a robust solution for transcribing and analyzing audio and video content. It offers advanced speech recognition technology that can accurately transcribe spoken words into text. The tool supports a wide range of languages and dialects, making it suitable for global applications. Key features include customizable speech models, speaker diarization, and the ability to integrate with other IBM Watson services. It is ideal for developers and enterprises looking to enhance their speech-to-text capabilities for applications such as automated transcription, voice search, and speech analytics. Pros include its high accuracy, extensive language support, and powerful analytics features. Limitations may include a steeper learning curve and potential costs associated with custom models and analytics services."
     },
     {
       "name": "Microsoft Azure Speech Services",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Microsoft Azure Speech Services is a versatile tool that converts speech to text with high accuracy. It offers a wide range of languages and dialects, making it suitable for global applications. Key features include real-time speech recognition, automatic language detection, and support for various audio formats. This tool is ideal for developers and businesses that require reliable transcription services for applications such as voice search, automated transcription, and speech analytics. Pros include its high accuracy, seamless integration with Azure services, and flexible pricing options. Limitations may include the need for a stable internet connection for real-time streaming and potential costs associated with large-scale deployments."
     },
     {
       "name": "Nuance Dragon NaturallySpeaking",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Nuance Dragon NaturallySpeaking is a powerful speech recognition software that converts spoken words into text. It offers high accuracy and is compatible with a wide range of applications, including word processing, email, and web browsing. Key features include customizable voice commands, support for multiple users, and the ability to integrate with popular productivity tools. This tool is ideal for individuals and professionals who require hands-free productivity solutions. Pros include its high accuracy, ease of use, and extensive customization options. Limitations may include the need for a high-quality microphone and the potential learning curve for new users."
     },
     {
       "name": "Rev Transcription Services",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Rev Transcription Services provides accurate and affordable transcription services for all types of audio and video content. The platform offers a wide range of turnaround times, from same-day to several days, and supports multiple languages. Key features include a user-friendly interface, secure file storage, and the ability to request revisions. It is ideal for individuals, businesses, and organizations that need professional transcription services for applications such as legal, medical, and educational content. Pros include its high accuracy, fast turnaround times, and competitive pricing. Limitations may include the potential for delays in rush orders and the need to upload files through the platform."
     },
     {
       "name": "Otter.ai",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Otter.ai is an innovative tool that automatically transcribes and organizes meetings and conversations. It offers real-time transcription, speaker identification, and the ability to search and share transcripts. Key features include offline transcription, integration with popular note-taking apps, and the ability to export transcripts in various formats. This tool is ideal for professionals, students, and anyone who needs to capture and organize conversations efficiently. Pros include its high accuracy, ease of use, and powerful organization features. Limitations may include the need for a stable internet connection for real-time transcription and the potential for errors with heavily accented speech."
     },
     {
       "name": "Trint",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Trint is an AI-powered transcription tool designed to streamline the process of transcribing and editing audio and video content. It automatically transcribes audio and video files, allowing users to easily convert spoken words into written text. Key features include automatic punctuation, speaker identification, and the ability to search and edit transcripts with ease. Trint is particularly useful for content creators, researchers, and anyone who needs to quickly and accurately transcribe audio and video content. The tool is compatible with a wide range of file formats and integrates seamlessly with popular platforms like YouTube and Google Drive. Pros: Trint's AI-driven transcription is highly accurate and efficient, significantly reducing the time and effort required for manual transcription. Its user-friendly interface and robust features make it an ideal choice for both beginners and experienced users. Limitations: While Trint offers a high level of accuracy, it may not always capture nuances in speech, such as slang or regional accents, which could require additional editing."
     },
     {
       "name": "Descript",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Descript is a comprehensive tool for creating, editing, and sharing audio and video content. It combines AI transcription and editing capabilities, allowing users to easily transcribe and edit their media files. Key features include automatic transcription, real-time editing, and the ability to collaborate with others on shared projects. Descript is perfect for podcasters, video producers, and anyone who needs to manage and edit audio and video content efficiently. The tool offers a range of integrations with popular platforms like Dropbox and Google Drive, making it easy to import and export files. Pros: Descript's AI transcription is fast and accurate, and its editing features are intuitive and powerful. The tool's collaborative capabilities make it an excellent choice for team projects. Limitations: Descript may not be as efficient for large-scale transcription projects as some other tools, and its pricing structure can be complex for individual users."
     },
     {
       "name": "Rymedi",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Rymedi is a reliable speech-to-text transcription service that provides accurate and fast transcription for businesses and individuals. It uses advanced AI technology to convert spoken words into written text, ensuring high-quality transcripts. Key features include multi-language support, automatic punctuation, and speaker identification. Rymedi is suitable for a wide range of applications, from legal transcription to academic research. The tool offers flexible pricing plans and integrates with popular platforms like Dropbox and Google Drive. Pros: Rymedi's transcription services are highly accurate and fast, making it an excellent choice for time-sensitive projects. Its user-friendly interface and flexible pricing plans make it accessible to a wide range of users. Limitations: While Rymedi offers a high level of accuracy, it may not always capture complex speech patterns or accents, which could require additional editing."
     },
     {
       "name": "Speechmatics",
@@ -359,7 +368,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Speechmatics provides high-quality speech-to-text solutions using AI-powered technology. The tool is designed to deliver accurate and efficient transcription services for a variety of applications, including live streaming, call recording, and media content creation. Key features include real-time transcription, speaker diarization, and the ability to transcribe in multiple languages. Speechmatics is suitable for businesses and organizations that require accurate and reliable transcription services. The tool offers a range of APIs and integrations, making it easy to integrate with existing systems. Pros: Speechmatics' AI-driven transcription is highly accurate and fast, making it an excellent choice for time-sensitive projects. Its robust features and flexible pricing plans make it a versatile solution for a wide range of applications. Limitations: While Speechmatics offers a high level of accuracy, it may not always capture nuances in speech, such as slang or regional accents, which could require additional editing."
     },
     {
       "name": "Verbit",
@@ -395,7 +405,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Verbit offers accurate and fast transcription services with AI-powered technology, catering to all types of content. The tool uses advanced speech recognition algorithms to convert spoken words into written text, ensuring high-quality transcripts. Key features include multi-language support, automatic punctuation, and speaker identification. Verbit is suitable for a wide range of industries, including legal, healthcare, and education. The tool offers flexible pricing plans and integrates with popular platforms like Dropbox and Google Drive. Pros: Verbit's transcription services are highly accurate and fast, making it an excellent choice for time-sensitive projects. Its user-friendly interface and flexible pricing plans make it accessible to a wide range of users. Limitations: While Verbit offers a high level of accuracy, it may not always capture complex speech patterns or accents, which could require additional editing. Additionally, its pricing structure can be complex for individual users."
     }
   ]
 }

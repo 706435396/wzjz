@@ -38,7 +38,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Docker Desktop is a powerful tool designed for developers to run Docker applications on Windows, Mac, and Linux. It provides a user-friendly interface that simplifies the process of creating, running, and managing containers. Key features include the ability to build and share containerized applications, manage container images, and deploy applications across different environments. It supports Docker Compose for defining and running multi-container applications, and Docker Swarm for orchestrating containerized services. Docker Desktop is ideal for developers who need a comprehensive solution for containerization and orchestration. Pros include its ease of use, robust feature set, and cross-platform compatibility. Limitations may include a learning curve for new users and potential performance issues on less powerful hardware."
     },
     {
       "name": "Portainer",
@@ -74,7 +75,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Portainer is a lightweight management UI for Docker, designed to simplify the management of Docker containers, images, and networks. It provides a web interface that allows users to easily manage their Docker environment without the need for command-line tools. Key features include container monitoring, image management, and network configuration. Portainer is particularly useful for those who prefer a graphical interface over the command line. It is suitable for both beginners and experienced users. Pros include its simplicity, ease of use, and the ability to manage multiple Docker environments from a single dashboard. Limitations may include limited advanced features compared to other management tools and potential performance issues with large-scale deployments."
     },
     {
       "name": "Docker Hub",
@@ -110,7 +112,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Docker Hub is a container registry service provided by Docker, Inc. It serves as a central repository for storing, sharing, and managing container images. Users can search for, download, and upload images to Docker Hub. Key features include image search, versioning, and tagging. It also supports private repositories for secure image storage. Docker Hub is essential for developers who need to collaborate on containerized applications or distribute their own images. Pros include its vast image repository, user-friendly interface, and robust security features. Limitations may include potential performance issues during peak usage times and limitations on the number of private repositories for free accounts."
     },
     {
       "name": "Docker Compose",
@@ -146,7 +149,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Docker Compose is a tool for defining and running multi-container Docker applications. It uses YAML files to configure services, networks, and volumes, making it easy to manage complex applications. Key features include service discovery, dependency management, and rolling updates. Docker Compose is particularly useful for developers who need to orchestrate multiple containers as a single service. It is well-suited for both small and large applications. Pros include its simplicity, ease of use, and seamless integration with Docker. Limitations may include a steeper learning curve for users unfamiliar with Docker and potential performance issues with highly complex applications."
     },
     {
       "name": "Kitematic",
@@ -182,7 +186,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Kitematic is an application manager for Docker applications, designed to simplify the process of running and managing Docker containers. It provides a user-friendly interface that allows users to easily launch, stop, and manage containers without the need for command-line tools. Key features include container monitoring, image management, and a simple drag-and-drop interface. Kitematic is ideal for users who prefer a graphical interface over the command line. It is suitable for both beginners and experienced users. Pros include its ease of use, intuitive interface, and seamless integration with Docker. Limitations may include limited advanced features compared to other management tools and potential performance issues with large-scale deployments."
     },
     {
       "name": "Docker Bench for Security",
@@ -220,7 +225,8 @@
         "Step: Fill in the API Key / account config\nMany AI tools need a model connection. Find the config item in the README and fill it in.\nCode:\n# Example: replace xxx with your real Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nDo not screenshot your Key in public groups. Get a free/cheap Key (e.g. GLM-4, DeepSeek) to practice.",
         "Step: Start and run your first task\nRun the example command from the project and watch the terminal output.\nCode:\ndocker run -it --rm {{name}}\nCheck:\nIf the program prints results (no red Error text), you have it working.",
         "Step: Troubleshooting\nFailing the first local deploy is normal. Common issues:\n1. Dependency version mismatch → use the Python/Node version the repo recommends;\n2. Key not working → check your environment variables;\n3. Cannot reach the model API → switch mirror or provider.\nTip:\nSee more examples in \"Related tutorials\" below, or click \"Visit official site\"."
-      ]
+      ],
+      "detail": "Docker Bench for Security is an automated security testing tool designed to help users secure their Docker containers. It scans for common security issues and provides recommendations for improving the security of Docker images and containers. Key features include vulnerability scanning, configuration auditing, and compliance checking. Docker Bench for Security is ideal for organizations that need to ensure the security of their containerized applications. Pros include its automated nature, comprehensive scanning capabilities, and ease of use. Limitations may include a potential false positive rate and the need for manual intervention to address some security issues."
     }
   ]
 }

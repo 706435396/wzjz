@@ -34,7 +34,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "TensorFlow is an open-source machine learning framework developed by Google Brain team. It is designed to be flexible and efficient for a wide range of tasks, from basic data analysis to complex deep learning models. Key features include support for both CPU and GPU acceleration, a flexible architecture for defining computational graphs, and a wide range of pre-trained models. TensorFlow is suitable for researchers, data scientists, and developers looking to build and deploy machine learning models. Pros include its scalability, robustness, and extensive community support. Limitations may include a steep learning curve and a more complex setup process for beginners."
     },
     {
       "name": "PyTorch",
@@ -69,7 +70,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "PyTorch is an open-source machine learning library based on the Torch library, developed by Facebook's AI Research lab. It is known for its ease of use and dynamic computation graph, making it a popular choice for AI research and development. Key features include automatic differentiation, support for both CPU and GPU, and a wide range of pre-trained models. PyTorch is ideal for researchers and developers who want to prototype and experiment with machine learning models quickly. Pros include its intuitive interface and flexibility. Limitations may include less extensive community support compared to TensorFlow and potential performance issues for large-scale models."
     },
     {
       "name": "Hugging Face Transformers",
@@ -105,7 +107,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Hugging Face Transformers is a library of state-of-the-art pre-trained models for natural language processing (NLP), developed by Hugging Face. It provides a wide range of models for tasks such as text classification, language modeling, and translation. Key features include ease of use, compatibility with popular machine learning frameworks like PyTorch and TensorFlow, and a vast repository of pre-trained models. The tool is suitable for NLP researchers, developers, and data scientists. Pros include its user-friendly interface and extensive model coverage. Limitations may include the need for a strong understanding of NLP to fully leverage its capabilities and potential performance bottlenecks for very large models."
     },
     {
       "name": "spaCy",
@@ -141,7 +144,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "spaCy is an industrial-strength natural language processing (NLP) library for Python. It is designed for speed, accuracy, and ease of use, making it suitable for a wide range of NLP tasks, from tokenization to named entity recognition. Key features include a powerful pipeline for text processing, pre-trained models for various languages, and an easy-to-use API. spaCy is ideal for developers and data scientists who need to integrate NLP capabilities into their applications. Pros include its speed and ease of use. Limitations may include a steeper learning curve compared to other NLP libraries and a less extensive range of pre-trained models compared to some competitors."
     },
     {
       "name": "OpenAI GPT-3",
@@ -177,7 +181,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "OpenAI GPT-3 is the third generation of OpenAI's GPT language models, known for its ability to generate human-like text. It is a massive neural network with 175 billion parameters, capable of performing a wide range of natural language tasks, from translation to summarization. Key features include its vast knowledge base, ability to generate coherent and contextually appropriate text, and support for various programming languages. OpenAI GPT-3 is suitable for developers, researchers, and businesses looking to leverage advanced language generation capabilities. Pros include its impressive performance and wide range of applications. Limitations may include its complexity, high computational requirements, and potential ethical concerns related to its use."
     },
     {
       "name": "BERT",
@@ -214,7 +219,8 @@
         "Step: Fill in the API Key / account config\nMany AI tools need a model connection. Find the config item in the README and fill it in.\nCode:\n# Example: replace xxx with your real Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nDo not screenshot your Key in public groups. Get a free/cheap Key (e.g. GLM-4, DeepSeek) to practice.",
         "Step: Start and run your first task\nRun the example command from the project and watch the terminal output.\nCode:\n./run.sh\nCheck:\nIf the program prints results (no red Error text), you have it working.",
         "Step: Troubleshooting\nFailing the first local deploy is normal. Common issues:\n1. Dependency version mismatch → use the Python/Node version the repo recommends;\n2. Key not working → check your environment variables;\n3. Cannot reach the model API → switch mirror or provider.\nTip:\nSee more examples in \"Related tutorials\" below, or click \"Visit official site\"."
-      ]
+      ],
+      "detail": "BERT (Bidirectional Encoder Representations from Transformers) is a pre-trained language representation model developed by Google. It is designed to understand the context of words in a sentence, making it highly effective for various NLP tasks. Key features include its ability to pre-train on a large corpus of text and fine-tune on specific tasks, and its support for both token-level and sentence-level representations. BERT is suitable for researchers, developers, and data scientists working on NLP tasks. Pros include its strong performance on a wide range of NLP tasks and its ease of integration into existing systems. Limitations may include the need for significant computational resources for training and the complexity of fine-tuning for specific tasks."
     },
     {
       "name": "Prophet",
@@ -250,7 +256,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Prophet is an open-source tool designed to forecast time series data. It is particularly effective for data that has strong seasonal effects and several cycles per year. Key features of Prophet include automatic handling of daily, weekly, and yearly seasonality, as well as the ability to model multiple yearly seasonality patterns. It is designed to be easy to use and extend, with a Python interface and a wide range of customization options. Prophet is suitable for a variety of applications, such as demand forecasting, inventory planning, and financial analysis. It is widely used in data science and business intelligence teams. Pros of Prophet include its robustness in handling complex time series data and its user-friendly interface. Limitations include the need for a significant amount of historical data to accurately forecast future trends and the complexity of setting up and tuning the model for optimal performance."
     },
     {
       "name": "Kubeflow",
@@ -285,7 +292,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Kubeflow is an open-source machine learning platform designed for Kubernetes. It simplifies the deployment and management of machine learning workloads on Kubernetes, making it easier for data scientists and engineers to build, train, and deploy machine learning models at scale. Key features of Kubeflow include a user-friendly web interface, integration with popular machine learning frameworks like TensorFlow and PyTorch, and seamless scaling of workloads. It is particularly well-suited for organizations that already use Kubernetes for their containerized applications. Kubeflow is ideal for data science teams looking to leverage the power of Kubernetes to manage their machine learning workflows. Pros of Kubeflow include its scalability and ease of integration with existing Kubernetes infrastructure. Limitations include the steep learning curve for those unfamiliar with Kubernetes and the complexity of setting up and configuring the platform."
     },
     {
       "name": "Databricks",
@@ -321,7 +329,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Databricks is a unified data analytics platform designed for data science teams. It combines data engineering, data science, and machine learning capabilities in a single, collaborative environment. Key features of Databricks include a powerful data processing engine, support for popular data science tools and languages, and advanced analytics capabilities. It is designed to facilitate collaboration between data scientists, data engineers, and business analysts. Databricks is suitable for organizations of all sizes, from small startups to large enterprises. Pros of Databricks include its robust data processing capabilities and its focus on collaboration. Limitations include the potential for high costs, especially for large-scale deployments, and the complexity of managing a platform with many features and tools."
     },
     {
       "name": "Google Cloud AI",
@@ -358,7 +367,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Google Cloud AI provides a suite of AI and machine learning services on the Google Cloud Platform. It offers a wide range of tools and services for building, training, and deploying machine learning models at scale. Key features of Google Cloud AI include pre-trained machine learning models, custom machine learning model training, and AI-powered data analytics. It is designed to be easy to use and integrate with other Google Cloud services. Google Cloud AI is suitable for organizations of all sizes, from startups to large enterprises, that want to leverage AI and machine learning to improve their products and services. Pros of Google Cloud AI include its extensive range of AI services and its seamless integration with other Google Cloud services. Limitations include the potential for high costs, especially for large-scale deployments, and the complexity of managing a platform with many features and services."
     }
   ]
 }

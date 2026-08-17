@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Salesforce is an industry-leading CRM platform known for its robust features and scalability. It offers a comprehensive suite of tools for sales, service, marketing, and more. Key features include a customizable interface, advanced analytics, and seamless integration with third-party applications. Salesforce is suitable for businesses of all sizes, from small startups to large enterprises. It is particularly beneficial for companies looking to enhance customer relationships and streamline sales processes. Pros include its extensive customization options, powerful reporting capabilities, and a strong ecosystem of apps. Limitations may include a steep learning curve and the need for ongoing maintenance."
     },
     {
       "name": "HubSpot",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "HubSpot is an all-in-one CRM platform that combines marketing, sales, and service tools into a single, integrated system. It is designed to help businesses of all sizes grow and scale effectively. Key features include email marketing, social media management, lead tracking, and customer service tools. HubSpot is particularly well-suited for small to medium-sized businesses looking to automate their marketing and sales processes. Pros include its user-friendly interface, extensive training resources, and a strong community support network. Limitations may include a lack of advanced analytics and the need for additional paid tools to fully leverage its capabilities."
     },
     {
       "name": "Zoho CRM",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Zoho CRM is a user-friendly CRM solution that offers a comprehensive suite of tools for sales and marketing. It is designed to help businesses of all sizes manage their customer relationships efficiently. Key features include lead management, sales automation, email integration, and mobile access. Zoho CRM is particularly suitable for small to medium-sized businesses looking for an affordable and easy-to-use CRM system. Pros include its affordability, ease of use, and strong integration with other Zoho products. Limitations may include limited customization options and a less robust feature set compared to some of its competitors."
     },
     {
       "name": "Microsoft Dynamics 365",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Microsoft Dynamics 365 is a powerful CRM solution that integrates deeply with Microsoft's productivity suite, including Office 365 and Excel. It is designed to help businesses of all sizes manage their sales, marketing, and customer service operations. Key features include sales automation, customer insights, and business intelligence. Dynamics 365 is particularly well-suited for businesses already using Microsoft products, as it offers seamless integration and a familiar user interface. Pros include its strong integration capabilities, robust analytics, and extensive customization options. Limitations may include a higher price point and a more complex setup process compared to some other CRM systems."
     },
     {
       "name": "Freshsales",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Freshsales is a CRM software designed to help businesses streamline sales processes and improve customer relationships. It offers a range of features including lead management, sales automation, and customer support tools. Freshsales is suitable for small to medium-sized businesses looking for an affordable and easy-to-use CRM solution. Key features include email tracking, call logging, and a mobile app for on-the-go access. Pros include its affordability, ease of use, and strong integration with other Freshworks products. Limitations may include a less extensive feature set compared to some of its competitors and a less robust analytics engine."
     },
     {
       "name": "Pipedrive",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Pipedrive is a sales CRM that focuses on helping businesses prioritize and manage their leads effectively. It is designed to streamline the sales process and improve sales performance. Key features include lead tracking, sales automation, and email integration. Pipedrive is particularly well-suited for small to medium-sized businesses looking for a simple and intuitive CRM solution. Pros include its ease of use, strong mobile app, and focus on sales efficiency. Limitations may include a less comprehensive feature set compared to some other CRM systems and a higher price point for larger teams."
     },
     {
       "name": "SugarCRM",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "SugarCRM is an open-source customer relationship management (CRM) platform designed to help businesses manage their sales, marketing, and customer support activities efficiently. With its focus on customization and flexibility, SugarCRM allows organizations to tailor the CRM system to their specific needs. Key features include a user-friendly interface, comprehensive sales and customer support modules, and robust reporting capabilities. It supports a wide range of integrations with third-party applications, such as email clients, social media platforms, and productivity tools. SugarCRM is suitable for businesses of all sizes, from small startups to large enterprises. It is particularly beneficial for organizations that require a highly customizable CRM solution. Pros include its open-source nature, which means it is free to use and can be modified to suit specific requirements. However, limitations include the need for technical expertise to set up and maintain, and the potential for higher costs due to the need for additional support and customization services."
     }
   ]
 }

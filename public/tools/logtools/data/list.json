@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "The ELK Stack is an open-source, powerful stack designed for log analysis and visualization. It consists of three core components: Elasticsearch, Logstash, and Kibana. Elasticsearch is a search and analytics engine capable of storing, searching, and analyzing large volumes of data quickly and in near real-time. Logstash is a server-side data processing pipeline that ingests data from various sources and transforms it into a format suitable for analysis. Kibana provides visualization and exploration capabilities, allowing users to create dashboards and visualizations to understand their data better. The ELK Stack is ideal for developers, system administrators, and security analysts who need to analyze logs from various sources, such as applications, servers, and network devices. Key features include advanced search capabilities, real-time analytics, and powerful visualization tools. While the ELK Stack is highly customizable and scalable, it can be complex to set up and maintain, and requires a certain level of expertise to configure effectively."
     },
     {
       "name": "Splunk",
@@ -70,7 +71,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Splunk is a comprehensive platform designed for searching, monitoring, and analyzing machine-generated big data. It allows users to gain insights from complex data sets by providing a powerful search and analysis engine. Key features include real-time monitoring, data indexing, and visualization tools. Splunk is particularly useful for IT operations, security teams, and business analysts. It is for organizations that require a robust solution to manage and analyze large volumes of data. Pros include its scalability, advanced analytics capabilities, and integration with various data sources. Limitations may include a steep learning curve and the need for a significant upfront investment in hardware and software."
     },
     {
       "name": "Graylog",
@@ -106,7 +108,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Graylog is an open-source log management system that enables users to aggregate, search, and analyze all their log data. It is designed to be easy to use and integrate with existing systems. Key features include log aggregation, real-time search, and alerting. Graylog is suitable for both small and large organizations, especially those with a need for centralized log management. It is for IT administrators, security analysts, and DevOps teams. Pros include its open-source nature, flexibility, and strong community support. Limitations may include a lack of advanced analytics capabilities and potential performance issues with very large datasets."
     },
     {
       "name": "Wazuh",
@@ -142,7 +145,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Wazuh is an open-source security information and event management (SIEM) solution that provides log analysis and monitoring. It is designed to detect and respond to security incidents in real-time. Key features include log analysis, threat detection, and compliance monitoring. Wazuh is suitable for organizations of all sizes, particularly those with a focus on security. It is for security professionals, IT administrators, and compliance officers. Pros include its open-source nature, strong security features, and ease of integration with other security tools. Limitations may include a less user-friendly interface and a steeper learning curve compared to some commercial SIEM solutions."
     },
     {
       "name": "Datadog",
@@ -178,7 +182,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Datadog is a monitoring and analytics platform that provides insights into infrastructure, applications, and services. It is designed to help organizations gain visibility into their entire technology stack. Key features include real-time monitoring, log management, and application performance monitoring (APM). Datadog is suitable for organizations of all sizes, especially those with complex IT environments. It is for IT operations teams, developers, and business stakeholders. Pros include its comprehensive set of features, ease of use, and strong integration capabilities. Limitations may include a higher cost for larger organizations and a potential learning curve for users unfamiliar with monitoring tools."
     },
     {
       "name": "Sumo Logic",
@@ -214,7 +219,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Sumo Logic is a cloud-native log management and analytics platform designed for modern applications. It provides a scalable and flexible solution for managing and analyzing log data. Key features include log aggregation, real-time analytics, and machine learning-based insights. Sumo Logic is suitable for organizations that require a robust solution for managing logs and analyzing data in the cloud. It is for DevOps teams, security analysts, and cloud architects. Pros include its cloud-native architecture, advanced analytics capabilities, and seamless integration with cloud services. Limitations may include a higher cost compared to some open-source alternatives and a potential complexity in setting up and managing the platform."
     },
     {
       "name": "Loggly",
@@ -250,7 +256,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Loggly is a cloud-based log management and analytics service designed to help developers and IT operations teams efficiently manage, monitor, and analyze their log data. It offers a comprehensive set of features that enable users to collect logs from various sources, including applications, servers, and cloud services. Key features of Loggly include real-time log monitoring, advanced search capabilities, and automated alerting. It is particularly useful for organizations that need to centralize their log data for easier analysis and troubleshooting. Loggly is suitable for a wide range of users, from individual developers to large enterprise teams. It provides a user-friendly interface that simplifies the process of setting up and managing log data. One of the main advantages of Loggly is its scalability, which allows it to handle large volumes of data without performance issues. However, some users may find the pricing model to be somewhat complex, and there can be a learning curve associated with mastering all of its features."
     },
     {
       "name": "Apache Flume",
@@ -286,7 +293,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Apache Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data. It is designed to handle high-throughput and high-volume data streams, making it an ideal choice for organizations that need to process and analyze large volumes of log data. Flume is part of the Apache Software Foundation and is widely used in the industry for log aggregation and data collection. Key features of Apache Flume include its ability to handle both streaming and batch data, support for various data sources and sinks, and a flexible architecture that allows for easy customization. It is suitable for a wide range of users, from system administrators to data engineers. One of the main advantages of Apache Flume is its robustness and reliability, which ensures that data is not lost or corrupted during the collection and aggregation process. However, Flume can be complex to set up and configure, and it may require a significant amount of technical expertise to fully utilize its capabilities. Additionally, its scalability can be a challenge for some users, especially those dealing with extremely large datasets."
     }
   ]
 }

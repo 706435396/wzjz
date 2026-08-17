@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Shopify is an e-commerce platform designed to help businesses build, customize, and manage their online stores. It offers a comprehensive set of tools that cater to both beginners and experienced entrepreneurs. Key features include a drag-and-drop website builder, secure payment gateway integration, inventory management, and marketing tools. Shopify is ideal for small to medium-sized businesses looking for a user-friendly solution to start and grow their e-commerce operations. The platform offers various themes and customization options to create a unique online presence. Pros: Intuitive interface, robust app ecosystem, scalable for growing businesses. Limitations: Transaction fees for certain payment gateways, limited customization without coding knowledge."
     },
     {
       "name": "BigCommerce",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "BigCommerce is an all-in-one e-commerce platform designed for businesses of all sizes. It provides a comprehensive suite of tools to build, customize, and manage online stores. Key features include a responsive website builder, integrated marketing tools, and robust analytics. The platform is known for its scalability and ease of use, making it suitable for businesses looking to expand their online presence. BigCommerce offers a wide range of themes and customization options, along with a strong focus on mobile optimization. Pros: High performance, SEO-friendly, excellent customer support. Limitations: Higher price point compared to some competitors, limited customization options without additional plugins."
     },
     {
       "name": "WooCommerce",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "WooCommerce is an e-commerce plugin for WordPress, allowing users to transform their existing WordPress websites into fully functional online stores. It is one of the most popular e-commerce solutions, offering a wide range of features and integrations. Key features include a customizable storefront, inventory management, payment gateway support, and shipping options. WooCommerce is highly customizable through themes and plugins, making it suitable for businesses of all sizes. It is particularly favored by those who already have a WordPress website. Pros: Seamless integration with WordPress, active community support, wide range of extensions. Limitations: Requires WordPress website, potential for high setup and maintenance costs, not as scalable as dedicated e-commerce platforms."
     },
     {
       "name": "Magento",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Magento is an open-source e-commerce platform known for its flexibility and scalability. It is designed for large-scale businesses looking to manage complex e-commerce operations. Key features include a robust catalog management system, powerful marketing tools, and support for multiple storefronts. Magento offers a high degree of customization and is highly customizable through a vast marketplace of extensions. It is also known for its robust security features. Magento is well-suited for businesses with a significant budget and technical resources. Pros: Highly scalable, powerful features, robust community support. Limitations: High resource requirements, steep learning curve, potentially high cost of customization and maintenance."
     },
     {
       "name": "Squarespace",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Squarespace is a website building platform that offers integrated e-commerce capabilities. It is known for its sleek designs and ease of use, making it a popular choice for small to medium-sized businesses and creative professionals. Key features include a drag-and-drop website builder, a variety of beautiful templates, integrated blogging tools, and a robust e-commerce engine. Squarespace handles the hosting and technical aspects, allowing users to focus on design and content. It is particularly suitable for those who prioritize aesthetics and simplicity. Pros: User-friendly, beautiful templates, all-in-one hosting and domain services. Limitations: Limited customization options, lack of advanced features for larger e-commerce operations, transaction fees."
     },
     {
       "name": "Volusion",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Volusion is an e-commerce platform designed for small to medium-sized businesses. It offers a range of features that cater to the needs of online store owners, from building and managing their online presence to marketing and shipping. Key features include a responsive website builder, inventory management, order management, and marketing tools. Volusion is known for its ease of use and customer support, making it accessible for entrepreneurs without extensive technical knowledge. The platform offers various themes and customization options to create a unique online store. Pros: Easy to use, comprehensive features, excellent customer support. Limitations: Limited customization without coding, transaction fees for certain payment gateways, limited scalability for larger businesses."
     },
     {
       "name": "Wix",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Wix is a versatile website builder that caters to a wide range of users, from beginners to seasoned web designers. It is particularly popular among small businesses and entrepreneurs looking to create an online presence without the need for technical expertise. The platform offers a drag-and-drop interface, making it easy to design and customize websites. Key features include a wide selection of templates, e-commerce capabilities, blogging tools, and SEO optimization options. Wix is suitable for those who want to build a professional-looking website quickly and efficiently. Pros include ease of use, a variety of templates, and a free plan. However, limitations may include a lack of flexibility in design customization and potential limitations on customization for premium plans."
     },
     {
       "name": "Etsy",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Etsy is an online marketplace that specializes in handmade, vintage, and unique items. It serves as a platform for artists, crafters, and small businesses to sell their products directly to consumers. The platform is known for its unique selection of items that cannot be found elsewhere. Etsy offers tools for sellers to manage their inventory, list new products, and communicate with customers. It also provides a community for buyers to discover and purchase items that reflect their personal style. Key features include a user-friendly interface, secure checkout, and robust analytics. Etsy is ideal for individuals and businesses that specialize in unique, handmade products. Pros include a built-in customer base, a strong community, and a focus on quality. Limitations may include fees for listings and transactions, and the potential for competition with other sellers."
     },
     {
       "name": "Shopify Apps",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Shopify Apps are a collection of third-party applications designed to extend the functionality of Shopify, an e-commerce platform. These apps can help businesses streamline operations, increase sales, and improve customer experience. With over 2000 apps available, there is a wide range of options to choose from, including marketing, sales, customer service, and more. Key features include easy integration with Shopify, a variety of app categories, and detailed descriptions to help users find the right app for their needs. Shopify Apps are suitable for any business using Shopify, from small startups to large enterprises. Pros include increased functionality, customization, and scalability. Limitations may include the need to pay for multiple apps, potential conflicts between apps, and the learning curve associated with some apps."
     },
     {
       "name": "Klaviyo",
@@ -359,7 +368,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Klaviyo is an email marketing and CRM platform specifically designed for e-commerce businesses. It offers a suite of tools to help businesses manage their customer relationships, send targeted emails, and track campaign performance. Klaviyo integrates seamlessly with Shopify and other e-commerce platforms, allowing for personalized marketing campaigns based on customer behavior and preferences. Key features include email segmentation, automation, dynamic content, and analytics. Klaviyo is ideal for businesses looking to create engaging and personalized customer experiences. Pros include advanced segmentation, easy-to-use interface, and robust analytics. Limitations may include a higher price point compared to other email marketing tools and the need for a certain level of technical knowledge to set up complex automations."
     }
   ]
 }

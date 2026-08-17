@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Dropbox is a secure cloud storage solution designed for both personal and team use. It allows users to store, share, and sync files across multiple devices. Key features include seamless file synchronization, robust security measures like two-factor authentication, and advanced sharing options with password protection and expiration dates. Dropbox is ideal for developers, designers, and remote teams who need to collaborate on projects and access files from anywhere. The platform offers 2GB of free storage, with the option to upgrade to larger plans. Pros include its user-friendly interface, strong security, and reliable performance. Limitations may include higher costs for larger storage plans and occasional synchronization issues."
     },
     {
       "name": "Google Drive",
@@ -70,7 +71,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Google Drive is a free cloud storage service that integrates seamlessly with Google's suite of productivity tools. It offers 15GB of free storage, which can be used across Google services like Gmail, Google Photos, and Google Docs. Key features include real-time collaboration, easy file sharing, and built-in search functionality. Google Drive is particularly useful for developers and teams that rely heavily on Google's ecosystem. The platform also supports file versioning and recovery, ensuring that no work is lost. Pros include its integration with Google services, ease of use, and generous free storage. Limitations may include limited advanced security features and a lack of native desktop applications for file management."
     },
     {
       "name": "Microsoft OneDrive",
@@ -105,7 +107,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Microsoft OneDrive provides 5GB of free cloud storage, making it a cost-effective solution for individual users and small teams. It integrates with Microsoft Office applications, allowing for easy file creation, editing, and sharing. Key features include real-time co-authoring, file recovery, and advanced sharing options. OneDrive is ideal for users who are already part of the Microsoft ecosystem, such as Windows users or those who use Microsoft Office products. The platform offers robust security features, including two-factor authentication and data encryption. Pros include its seamless integration with Microsoft products, strong security, and generous free storage. Limitations may include a less intuitive interface compared to some competitors and a smaller free storage limit."
     },
     {
       "name": "Box",
@@ -141,7 +144,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Box is a secure content management and collaboration platform designed for businesses of all sizes. It offers a comprehensive suite of features for file sharing, storage, and collaboration. Key features include advanced security measures, such as encryption and two-factor authentication, and extensive compliance capabilities. Box is particularly well-suited for teams that require strict control over sensitive data. The platform also supports real-time collaboration, file versioning, and extensive administrative controls. Pros include its robust security, extensive compliance features, and user-friendly interface. Limitations may include a higher price point compared to some competitors and a learning curve for new users."
     },
     {
       "name": "Amazon S3",
@@ -177,7 +181,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Amazon S3 (Simple Storage Service) is a scalable object storage service designed for backup, archive, and analytics. It offers virtually unlimited storage capacity and high durability, making it ideal for large-scale data storage needs. Key features include data durability, high availability, and extensive API support for integration with other AWS services. Amazon S3 is widely used by developers and businesses for storing and retrieving large amounts of data. The platform also supports versioning, lifecycle management, and cross-region replication. Pros include its scalability, reliability, and extensive feature set. Limitations may include a steep learning curve for those unfamiliar with AWS services and potentially high costs for large-scale storage."
     },
     {
       "name": "IBM Cloud Object Storage",
@@ -213,7 +218,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "IBM Cloud Object Storage is a durable, secure, and scalable object storage solution designed for enterprises with large-scale data storage needs. It offers high durability and availability, with features like data replication and disaster recovery. Key features include support for multiple data centers, extensive API support, and integration with IBM's other cloud services. IBM Cloud Object Storage is ideal for businesses that require secure and reliable storage for their data. The platform also supports advanced security features, such as encryption and access control. Pros include its high level of security, scalability, and integration with IBM's ecosystem. Limitations may include a complex setup process and potentially high costs for large-scale deployments."
     },
     {
       "name": "Backblaze B2",
@@ -249,7 +255,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Backblaze B2 is a cloud storage service designed for developers and businesses seeking a simple, secure, and affordable solution for storing and accessing large amounts of data. It offers a straightforward API that makes it easy to integrate with existing applications. Key features include server-to-server transfer capabilities, which allow for seamless data migration, and a robust API that supports a wide range of programming languages. Backblaze B2 is particularly suitable for developers who require a scalable and reliable storage solution. It is also known for its affordability, with a pay-as-you-go pricing model that can help businesses save on storage costs. However, some users may find the lack of advanced features such as real-time analytics or advanced search capabilities to be a limitation."
     },
     {
       "name": "Mega",
@@ -284,7 +291,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Mega is a cloud storage service that offers end-to-end encrypted storage, making it an excellent choice for developers and users who prioritize privacy and security. The platform provides free accounts with 20GB of storage, which can be expanded through purchases or referrals. Mega's key features include a user-friendly interface, easy file sharing, and robust security measures that protect data from unauthorized access. It is also known for its strong commitment to user privacy, which is a significant advantage for those handling sensitive information. Mega is suitable for a wide range of users, from individual developers to small businesses. However, the service has been criticized for its relatively slow upload and download speeds, which may be a limitation for users with large files or high data transfer needs."
     },
     {
       "name": "Tresorit",
@@ -320,7 +328,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Tresorit is a zero-knowledge cloud storage service designed for secure file sharing and collaboration. It is ideal for developers and businesses that require a high level of data protection and privacy. The platform offers end-to-end encryption, ensuring that only the intended recipients can access shared files. Key features include secure file sharing, real-time collaboration, and seamless integration with popular productivity tools. Tresorit is particularly well-suited for teams that work with sensitive data, such as financial or healthcare information. Its user-friendly interface and strong security measures make it a popular choice among professionals. However, the service can be relatively expensive compared to other cloud storage solutions, and its file-sharing capabilities may be limited for users who require extensive collaboration features."
     },
     {
       "name": "Sync.com",
@@ -356,7 +365,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Sync.com is a secure cloud storage and file sharing service designed for teams and businesses that need a reliable and secure way to store, share, and collaborate on files. The platform offers end-to-end encryption, ensuring that all data is protected from unauthorized access. Key features include seamless file synchronization across devices, easy file sharing with granular access controls, and robust administrative tools for managing team access and permissions. Sync.com is suitable for a wide range of industries, from small businesses to large enterprises. Its focus on security and ease of use makes it a popular choice among professionals. However, the service may be limited for users who require advanced features such as real-time analytics or integration with certain third-party applications."
     },
     {
       "name": "Nextcloud",
@@ -392,7 +402,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Nextcloud is an open-source cloud storage and file sync & share platform that provides a secure and flexible solution for individuals and organizations. It is designed for users who want to have full control over their data and prefer not to rely on third-party cloud services. Key features include end-to-end encryption, a powerful API for integration with other applications, and a user-friendly interface. Nextcloud is particularly well-suited for businesses that require a high degree of customization and control over their data storage and sharing solutions. It offers a wide range of features, including file sharing, real-time collaboration, and advanced search capabilities. However, the open-source nature of Nextcloud means that it requires some technical expertise to set up and maintain. Additionally, while it is highly customizable, it may lack some of the advanced features offered by proprietary cloud storage solutions."
     }
   ]
 }

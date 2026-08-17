@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Apache is an open-source web server software that has been a cornerstone of the internet for over two decades. It is known for its stability, flexibility, and security. Key features include support for various protocols such as HTTP/2, SSL/TLS, and FTP, as well as extensive module support for customization. Apache is suitable for a wide range of users, from small personal websites to large enterprise-level applications. Its robustness and scalability make it a go-to choice for many developers. Pros include its strong community support, extensive documentation, and ease of configuration. Limitations may include a higher resource footprint compared to some newer web servers and a steeper learning curve for beginners."
     },
     {
       "name": "Nginx",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Nginx is a high-performance HTTP and reverse proxy server that is known for its efficiency and scalability. It is designed to handle a large number of simultaneous connections with minimal resource usage. Key features include load balancing, caching, and support for various protocols such as HTTP/2 and WebSocket. Nginx is particularly well-suited for high-traffic websites and web applications. It is favored by developers for its simplicity, speed, and reliability. Pros include its ability to handle large numbers of connections with low resource usage, ease of configuration, and strong security features. Limitations may include a less extensive feature set compared to some other web servers and a steeper learning curve for those unfamiliar with its configuration syntax."
     },
     {
       "name": "MySQL",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "MySQL is an open-source relational database management system that is widely used for web applications. It is known for its reliability, ease of use, and scalability. Key features include support for multiple storage engines, transactional capabilities, and a wide range of data types. MySQL is suitable for a variety of applications, from small projects to large enterprise systems. It is favored by developers for its performance, flexibility, and extensive ecosystem. Pros include its robustness, strong community support, and ease of integration with other programming languages. Limitations may include a less advanced feature set compared to some newer database systems and potential performance issues with very large datasets."
     },
     {
       "name": "PostgreSQL",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "PostgreSQL is an advanced, open-source object-relational database system that offers a wide range of features and capabilities. It is known for its robustness, scalability, and adherence to SQL standards. Key features include support for complex queries, advanced data types, and powerful indexing options. PostgreSQL is suitable for a variety of applications, from small databases to large-scale data warehousing. It is favored by developers for its reliability, performance, and extensibility. Pros include its strong support for ACID transactions, comprehensive data integrity features, and extensive community support. Limitations may include a steeper learning curve for beginners and potential performance issues with very large datasets."
     },
     {
       "name": "Docker",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Docker is a platform for developing, shipping, and running applications that allows for the creation of lightweight, portable, and consistent environments. It uses containerization to encapsulate applications and their dependencies, ensuring that they run consistently across different environments. Key features include image management, container orchestration, and a rich ecosystem of tools and services. Docker is suitable for developers, DevOps engineers, and system administrators who need to streamline the development and deployment process. Pros include its ability to create consistent environments, simplify deployment, and improve development efficiency. Limitations may include a learning curve for those unfamiliar with containerization and potential complexity in managing large numbers of containers."
     },
     {
       "name": "Jenkins",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Jenkins is a powerful, open-source continuous integration server that automates the build, test, and deployment processes. It is widely used in the software development industry to streamline the development lifecycle. Key features include support for a wide range of plugins, integration with various version control systems, and a user-friendly web interface. Jenkins is suitable for teams of all sizes, from small startups to large enterprises. It is favored for its flexibility, scalability, and extensive community support. Pros include its ability to automate repetitive tasks, improve collaboration, and reduce the time to market for software products. Limitations may include a steep learning curve for those new to continuous integration, and potential complexity in setting up and configuring the system."
     },
     {
       "name": "Git",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Git is a powerful distributed version control system designed for source code management. It allows developers to track changes in their codebase, collaborate with others, and manage different versions of their projects efficiently. Key features include branching and merging capabilities, robust conflict resolution, and support for both local and remote repositories. Git is particularly useful for teams working on large, complex projects, as it provides a high degree of flexibility and control over the development process. It is widely adopted in the software development industry and is compatible with various operating systems. Git is suitable for developers, project managers, and teams of all sizes. Pros include its robustness, ease of use, and strong community support. Limitations may include a steep learning curve for new users and the need for a solid understanding of version control concepts."
     },
     {
       "name": "Ansible",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Ansible is an open-source IT automation tool that simplifies the deployment of applications and infrastructure. It uses a simple YAML-based configuration file to define tasks and workflows, making it easy to automate repetitive tasks and manage complex environments. Key features include idempotence, which ensures that tasks are applied consistently, and a rich set of modules for interacting with various systems and services. Ansible is particularly well-suited for DevOps teams and system administrators looking to streamline their infrastructure management. It is compatible with a wide range of platforms and can be used to automate tasks across physical, virtual, and cloud environments. Ansible is ideal for IT professionals, DevOps engineers, and system administrators. Pros include its simplicity, scalability, and ease of integration with other tools. Limitations may include a less extensive module library compared to some other automation tools and a steeper learning curve for users unfamiliar with YAML."
     },
     {
       "name": "Puppet",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Puppet is an automation platform that simplifies the management of infrastructure by allowing administrators to define and enforce the configuration of their systems. It uses a declarative language to describe the desired state of the infrastructure, and Puppet's agent then ensures that the actual state matches the desired state. Key features include a powerful language for defining infrastructure, support for both physical and virtual machines, and a large ecosystem of modules for various applications and services. Puppet is suitable for organizations of all sizes, from small businesses to large enterprises, and is particularly valuable in environments with complex and dynamic infrastructure. Puppet is ideal for system administrators, DevOps engineers, and IT managers. Pros include its robustness, scalability, and strong community support. Limitations may include a steeper learning curve for users new to infrastructure automation and the potential for complex configurations to become difficult to manage over time."
     },
     {
       "name": "Chef",
@@ -359,7 +368,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Chef is an automation platform that allows organizations to manage their infrastructure as code. It uses a Ruby-based domain-specific language to define and manage infrastructure, enabling teams to automate the deployment, configuration, and management of their systems. Key features include a comprehensive ecosystem of cookbooks, which are collections of recipes and resources, and a powerful server-client architecture for managing infrastructure at scale. Chef is well-suited for organizations that require a high degree of control and flexibility over their infrastructure. It is widely used in enterprise environments and is compatible with a wide range of platforms and cloud providers. Chef is ideal for DevOps engineers, system administrators, and IT professionals. Pros include its flexibility, scalability, and strong community support. Limitations may include a steep learning curve for users new to Ruby and infrastructure automation, as well as the potential complexity of managing large-scale infrastructure."
     },
     {
       "name": "Terraform",
@@ -395,7 +405,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Terraform is an infrastructure as code tool that enables organizations to manage and provision cloud infrastructure efficiently. It allows users to define infrastructure in a human-readable file format, which Terraform then applies to the cloud provider to create, update, or delete resources. Key features include a wide range of supported cloud providers, version control integration, and a consistent workflow for managing infrastructure. Terraform is particularly useful for organizations that need to automate the deployment and management of their cloud resources. It is suitable for DevOps teams, system administrators, and cloud architects. Pros include its ease of use, scalability, and strong community support. Limitations may include a learning curve for users unfamiliar with infrastructure as code concepts and the potential complexity of managing large-scale infrastructure across multiple cloud providers."
     },
     {
       "name": "VMware vSphere",
@@ -430,7 +441,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "VMware vSphere is a virtualization platform that enables organizations to create and manage virtual machines (VMs) and virtualized infrastructure. It provides a comprehensive set of features for server virtualization, including high availability, fault tolerance, and disaster recovery. Key features include a robust management interface, support for multiple operating systems and applications, and advanced networking and storage capabilities. VMware vSphere is widely used in enterprise environments and is compatible with a wide range of hardware and software. It is ideal for IT administrators, system architects, and data center managers. Pros include its reliability, scalability, and strong ecosystem of tools and services. Limitations may include a relatively high cost of ownership, a complex setup process, and the potential for resource contention in large-scale environments."
     }
   ]
 }

@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Shopify is a comprehensive e-commerce platform designed to help entrepreneurs and businesses create and manage their online stores. It offers a user-friendly interface and a wide range of customizable templates to suit various business needs. Key features include a robust point-of-sale system, integrated payment gateways, and powerful analytics tools. Shopify is suitable for small to medium-sized businesses looking to establish a strong online presence. It also provides seamless integration with various third-party applications and services, enhancing its functionality. However, the platform's transaction fees can be a limitation for some users, and the pricing structure can become expensive as the business grows."
     },
     {
       "name": "Magento",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Magento is an open-source e-commerce platform known for its scalability and flexibility. It offers a wide array of features and functionalities that cater to both small and large businesses. Key features include a powerful catalog management system, multiple payment options, and extensive marketing tools. Magento is ideal for businesses that require a high degree of customization and control over their online store. It also boasts a strong community support network and a wealth of extensions available for additional functionality. However, the platform can be complex to set up and maintain, requiring technical expertise. Additionally, the cost of hosting and customization can be prohibitive for some businesses."
     },
     {
       "name": "BigCommerce",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "BigCommerce is a cloud-based e-commerce platform designed for businesses of all sizes. It offers a range of features that cater to both beginners and experienced e-commerce professionals. Key features include a drag-and-drop website builder, a robust product catalog, and integrated marketing tools. BigCommerce is particularly well-suited for businesses looking for a balance between ease of use and advanced functionality. It also provides seamless integration with popular payment gateways and shipping carriers. However, the platform's pricing can be higher compared to other e-commerce solutions, and some users may find the customization options limited."
     },
     {
       "name": "WooCommerce",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "WooCommerce is a free e-commerce plugin for WordPress, enabling users to turn their existing WordPress websites into fully functional online stores. It is highly customizable and integrates seamlessly with the WordPress ecosystem. Key features include a flexible product catalog, a variety of payment options, and powerful analytics tools. WooCommerce is perfect for businesses that already have a WordPress site or prefer to use WordPress for its content management capabilities. It also offers a wide range of extensions to enhance its functionality. However, the platform can be resource-intensive, and managing multiple plugins can sometimes lead to conflicts."
     },
     {
       "name": "Jungle Scout",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Jungle Scout is a product research tool designed specifically for Amazon sellers. It provides valuable insights into product demand, competition, and pricing. Key features include a chrome extension for easy product research, sales data analysis, and a keyword research tool. Jungle Scout is ideal for Amazon sellers looking to identify profitable products and optimize their listings. It also offers a product tracker to monitor the performance of selected products. However, the tool can be expensive for individual sellers, and the data it provides is based on Amazon's marketplace, which can be subject to change."
     },
     {
       "name": "Helium 10",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Helium 10 is a comprehensive Amazon product research and keyword tool that offers a suite of features to help Amazon sellers optimize their listings. Key features include a chrome extension for easy product research, keyword tracking, and a profit calculator. Helium 10 is highly regarded for its accuracy and ease of use, making it a go-to tool for many Amazon sellers. It also provides historical sales data and competitor analysis. However, the tool's pricing can be steep, and some users may find the learning curve steep due to its extensive range of features."
     },
     {
       "name": "ZonGuru",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ZonGuru is a comprehensive Amazon product research tool designed to help sellers discover the best products to sell on Amazon. It provides a wealth of data and insights to make informed decisions. Key features include product research, keyword tracking, sales analytics, and competitive analysis. ZonGuru is ideal for Amazon sellers looking to expand their product portfolio, optimize their listings, and increase their sales. The tool offers a user-friendly interface and integrates seamlessly with Amazon's platform. Pros include its extensive database, accurate sales projections, and actionable recommendations. However, limitations may include a learning curve for new users and the need for a paid subscription to access all features."
     },
     {
       "name": "Terapeak",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Terapeak is a robust marketplace data and analytics platform that provides valuable insights for online sellers on various marketplaces. It offers a wide range of tools for analyzing product demand, identifying market trends, and understanding consumer behavior. Key features include marketplace data, keyword research, competitor analysis, and inventory management. Terapeak is suitable for both small and large online businesses looking to gain a competitive edge. The platform is known for its accurate and up-to-date data. Pros include its comprehensive analytics and actionable insights. Limitations may include a complex interface for some users and the need for a paid subscription to access premium features."
     },
     {
       "name": "eBay",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "eBay is a well-known online marketplace where individuals and businesses can buy and sell a wide range of goods. It offers a user-friendly platform that allows sellers to reach a global audience and buyers to find unique and affordable products. Key features include a vast product selection, seller tools, and a secure payment system. eBay is suitable for both individual sellers and small to medium-sized businesses looking to expand their online presence. The platform is known for its flexibility and ease of use. Pros include its large user base, low entry barriers, and seller-friendly policies. Limitations may include high fees, intense competition, and the need for effective listing strategies to stand out."
     },
     {
       "name": "Alibaba",
@@ -359,7 +368,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Alibaba is a global wholesale marketplace that connects buyers with manufacturers and suppliers around the world. It is a go-to platform for businesses looking to source products at competitive prices. Key features include a vast product catalog, supplier verification, and trade assurance. Alibaba is ideal for bulk buyers, importers, and exporters. The platform offers a range of tools to facilitate smooth transactions. Pros include its extensive product range, reliable suppliers, and secure payment options. Limitations may include the complexity of dealing with international suppliers, language barriers, and the need for negotiation skills."
     },
     {
       "name": "Payoneer",
@@ -395,7 +405,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Payoneer is a global payment solutions provider that offers online businesses the ability to send and receive payments in multiple currencies. It is particularly popular among freelancers, small businesses, and online sellers. Key features include multi-currency accounts, secure payment processing, and global reach. Payoneer is suitable for businesses looking to expand their international customer base. The platform is known for its ease of use and reliable service. Pros include its low transaction fees, flexible payment options, and support for over 150 currencies. Limitations may include the complexity of setting up an account, potential limitations on the number of recipients, and the need for a bank account in certain countries."
     }
   ]
 }

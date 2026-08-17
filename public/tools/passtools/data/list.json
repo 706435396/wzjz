@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "LastPass is a comprehensive password manager designed to securely store and manage passwords across all your devices. It offers a digital vault that can store an unlimited number of passwords, credit card details, and other sensitive information. Key features include automatic password capture and generation, secure sharing of passwords with trusted individuals, and two-factor authentication for an added layer of security. LastPass is ideal for individuals and small to medium-sized businesses looking for a reliable and user-friendly solution to manage their digital identities. Pros include its robust security features, seamless integration with various browsers and devices, and a free version available. Limitations may include occasional performance issues and a less intuitive interface for some users."
     },
     {
       "name": "1Password",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "1Password is a digital vault that centralizes and encrypts your passwords, providing a secure way to manage all your login credentials. It offers features such as password generation, auto-fill, and auto-login, making it easy to access your accounts across devices. The tool also includes a travel mode for securely storing sensitive information while traveling, and a shared vault feature for family and team members. 1Password is suitable for individuals, families, and businesses of all sizes. Its pros include strong security measures, a user-friendly interface, and cross-platform compatibility. However, some users may find the pricing model to be expensive, and the free version is quite limited in functionality."
     },
     {
       "name": "Dashlane",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Dashlane is a password manager that automatically fills and saves passwords, keeping your digital life secure. It offers a secure password vault to store all your login credentials, credit card information, and personal data. Key features include dark web monitoring to alert you of any compromised data, a password generator, and a digital wallet for storing payment information. Dashlane is ideal for individuals and small businesses looking for a straightforward and efficient way to manage their passwords. Its pros include ease of use, strong security, and a variety of additional features like VPN and identity theft protection. Limitations may include a less robust sharing feature compared to some competitors and a free version with limited functionality."
     },
     {
       "name": "Keeper",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Keeper is a secure password manager that protects your passwords and sensitive data with end-to-end encryption. It offers a password vault to store an unlimited number of passwords, credit card details, and personal information. The tool also includes a password generator, secure sharing, and dark web monitoring. Keeper is suitable for individuals, families, and businesses of all sizes. Its pros include strong security features, a user-friendly interface, and a variety of plans to fit different needs. However, some users may find the mobile app less intuitive, and the free version is quite limited in terms of features."
     },
     {
       "name": "Bitwarden",
@@ -178,7 +182,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Bitwarden is a free and open-source password manager that provides end-to-end encryption to protect your passwords and sensitive data. It offers a simple and secure way to store, generate, and manage passwords across all your devices. Key features include a password vault, two-factor authentication, and secure sharing. Bitwarden is suitable for individuals, small businesses, and open-source enthusiasts. Its pros include its open-source nature, strong security, and affordability. However, the free version may lack some advanced features, and the mobile app could be improved for a more seamless user experience."
     },
     {
       "name": "NordPass",
@@ -214,7 +219,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "NordPass is a password manager from NordVPN, designed to secure your passwords and personal information. It offers a secure vault to store an unlimited number of passwords, credit card details, and other sensitive data. Key features include a password generator, dark web monitoring, and two-factor authentication. NordPass is suitable for individuals, families, and businesses looking for a reliable password management solution. Its pros include strong security, seamless integration with NordVPN, and a user-friendly interface. However, some users may find the pricing model to be expensive, and the free version is quite limited in functionality."
     },
     {
       "name": "RoboForm",
@@ -250,7 +256,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "RoboForm is a comprehensive password management tool designed to automate your online life with secure password management. It allows users to securely store and manage their passwords across various devices and platforms. Key features include a password generator, auto-fill capabilities, and a secure vault to store sensitive information. RoboForm is ideal for individuals and businesses looking for a reliable and efficient way to manage their passwords. It supports multiple browsers and integrates with various applications. Pros include its ease of use, robust security features, and cross-platform compatibility. Limitations may include a somewhat steep learning curve for new users and the need for a subscription for certain advanced features."
     },
     {
       "name": "KeePassXC",
@@ -285,7 +292,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "KeePassXC is a free, open-source, and lightweight password manager that offers strong security features. It is designed for users who prioritize privacy and security over advanced features. The tool uses a master password to encrypt and store all other passwords, ensuring that they are only accessible to the user. Key features include a password generator, auto-type functionality, and a portable version for on-the-go access. KeePassXC is suitable for individuals who are comfortable with managing their own security and do not require advanced features. Pros include its open-source nature, strong security, and ease of use. Limitations may include a less intuitive interface and limited cloud synchronization options."
     },
     {
       "name": "Enpass",
@@ -322,7 +330,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Enpass is a versatile password manager that works across Windows, macOS, Linux, Android, and iOS platforms. It offers a seamless experience for users who need to manage their passwords across multiple devices. Key features include a secure vault, password generator, and auto-fill capabilities. Enpass also supports biometric authentication for added security. It is suitable for both individual users and businesses, providing robust security and flexibility. Pros include its cross-platform compatibility, strong security features, and user-friendly interface. Limitations may include a more complex setup process and the need for a subscription for certain advanced features."
     },
     {
       "name": "Zoho Vault",
@@ -358,7 +367,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Zoho Vault is a secure password management solution that offers multi-factor authentication to protect sensitive information. It is designed for businesses and organizations that require a robust and scalable password management system. Key features include secure password storage, password sharing with controlled access, and audit logs for compliance. Zoho Vault integrates with various other Zoho products and supports cloud-based storage. It is suitable for businesses looking for a comprehensive password management solution. Pros include its strong security features, integration capabilities, and scalability. Limitations may include a higher price point compared to some other password managers and a steeper learning curve for users unfamiliar with Zoho products."
     },
     {
       "name": "RememBear",
@@ -394,7 +404,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "RememBear is a simple and secure password manager that is designed to make managing passwords easy and straightforward. It offers a user-friendly interface and strong security features, making it suitable for individuals who want a no-frills password management solution. Key features include a secure vault, password generator, and auto-fill capabilities. RememBear also offers dark mode for a more comfortable viewing experience. It is ideal for users who are looking for a reliable password manager without the complexity of more advanced tools. Pros include its simplicity, strong security, and ease of use. Limitations may include a lack of advanced features and the need for a subscription for certain functionalities."
     }
   ]
 }

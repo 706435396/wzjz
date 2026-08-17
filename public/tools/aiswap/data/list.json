@@ -36,7 +36,8 @@
         "Step: Fill in the API Key / account config\nMany AI tools need a model connection. Find the config item in the README and fill it in.\nCode:\n# Example: replace xxx with your real Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nDo not screenshot your Key in public groups. Get a free/cheap Key (e.g. GLM-4, DeepSeek) to practice.",
         "Step: Start and run your first task\nRun the example command from the project and watch the terminal output.\nCode:\n./run.sh\nCheck:\nIf the program prints results (no red Error text), you have it working.",
         "Step: Troubleshooting\nFailing the first local deploy is normal. Common issues:\n1. Dependency version mismatch → use the Python/Node version the repo recommends;\n2. Key not working → check your environment variables;\n3. Cannot reach the model API → switch mirror or provider.\nTip:\nSee more examples in \"Related tutorials\" below, or click \"Visit official site\"."
-      ]
+      ],
+      "detail": "FaceSwap is an advanced AI tool designed for real-time face swapping. It utilizes deep learning algorithms to seamlessly swap faces between images or videos. Key features include automatic face detection and alignment, real-time processing, and the ability to swap faces from different angles. This tool is ideal for content creators, animators, and anyone looking to add a unique touch to their media. Pros include its high accuracy and ease of use, making it accessible to users with varying levels of technical expertise. Limitations may include a learning curve for new users and potential performance issues with high-resolution videos."
     },
     {
       "name": "FaceRig",
@@ -72,7 +73,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "FaceRig is a real-time face tracking and swapping software that offers a comprehensive solution for creating unique content. It features advanced face tracking technology that can follow facial movements with precision. Users can swap faces in real-time, making it perfect for live streaming or interactive applications. The software supports a wide range of input devices, including webcams and game consoles. FaceRig is suitable for content creators, educators, and anyone interested in interactive media. Pros include its robust feature set and ease of integration with various platforms. Limitations may include the need for a high-quality webcam and some technical setup required for optimal performance."
     },
     {
       "name": "FaceSwap.io",
@@ -108,7 +110,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "FaceSwap.io is an online face swapping tool that offers a user-friendly interface and advanced features for face swapping. The tool allows users to upload images or videos and swap faces in real-time. It supports a variety of face swapping styles, from subtle changes to dramatic transformations. FaceSwap.io is accessible to anyone with an internet connection and a modern web browser. It's ideal for social media enthusiasts, event planners, and anyone looking to add a touch of fun to their media. Pros include its ease of use and the ability to share swapped content directly online. Limitations may include limited customization options and potential privacy concerns with sharing personal content online."
     },
     {
       "name": "FaceSwap AI",
@@ -144,7 +147,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "FaceSwap AI is an AI-powered face swapping and cloning tool that leverages the latest deep learning technology. It offers users the ability to swap faces between images or videos with high accuracy and minimal effort. The tool includes features like face cloning, where a user's face can be applied to another person's face in real-time. FaceSwap AI is suitable for professionals in the entertainment industry, such as filmmakers and animators, as well as anyone looking to create unique content. Pros include its high level of accuracy and the ability to create professional-quality results. Limitations may include a steep learning curve and potential legal issues related to the use of copyrighted images."
     },
     {
       "name": "Face Swap Live",
@@ -180,7 +184,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Face Swap Live is a live face swapping app designed for social media platforms. It allows users to swap faces in real-time during live streams or video calls. The app supports a range of face swapping styles, from fun transformations to subtle changes. Face Swap Live is perfect for social media influencers, entertainers, and anyone looking to add a unique element to their online presence. It's easy to use and compatible with popular social media platforms. Pros include its real-time functionality and the ability to engage with audiences in a fun and interactive way. Limitations may include performance issues with low-quality webcams and potential privacy concerns with sharing personal content online."
     },
     {
       "name": "Face Swap Pro",
@@ -216,7 +221,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Face Swap Pro is a professional-grade face swapping software designed for video editing. It offers a range of advanced features for face swapping, including real-time processing and high-resolution support. The tool is ideal for video producers, filmmakers, and anyone involved in professional video editing. Face Swap Pro allows users to swap faces between videos, create custom face swapping effects, and export high-quality results. It's compatible with popular video editing software and offers a user-friendly interface. Pros include its professional-grade results and extensive feature set. Limitations may include a higher price point compared to consumer-grade tools and a steeper learning curve for new users."
     },
     {
       "name": "Face Swap 3D",
@@ -252,7 +258,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Face Swap 3D is an advanced AI-powered tool designed for professionals and enthusiasts in the field of 3D animation and video editing. This tool allows users to seamlessly swap faces in 3D models and animations, offering a high level of control and precision. Key features include real-time face tracking, customizable face swapping algorithms, and support for various 3D formats. It is ideal for use in film production, gaming, and virtual reality experiences. Who it is for includes 3D artists, animators, and VR developers. Pros include its ability to maintain realistic facial expressions and seamless transitions between swapped faces. Limitations include a steep learning curve and the need for advanced technical knowledge to fully utilize its features."
     },
     {
       "name": "Face Swap VR",
@@ -288,7 +295,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Face Swap VR is a cutting-edge virtual reality application that enables users to experience face swapping in a fully immersive environment. It is designed for both casual users and VR enthusiasts who want to explore the limits of virtual reality technology. The tool features an easy-to-use interface and supports a variety of VR headsets. Key features include real-time face swapping, customizable avatars, and a library of virtual backgrounds. It is suitable for social interactions, virtual gaming, and educational purposes. Who it is for includes VR enthusiasts, gamers, and educators. Pros include its immersive experience and social engagement. Limitations include potential motion sickness in some users and the need for a VR headset."
     },
     {
       "name": "Face Swap Studio",
@@ -324,7 +332,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Face Swap Studio is a comprehensive software suite that combines face swapping with advanced editing capabilities. It caters to a wide range of users, from amateur video editors to professional content creators. The tool offers a range of features, including real-time face tracking, automatic face swapping, and detailed editing options. Users can enhance their videos, create memes, and produce engaging content with ease. Key features include a user-friendly interface, support for multiple video formats, and integration with popular video editing tools. It is suitable for content creators, social media influencers, and video editors. Pros include its versatility and ease of use. Limitations may include a learning curve for new users and the potential for less control over the swapping process compared to more advanced tools."
     },
     {
       "name": "Face Swap Live Studio",
@@ -360,7 +369,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Face Swap Live Studio is a live streaming software that allows users to swap faces in real-time during live broadcasts. It is designed for content creators and social media influencers who want to add a unique and interactive element to their live streams. The tool features real-time face tracking, automatic face swapping, and the ability to overlay text and graphics. Key features include a stable connection for live streaming, compatibility with popular streaming platforms, and customizable effects. It is suitable for live streaming events, social media engagement, and interactive content creation. Pros include its ability to create engaging live content and its ease of integration with existing streaming setups. Limitations may include technical issues during live broadcasts and the potential for less control over the swapping process compared to pre-recorded content."
     }
   ]
 }

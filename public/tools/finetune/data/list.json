@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Hugging Face Transformers is a powerful library that provides state-of-the-art pre-trained models for natural language processing (NLP). It is designed to simplify the use of complex models by offering a wide range of pre-trained models that can be fine-tuned for specific tasks. Key features include easy-to-use APIs, extensive documentation, and seamless integration with other Hugging Face tools. This library is ideal for data scientists, NLP researchers, and developers who need to leverage advanced NLP capabilities without the need for extensive model training. Pros include its user-friendly interface, comprehensive documentation, and a vast model repository. Limitations may include the complexity of some models and the need for substantial computational resources for training."
     },
     {
       "name": "TensorFlow",
@@ -70,7 +71,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "TensorFlow is an open-source machine learning framework developed by Google Brain. It is widely used for building and deploying machine learning models. TensorFlow provides a flexible architecture for data flow and execution across a wide range of tasks, including deep learning, image recognition, and natural language processing. Key features include support for various neural network architectures, extensive community support, and integration with other Google tools. It is suitable for researchers, developers, and enterprises looking to build scalable machine learning models. Pros include its scalability, flexibility, and strong community support. Limitations may include its steep learning curve and the need for significant computational resources."
     },
     {
       "name": "PyTorch",
@@ -106,7 +108,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "PyTorch is a deep learning platform that accelerates AI research and development. It is known for its dynamic computational graph, which makes it easier to prototype and experiment with new models. PyTorch provides a user-friendly API and a wide range of pre-trained models. It is popular among academic researchers and industry professionals. Key features include ease of use, dynamic computation, and strong GPU acceleration. PyTorch is suitable for anyone interested in deep learning, from beginners to experienced researchers. Pros include its ease of use, dynamic computation, and extensive community support. Limitations may include a steeper learning curve for complex models and the need for substantial computational resources."
     },
     {
       "name": "OpenAI Gym",
@@ -142,7 +145,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "OpenAI Gym is a reinforcement learning library that provides a large variety of environments for AI research. It is designed to be a platform for experimenting with and comparing different reinforcement learning algorithms. OpenAI Gym offers a wide range of predefined environments, from simple grid worlds to complex robotics tasks. Key features include a diverse set of environments, a standardized interface, and extensive documentation. It is suitable for researchers and developers working on reinforcement learning. Pros include its comprehensive environment set, standardized interface, and extensive documentation. Limitations may include the complexity of some environments and the need for specialized knowledge in reinforcement learning."
     },
     {
       "name": "Keras",
@@ -178,7 +182,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Keras is a high-level neural networks API that runs on top of TensorFlow, CNTK, or Theano. It provides a user-friendly interface for building and training neural networks. Keras is known for its simplicity and ease of use, making it a popular choice for both beginners and experienced data scientists. Key features include a modular design, pre-built layers and models, and a wide range of pre-trained models. It is suitable for anyone looking to build and train neural networks, from students to professionals. Pros include its simplicity, ease of use, and extensive community support. Limitations may include its dependency on underlying frameworks and the need for a solid understanding of neural networks."
     },
     {
       "name": "Scikit-learn",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Scikit-learn is a machine learning library for Python that offers a wide range of algorithms for data mining and data analysis. It is designed to be simple and efficient, making it easy to use for both beginners and experienced data scientists. Scikit-learn provides a consistent API across various machine learning algorithms, making it straightforward to compare and choose the best approach for a given problem. Key features include a wide range of algorithms, extensive documentation, and seamless integration with Python data science libraries. It is suitable for anyone working with machine learning, from data analysts to data scientists. Pros include its simplicity, wide range of algorithms, and extensive documentation. Limitations may include the complexity of some algorithms and the need for a solid understanding of machine learning concepts."
     },
     {
       "name": "FastAI",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "FastAI is a research-driven deep learning library designed to simplify the process of building and training deep learning models. It is built on top of PyTorch and offers a high-level API that makes it easy to implement complex neural networks. Key features of FastAI include automatic differentiation, data loading utilities, and a range of pre-built models. It is particularly well-suited for tasks such as image recognition, natural language processing, and time series analysis. FastAI is ideal for data scientists and machine learning engineers who want to quickly prototype and deploy models. Pros of using FastAI include its ease of use, extensive documentation, and active community support. However, some users may find its extensive feature set overwhelming, and it may not be as efficient as lower-level libraries for highly optimized performance."
     },
     {
       "name": "NLTK",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "NLTK (Natural Language Toolkit) is a powerful library for natural language processing in Python. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning. NLTK is designed to cater to the needs of researchers and developers in the field of natural language processing. Its key features include a comprehensive set of algorithms for text analysis, a variety of datasets for training and testing models, and a user-friendly interface. NLTK is particularly useful for tasks such as text classification, sentiment analysis, and named entity recognition. It is suitable for both beginners and experienced practitioners in the field of NLP. Pros of NLTK include its extensive range of resources and tools, strong community support, and ease of integration with other Python libraries. Limitations may include the complexity of some features for beginners and the fact that it may not be as efficient as specialized NLP libraries for large-scale projects."
     },
     {
       "name": "spaCy",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "spaCy is an industrial-strength natural language processing (NLP) library that provides a wide range of tools for processing and analyzing text. It is designed to be fast and efficient, making it suitable for both small and large-scale projects. spaCy offers a variety of features, including tokenization, lemmatization, named entity recognition, and dependency parsing. It is built on top of Python and is compatible with many other Python libraries. spaCy is particularly useful for tasks such as text classification, sentiment analysis, and information extraction. It is well-suited for data scientists, NLP engineers, and developers who need to process and analyze large volumes of text data. Pros of using spaCy include its speed, ease of use, and comprehensive feature set. However, it may not be as flexible as some other NLP libraries, and it may require additional configuration for certain complex tasks."
     },
     {
       "name": "Proselint",
@@ -359,7 +368,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Proselint is a style and grammar checker for prose, designed to help writers improve the quality and clarity of their written work. It is a command-line tool that can be integrated into writing workflows to provide real-time feedback on grammar, style, and readability. Key features of Proselint include a wide range of checks for common errors in grammar, punctuation, style, and usage, as well as support for over 300 English dialects and regional variations. It is particularly useful for writers, editors, and proofreaders who need to ensure that their prose is polished and error-free. Proselint is compatible with various text editors and can be used in conjunction with other writing tools. Pros of Proselint include its comprehensive set of checks, flexibility, and ease of integration into existing workflows. Limitations may include the potential for false positives and the fact that it is primarily a command-line tool, which may not be as user-friendly for some users as graphical user interface-based alternatives."
     }
   ]
 }

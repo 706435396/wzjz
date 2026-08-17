@@ -36,7 +36,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Stable Diffusion is an open-source AI model designed for text-to-image generation. It utilizes deep learning techniques to create high-quality images based on textual descriptions. Key features of Stable Diffusion include the ability to generate images from scratch, fine-tuning of existing images, and the capability to combine multiple text prompts to create complex images. It is suitable for artists, designers, and anyone interested in creating unique visual content. The tool is known for its ease of use and the flexibility it offers in terms of customization. However, it may require a significant amount of computational resources to run, and the learning curve can be steep for beginners."
     },
     {
       "name": "LAION-5B",
@@ -73,7 +74,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "LAION-5B is a large-scale language model specifically designed for text-to-image generation. It is trained on a vast dataset of text and images, allowing it to generate highly accurate and diverse images based on textual inputs. Key features of LAION-5B include its ability to understand complex text descriptions, generate images with high resolution, and support for a wide range of image styles. It is ideal for professionals in the creative industry, such as graphic designers, illustrators, and content creators. While LAION-5B offers powerful capabilities, it may be limited by the computational resources required for training and inference, and it may not always produce the desired results without careful prompt engineering."
     },
     {
       "name": "CompVis Diffusion Models",
@@ -111,7 +113,8 @@
         "Step: Fill in the API Key / account config\nMany AI tools need a model connection. Find the config item in the README and fill it in.\nCode:\n# Example: replace xxx with your real Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\nDo not screenshot your Key in public groups. Get a free/cheap Key (e.g. GLM-4, DeepSeek) to practice.",
         "Step: Start and run your first task\nRun the example command from the project and watch the terminal output.\nCode:\n./run.sh\nCheck:\nIf the program prints results (no red Error text), you have it working.",
         "Step: Troubleshooting\nFailing the first local deploy is normal. Common issues:\n1. Dependency version mismatch → use the Python/Node version the repo recommends;\n2. Key not working → check your environment variables;\n3. Cannot reach the model API → switch mirror or provider.\nTip:\nSee more examples in \"Related tutorials\" below, or click \"Visit official site\"."
-      ]
+      ],
+      "detail": "CompVis Diffusion Models is a collection of diffusion models designed for image generation. These models are based on the principles of diffusion and denoising, which allow them to create realistic and detailed images from noise. Key features of CompVis Diffusion Models include the ability to generate images with high fidelity, support for various artistic styles, and the flexibility to combine different models for specific tasks. It is a valuable tool for researchers and developers in the field of computer vision and AI. However, the complexity of these models can make them challenging to implement and optimize, and they may require specialized knowledge to utilize effectively."
     },
     {
       "name": "Imaginary",
@@ -148,7 +151,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Imaginary is an AI-powered text-to-image generation tool that enables users to create images based on textual descriptions. It leverages advanced machine learning algorithms to transform text prompts into visually compelling images. Key features of Imaginary include a user-friendly interface, support for a wide range of image styles and genres, and the ability to generate images in real-time. It is suitable for content creators, educators, and anyone looking to produce unique visual content quickly and easily. While Imaginary offers a convenient and accessible way to create images, it may have limitations in terms of image quality and the complexity of the text prompts it can handle."
     },
     {
       "name": "DeepArt.io",
@@ -185,7 +189,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "DeepArt.io is an AI-powered tool that allows users to create art from photographs using deep learning algorithms. It analyzes the style of a chosen piece of art and applies it to a user's photograph, resulting in a unique and artistic transformation. Key features of DeepArt.io include a wide selection of artistic styles to choose from, the ability to adjust the level of style transfer, and the option to create multiple variations of the same image. It is perfect for artists, photographers, and anyone interested in experimenting with different artistic styles. However, DeepArt.io may not always produce the desired results, and the quality of the output can vary depending on the input image and the chosen style."
     },
     {
       "name": "Deep Dream Generator",
@@ -222,7 +227,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Deep Dream Generator is an AI tool that creates dreamlike images from photographs by enhancing the features of the image using deep learning. It applies neural network filters to amplify the textures, patterns, and details in the image, resulting in surreal and visually striking outputs. Key features of Deep Dream Generator include a variety of filters and settings to customize the dreamlike effect, the ability to save and share generated images, and compatibility with a wide range of image formats. It is a popular tool among artists, photographers, and enthusiasts interested in exploring the creative possibilities of AI. However, the process of generating Deep Dream images can be computationally intensive, and the results may not always align with the user's expectations."
     },
     {
       "name": "Artbreeder",
@@ -259,7 +265,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Artbreeder is an AI-powered tool designed for creating and modifying images with ease. It leverages the power of artificial intelligence to allow users to generate unique and visually stunning images by combining various elements. Key features include a user-friendly interface, a vast library of images and styles, and the ability to fine-tune the results using intuitive sliders. Artbreeder is ideal for artists, designers, and anyone looking to explore the creative potential of AI in image creation. The tool is suitable for both beginners and experienced users, as it offers a range of pre-set options as well as full customization. Pros include its intuitive design, vast creative possibilities, and the ability to quickly generate new ideas. Limitations may include a learning curve for new users and the need for a reliable internet connection due to its cloud-based nature."
     },
     {
       "name": "Deep Dream Generator (DeepAI)",
@@ -296,7 +303,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Deep Dream Generator (DeepAI) is an AI tool that transforms photographs into dreamlike images, harnessing the power of deep learning algorithms. It allows users to explore the surreal and abstract aspects of their images by emphasizing features and patterns that the AI detects. Key features include a simple upload process, real-time preview of the transformation, and the ability to adjust the intensity of the dream effect. Deep Dream Generator is perfect for photographers, artists, and anyone interested in experimenting with the visual possibilities of AI. It is accessible to users of all skill levels, with no prior knowledge of AI required. Pros include its ease of use, the unique and creative results it produces, and the ability to quickly generate new images. Limitations may include the potential for less predictable outcomes and the need for high-quality input images to achieve the best results."
     },
     {
       "name": "NightCafe Creator",
@@ -333,7 +341,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "NightCafe Creator is an AI-powered tool that allows users to create art from text descriptions. By inputting a description of the desired scene or subject, NightCafe generates a corresponding piece of art, ranging from abstract to realistic, based on the AI's interpretation of the text. Key features include a wide range of artistic styles, the ability to adjust the generated art, and the option to create animations. This tool is perfect for writers, artists, and anyone looking to bring their imagination to life through visual art. It is particularly useful for visualizing book covers, concept art, and personalized gifts. Pros include its ability to produce unique and tailored art, the ease of use, and the flexibility to experiment with different artistic styles. Limitations may include the potential for the AI to misinterpret the text, resulting in images that don't exactly match the user's vision, and the need for clear and detailed text descriptions to achieve the best results."
     }
   ]
 }

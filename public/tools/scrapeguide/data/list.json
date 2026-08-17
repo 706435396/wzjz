@@ -39,7 +39,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Beautiful Soup is a Python library designed for web scraping and parsing HTML/XML documents. It provides a simple and intuitive way to navigate, search, and modify the parse tree. Key features include the ability to parse HTML/XML documents, extract data, and manipulate the tree structure. It is particularly useful for developers who need to extract information from web pages. Beautiful Soup is suitable for both beginners and experienced developers. It is open-source and widely used in the Python community. Pros include its ease of use, flexibility, and extensive documentation. Limitations include its limited support for CSS selectors and its performance with very large documents."
     },
     {
       "name": "Scrapy",
@@ -79,7 +80,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Scrapy is a powerful Python framework for web scraping and crawling. It is designed to build web crawlers and extract data from websites efficiently. Scrapy provides a high-level API for creating custom spiders, which can be used to crawl websites and extract structured data. Key features include built-in support for request handling, data extraction, and item pipelines for processing and storing data. Scrapy is suitable for both small and large-scale web scraping projects. It is open-source and has a strong community. Pros include its speed, scalability, and robustness. Limitations include its steep learning curve and the need for additional libraries for tasks like data processing and storage."
     },
     {
       "name": "Selenium",
@@ -117,7 +119,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Selenium is an open-source tool used for automating browsers for testing purposes and web scraping. It allows developers to programmatically control web browsers, enabling them to simulate user interactions and extract data from web pages. Key features include support for multiple programming languages, including Python, Java, and C#, and the ability to interact with web elements, such as buttons, links, and forms. Selenium is suitable for both automated testing and data extraction. It is widely used in the testing and development communities. Pros include its flexibility, support for various browsers, and ease of integration with other testing frameworks. Limitations include its potential performance issues with complex web applications and the need for additional tools for parsing and storing data."
     },
     {
       "name": "Puppeteer",
@@ -153,7 +156,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Puppeteer is a Node library that provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol. It is primarily used for automating web pages for tasks such as web scraping, automated testing, and generating screenshots. Key features include the ability to execute JavaScript in a headless browser, capture screenshots, and interact with web elements. Puppeteer is suitable for developers who need to automate browser actions. It is open-source and has a growing community. Pros include its ease of use, powerful features, and seamless integration with other Node.js tools. Limitations include its dependency on a headless browser, which can be resource-intensive, and the need for additional libraries for parsing and storing data."
     },
     {
       "name": "Octoparse",
@@ -191,7 +195,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Octoparse is a web scraping tool designed for non-programmers to extract data from websites. It provides a user-friendly interface that allows users to define scraping tasks without writing code. Key features include support for various data formats, such as CSV, Excel, and JSON, and the ability to handle dynamic content and JavaScript-rendered pages. Octoparse is suitable for individuals and businesses that need to collect data from the web without technical expertise. It is a cloud-based tool, making it accessible from anywhere. Pros include its ease of use, robust data extraction capabilities, and support for a wide range of websites. Limitations include its subscription-based pricing model and the potential limitations in handling very complex websites."
     },
     {
       "name": "ParseHub",
@@ -229,7 +234,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ParseHub is an automated web data extraction tool designed for non-programmers. It allows users to create custom scraping tasks by visually selecting elements on a web page. Key features include support for various data formats, such as CSV, Excel, and JSON, and the ability to handle dynamic content and AJAX requests. ParseHub is suitable for individuals and businesses that need to extract data from websites without coding skills. It offers both a desktop application and a cloud-based version. Pros include its ease of use, accurate data extraction, and support for a wide range of websites. Limitations include its learning curve for new users, the potential need for manual adjustments for complex websites, and the subscription-based pricing model."
     },
     {
       "name": "WebHarvy",
@@ -267,7 +273,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "WebHarvy is a robust web scraping software designed to help users effortlessly extract data from websites. It offers a user-friendly interface that simplifies the process of data extraction, making it accessible to both beginners and experienced users. Key features of WebHarvy include support for multiple data formats, such as CSV and Excel, and the ability to handle complex website structures. It also provides advanced filtering options to refine the extracted data. WebHarvy is ideal for businesses and individuals who need to gather large amounts of data from the web for market research, competitive analysis, or data-driven decision-making. While WebHarvy is highly efficient and versatile, it may require some initial setup and configuration to tailor it to specific scraping needs. Additionally, it may face limitations when dealing with websites that employ advanced anti-scraping measures."
     },
     {
       "name": "Apache Nutch",
@@ -303,7 +310,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Apache Nutch is a high-performance, highly scalable open-source web crawler software that enables organizations to build custom search engines. It is designed to handle large-scale web crawling operations, making it suitable for enterprise-level applications. Key features of Apache Nutch include support for distributed crawling, which allows it to scale across multiple machines, and the ability to integrate with Apache Hadoop for efficient data processing. Nutch also offers a variety of plugins for customizing the crawling process, such as handling JavaScript-rendered content and filtering out unwanted pages. It is ideal for developers and IT professionals who require a powerful and customizable web crawling solution. However, Apache Nutch can be complex to set up and maintain, requiring a good understanding of Apache Hadoop and Java. Additionally, its learning curve may be steep for those unfamiliar with the technology stack."
     },
     {
       "name": "Common Crawl",
@@ -340,7 +348,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Common Crawl is a non-profit organization that provides free and open web crawl data. This vast repository of web data is freely available to the public, allowing researchers, developers, and data scientists to access and analyze large-scale web data without the need for their own crawling infrastructure. Common Crawl offers a comprehensive archive of web pages, which can be used for a variety of purposes, including web scraping, data mining, and academic research. Key features of Common Crawl include a vast dataset, regular updates, and a user-friendly API for accessing the data. It is particularly useful for those who need to work with historical web data or perform large-scale data analysis. However, Common Crawl may not be suitable for real-time web scraping or for those who require access to the latest web content, as the data is not updated in real-time. Additionally, the dataset is provided in a raw format, which may require additional processing before it can be used effectively."
     },
     {
       "name": "Diffbot",
@@ -378,7 +387,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Diffbot is an AI-powered web scraping and data extraction platform that leverages machine learning to transform web content into structured data. It is designed to automate the process of web data extraction, making it easier for businesses to gather and analyze information from the internet. Key features of Diffbot include the ability to extract data from a wide range of website types, including e-commerce, news, and social media platforms. It also offers a RESTful API for seamless integration with existing systems. Diffbot is particularly useful for data scientists, analysts, and developers who need to process large volumes of web data. While Diffbot is highly efficient and accurate, it may not be suitable for all types of data extraction tasks, especially those requiring complex data manipulation. Moreover, the cost of using Diffbot can be a limiting factor for small businesses or individual users."
     }
   ]
 }

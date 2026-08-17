@@ -34,7 +34,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Google Calendar is a free, web-based calendar service that allows users to schedule and manage personal and team events. It integrates seamlessly with other Google services like Google Drive and Google Meet, making it a versatile tool for both individual and collaborative planning. Key features include the ability to create and share events, set reminders, and view multiple calendars side by side. It supports various calendar views such as daily, weekly, and monthly, and offers customization options for event colors and descriptions. Google Calendar is ideal for individuals, students, and small to medium-sized teams looking for a straightforward and efficient scheduling solution. While it offers robust functionality, some users may find the interface less intuitive than other calendar tools, and it lacks advanced features such as resource management."
     },
     {
       "name": "Microsoft Outlook",
@@ -70,7 +71,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Microsoft Outlook is an email and calendar service that combines scheduling and meeting management with email communication. It is widely used in professional settings for its comprehensive features and integration with the Microsoft Office suite. Key features include a robust calendar with scheduling capabilities, email management tools, task lists, and a contact manager. Outlook allows users to schedule meetings, set reminders, and share calendars with others. It also supports advanced features like resource booking and meeting room management. This tool is ideal for businesses of all sizes, especially those that rely heavily on email communication. However, Outlook can be overkill for personal use, and its learning curve might be steep for new users."
     },
     {
       "name": "Calendly",
@@ -106,7 +108,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Calendly is an appointment scheduling tool designed for both personal and team use. It simplifies the process of scheduling meetings by allowing users to book time slots directly from their calendar. Key features include customizable booking pages, automatic reminders, and the ability to sync with various calendar systems. Calendly is particularly useful for service-based businesses, freelancers, and professionals who need to schedule client meetings efficiently. It offers integrations with popular platforms like Slack, Zoom, and Google Calendar. While Calendly streamlines the scheduling process, it may not be suitable for complex scheduling scenarios that require multiple attendees or resource allocation."
     },
     {
       "name": "Doodle",
@@ -142,7 +145,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Doodle is a simple scheduling tool that helps find meeting times that work for everyone involved. It is ideal for small groups or teams that need to coordinate schedules without the complexity of other scheduling tools. Key features include a straightforward interface, easy-to-use poll creation, and the ability to view availability across different time zones. Doodle is particularly useful for scheduling casual meetings, interviews, or events. It offers basic integrations with popular calendar services. However, Doodle lacks advanced scheduling features and may not be suitable for complex scheduling needs or large teams."
     },
     {
       "name": "Acuity Scheduling",
@@ -178,7 +182,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Acuity Scheduling is an online scheduling software designed specifically for service-based businesses. It allows businesses to set up their own booking pages, where clients can schedule appointments at their convenience. Key features include customizable booking pages, automated email confirmations, and the ability to accept payments online. Acuity Scheduling is suitable for solo entrepreneurs, small businesses, and service providers who want to offer a seamless scheduling experience to their clients. It offers integrations with payment gateways, email marketing tools, and CRM systems. While Acuity Scheduling simplifies the scheduling process, it may have a higher price point compared to other scheduling tools, and its user interface might be less intuitive for some users."
     },
     {
       "name": "ScheduleOnce",
@@ -214,7 +219,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "ScheduleOnce is an automated scheduling tool designed to streamline the process of scheduling meetings. It creates personalized booking pages for each user, allowing others to book time directly from their calendar. Key features include AI-driven scheduling assistant, customizable booking pages, and seamless integration with various calendar systems. ScheduleOnce is ideal for businesses that need to schedule a high volume of meetings or have complex scheduling requirements. It offers advanced features like time zone detection and the ability to set different availability for different types of meetings. However, ScheduleOnce can be more expensive than other scheduling tools, and its setup process might be complex for some users."
     },
     {
       "name": "Booked",
@@ -250,7 +256,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Booked is an open-source scheduling software designed to help businesses manage appointments and resources efficiently. It allows users to create and manage schedules for various resources such as rooms, equipment, and staff members. Key features include a user-friendly interface, customizable scheduling options, and the ability to handle multiple bookings simultaneously. Booked is suitable for businesses of all sizes, from small startups to large enterprises. It is particularly beneficial for those who need a straightforward and cost-effective solution for scheduling. Pros include its ease of use, flexibility, and the ability to integrate with other systems. Limitations may include a lack of advanced features and the need for technical knowledge to set up and maintain."
     },
     {
       "name": "Appointlet",
@@ -285,7 +292,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Appointlet is an online scheduling software tailored for small businesses and freelancers. It streamlines the appointment booking process by allowing clients to book appointments directly through a website or email link. Key features include a simple booking interface, automated reminders, and the ability to sync with popular calendar apps. Appointlet is ideal for professionals who offer services like consulting, coaching, or personal training. Its pros include its ease of integration, flexibility, and the ability to save time by automating scheduling tasks. However, limitations may include limited customization options and a higher cost for larger teams or businesses."
     },
     {
       "name": "TimeTrade",
@@ -321,7 +329,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "TimeTrade is a comprehensive appointment scheduling software designed for businesses and teams of all sizes. It offers a range of features to facilitate efficient scheduling, including a booking widget, automated reminders, and the ability to manage multiple calendars. Key features also include customizable booking policies and integration with popular CRM systems. TimeTrade is suitable for a wide range of industries, from healthcare to legal services. Its pros include its scalability, integration capabilities, and the ability to improve customer satisfaction through streamlined scheduling. Limitations may include a steeper learning curve for some users and the potential for higher costs as the number of users increases."
     },
     {
       "name": "When I Work",
@@ -357,7 +366,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "When I Work is an employee scheduling and time tracking software designed for businesses of all sizes. It provides a comprehensive solution for managing staff schedules, time off requests, and time tracking. Key features include a user-friendly interface, automated scheduling, and the ability to track employee time and attendance. When I Work is ideal for businesses with hourly employees, such as retail, hospitality, and healthcare. Its pros include its robust features, ease of use, and the ability to reduce scheduling errors and labor costs. Limitations may include a complex setup process and the need for a significant initial investment."
     },
     {
       "name": "Schedulista",
@@ -393,7 +403,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Schedulista is an online scheduling software designed specifically for solo professionals and small businesses. It offers a range of features to help manage client appointments, automate reminders, and streamline the scheduling process. Key features include a customizable booking page, automated email and text reminders, and the ability to accept payments online. Schedulista is ideal for professionals such as therapists, coaches, and consultants. Its pros include its ease of use, customization options, and the ability to enhance client experience. Limitations may include a lack of advanced team collaboration features and the potential for higher costs for larger businesses."
     },
     {
       "name": "Teamup",
@@ -428,7 +439,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Teamup is a free online calendar and scheduling tool designed for teams and families. It allows users to create and share calendars, schedule events, and manage resources. Key features include a simple and intuitive interface, the ability to create multiple calendars, and the option to invite others to view or edit events. Teamup is suitable for a wide range of users, from sports teams and clubs to families and small businesses. Its pros include its ease of use, flexibility, and the ability to collaborate with others. Limitations may include limited advanced features and the potential for data privacy concerns when sharing calendars with external users."
     }
   ]
 }

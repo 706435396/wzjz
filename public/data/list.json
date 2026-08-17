@@ -1455,7 +1455,8 @@
         "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
         "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
         "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
-      ]
+      ],
+      "detail": "古籍文本清洗 (TxtClean) is a core tool designed to streamline the process of cleaning ancient Chinese texts. It allows users to paste OCR-recognized text and then effortlessly remove any乱码 (random characters), excessive spaces, and empty lines. The tool also features automatic sentence segmentation and punctuation marking. Ideal for researchers, historians, and anyone dealing with ancient Chinese texts, TxtClean simplifies the process of preparing and analyzing these documents. Key features include OCR text input, automatic removal of errors and unnecessary spaces, and intelligent sentence segmentation. It is particularly useful for those working with scanned documents where text quality can be poor. However, it may not handle all types of ancient scripts or complex formatting issues effectively."
     },
     {
       "name": "开源繁简转换 (OpenCC)",
@@ -1496,7 +1497,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "OpenCC is a high-quality open-source library for converting between traditional and simplified Chinese characters, as well as between Hong Kong traditional and simplified characters. It is available in both command-line and API forms, making it suitable for batch conversion of literature. This tool is perfect for individuals and organizations that need to convert large volumes of text for various purposes, such as publishing, archiving, or research. Key features include support for both traditional and simplified Chinese, as well as Hong Kong traditional, and a command-line interface for batch processing. Its limitations include a learning curve for those unfamiliar with command-line tools and a lack of advanced formatting options."
     },
     {
       "name": "自动标点模型 (Punctuator)",
@@ -1535,7 +1537,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "The Automatic Punctuation Model (Punctuator) is a neural network-based tool designed to restore punctuation to transcribed text that lacks it. It effectively adds ellipses, commas, and periods to improve readability and comprehension. This tool is particularly useful for transcribers, researchers, and anyone working with handwritten or spoken text that requires punctuation. Key features include automatic punctuation restoration, support for various languages, and ease of integration into existing workflows. However, it may not always accurately predict the correct punctuation in complex sentences or texts with unique formatting."
     },
     {
       "name": "在线去重空行工具 (TextClean)",
@@ -1573,7 +1576,8 @@
         "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
         "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
         "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
-      ]
+      ],
+      "detail": "The Online Duplicate Line Removal and Text Cleaning Tool (TextClean) is designed to clean up scanned documents by merging consecutive empty lines, removing leading and trailing spaces, and eliminating duplicate lines. This tool is specifically tailored for users who need to organize and clean up dirty text from scanned documents. Key features include easy-to-use interface, batch processing capabilities, and compatibility with various file formats. It is ideal for students, researchers, and anyone dealing with large volumes of scanned text. However, the tool may not handle complex formatting issues or recognize all types of duplicates effectively."
     },
     {
       "name": "语义化知识管理 (Semantica)",
@@ -1616,7 +1620,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "Semantica is a text cleaning tool that supports both browser-based and local usage, making it accessible for users who want to quickly get started with text cleaning. It is designed to help users manage and organize their knowledge base effectively. Key features include a user-friendly interface, support for various file formats, and integration with other knowledge management tools. It is suitable for individuals, educators, and businesses looking to organize their information in a structured and efficient manner. However, Semantica may have limitations in handling very large datasets or complex text structures."
     },
     {
       "name": "RAGFlow 知识库 (Ragflow)",
@@ -1659,7 +1664,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "RAGFlow is a text cleaning tool that allows users to work directly in a browser or on their local machine, making it convenient for those who want to quickly begin the text cleaning process. It is designed to help users manage and organize their knowledge base efficiently. Key features include a simple and intuitive interface, support for various file formats, and integration with other knowledge management systems. It is ideal for individuals, educators, and businesses seeking to streamline their information organization. However, RAGFlow may not be as robust as some other knowledge management tools when dealing with very large datasets or highly complex text structures."
     },
     {
       "name": "PDF 结构检查 (PDF Inspector)",
@@ -1702,7 +1708,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "PDF Inspector is a comprehensive text cleaning tool designed to streamline the process of reviewing and organizing PDF documents. It offers users the ability to inspect the structure of PDF files directly within their web browser or on their local machine. Key features include the ability to easily navigate through the document's content, check for formatting issues, and identify any missing or misplaced text. This tool is particularly useful for users who need to ensure the accuracy and readability of their PDFs before distribution. It is suitable for a wide range of users, from individuals to businesses, as it caters to both simple and complex PDF cleaning needs. Pros include its user-friendly interface, real-time feedback, and the ability to handle multiple files simultaneously. Limitations may include a learning curve for some users and potential limitations in handling very large PDF files."
     },
     {
       "name": "中文教材资源库 (ChinaTextbook)",
@@ -1743,7 +1750,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "ChinaTextbook is a specialized text cleaning tool that provides access to a vast library of Chinese educational resources, including primary, middle, and high school, as well as university-level PDF textbooks. This resource is particularly valuable for users involved in text cleaning scenarios, such as educators, researchers, and content creators. The tool offers a seamless and efficient way to access and manage educational materials, ensuring that the text is clean and ready for use. Key features include a comprehensive search function, easy-to-navigate interface, and the ability to download resources for offline use. It is ideal for those who require a ready-to-use collection of educational texts. Pros include the extensive range of resources and the convenience of a centralized library. Limitations may include the lack of customization options for text formatting and potential limitations in the availability of certain textbooks."
     },
     {
       "name": "自主 AI 智能体 (Prime Agent)",
@@ -1786,7 +1794,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "Prime Agent is an advanced text cleaning tool that leverages AI technology to enhance the efficiency and accuracy of text cleaning processes. It is designed to be used both in the browser and on local machines, making it accessible to a wide range of users. The tool offers a suite of features that include automatic text recognition, formatting correction, and language translation. It is particularly beneficial for users who need to process large volumes of text quickly and accurately. Prime Agent is suitable for professionals in fields such as data analysis, content creation, and research. Pros include its high level of automation, accuracy, and the ability to handle multiple languages. Limitations may include a higher learning curve for users unfamiliar with AI tools and potential limitations in handling highly complex text structures."
     },
     {
       "name": "数据库关系图 (DrawDB)",
@@ -1829,7 +1838,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "DrawDB is a specialized text cleaning tool that focuses on visualizing database relationships. It allows users to create and edit database schema diagrams directly within their web browser or on their local machine. This tool is particularly useful for database administrators, developers, and anyone involved in database design and maintenance. Key features include an intuitive drag-and-drop interface, support for various database types, and the ability to export diagrams in multiple formats. DrawDB streamlines the process of database schema creation and management, making it easier to understand and maintain complex database structures. Pros include its ease of use, flexibility, and the ability to improve collaboration among team members. Limitations may include a steep learning curve for users with limited database knowledge and potential limitations in handling very large databases."
     },
     {
       "name": "法律文档自动化 (Macro)",
@@ -1873,7 +1883,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "Macro is a text cleaning tool designed specifically for legal document automation. It allows users to create and manage legal documents with ease, reducing the time and effort required for manual document preparation. The tool supports a range of features, including template creation, automated text insertion, and formatting tools. It is ideal for legal professionals, paralegals, and anyone involved in the creation and management of legal documents. Macro simplifies the process of drafting contracts, agreements, and other legal documents, ensuring consistency and accuracy. Pros include its time-saving capabilities, ease of use, and the ability to maintain document integrity. Limitations may include a limited range of document types supported and potential challenges in customizing templates for specific legal requirements."
     },
     {
       "name": "Ladybird 浏览器 (Ladybird)",
@@ -1916,7 +1927,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "Ladybird is a versatile text cleaning tool designed for users seeking a straightforward and efficient way to manage and clean their text data. It offers the convenience of being accessible directly through a web browser or as a downloadable application for local use. Key features of Ladybird include advanced text parsing capabilities, support for multiple file formats, and a user-friendly interface that makes it easy to navigate and utilize its functions. This tool is particularly beneficial for individuals and small to medium-sized businesses that require regular text cleaning for tasks such as data entry, content management, and data analysis. Ladybird's ability to quickly remove unwanted characters, correct formatting issues, and standardize text formats can significantly enhance productivity and accuracy. However, it may lack some advanced features found in more comprehensive text processing software, and its performance on very large datasets could be limited compared to specialized tools."
     },
     {
       "name": "站点地图生成器 (SitemapGen)",
@@ -1954,7 +1966,8 @@
         "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
         "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
         "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
-      ]
+      ],
+      "detail": "The SitemapGen tool is a core feature designed to automatically crawl an entire website by inputting the root URL. It generates a standard sitemap.xml file, supporting pagination and the aggregation of indexes from multiple sub-sites. This tool is ideal for website owners and SEO professionals who need an efficient way to create and manage sitemaps, ensuring that search engines can index all relevant pages. Key features include automatic crawling, sitemap.xml generation, pagination support, and multi-sub-site index aggregation. It is suitable for users of all skill levels, from beginners to advanced webmasters. While the tool is highly efficient and user-friendly, it may lack advanced customization options compared to some premium sitemap generators."
     },
     {
       "name": "尖叫青蛙 SEO 爬虫 (Screaming Frog)",
@@ -1992,7 +2005,8 @@
         "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
         "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
         "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
-      ]
+      ],
+      "detail": "Screaming Frog is a desktop SEO spider tool that allows users to crawl websites and analyze their SEO performance. The free version of the tool is capable of crawling up to 500 URLs, exporting a complete sitemap, and providing a detailed SEO issues report. This tool is perfect for SEO professionals, web developers, and digital marketers who need to quickly identify and fix SEO issues. Key features include URL crawling, sitemap generation, SEO issue reporting, and a user-friendly interface. It is suitable for users with varying levels of SEO expertise. However, the free version has limitations in terms of the number of URLs it can crawl, and the full version may be expensive for small businesses."
     },
     {
       "name": "Sitemap 生成库 (xml-sitemap)",
@@ -2031,7 +2045,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_node\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "The xml-sitemap tool is a Node.js library designed for generating sitemaps. It supports streaming large site maps and extends the protocol to include image and news sitemap formats. This tool is ideal for developers who need to integrate sitemap generation into their web applications. Key features include support for large site maps, streaming capabilities, and image/news sitemap extensions. It is suitable for developers with Node.js experience. While the tool is powerful and flexible, it may require a certain level of technical expertise to set up and use effectively. Additionally, it may not offer the same level of user interface and ease of use as some other sitemap generation tools."
     },
     {
       "name": "谷歌搜索控制台 (Google Search Console)",
@@ -2070,7 +2085,8 @@
         "Step: 创建第一个任务 / 项目\n按界面引导点击「新建」或「Create New」，填入你的需求。大部分 SaaS 工具会给出模板，新手直接选第一个模板即可。\nTip:\n不要一上来就填复杂需求，先用一句简单的话测试，例如「帮我把这份网页内容总结成 3 点」。",
         "Step: 查看结果并保存\n工具处理完成后会显示结果。确认符合预期后可以导出、复制链接或保存到本地。\nCheck:\n如果结果不满意，可点击「重新生成」或调整提示词再试一次。",
         "Step: 进阶与省钱小技巧\n1. 先看官方 Quick Start / 文档，避免误用高消耗的模型；\n2. 关注免费额度用量，避免超额扣费；\n3. 本页「相关教程」里有国内访问与使用技巧，可继续参考。"
-      ]
+      ],
+      "detail": "Google Search Console is an official platform provided by Google for website owners and SEO professionals to submit sitemaps, monitor their website's performance in search results, and diagnose issues. The platform allows users to submit sitemaps, view the number of indexed pages, check the coverage of their site, and receive notifications about potential issues. This tool is essential for anyone looking to improve their website's visibility in Google search results. Key features include sitemap submission, performance tracking, coverage checking, and issue notifications. It is suitable for users of all skill levels, from beginners to advanced SEO experts. However, the tool may not offer as many advanced features as some other SEO tools, and it is limited to Google search results."
     },
     {
       "name": "DeepSeek 推理模型 (Deepseek Reasonix)",
@@ -2113,7 +2129,8 @@
         "Step: 填入必要的 API Key / 账号配置\n很多 AI 工具需要连接大模型，请按仓库 README 找到配置项并填入。\nCode:\n# 示例：把下面的 xxx 换成你的真实 Key\nexport OPENAI_API_KEY=\"sk-xxx\"\nTip:\n不要把 Key 截图发到公开群。建议先申请一个免费/低价 Key（如 GLM-4、DeepSeek）练手。",
         "Step: 启动并运行你的第一个任务\n执行项目给出的示例命令，观察终端输出。\nCode:\ncode_run_default\nCheck:\n如果看到程序正常打印结果（没有红色 Error 字样），说明你已经跑通了。",
         "Step: 遇到困难看这里\n第一次本地部署失败很正常，常见问题：\n1. 依赖版本不对 → 用仓库推荐的 Python/Node 版本；\n2. Key 没生效 → 检查环境变量是否设置成功；\n3. 网络连不上模型 API → 换国内镜像或换模型商。\nTip:\n本页下方「相关教程」里有更多具体示例，也可点击「访问官网」查看官方文档。"
-      ]
+      ],
+      "detail": "DeepSeek Reasonix is an SEO tool designed to streamline the process of optimizing websites for search engines. It offers a user-friendly interface that allows users to access its features directly through their browser or by downloading the tool to their local device. This tool is particularly suitable for individuals who are looking to quickly improve their website's search engine rankings without the need for extensive technical knowledge. Key features of DeepSeek Reasonix include an automated keyword research tool, which helps users identify the most relevant and high-traffic keywords for their content. It also includes a backlink analysis feature that evaluates the quality and quantity of a website's backlinks, providing insights into potential areas for improvement. The tool is also equipped with a site audit function that scans a website for SEO issues, such as broken links, missing meta tags, and duplicate content. DeepSeek Reasonix is ideal for small to medium-sized businesses, content creators, and SEO professionals who need a comprehensive yet easy-to-use tool to enhance their SEO efforts. While the tool is highly effective and user-friendly, it may lack some advanced features that power users or large-scale businesses might require. Additionally, the depth of analysis provided by DeepSeek Reasonix might not match that of more sophisticated SEO platforms."
     }
   ]
 }

@@ -35,7 +35,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Miro is a collaborative online whiteboarding platform designed for teams to work together in real-time. It allows users to create, share, and collaborate on visual ideas, diagrams, and presentations. Key features include a vast library of templates, integrations with popular tools like Slack and Microsoft Teams, and the ability to import and export files in various formats. Miro is ideal for teams of all sizes and industries, from startups to large enterprises. It is particularly useful for brainstorming sessions, project planning, and design collaboration. Pros include its intuitive interface, robust collaboration features, and extensive library of resources. Limitations may include a learning curve for new users and the need for a stable internet connection."
     },
     {
       "name": "Microsoft Whiteboard",
@@ -71,7 +72,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Microsoft Whiteboard is a digital whiteboarding tool integrated with Microsoft Teams, designed to facilitate remote collaboration. It allows users to create and share ideas, diagrams, and presentations in real-time. Key features include ink and shape recognition, the ability to import images and documents, and seamless integration with other Microsoft Office tools. It is suitable for teams that already use Microsoft Teams and need a collaborative whiteboarding solution. Pros include its seamless integration with the Microsoft ecosystem, ease of use, and robust collaboration features. Limitations may include limited customization options and the requirement of a Microsoft account to access certain features."
     },
     {
       "name": "Google Jamboard",
@@ -107,7 +109,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Google Jamboard is an interactive digital whiteboard designed for remote collaboration, leveraging Google's cloud-based platform. It allows users to create, share, and collaborate on ideas, diagrams, and presentations in real-time. Key features include touch and pen support, the ability to save and share boards, and seamless integration with Google Workspace apps. It is ideal for teams that use Google Workspace and need a collaborative whiteboarding solution. Pros include its ease of use, integration with Google Workspace, and affordability. Limitations may include limited offline functionality and the need for a physical Jamboard device."
     },
     {
       "name": "Trello",
@@ -143,7 +146,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Trello is a project management tool that uses a visual board and list system to organize tasks and projects. It allows users to create boards for different projects, add lists to represent stages of the project, and add cards to represent individual tasks. Key features include drag-and-drop functionality, due dates, and the ability to assign tasks to team members. Trello is suitable for teams of all sizes and industries, from small businesses to large enterprises. Pros include its intuitive interface, flexibility, and ease of use. Limitations may include limited advanced project management features and the need for additional tools for complex projects."
     },
     {
       "name": "Slido",
@@ -179,7 +183,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Slido is an interactive presentation tool that enables presenters to engage their audience with Q&A sessions, polls, and quizzes. It is designed to enhance the learning experience and encourage audience participation. Key features include real-time responses, integration with popular platforms like PowerPoint and Google Slides, and the ability to export results. It is suitable for educators, trainers, and presenters who want to engage their audience in a more interactive way. Pros include its ease of use, flexibility, and ability to create engaging presentations. Limitations may include limited customization options for presentations and the need for a stable internet connection."
     },
     {
       "name": "MURAL",
@@ -215,7 +220,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "MURAL is a visual collaboration platform that enables teams to work together on ideas, diagrams, and presentations. It offers a wide range of features, including real-time collaboration, integrations with popular tools like Slack and Microsoft Teams, and a vast library of templates. MURAL is suitable for teams of all sizes and industries, from creative agencies to tech companies. Pros include its robust collaboration features, extensive library of resources, and seamless integration with other tools. Limitations may include a steeper learning curve for new users and the need for a stable internet connection."
     },
     {
       "name": "Lucidchart",
@@ -251,7 +257,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Lucidchart is a versatile diagramming and collaboration tool designed for teams of all sizes. It allows users to create a wide range of diagrams, including flowcharts, org charts, and wireframes, with ease. Key features include a user-friendly interface, real-time collaboration, and a vast library of templates and symbols. It is ideal for businesses, educators, and individuals who need to visualize complex information. Lucidchart is accessible from any device, making it a convenient choice for remote teams. The tool's pros include its extensive library of templates, seamless integration with other productivity tools, and robust security features. However, some users may find the pricing to be on the higher side, and the learning curve can be steep for those not familiar with diagramming software."
     },
     {
       "name": "RealtimeBoard",
@@ -287,7 +294,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "RealtimeBoard is an interactive whiteboard platform that enables teams to collaborate in real-time. It allows users to create and share visual content, such as diagrams, flowcharts, and presentations, on a virtual canvas. The tool is particularly useful for brainstorming sessions, project planning, and team meetings. Key features include infinite canvas, video conferencing integration, and a variety of drawing tools. RealtimeBoard is suitable for teams that need a dynamic and engaging way to collaborate. Its pros include its ease of use, flexibility, and the ability to save and revisit sessions. On the downside, the tool may be overkill for simple presentations, and some users have reported issues with stability and performance."
     },
     {
       "name": "Prezi",
@@ -323,7 +331,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Prezi is a visual presentation tool that stands out for its innovative zooming capabilities. It allows users to create presentations that tell a story through a seamless flow of ideas, rather than a series of static slides. Key features include a canvas-based editor, custom animations, and a wide range of templates. Prezi is perfect for educators, marketers, and anyone who wants to deliver engaging and memorable presentations. The tool's pros include its unique design approach, ease of use, and the ability to create presentations that stand out. However, some users may find the zooming feature disorienting, and the tool can be less efficient for complex presentations. Additionally, Prezi's pricing model can be confusing for new users."
     },
     {
       "name": "Canva",
@@ -359,7 +368,8 @@
         "Step: Create your first task / project\nClick \"New\" or \"Create New\" and follow the guide. Pick the first template to start.\nTip:\nDon’t start with a complex request. Test with one simple sentence, e.g. \"Summarize this page into 3 points\".",
         "Step: Review and save the result\nWhen done, the tool shows the result. Export, copy the link, or save locally.\nCheck:\nIf unhappy, click \"Regenerate\" or tweak the prompt and try again.",
         "Step: Advanced & money-saving tips\n1. Read the official Quick Start / docs to avoid costly models;\n2. Watch your free quota to avoid overcharges;\n3. See \"Related tutorials\" for more tips."
-      ]
+      ],
+      "detail": "Canva is a user-friendly design and presentation tool that offers a vast array of templates and design elements. It is suitable for anyone who needs to create professional-looking graphics, presentations, and social media content without extensive design experience. Key features include an intuitive drag-and-drop interface, a library of stock images, and a variety of fonts and icons. Canva is widely used by businesses, educators, and individuals for a range of design needs. The tool's pros include its ease of use, extensive template library, and seamless integration with other productivity tools. However, some users may find the free version limited in terms of design options and the quality of stock images. Additionally, Canva's pricing structure can be complex, with a mix of free and premium features."
     }
   ]
 }
